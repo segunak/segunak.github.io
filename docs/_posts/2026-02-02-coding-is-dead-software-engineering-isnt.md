@@ -181,7 +181,7 @@ From there, here's a collection of articles from people who have thought deeply 
 **The case that juniors can thrive:**
 
 * [Kent Beck - The Bet On Juniors Just Got Better](https://tidyfirst.substack.com/p/the-bet-on-juniors-just-got-better)
-* [Andrew Ng - Why You Should Learn to Code and not Fear AI.](https://www.linkedin.com/feed/update/urn:li:activity:7305984835708141570/)
+* [Andrew Ng - Why You Should Learn to Code and not Fear AI](https://www.linkedin.com/feed/update/urn:li:activity:7305984835708141570/)
 * [Andrew Ng - An 18 Year Old's Dilemma: Too Late to Contribute to AI?](https://www.linkedin.com/feed/update/urn:li:activity:7394769800234766336/)
 * [GitHub's Blog (Gwen Davis) - Junior Developers Aren't Obsolete: Here's How To Thrive in the Age of AI](https://github.blog/ai-and-ml/generative-ai/junior-developers-arent-obsolete-heres-how-to-thrive-in-the-age-of-ai/)
 * [Time Magazine (Marcus Fontoura) - You Should Still Study Tech — Even if AI Replaces Entry Tech Jobs](https://time.com/7335048/study-tech-ai-replace-jobs)
