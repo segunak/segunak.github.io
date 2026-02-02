@@ -1,7 +1,7 @@
 ---
 title: "Dough Diaries: Where to Find Cinnamon Rolls in Charlotte, North Carolina"
 excerpt: "Your guide to finding cinnamon rolls in Charlotte (with opinions sprinkled in here and there)."
-last_modified_at: 2026-01-14T17:58:18
+last_modified_at:
 toc: true
 toc_sticky: true
 toc_label: "On This Page"

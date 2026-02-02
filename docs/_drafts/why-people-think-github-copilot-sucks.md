@@ -1,5 +1,5 @@
 ---
-title: "TBD"
+title: "Why People Think GitHub Copilot Sucks (It Doesn't, But I Understand Where They're Coming From)"
 excerpt: "TBD"
 last_modified_at:
 toc: true
@@ -13,6 +13,12 @@ tags:
   - tech
   - artificial-intelligence
 ---
+
+Timeline for GitHub Copilot
+* Jun 2021 code completions, fancy autocomplete
+* March 2023 chat (no changes just chat)
+* October 2024 Multi File Edits (Edit mode)
+* Feb 2025 Agent Mode (full agentic like Cursor)
 
 Title: GitHub Copilot Doesn't Suck But People Think It Does and I Can Understand Why
 
