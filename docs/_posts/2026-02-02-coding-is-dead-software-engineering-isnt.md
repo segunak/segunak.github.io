@@ -203,7 +203,7 @@ From there, here's a collection of articles from people who have thought deeply 
 
 Yes. Not because it makes sense, not because you'll ever solve clean and contained LeetCode style problems at work, but because companies are still asking those questions.
 
-Even though AI can solve most all LeetCode problems instantly, companies still use these questions as a baseline filter. Can you think algorithmically at all? Do you understand time and space complexity? Can you reason about tradeoffs?
+Even though AI can solve most all LeetCode problems instantly, companies still use those questions as a baseline filter. Can you think algorithmically at all? Do you understand time and space complexity? Can you reason about tradeoffs?
 
 LeetCode is an imperfect proxy for these things, but it's the proxy most companies still use. Until the industry catches up to the reality of AI-assisted coding interviews (like those offered by [Canva](https://www.canva.dev/blog/engineering/yes-you-can-use-ai-in-our-interviews/) and [Meta](https://www.wired.com/story/meta-ai-job-interview-coding/)), you have to play the game.
 
