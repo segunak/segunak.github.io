@@ -215,6 +215,18 @@ Here are the best resources for grinding effectively.
 * [The Neetcode 150](https://neetcode.io/practice/practice/neetcode150) - The Blind 75 but with 75 more problems to really go hard.
 * [The System Design Primer](https://github.com/donnemartin/system-design-primer) - For everything you need to pass system design interview rounds.
 
+## But Isn't Using AI Cheating?
+
+If you haven't been given explicit permission to use AI in an interview, then yes, using it is absolutely cheating. No debate about that. But that hasn't stopped people, and there's a growing industry around it. Check out this article: [Meet the 21-Year-Old Helping Coders Use AI to Cheat in Google and Other Tech Job Interviews](https://www.cnbc.com/2025/03/09/google-ai-interview-coder-cheat.html).
+
+If you don't feel like reading, the summary is there are now _**legitimately**_ undetectable tools like [Interview Coder](https://www.interviewcoder.co/), [Cluely](https://cluely.com/), and [LeetCode Wizard](https://leetcodewizard.io/) that help people cheat coding interviews, and they really do work. Companies relying only on LeetCode are not happy about it, but that's the world we live in. This is unethical, totally not what I'm encouraging, but it's what's happening.
+
+[Some companies](#some-companies-are-letting-candidates-use-ai-in-coding-interviews) understand that the old model is broken. Candidates are going to use AI whether you allow it or not. So instead of pretending it doesn't exist, they've redesigned their interviews around it. Candidates are expected to use AI, but they still own the plan, the tradeoffs, the correctness, and the proof. The [workshop I built](https://segunakinyemi.com/ai-interview-workshop/) around this idea enforces the same standard. You can use AI, but you must be able to explain what it produces and **prove it works**.
+
+When I interact with students, I bring them the now. What I face every day working at [a big tech company](https://en.wikipedia.org/wiki/Microsoft) that's **aggressively** pushing us to be more productive. I use AI every day at work to write code. That's the job now. The knowledge of "grind LeetCode to get hired" is well known. There's nothing of value brought by an industry person going to a college campus to tell students the obvious.
+
+This is a new frontier, and my goal is to help students get ready for it. What they need is practice working with AI the way professionals actually do, driving the process, verifying the output, and owning the result.
+
 ## Some Companies Are Letting Candidates Use AI In Coding Interviews
 
 While LeetCode is still a thing, there are some companies catching on to the fact that with AI, it no longer makes sense to ask those questions. It doesn't reflect what a person would be doing at work if they were hired. Check these out.

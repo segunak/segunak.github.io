@@ -7,6 +7,9 @@ toc_sticky: true
 toc_label: "On This Page"
 header:
   teaser: /assets/images/github-copilot-cli.png
+  og_image: /assets/images/github-copilot-cli.png
+  overlay_image: /assets/images/github-copilot-cli.png
+  overlay_filter: 0.8
 categories:
   - blog
 tags:
@@ -14,13 +17,24 @@ tags:
   - artificial-intelligence
 ---
 
-Timeline for GitHub Copilot
+
+## Draft Notes (Do Not Remove Until Totally Done, I Will Remove Myself)
+
+Timeline for GitHub Copilot (this information needs to be in the article for telling people like "hey this is why you think it's just autocompelte because it was, but it's changed so much and rapidly, but the initial impression hasn't left the ocmmunity and a lot of people show that in how they speak about it.)
 * Jun 2021 code completions, fancy autocomplete
 * March 2023 chat (no changes just chat)
 * October 2024 Multi File Edits (Edit mode)
 * Feb 2025 Agent Mode (full agentic like Cursor)
 
-Title: GitHub Copilot Doesn't Suck But People Think It Does and I Can Understand Why
+Title Ideas: GitHub Copilot Doesn't Suck But People Think It Does and I Can Understand Why
+Or someting in the title that calls out GitHub Copilot IS NOT JUST AUTOCOMPLETE
+GitHub Copilot Doesn't Suck And It's More Than Just Autocomplete But I Understand Why People Think It Is Just That And It Sucks But Here's What You Need To Know About What It Is Today (make this shorter obviously but this is the sort of eye catching title I'm going for.)
+
+This tweet on Feb 2nd drives this home even further. GitHub Copilot in VS Code in Agent Mode IS Curosr, GitHub Copilot CLI is Claude Code, they cancelled their subscription when they already had both things!!
+https://x.com/GergelyOrosz/status/2018432706892476842/?rw_tt_thread=True
+
+I need to quote/embed all these dumb tweets that don't get what GitHub Copilot is.
+
 
 Excertpt: (TBD but have hte word Claude Code in there somehwere and how it doesn't suck but I undersatnd why they think it does.
 
