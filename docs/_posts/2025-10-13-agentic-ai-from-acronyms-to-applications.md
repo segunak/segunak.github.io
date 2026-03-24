@@ -27,7 +27,7 @@ tags:
     }
 </style>
 
-You can skip the prologue and hop straight to the core concepts [by clicking here](#what-agentic-ai-is). This article is a companion piece to a presentation delivered to [PMI Carolinas](https://pmicarolina.org/pdd-2025), which you can [checkout here if you're curious](https://1drv.ms/p/c/750d396c5cadcebd/ETOAltIn6FtErV2gWQYHlfkBg0uvsKEcp0QuaYnBgGm0og?e=diVNW4).
+You can skip the prologue and hop straight to the core concepts [by clicking here](#what-agentic-ai-is). This article is a companion piece to presentations delivered to [PMI Carolinas](https://pmicarolina.org/pdd-2025) and the [Charlotte Women in Data Science (WiDS) Conference](https://wids.charlotte.edu/) at [UNC Charlotte](https://en.wikipedia.org/wiki/University_of_North_Carolina_at_Charlotte). You can check out the [PMI Carolinas deck here](https://1drv.ms/p/c/750d396c5cadcebd/ETOAltIn6FtErV2gWQYHlfkBg0uvsKEcp0QuaYnBgGm0og?e=diVNW4) or the [WiDS Charlotte deck here](https://1drv.ms/p/c/750d396c5cadcebd/IQBTr0Er7OGZSYPxsMfkgORjAQp5HuUoO7BFG4Yl_PEZX5A). The WiDS version includes a [hands-on workshop](https://aka.ms/aaw) where participants interact with a real AI agent built for the session.
 {: .notice--info}
 
 ## Some Background
@@ -138,13 +138,25 @@ Here's how Anthropic defines an Agent:
 >
 > [Anthropic - Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents)
 
-That's a great technical definition. Let me try my hand at an "everyday" version.
+Anthropic later distilled it even further:
+
+> We've gravitated towards a simple definition for agents: LLM's autonomously using tools in a loop.
+>
+> [Anthropic - Effective Context Engineering for AI Agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
+
+And OpenAI, the company that started this whole wave, frames it around three pillars:
+
+> An AI system that has instructions (what it should do), guardrails (what it should not do), and access to tools (what it can do) to take action on the user's behalf.
+>
+> [OpenAI - Building Agents](https://developers.openai.com/tracks/building-agents)
+
+Those three definitions together paint a clear picture. An agent is an LLM that has tools, follows instructions, respects guardrails, and acts autonomously in a loop to get things done.
 
 Generative AI is reactive. It's prompt and stop. You ask, it answers, it's over.
 
 Agentic AI is proactive. It's plan and act. You give it objectives, and it figures out how to achieve them, taking multiple steps across different systems if needed.
 
-**Aside:** Agentic AI often uses Generative AI behind the scenes, but saying "Generative" for stuff like chatbots and "Agentic" for autonomous systems is simple and what the [industry has adopted](https://www.ibm.com/think/topics/agentic-ai-vs-generative-ai).
+**Aside:** Generative AI and Agentic AI are not competing concepts. They're layers. An AI agent IS a generative AI model (like GPT) that becomes agentic when you give it tools and autonomy. The generative model does the thinking. The agentic layer gives it the ability to act. Saying "Generative" for chatbots and "Agentic" for autonomous systems is how the [industry talks about it](https://www.ibm.com/think/topics/agentic-ai-vs-generative-ai), but under the hood, agentic systems are built on top of generative ones.
 {: .notice--info}
 
 These definitions aren't perfect, and I'm sure someone somewhere is itching to hit me with a "[well ackchyually](https://knowyourmeme.com/memes/ackchyually-actually-guy)", but I think they're sufficient to understand the gist of what's going on.
@@ -206,6 +218,10 @@ We've covered what Agentic AI is and isn't. Now let's talk about some of the acr
 
 * **[LLM (Large Language Model)](https://en.wikipedia.org/wiki/Large_language_model):** The foundation of modern AI. Trained on massive text collections with billions of parameters to predict what comes next.
 
+* **[Tools (not an acronym, but essential for agents)](https://platform.openai.com/docs/guides/function-calling):** A tool is a function an agent can call to interact with the outside world. Checking the weather, querying a database, posting to a website, looking up who's in space. These are all tools. Without tools, an LLM is just a chatbot answering from its training data. With tools, it becomes an agent that can take action. When MCP talks about connecting AI to "tools and data sources," this is what it means.
+
+* **[RAG (Retrieval-Augmented Generation)](https://en.wikipedia.org/wiki/Retrieval-augmented_generation):** A technique where the AI retrieves relevant information from external sources (documents, databases, websites) before generating a response. Instead of relying solely on what it learned during training, the model pulls in fresh, specific data to ground its answers. This is how you get an AI that can answer questions about your company's internal docs without retraining the whole model.
+
 ## Agentic AI Platforms
 
 Listen. Listen to me.
@@ -223,6 +239,16 @@ What follows are the platforms that currently matter in **enterprise** scenarios
 
 If you're interested in the skills needed to build Agentic AI systems, check out my [AI Engineering guide](https://segunakinyemi.com/blog/seo-techdevcon-2025/#what-to-learn). AI Engineering is the emerging field for those who build this stuff. That's what [they're calling the industry](https://www.latent.space/p/ai-engineer). You could call it Software Development, because that's what it is, but I guess AI Engineering sounds cooler.
 
+## Try It Yourself
+
+I built a hands-on workshop that lets you interact with a real AI agent, toggle its tools on and off, and then build your own custom agent with personalized instructions. No coding required. It runs entirely in your browser through [Visual Studio Code for Education](https://vscodeedu.com/).
+
+The agent has access to live tools that call real APIs: weather data, who's currently in space, recent earthquakes, NASA's Astronomy Picture of the Day, Charlotte Third Places from [charlottethirdplaces.com](https://charlottethirdplaces.com) (a project of mine cataloging cafes, libraries, parks, and hangout spots in the Charlotte area), Charlotte cinnamon roll rankings (from yours truly), anime recommendations, and more. You start with no tools to see the agent's limitations, then progressively add them to watch its capabilities grow. By the end, you're configuring your own agent from scratch.
+
+Built with the [Vercel AI SDK](https://ai-sdk.dev/), powered by [Microsoft Foundry](https://learn.microsoft.com/azure/ai-foundry/what-is-foundry) on [Azure](https://azure.microsoft.com/). The workshop was first delivered at the [Charlotte Women in Data Science (WiDS) Conference](https://wids.charlotte.edu/) in March 2026.
+
+**Try it at [aka.ms/aaw](https://aka.ms/aaw)**. All you need is a Microsoft or Google account. If you're prompted for a workshop key, [reach out to me on LinkedIn](https://www.linkedin.com/in/segunakinyemi/) and I'll get you sorted.
+
 ## Essential Reading
 
 Here's some good stuff. These articles will get you up to speed on Agentic AI, and really AI in general, from the fundamentals to the cautionary tales to even more terminology worth knowing.
@@ -238,6 +264,7 @@ Here's some good stuff. These articles will get you up to speed on Agentic AI, a
 * [Microsoft - 10 More AI Terms Everyone Should Know](https://news.microsoft.com/source/features/ai/10-more-ai-terms-everyone-should-know/)
 * [IBM - Agentic AI vs Generative AI](https://www.ibm.com/think/topics/agentic-ai-vs-generative-ai)
 * [Forbes - Generative AI vs Agentic AI: The Key Differences](https://www.forbes.com/sites/bernardmarr/2025/02/03/generative-ai-vs-agentic-ai-the-key-differences-everyone-needs-to-know/)
+* [Agentic AI: From Acronyms to Applications - Hands-On Workshop](https://aka.ms/aaw)
 
 ## A Final Note
 
