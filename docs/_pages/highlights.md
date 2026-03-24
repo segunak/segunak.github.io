@@ -38,8 +38,6 @@ Scroll through to see what I've been up to [as the world spins madly on](https:/
 
 - Delivered my [Three Levels of Vibe Coding on the Microsoft Stack](https://www.linkedin.com/posts/microsoft_during-an-altogether-ai-workshop-at-the-microsoft-activity-7417928619500691456-UQvb/) workshop to the Microsoft Charlotte Engineering Community. The session walked attendees through three levels of AI-assisted development: [GitHub Spark](https://github.com/features/spark) for browser-based, hands-off, vibe coding, [GitHub Copilot Agent Mode in VS Code](https://code.visualstudio.com/docs/copilot/chat/copilot-chat) for AI assistance while maintaining control, and [GitHub Copilot CLI](https://github.com/features/copilot/cli) for terminal-first agentic coding. Check out the [LinkedIn video recap by Microsoft](https://www.linkedin.com/posts/microsoft_during-an-altogether-ai-workshop-at-the-microsoft-activity-7417928619500691456-UQvb/) featuring my thoughts on what attendees should take with them going forward.
 
-
-
 [Back to top](#top)
 
 ### 2025
