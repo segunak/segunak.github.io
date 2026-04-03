@@ -6,8 +6,8 @@ toc_sticky: true
 toc_label: "On This Page"
 last_modified_at:
 header:
-  teaser: /assets/images/github-copilot.png
-  og_image: /assets/images/github-copilot.png
+  teaser: /assets/images/ghcp-cli.webp
+  og_image: /assets/images/ghcp-cli.webp
   overlay_image: /assets/images/banner-github-copilot.jpg
   overlay_filter: 0.8
 categories:
