@@ -35,7 +35,7 @@ There are questions I keep hearing, from colleagues, from friends, on [Reddit](h
 
 The responses to that question are endless. Conflicting, contradictory, *everyone-has-a-different-answer-and-they're-all-absolutely-sure-they're-right*. As a software engineer expected to be on top of the latest with AI, it can cause a real sense of [FOMO](https://en.wikipedia.org/wiki/Fear_of_missing_out). Sometimes even [impostor syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome). But that feeling fades every time I dive deep to get to the truth behind the noise.
 
-When it comes to [GitHub Copilot](https://docs.github.com/en/copilot/get-started/features) specifically, and its many surface areas (ways of interacting with a tool, like the CLI, VS Code, the web, and more), here's the kind of stuff I see people asking.
+When it comes to [GitHub Copilot](https://docs.github.com/en/copilot/get-started/features) specifically, and its many surface areas (ways of interacting with a tool), here's the kind of stuff I see people asking.
 
 * Which surface area should I use if I want the best results out of coding with AI?
 * Why is everyone talking incessantly about the [CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli) these days?
@@ -59,7 +59,7 @@ Nothing good comes from confusion, and in this age of AI, it feels like everybod
 
 ## Why GitHub Copilot
 
-I'm a software engineer at a [company you've probably heard of](https://en.wikipedia.org/wiki/Microsoft), and I use [GitHub Copilot](https://github.com/features/copilot) daily across its many surface areas (ways of interacting with a tool). CLI, VS Code, GitHub.com, [you name it](https://www.youtube.com/watch?v=8BPizjoGP1M).
+I'm a software engineer at a [company you've probably heard of](https://en.wikipedia.org/wiki/Microsoft), and I use [GitHub Copilot](https://github.com/features/copilot) daily across its many surface areas. CLI, VS Code, GitHub.com, [you name it](https://www.youtube.com/watch?v=8BPizjoGP1M).
 
 This article focuses on GitHub Copilot specifically, but the core lessons apply to every AI coding tool out there. [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview), [OpenAI Codex](https://openai.com/codex/), [Gemini CLI](https://geminicli.com/), [Antigravity](https://antigravity.google/), [Cursor](https://cursor.com/home). They're all great.
 
