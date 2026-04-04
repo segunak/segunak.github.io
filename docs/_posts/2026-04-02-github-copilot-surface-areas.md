@@ -138,7 +138,7 @@ The [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-cod
 
 And here's what's left me the most perplexed throughout the CLI craze. There's a terminal in VS Code. It's been there for years.
 
-**You can use the GitHub Copilot CLI inside VS Code while also using the chat at the same time. You don't have to choose. They literally work together by design.**
+**The GitHub Copilot CLI works inside VS Code. You can use it and the chat at the same time. You don't have to choose.**
 
 Anyone saying stuff like "GitHub Copilot CLI is way better than VS Code Chat," or "I switched to the CLI and my productivity 10x'd," or "Stop using VS Code, the terminal is the future," or "Why I ditched VS Code Chat and never looked back" is either misinformed, misleading others, or just flat out wrong.
 
