@@ -134,7 +134,7 @@ Or you can go directly to each surface area on its own. Run the CLI in your term
 
 Somewhere along the way, a UI preference got confused for a quality difference.
 
-I believe the [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) craze has some people thinking that by using the CLI you are uniquely doing something you weren't before. That the terminal is somehow producing better output because... it's a terminal? It's the same AI. Same models. Same codebase.
+The [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) vibe coding craze has some people thinking that by using the CLI you are uniquely doing something you weren't before. That the terminal is somehow producing better output because... it's a terminal? It's the same AI. Same models. Same codebase.
 
 And here's what's left me the most perplexed throughout the CLI craze. There's a terminal in VS Code. It's been there for years.
 
