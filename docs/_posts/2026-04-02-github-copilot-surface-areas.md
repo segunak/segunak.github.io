@@ -142,7 +142,7 @@ And here's what's left me the most perplexed throughout the CLI craze. There's a
 
 Anyone saying stuff like "GitHub Copilot CLI is way better than VS Code Chat," or "I switched to the CLI and my productivity 10x'd," or "Stop using VS Code, the terminal is the future," or "Why I ditched VS Code Chat and never looked back" is either misinformed, misleading others, or just flat out wrong.
 
-[Stop the cap](https://www.google.com/search?q=stop+the+cap+phrase+meaning&oq=stop+the+cap+phrase+meaning). They are not competing products. You should use what you feel comfortable with. I mean, VS Code will literally call the CLI for you if you set the chat window to "Background." **And again, there's a terminal in VS Code**.
+[Stop the cap](https://www.google.com/search?q=stop+the+cap+phrase+meaning&oq=stop+the+cap+phrase+meaning). They're not competing products. You should use what you feel comfortable with. I mean, VS Code will literally call the CLI for you if you set the chat window to "Background." **And again, there's a terminal in VS Code**.
 
 I'm not the only one confused by the CLI craze. In a [recent Reddit thread](https://www.reddit.com/r/GithubCopilot/comments/1sc14xv/what_are_the_advantages_of_using_copilot_cli_over/) asking "What are the advantages of using Copilot CLI over VS Code?", the top comment was.
 
@@ -150,7 +150,7 @@ I'm not the only one confused by the CLI craze. In a [recent Reddit thread](http
 >
 > [u/Genetic_Prisoner](https://www.reddit.com/r/GithubCopilot/comments/1sc14xv/what_are_the_advantages_of_using_copilot_cli_over/oe7kdvo/)
 
-And another great point that I agree with 100%. You don't have to choose between them.
+And another great point that I agree with 100%.
 
 > CLI inside of vscode is where it's at. Easy to open files and access to IDE internal tools, with all the benefits of the cli.
 >
@@ -158,13 +158,13 @@ And another great point that I agree with 100%. You don't have to choose between
 
 And then there's someone who tried it at work and felt a purely CLI experience wasn't it for them.
 
-> It felt like I wasn't supposed to look at the code, which is so very, very wrong.
+> That was my thing. I had it installed as an experiment at work and I didn’t get it. It felt like I wasn’t supposed to look at the code, which is so very, very wrong.
 >
 > [u/SirMarkMorningStar](https://www.reddit.com/r/GithubCopilot/comments/1sc14xv/what_are_the_advantages_of_using_copilot_cli_over/oe7p5f9/)
 
 This is the part that concerns me the most. The CLI craze was popularized by [vibe coders](https://en.wikipedia.org/wiki/Vibe_coding) using Claude Code who don't necessarily care about what the code looks like as long as it works.
 
-That's fine for side projects. But if you're a software engineer at a job where bad code means getting paged at 3 AM, where an outage ruins your team's entire week, where you're accountable for what ships, you better be looking at the code. As [Simon Willison](https://simonwillison.net/) puts it.
+That's fine for side projects. But if you're a software engineer at a job where bad code means getting paged at 3 AM, where an outage ruins your team's entire week, where you're accountable for what ships, you better be looking at the code. As [Simon Willison](https://en.wikipedia.org/wiki/Simon_Willison) puts it.
 
 > Your job is to deliver code you have proven to work.
 >
