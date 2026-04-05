@@ -92,6 +92,12 @@ I want to be clear about the limitations here. LLMs are powerful tools, but they
 
 [Zed's](https://zed.dev/) article, [Why LLMs Can't Build Software](https://zed.dev/blog/why-llms-cant-build-software), nails it. LLMs can generate code that looks right, but they can't maintain mental models, verify their own reasoning, or truly understand the system they're building into. You still need humans who hold context across codebases, reason about edge cases, and make judgment calls.
 
+A quote from a start-up founder interviewed in a New York Times feature on AI coding, puts it plainly:
+
+> It's a delusion to imagine that your AI agent will generate a whole project at once, in a "Big Bang" moment. Yes, you can get it to write 5,000 lines of code, but then you test it and nothing works. This is where their (a human's) training and expertise are still needed: knowing how a big codebase ought to be structured, how to design the system so it's reliable and how to figure out if the agent is sloppy.
+>
+> — [Coding After Coders: The End of Computer Programming as We Know It](https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html)
+
 [Simon Willison](https://en.wikipedia.org/wiki/Simon_Willison), co-creator of [Django](https://en.wikipedia.org/wiki/Django_(web_framework)), and a highly respected voice in the developer community these days regarding AI, makes a related point in [Your Job Is To Deliver Code You Have Proven to Work](https://simonwillison.net/2025/Dec/18/code-proven-to-work/).
 
 > Almost anyone can prompt an LLM to generate a thousand-line patch and submit it for code review. That's no longer valuable. What's valuable is contributing code that is proven to work.
@@ -180,6 +186,7 @@ From there, here's a collection of articles from people who have thought deeply 
 
 **The case that juniors can thrive:**
 
+* [New York Times (Clive Thompson) - Coding After Coders: The End of Computer Programming as We Know It](https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html)
 * [Kent Beck - The Bet On Juniors Just Got Better](https://tidyfirst.substack.com/p/the-bet-on-juniors-just-got-better)
 * [Andrew Ng - Why You Should Learn to Code and not Fear AI](https://www.linkedin.com/feed/update/urn:li:activity:7305984835708141570/)
 * [Andrew Ng - An 18 Year Old's Dilemma: Too Late to Contribute to AI?](https://www.linkedin.com/feed/update/urn:li:activity:7394769800234766336/)
