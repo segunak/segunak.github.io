@@ -32,6 +32,9 @@ tags:
 **Note:** This is a longer article, use the table of contents to jump around to sections that interest you. Also, check out my post [Miscellaneous Advice For People Interested In Tech Careers](https://segunakinyemi.com/blog/miscellaneous-tech-career-advice/). This article serves as a follow-up highlighting the impact and importance of AI on the field.
 {: .notice--primary}
 
+**New:** I built [AI & Your Tech Career](https://segunakinyemi.com/stem-education/ai-resources/) as a continuously updated resource site with skills to learn, free courses, tools to use, student perks, and more. It's the practical companion to this article. Visit [aka.ms/nocap](https://aka.ms/nocap).
+{: .notice--primary}
+
 ## The Hype Is Real
 
 Artificial Intelligence (AI) is far from just a buzzword these days. As a software engineer at [a company](https://en.wikipedia.org/wiki/Microsoft) heavily involved in AI (in addition to their own [AI platform](https://www.microsoft.com/en-us/microsoft-copilot/organizations), they're the creators of [VS Code](https://en.wikipedia.org/wiki/Visual_Studio_Code), owners of [GitHub](https://github.com/features/copilot), owners of [LinkedIn](https://en.wikipedia.org/wiki/LinkedIn), and the big tech sponsor behind [OpenAI](https://fortune.com/2024/10/18/microsoft-openai-equity-stake-nonprofit-for-profit-reorganization-sam-altman/)), I can assure you that AI's impact is very real.

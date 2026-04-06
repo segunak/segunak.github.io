@@ -28,6 +28,9 @@ tags:
 **Note:** Check out my companion post, [On the Nature of Artificial Intelligence in Tech Careers](https://segunakinyemi.com/blog/ai-in-tech-careers/), for advice specifically addressing AI's impact on the field.
 {: .notice--info}
 
+**New:** I built [AI & Your Tech Career](https://segunakinyemi.com/stem-education/ai-resources/) as a continuously updated resource site covering AI's impact on tech careers, what to learn, where to learn, tools to use, free student perks, and more. Visit [aka.ms/nocap](https://aka.ms/nocap).
+{: .notice--info}
+
 Greetings! This post compiles my general purpose tech career advice. After fielding these questions repeatedly from students and job seekers, I decided documenting my insights would be more efficient than relying on repeating them verbally. To be clear: all opinions expressed here are solely my own.
 
 ## Software Engineering

@@ -25,6 +25,9 @@ tags:
 
 ![HelloThereGif](/assets/images/obiwan.gif)
 
+**Looking for career advice too?** I built [AI & Your Tech Career](https://segunakinyemi.com/stem-education/ai-resources/) as a one-stop resource for anyone anxious about AI's impact on tech careers. Skills to learn, tools to use, free courses, student perks, and answers to the questions I keep getting asked. Check it out at [aka.ms/nocap](https://aka.ms/nocap).
+{: .notice--info}
+
 This page is an ongoing list of learning resources for AI, ranging from stuff to get you started to stuff for diving deep. My goal is for this to be a targeted collection, quality over quantity. I started it for myself, a software engineer looking for ways to use AI in my workflows, and figured others might find it useful. **None of these are affiliate links.**
 
 While being undeniably [so hot right now](https://knowyourmeme.com/memes/x-is-so-hot-right-now), AI education [isn't exactly a novel field](https://ai100.stanford.edu/). However, the overwhelming demand for content in the space is certainly new. This list is my attempt at [separating the wheat from the chaff](https://www.merriam-webster.com/dictionary/separate%20the%20wheat%20from%20the%20chaff).

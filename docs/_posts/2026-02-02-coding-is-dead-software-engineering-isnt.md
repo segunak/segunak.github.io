@@ -31,6 +31,9 @@ tags:
 **Note:** This article was originally written for a [workshop I created](https://segunakinyemi.com/ai-interview-workshop/) for computer science students, inspired by [Canva](https://www.canva.dev/blog/engineering/yes-you-can-use-ai-in-our-interviews/) and [Meta](https://www.wired.com/story/meta-ai-job-interview-coding/) allowing candidates to use AI in coding interviews. I've adapted it here for a general audience. Check out the [Workshop Website](https://segunakinyemi.com/ai-interview-workshop/), [GitHub](https://github.com/segunak/ai-interview-workshop), and [Slide Deck](https://1drv.ms/p/c/750d396c5cadcebd/IQBsRMeY3HSzRIBxRgHkaxD1AWZG14z_B3al7wfnPaezf4g?e=CjHD76).
 {: .notice--primary}
 
+**New:** I built [AI & Your Tech Career](https://segunakinyemi.com/stem-education/ai-resources/) as a continuously updated resource site with practical answers, skills to learn, free courses, tools, and more. If this article got you thinking, that site is where to go next. Visit [aka.ms/nocap](https://aka.ms/nocap).
+{: .notice--primary}
+
 ## Times Are Changing
 
 AI has fundamentally changed what it means to be a productive software engineer. The question we're all asking right now across the industry is "[when AI writes almost all code, what happens to software engineering?](https://newsletter.pragmaticengineer.com/p/when-ai-writes-almost-all-code-what)"
