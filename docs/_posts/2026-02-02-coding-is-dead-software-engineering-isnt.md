@@ -31,6 +31,9 @@ tags:
 **Note:** This article was originally written for a [workshop I created](https://segunakinyemi.com/ai-interview-workshop/) for computer science students, inspired by [Canva](https://www.canva.dev/blog/engineering/yes-you-can-use-ai-in-our-interviews/) and [Meta](https://www.wired.com/story/meta-ai-job-interview-coding/) allowing candidates to use AI in coding interviews. I've adapted it here for a general audience. Check out the [Workshop Website](https://segunakinyemi.com/ai-interview-workshop/), [GitHub](https://github.com/segunak/ai-interview-workshop), and [Slide Deck](https://1drv.ms/p/c/750d396c5cadcebd/IQBsRMeY3HSzRIBxRgHkaxD1AWZG14z_B3al7wfnPaezf4g?e=CjHD76).
 {: .notice--primary}
 
+**New:** I built [AI & Your Tech Career](https://segunakinyemi.com/stem-education/ai-resources/) as a continuously updated resource site with practical answers, skills to learn, free courses, tools, and more. If this article got you thinking, that site is where to go next. Visit [aka.ms/nocap](https://aka.ms/nocap).
+{: .notice--primary}
+
 ## Times Are Changing
 
 AI has fundamentally changed what it means to be a productive software engineer. The question we're all asking right now across the industry is "[when AI writes almost all code, what happens to software engineering?](https://newsletter.pragmaticengineer.com/p/when-ai-writes-almost-all-code-what)"
@@ -91,6 +94,12 @@ A text-generating non-deterministic probability engine isn't going to cut it at 
 I want to be clear about the limitations here. LLMs are powerful tools, but they have fundamental constraints that matter for real engineering work.
 
 [Zed's](https://zed.dev/) article, [Why LLMs Can't Build Software](https://zed.dev/blog/why-llms-cant-build-software), nails it. LLMs can generate code that looks right, but they can't maintain mental models, verify their own reasoning, or truly understand the system they're building into. You still need humans who hold context across codebases, reason about edge cases, and make judgment calls.
+
+A quote from a start-up founder interviewed in a New York Times feature on AI coding, puts it plainly:
+
+> It's a delusion to imagine that your AI agent will generate a whole project at once, in a "Big Bang" moment. Yes, you can get it to write 5,000 lines of code, but then you test it and nothing works. This is where their (a human's) training and expertise are still needed: knowing how a big codebase ought to be structured, how to design the system so it's reliable and how to figure out if the agent is sloppy.
+>
+> — [Coding After Coders: The End of Computer Programming as We Know It](https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html)
 
 [Simon Willison](https://en.wikipedia.org/wiki/Simon_Willison), co-creator of [Django](https://en.wikipedia.org/wiki/Django_(web_framework)), and a highly respected voice in the developer community these days regarding AI, makes a related point in [Your Job Is To Deliver Code You Have Proven to Work](https://simonwillison.net/2025/Dec/18/code-proven-to-work/).
 
@@ -180,6 +189,7 @@ From there, here's a collection of articles from people who have thought deeply 
 
 **The case that juniors can thrive:**
 
+* [New York Times (Clive Thompson) - Coding After Coders: The End of Computer Programming as We Know It](https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html)
 * [Kent Beck - The Bet On Juniors Just Got Better](https://tidyfirst.substack.com/p/the-bet-on-juniors-just-got-better)
 * [Andrew Ng - Why You Should Learn to Code and not Fear AI](https://www.linkedin.com/feed/update/urn:li:activity:7305984835708141570/)
 * [Andrew Ng - An 18 Year Old's Dilemma: Too Late to Contribute to AI?](https://www.linkedin.com/feed/update/urn:li:activity:7394769800234766336/)

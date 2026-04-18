@@ -18,7 +18,9 @@ tags:
 ---
 
 
-## Draft Notes (Do Not Remove Until Totally Done, I Will Remove Myself)
+## Draft Notes (Do Not Remove Until Totally Done)
+
+This LinkedIn post is GitHub doing media stuff to refute exactly what this aritlce is talking about https://www.linkedin.com/posts/github_most-developers-know-copilot-for-autocomplete-activity-7432864629833396224-CWef
 
 Timeline for GitHub Copilot (this information needs to be in the article for telling people like "hey this is why you think it's just autocompelte because it was, but it's changed so much and rapidly, but the initial impression hasn't left the ocmmunity and a lot of people show that in how they speak about it.)
 * Jun 2021 code completions, fancy autocomplete

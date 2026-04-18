@@ -31,6 +31,9 @@ tags:
 Be sure to [connect with me on LinkedIn](https://www.linkedin.com/in/segunakinyemi/) to continue the conversation about [AI](https://segunakinyemi.com/tags/#artificial-intelligence), [tech careers](https://segunakinyemi.com/blog/ai-in-tech-careers/), [layoffs](https://layoffs.fyi/), anime (watch [_Steinsgate_](https://www.imdb.com/title/tt1910272/) 🙌), Marvel ([_The Fantastic Four: First Steps_](https://en.wikipedia.org/wiki/The_Fantastic_Four:_First_Steps) 🔥), the new [DCU](https://en.wikipedia.org/wiki/DC_Universe_(franchise)) ([_Superman_](https://en.wikipedia.org/wiki/Superman_(2025_film)) 👏), [Christianity](https://segunakinyemi.com/blog/comforts-of-christ/), society, philosophy, [you name it](https://www.youtube.com/watch?v=8BPizjoGP1M)!
 {: .notice--info}
 
+**New:** I built [AI & Your Tech Career](https://segunakinyemi.com/stem-education/ai-resources/) as a continuously updated resource site that consolidates much of what's in this article and more. Skills, tools, free courses, student perks, and answers to the questions I keep getting asked. Visit [aka.ms/nocap](https://aka.ms/nocap).
+{: .notice--info}
+
 ## What's Up
 
 ![KakashiWaving](/assets/images/kakashi-hello.gif)

@@ -47,6 +47,9 @@ tags:
     }
 </style>
 
+**Update (February 24, 2026):** God answers prayer. A week after I posted this, I was scrolling along and came across [this article from Axios Charlotte](https://www.axios.com/local/charlotte/2026/02/24/waymo-driverless-cars-spotted-uptown-charlotte). Waymo's driverless cars have been spotted in [Uptown Charlotte](https://en.wikipedia.org/wiki/Uptown_Charlotte)! Does that mean someone from Waymo read this and said "we got you fam" before kicking off deployment to Charlotte? Unlikely, but a man can dream. So happy to hear they're on their way to the Queen City. The hype is real ladies and gentlemen, Waymo is legit!
+{: .notice--success}
+
 **Disclaimer:** Nobody asked me to write this. Nobody paid me to write this. I'm simply a man who got into a car with no driver and lost his mind at how wild that is. We're living in the future out here!
 {: .notice--info}
 
