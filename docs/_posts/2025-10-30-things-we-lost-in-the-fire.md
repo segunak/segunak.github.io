@@ -130,7 +130,11 @@ _Things We Lost in the Fire_ was a box office bomb. Budget of $16 million, world
 
 The closing scenes are deeply emotional. Audrey drives through the rain to pick up flowers left at her door, with the film's motif playing. It'll leave you in tears if you're the crying type. I'll admit I got teary-eyed near the end. I didn't cry though (although if I did, you'll never know), since I was watching it in public (shoutout [Visart Cafe](https://maps.app.goo.gl/q5zs1HrnhdmCmDN17)).
 
-And then we get a final monologue from Benicio del Toro's Jerry. It's hauntingly beautiful. A man 89 days clean of heroin, battling through it all, adopting the simple but true concept of [taking life one day at a time](https://www.biblegateway.com/passage/?search=Matthew%206%3A34&version=NKJV).
+And then we get [a final monologue from Benicio del Toro's Jerry](https://www.youtube.com/watch?v=GC0-WPjtMDs). It's hauntingly beautiful. A man 89 days clean of heroin, battling through it all, adopting the simple but true concept of [taking life one day at a time](https://www.biblegateway.com/passage/?search=Matthew%206%3A34&version=NKJV).
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/GC0-WPjtMDs?si=hLgfgjh_m_owjDtw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 That's how Jerry gets clean. That's how Audrey moves through grief. That's how the kids learn to live without their father. That's how we all get through the things we lose in the fire.
 
