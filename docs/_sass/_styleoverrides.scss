@@ -89,6 +89,46 @@ main h2:first-of-type {
   color: #fff !important;
 }
 
+.btn--bmc {
+  background-color: #FFDD00;
+  color: #000 !important;
+
+  &:visited {
+    color: #000 !important;
+  }
+
+  &:hover {
+    background-color: darken(#FFDD00, 8%);
+    color: #000 !important;
+  }
+
+  .bmc-icon {
+    height: 1.25em;
+    width: 1.25em;
+    vertical-align: -0.275em;
+    margin-right: 0.25em;
+  }
+}
+
+/* Buy Me a Coffee icon in the author sidebar list */
+.author__urls .bmc-icon {
+  display: inline-block;
+  height: 1.25em; /* slightly larger to offset SVG's internal padding */
+  width: 1.25em; /* matches fa-fw fixed-width icons */
+  vertical-align: -0.225em;
+  text-align: center;
+}
+
+/* Swap the BMC label text: short on mobile, full on desktop.
+   Below $large the author__urls dropdown is absolutely positioned and
+   "Buy Me a Coffee" overflows the viewport, so we collapse to "Coffee". */
+.bmc-label-short { display: inline; }
+.bmc-label-full { display: none; }
+@media (min-width: 64em) { /* $large breakpoint */
+  .bmc-label-short { display: none; }
+  .bmc-label-full { display: inline; }
+}
+
 .archive__item-teaser img {
   width: 100%;
   object-fit: cover;
@@ -293,6 +333,26 @@ details p:last-of-type {
     font-style: italic;
     font-size: 0.9em;
   }
+}
+
+/* Responsive video embed container */
+.video-container {
+  position: relative;
+  width: 100%;
+  margin: 1.5em auto;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 8px;
 }
 
 /* Grid layout for job titles list */
