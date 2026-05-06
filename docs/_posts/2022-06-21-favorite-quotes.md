@@ -1,7 +1,7 @@
 ---
 title: "Favorite Quotes"
 excerpt: "A collection of awesome quotes from various sources."
-last_modified_at: 2024-12-22T14:50:19
+last_modified_at:
 classes: wide
 header:
   teaser: /assets/images/coolkingdom.jpg
@@ -178,5 +178,10 @@ All that being said, enjoy the rest of some of my favorite quotes below!
 > I believe that almost anyone who is seriously involved in any church will realize that churchgoing is not synonymous with personal spirituality. Having participated throughout my life in organized church and community service groups, I have found that attending church does not necessarily mean living the principles taught in those meetings. You can be active in a church and inactive in its gospel.
 >
 > <cite>[Stephen R. Covey in "The 7 Habits of Highly Effective People"](https://en.wikipedia.org/wiki/The_7_Habits_of_Highly_Effective_People)</cite>
+
+
+> We live in a society that likes to approach things from a utilitarian eye, and there are advantages to that... But our society treats art too utilitarianly. It doesn't look at the primary purpose of art, which is making the artist's life more enriched. It's sincerely what I believe the primary purpose is. It is to make your life better by creating something... They will ask you when you're going to sell your writing. They're going to ask you if you're published. And that's OK. But I want you to understand that's not why you have to write. In fact, it's probably not why you should write. Writing is good for you. Expressing yourself is good for you. Creating art is good for you.
+>
+> <cite>[Brandon Sanderson](https://en.wikipedia.org/wiki/Brandon_Sanderson) in ["The Philosophy of Professional Writing" Lecture at Brigham Young University in 2025](https://youtu.be/MEUh_y1IFZY?si=cFKFsBD2CG3KUVEt&t=852)</cite>
 
 </div>
