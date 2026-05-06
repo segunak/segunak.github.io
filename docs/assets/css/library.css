@@ -1,0 +1,195 @@
+/* =========================================================================
+   Library page styles: tabbed UI (Books | Quotes) + quote grid.
+   Used by /library/ via _pages/library.md.
+
+   Theming: this file uses CSS custom properties with light-mode fallbacks.
+   Dark-mode values are defined in /assets/css/dark-theme.scss so they only
+   apply when the dark theme is active.
+   ========================================================================= */
+
+/* Hero overlay padding match for the Library page header */
+.page__hero--overlay {
+  padding: 8em 0;
+}
+@media (min-width: 768px) {
+  .page__hero--overlay {
+    padding: 10em 0;
+  }
+}
+
+/* -------- Tab bar (segmented pill) -------------------------------------- */
+
+.library-tabs {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  gap: 6px;
+  padding: 6px;
+  margin: 1em 0 1.75em 0;
+  background-color: var(--library-tab-bar-bg, #eef2f5);
+  border-radius: 999px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.library-tabs__btn {
+  flex: 1 1 0;
+  appearance: none;
+  border: 1px solid var(--library-tab-inactive-border, rgba(0, 0, 0, 0.08));
+  background-color: var(--library-tab-inactive-bg, #ffffff);
+  color: var(--library-tab-inactive-color, #2c3033);
+  font-family: inherit;
+  font-size: 1.05em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 12px 22px;
+  border-radius: 999px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: transform 0.18s ease,
+              background-color 0.18s ease,
+              color 0.18s ease,
+              box-shadow 0.18s ease,
+              border-color 0.18s ease;
+}
+
+.library-tabs__btn:hover,
+.library-tabs__btn:focus-visible {
+  transform: translateY(-1px);
+  color: var(--library-tab-accent, #0092ca);
+  border-color: var(--library-tab-accent, #0092ca);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.14);
+  outline: none;
+}
+
+.library-tabs__btn[aria-selected="true"] {
+  background-color: var(--library-tab-accent, #0092ca);
+  border-color: var(--library-tab-accent, #0092ca);
+  color: var(--library-tab-active-color, #ffffff);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.18);
+}
+
+.library-tabs__btn[aria-selected="true"]:hover,
+.library-tabs__btn[aria-selected="true"]:focus-visible {
+  background-color: var(--library-tab-accent-hover, #0080b3);
+  border-color: var(--library-tab-accent-hover, #0080b3);
+  color: var(--library-tab-active-color, #ffffff);
+  transform: translateY(-1px);
+}
+
+.library-tabs__btn:active {
+  transform: translateY(0);
+}
+
+/* Mobile: tighter padding, still tappable */
+@media (max-width: 575.98px) {
+  .library-tabs {
+    gap: 4px;
+    padding: 4px;
+  }
+  .library-tabs__btn {
+    font-size: 1em;
+    padding: 11px 14px;
+  }
+}
+
+/* -------- Tab panels (fade-in on activation) ---------------------------- */
+
+.library-panel {
+  animation: library-fade-in 150ms ease-out;
+}
+
+.library-panel[hidden] {
+  display: none !important;
+}
+
+@keyframes library-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(2px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .library-panel {
+    animation: none;
+  }
+  .library-tabs__btn,
+  .library-tabs__btn:hover,
+  .library-tabs__btn:focus-visible {
+    transition: none;
+    transform: none;
+  }
+}
+
+/* -------- Quote grid (migrated from favorite-quotes.md inline styles) ---- */
+
+.quote-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  justify-items: stretch;
+  align-items: start;
+}
+
+@media (max-width: 575.98px) {
+  .quote-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .quote-container blockquote {
+    margin: 1em 0 1em 0;
+    border-bottom: 1px solid #cecfd1;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .quote-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .quote-container blockquote {
+    margin: 1em 0 1em 0;
+    border-bottom: 1px solid #cecfd1;
+  }
+}
+
+/* -------- Reading-vibes diptych (side-by-side gifs with headings) ------- */
+
+.library-feelings {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin: 1.5em 0 2em 0;
+  align-items: start;
+}
+
+.library-feelings__cell {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.library-feelings__cell img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18), 0 2px 6px rgba(0, 0, 0, 0.08);
+  display: block;
+}
+
+/* Stay side-by-side on mobile (intentional per spec); just tighten gap */
+@media (max-width: 575.98px) {
+  .library-feelings {
+    gap: 10px;
+  }
+}
