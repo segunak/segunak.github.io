@@ -62,7 +62,7 @@ But these days? It seems everyone and everything is the GOAT. Your team's quarte
 
 ## The Perils of Recency Bias
 
-We are, perhaps because of social media, a reactionary generation, often succumbing to recency bias that clouds our judgment. One of my [favorite quotes]({% post_url 2022-06-21-favorite-quotes %}) by [Thomas à Kempis](https://en.wikipedia.org/wiki/Thomas_%C3%A0_Kempis) summarizes this well, stating that "through personal feeling, true perspective is easily lost".
+We are, perhaps because of social media, a reactionary generation, often succumbing to recency bias that clouds our judgment. One of my [favorite quotes](/library/#quotes) by [Thomas à Kempis](https://en.wikipedia.org/wiki/Thomas_%C3%A0_Kempis) summarizes this well, stating that "through personal feeling, true perspective is easily lost".
 
 This tendency, to speak sensationally online, is often dismissed as mere joking, which can mask someone's ludicrous opinions on a particular subject. I do not doubt that sports fans truly believe their favorite player to be the GOAT after a great game. Or that foodies believe their most recent restaurant find is undoubtedly the "best in the city". And I certainly don't doubt that music fans, particularly [Swifties](https://en.wikipedia.org/wiki/Swifties), have any qualms about the "undisputed" GOAT status of their idol, to the point of broaching delusion. And before I get any nasty emails about that last comment, I'll have you know I rather enjoy a handful of Taylor Swift's songs, particularly the older ones, before she turned pop.
 

@@ -219,7 +219,7 @@ Stop optimizing where you type. [Start optimizing your context](https://github.b
 * [Mastering GitHub Copilot for Paired Programming](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming). Deeper dive into working with Copilot across workflows.
 * [Accelerate App Development Using GitHub Copilot](https://learn.microsoft.com/en-us/training/paths/accelerate-app-development-using-github-copilot/). Structured Microsoft Learn path for those who want the full curriculum.
 * [Agentic AI: From Acronyms to Applications](https://segunakinyemi.com/blog/agentic-ai-from-acronyms-to-applications/). My post on the broader Agentic AI landscape.
-* [Coding Is Dead. Software Engineering Isn't.](https://segunakinyemi.com/blog/coding-is-dead-software-engineering-isnt/). My post on how AI changes the craft of software engineering.
+* [Coding Is Dead. Software Engineering Isn't](https://segunakinyemi.com/blog/coding-is-dead-software-engineering-isnt/). My post on how AI changes the craft of software engineering.
 
 Have thoughts, questions, or want to share your own setup? Find me on [LinkedIn](https://www.linkedin.com/in/segunakinyemi/).
 {: .notice--info}

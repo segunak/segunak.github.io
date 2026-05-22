@@ -9,8 +9,8 @@ main:
     url: /highlights/
   - title: "Tags"
     url: "/tags/"
-  - title: "Reading"
-    url: /reading/
+  - title: "Library"
+    url: /library/
   - title: "Contact"
     url: /contact/
 adf-synapse-pipeline-retries:
