@@ -27,7 +27,7 @@ tags:
     }
 </style>
 
-You can skip the prologue and hop straight to the core concepts [by clicking here](#what-agentic-ai-is). This article is a companion piece to presentations delivered to [PMI Carolinas](https://pmicarolina.org/pdd-2025) and the [Charlotte Women in Data Science (WiDS) Conference](https://wids.charlotte.edu/) at [UNC Charlotte](https://en.wikipedia.org/wiki/University_of_North_Carolina_at_Charlotte). You can check out the [PMI Carolinas deck here](https://1drv.ms/p/c/750d396c5cadcebd/ETOAltIn6FtErV2gWQYHlfkBg0uvsKEcp0QuaYnBgGm0og?e=diVNW4) or the [WiDS Charlotte deck here](https://1drv.ms/p/c/750d396c5cadcebd/IQBTr0Er7OGZSYPxsMfkgORjAQp5HuUoO7BFG4Yl_PEZX5A). The WiDS version includes a [hands-on workshop](https://aka.ms/aaw) where participants interact with a real AI agent built for the session.
+You can skip the prologue and hop straight to the core concepts [by clicking here](#what-agentic-ai-is). This article is a companion piece to presentations delivered to [PMI Carolinas](https://pmicarolina.org/pdd-2025), the [Charlotte Women in Data Science (WiDS) Conference](https://wids.charlotte.edu/) at [UNC Charlotte](https://en.wikipedia.org/wiki/University_of_North_Carolina_at_Charlotte), and the [SEO Career Summit](https://career.seo-usa.org/career-summit/). You can check out the [PMI Carolinas deck here](https://1drv.ms/p/c/750d396c5cadcebd/ETOAltIn6FtErV2gWQYHlfkBg0uvsKEcp0QuaYnBgGm0og?e=diVNW4), the [WiDS Charlotte deck here](https://1drv.ms/p/c/750d396c5cadcebd/IQBTr0Er7OGZSYPxsMfkgORjAQp5HuUoO7BFG4Yl_PEZX5A), or the [SEO Career Summit deck here](https://1drv.ms/p/c/750d396c5cadcebd/IQBwmTDFyBOlSYkFAeQFiGGkAdYyTeO4M7Akp8HAZ3HlG_Y?e=jJ4bNe).
 {: .notice--info}
 
 ## Some Background
