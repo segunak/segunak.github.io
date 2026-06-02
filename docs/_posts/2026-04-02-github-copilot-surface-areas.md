@@ -140,6 +140,15 @@ And here's what's left me the most perplexed throughout the CLI craze. There's a
 
 **The GitHub Copilot CLI works inside VS Code. You can use it and the chat at the same time. You don't have to choose.**
 
+<div class="meme-container">
+  <div class="meme-wrapper">
+    <img alt="Why Not Both" src="/assets/images/why-not-both.gif"/>
+  </div>
+</div>
+
+This is a rather obscure meme, or so I've been told, [so click here for the origins of it](https://knowyourmeme.com/memes/why-not-both-why-dont-we-have-both).
+{: .notice--info}
+
 Anyone saying stuff like "GitHub Copilot CLI is way better than VS Code Chat," or "I switched to the CLI and my productivity 10x'd," or "Stop using VS Code, the terminal is the future," or "Why I ditched VS Code Chat and never looked back" is either misinformed, misleading others, or just flat out wrong.
 
 [Stop the cap](https://www.google.com/search?q=stop+the+cap+phrase+meaning&oq=stop+the+cap+phrase+meaning). They're not competing products. You should use what you feel comfortable with. I mean, VS Code will literally call the CLI for you if you set the chat window to "Background." **And again, there's a terminal in VS Code**.
