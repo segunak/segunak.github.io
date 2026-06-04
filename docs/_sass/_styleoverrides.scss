@@ -166,6 +166,11 @@ a.reversefootnote {
 }
 
 .page__hero--overlay .wrapper {
+
+  @include breakpoint($large) {
+    padding-inline: 3rem;
+  }
+  
   @include breakpoint($x-large) {
     max-width: 85%;
   }
