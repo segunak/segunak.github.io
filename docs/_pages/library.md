@@ -355,7 +355,13 @@ As much as I love that quote, there's someone I love a lot more who said somethi
 
 All that being said, enjoy the rest of some of my favorite quotes below!
 
+## The Quotes
+
 <div class="quote-container" markdown="1">
+
+> The greatest weapon against stress is our ability to choose one thought over another.
+>
+> <cite>[William James](https://www.goodreads.com/quotes/120416-the-greatest-weapon-against-stress-is-our-ability-to-choose)</cite>
 
 > We need to read - above all the Word of God, but also history and biographies and great novels. If we don't read, we condemn ourselves to chronic stupidity and a conditioning by mass media that have no sympathy for the things we believe. If we fill our heads with poison and junk, we make ourselves angry and dumb.
 >

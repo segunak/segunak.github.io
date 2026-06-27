@@ -131,11 +131,16 @@
 .quote-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 2fr;
   grid-column-gap: 5px;
   grid-row-gap: 5px;
   justify-items: stretch;
   align-items: start;
+  padding-top: 1.25em;
+}
+
+.quote-container blockquote {
+  align-self: start;
+  margin: 0 1em 1.25em 1em;
 }
 
 @media (max-width: 575.98px) {
