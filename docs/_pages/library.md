@@ -383,6 +383,11 @@ All that being said, enjoy the rest of some of my favorite quotes below!
 > <cite>[Psalm 118:8](https://www.biblegateway.com/passage/?search=Psalm+118&version=NKJV)</cite>
 
 
+> To the pure all things are pure..
+>
+> <cite>[Titus 1:15](https://www.biblegateway.com/passage/?search=Titus%201%3A15&version=NKJV)</cite>
+
+
 > Columbus went out not knowing where he was going; and when he got there he did not know where he was, and when he got back he did not know where he had been, and he did it all on other people's money.
 >
 > <cite>[A.W. Tozer in "The Purpose of Man: Designed to Worship"](https://www.google.com/search?q=The+Purpose+of+Man+A.W.+Tozer)</cite>
