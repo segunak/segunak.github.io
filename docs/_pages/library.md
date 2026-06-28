@@ -363,6 +363,7 @@ All that being said, enjoy the rest of some of my favorite quotes below!
 >
 > <cite>[William James](https://www.goodreads.com/quotes/120416-the-greatest-weapon-against-stress-is-our-ability-to-choose)</cite>
 
+
 > We need to read - above all the Word of God, but also history and biographies and great novels. If we don't read, we condemn ourselves to chronic stupidity and a conditioning by mass media that have no sympathy for the things we believe. If we fill our heads with poison and junk, we make ourselves angry and dumb.
 >
 > <cite>[Archbishop Charles Caput](https://catholicphilly.com/2017/07/homilies-speeches/whats-next-catholics-america-and-a-world-made-new/)</cite>
@@ -426,6 +427,11 @@ All that being said, enjoy the rest of some of my favorite quotes below!
 > A thing isn't beautiful because it lasts.
 >
 > <cite>[The Vision in "Avengers: Age of Ultron"](https://www.youtube.com/watch?v=SrSNQCa-C7A)</cite>
+
+
+> God's plan is like a beautiful tapestry. And the tragedy of being human is that we only get to see it from the back with all the ragged threads and the muddy colors. We don't get a hint at the true beauty that would be revealed if we could see the whole pattern... as God does.
+>
+> <cite>[Matt Murdock (Daredevil)](https://www.imdb.com/title/tt6741948/quotes/) in [Netflix's "Daredevil"](https://www.imdb.com/title/tt3322312)</cite>
 
 
 > For who is greater, he who sits at the table, or he who serves? Is it not he who sits at the table? Yet I am among you as the One who serves.
