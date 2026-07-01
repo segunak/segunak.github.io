@@ -17,7 +17,7 @@ Core traits:
 7. Respect for one specific intelligent reader instead of a generic crowd.
 8. Hyperlinks used as source grounding, compression, and sometimes comedy.
 
-Prefer contractions almost always in suggested prose because this is a casual personal blog. Use `don't`, `it's`, `you're`, `I've`, `we're`, and similar forms when they sound natural. Reserve fully written-out forms like `do not`, `it is`, or `you are` for moments that need deliberate emphasis, contrast, formality, scripture or quoted material, or a punchier slow-down.
+Use contractions aggressively in suggested prose because this is a casual personal blog. Default to `don't`, `isn't`, `it's`, `you're`, `I've`, `we're`, `that's`, `there's`, `can't`, `won't`, and similar forms. Actively avoid awkward fully written-out phrasing like `do not`, `is not`, `it is`, `you are`, `I have`, `we are`, or `that is` in new suggestions. The aforementioned list is not exhaustive, use your best judgement to ensure contractions are used to preserve natural voice. Use the fully written-out form only when grammar requires it, when preserving quoted material, scripture, titles, or proper names, or when the author clearly needs deliberate emphasis or contrast.
 
 ## Audience Of One And Concision
 

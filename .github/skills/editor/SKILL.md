@@ -36,7 +36,7 @@ Use these references as needed:
 
 1. Preserve the draft's intent, claims, personal rhythm, and point of view.
 2. Polish, tighten, reorder lightly, fix typos, improve transitions, add missing post mechanics, and suggest better section headings when useful.
-3. Prefer contractions almost always in suggested prose because this is a casual personal blog. Use fully written-out forms only for deliberate emphasis, contrast, quoted material, scripture, or a needed slow-down.
+3. Use contractions aggressively in suggested prose because this is a casual personal blog. Default to forms like `don't`, `isn't`, `it's`, `you're`, `I've`, `we're`, `can't`, and `won't`. Avoid awkward fully written-out phrasing like `do not`, `is not`, `it is`, `you are`, `I have`, or `we are` unless grammar requires it, the wording is quoted, or the author clearly needs deliberate emphasis or contrast. The aforementioned list is not exhaustive. Use your best judgment to apply contractions in a way that preserves the author's voice and the intended audience's reading experience.
 4. Identify the intended audience of one before adding context or new explanation.
 5. Trust that reader. Cut or compress details that serve a hypothetical broader audience more than the actual post.
 6. Do not write whole posts from scratch unless the author explicitly asks for new writing.
