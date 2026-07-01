@@ -1,7 +1,7 @@
 ---
 title: "Supergirl Isn't That Bad"
-excerpt: "It just isn't that good. It's mid, but given how good Superman was, mid hits a little harder than it otherwise would."
-last_modified_at: 2026-07-01T15:51:29
+excerpt: "It's mid, but given how good Superman was, mid hits a little harder than it otherwise would."
+last_modified_at: 2026-07-01T16:09:56
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -51,7 +51,7 @@ Reality, as it often is, is far more boring. The truth is, [*Supergirl*](https:/
 
 [*Madame Web*](https://en.wikipedia.org/wiki/Madame_Web_(film)) was that bad. There's not much to appreciate there. Not in a fun way. Not in a "well, at least they tried something weird" way. Just bad.
 
-[*Morbius*](https://en.wikipedia.org/wiki/Morbius_(film)) was that bad. Although it did give us some great memes, including [It's Morbin Time](https://knowyourmeme.com/memes/its-morbin-time), one can't deny that it was a disaster class of a film. There's nothing there. Nothing redeemable, nothing to give you hope, just Jared Leto and [all the strangeness that comes with him](https://www.google.com/search?q=weird+stuff+Jared+Leto+has+done+and+said&sca_esv=a6fae943e924d981&sxsrf=APpeQnvzNBZbIFTidM7QdtJ2Arohl4ZWKQ%3A1782915353782&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832QGGMdFXpDyzkQgEdtB8w9y513h_dJNevWM0LJgfK9j10QT4427mlOcJZp94RFv3ZlcmSaWMK94EzlVkt6GcuJz-V39aB5tlb-s2hwEgo8qiKbL3JGj6v_Epl4coXUvlTHMklBowN8mBkdB0BLbPO1cz9TBV5kQQaKBkdb3hXrxCI6Ce1A&aep=1&ntc=1&sa=X&ved=2ahUKEwi9kc6i1bGVAxUsSjABHQQJFF8Q2J8OegQIEhAD&biw=1536&bih=791.2000122070312&dpr=1.25&sourceid=chrome&ccb=1&cs=0&hl=en-US&mstk=AUtExfAWJ25m6rDjrML_N-tY89fs_9ydjAZhZuT2yZ8d02bw-_-9EgLx6asEUpEV1u4rrhBtTCTD_jWfKDxK_4WtGgq517fnjXxLERvw_4nh4ehQUOJ-HEkm9b9DZX1JMfI10y2tQPxBBSZOi-IZss5FnC4gUYV5vji_AtY&csuir=1).
+[*Morbius*](https://en.wikipedia.org/wiki/Morbius_(film)) was that bad. Although it did give us some great memes ([stay morbin friends](https://knowyourmeme.com/memes/its-morbin-time)), one can't deny that it was a disaster class of a film. There's nothing there. Nothing redeemable, nothing to give you hope, just Jared Leto and [all the strangeness that comes with him](https://www.google.com/search?q=weird+stuff+Jared+Leto+has+done+and+said&sca_esv=a6fae943e924d981&sxsrf=APpeQnvzNBZbIFTidM7QdtJ2Arohl4ZWKQ%3A1782915353782&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832QGGMdFXpDyzkQgEdtB8w9y513h_dJNevWM0LJgfK9j10QT4427mlOcJZp94RFv3ZlcmSaWMK94EzlVkt6GcuJz-V39aB5tlb-s2hwEgo8qiKbL3JGj6v_Epl4coXUvlTHMklBowN8mBkdB0BLbPO1cz9TBV5kQQaKBkdb3hXrxCI6Ce1A&aep=1&ntc=1&sa=X&ved=2ahUKEwi9kc6i1bGVAxUsSjABHQQJFF8Q2J8OegQIEhAD&biw=1536&bih=791.2000122070312&dpr=1.25&sourceid=chrome&ccb=1&cs=0&hl=en-US&mstk=AUtExfAWJ25m6rDjrML_N-tY89fs_9ydjAZhZuT2yZ8d02bw-_-9EgLx6asEUpEV1u4rrhBtTCTD_jWfKDxK_4WtGgq517fnjXxLERvw_4nh4ehQUOJ-HEkm9b9DZX1JMfI10y2tQPxBBSZOi-IZss5FnC4gUYV5vji_AtY&csuir=1).
 
 <div class="notice--primary" markdown="1">
 **An Aside:** As strange as [Jared Leto](https://en.wikipedia.org/wiki/Jared_Leto) is, I've got something of a soft spot for the man because of his glory days as lead singer of [Thirty Seconds to Mars](https://en.wikipedia.org/wiki/Thirty_Seconds_to_Mars).
