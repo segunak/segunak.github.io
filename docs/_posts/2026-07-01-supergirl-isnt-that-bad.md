@@ -1,6 +1,6 @@
 
 
-I want to sue 
+I want to use 
 
 /assets/images/supergirl-banner.webp as the teaser and overlay image.
 
@@ -32,12 +32,16 @@ As strange as Jared Leto is, I've got something of a soft spot for the man becau
 
 I couild keep going. [Suicide Squad](https://en.wikipedia.org/wiki/Suicide_Squad_(2016_film)) (the first one, which funny enough also featured Jared Leto doing a tgerrible job) was that abad. [Batman vs. Superman: Dawn of Justice](https://en.wikipedia.org/wiki/Batman_v_Superman:_Dawn_of_Justice) was that bad. [Ant-Man and the Wasp: Quantumania](https://en.wikipedia.org/wiki/Ant-Man_and_the_Wasp:_Quantumania) was that bad, so bad [I ranted about](https://segunakinyemi.com/blog/antman-quantamania-kang-the-conqueror/). [Thor: Love and Thunder](https://en.wikipedia.org/wiki/Thor:_Love_and_Thunder) was that bad, so much so that it had me [questining how the MCU even works](https://segunakinyemi.com/blog/what-is-a-god-mcu/).
 
+And maybe for the best comparsioin, we have the second entry in the MCU. [The Incredible Hulk](https://en.wikipedia.org/wiki/The_Incredible_Hulk_(film)), where you know, Edward Norton played the character before being swapped out with Mark Ruffalo, in part because the movie was bad. Supergirl, the second entry in the still nascent [DCU](https://en.wikipedia.org/wiki/DC_Universe_(franchise)), is better than the second entry of the MCU, which we know went on to be the greatest francishe in cinema history (don't @ me, it's true, triolgieis aren't a franchise, so Lord of the Rings and The Dark Knight and the OG Spiderman are out, and then Star Wars is hurt by the Sequel Triolgoy being trash (leave my Prequels alone they're flawed but wonderful in their own way) so the MCU is the greatest **franchise** ever in movie history, argue with yourself)
+
 But Supergirl? Supergirl isn't that bad. It's just not that good is the thing. I dont' know if that makes sense to you? Like it isn't _that bad_, it's just not _that good_.
 
 After Superman, which was a great movie, Supergirl was just meh. Without spoiling anything, Milly Alcock is fanatastic in the reole, she is the right cast for Supergirl, but the story itself. It's just kind of romping frokm scene to scence with little to keep you more than surface level invested in the story as thigns go along. And the villai is pretty milquetoast. The only strong thought I had about him the whole tiem was wondering how it is he can tank a punch from Supergirl **after** she got the chance to soak up some Vitamin D, like who is this guy and if he can go toe to toe with a full powered Kyprtonian why is he so bland. ANother thing is how bleh the color pallete of the movie ois. While [Sueprman](https://en.wikipedia.org/wiki/Superman_(2025_film)) was bright and colforful and full of lfie, Supergirl stylistcally was drab. I mean the universe felt lived in for sure, but devoid of the comic book "pop" that SUperman had that was so well receige ved by udiances, such as myself, that were quite sick and tired of the grimdark take. but on a good note, the scences with Superman are great, Krypto the Superdog is fun in the moments that he's in the film, Jason Momoa is fun as Lobo, the aliens look great, just as good as Star Wars OT stuff, Catina vibes, and Milly Alcock as supergirl is not the problem at all.
 
+(Oh and find some way to weavfe into the above that the graphic novel the movie is basedo n, [Supergirl Woman of TOmmrowr](https://www.dc.com/graphic-novels/supergirl-woman-of-tomorrow-2021/supergirl-woman-of-tomorrow), is extermely colorful and full of virbant scneery which makes the chocie to amke the film dull and gray even more appalling )
+
 So I'm trying nto to say too much to discoruage you from going to see it because it really is not a bad movie. If you went to go see any of the other films I mentioend in this blog post, you should go see supergirl. You wasted your money on all those other ones, you won't be wasting your money here. In fact, I'd say for most fans who don't overanalyze thigns and aren't super online, the film is enteinrtining enough to not even come across as bad in any way. IF yo uwatch it and don' tgo read other opeopels opinions i Think you'll be like "taht was good" and forget about the movie in a month or so, because it doesn't give you a lot to mediate on afterwaredss.
 
-All that said, I stand bay this.
+All that said, I stand by the very simple premise of this article. Supergirl wasn't that bad. Firing James Gunn and Peter Safran would be an overreaction. Can you imagine if Kevin Feige got fired afther The Incredible Hulk came out and was trash? We would've missed out on a generational run.
 
-Supergirl wasn't that bad.
+Calm down. Let them cook.
