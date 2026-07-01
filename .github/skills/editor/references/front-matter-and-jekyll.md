@@ -85,7 +85,7 @@ If several post front matter blocks changed, pass each file or scan the whole po
 ruby .\.github\skills\editor\scripts\check-front-matter.rb .\docs\_posts
 ```
 
-If the validator fails, fix the front matter before reporting the work as complete. Do not run a Jekyll build or Jekyll serve command from this skill. The author handles live local validation manually.
+If the validator fails, fix the front matter before considering the work complete. Do not run a Jekyll build or Jekyll serve command from this skill. The author handles live local validation manually.
 
 Keep `last_modified_at:` present but blank while drafting or preparing a post. Do not manually invent or fill this timestamp during normal writing, polishing, or publication preparation. The versioned Git pre-commit hook at [`.githooks/pre-commit`](../../../../.githooks/pre-commit) updates `last_modified_at` automatically for staged Markdown files under [docs/_posts](../../../../docs/_posts/) when a commit is made. If the hook is not running in a fresh clone, run `git config core.hooksPath .githooks` from the repository root.
 

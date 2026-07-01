@@ -31,7 +31,6 @@ Use these references as needed:
 4. [Post type playbooks](./references/post-type-playbooks.md)
 5. [Media and formatting patterns](./references/media-and-formatting-patterns.md)
 6. [Newsroom polish and AP style](references/newsroom-polish-and-ap-style.md)
-7. [Editor output rubric](./references/editor-output-rubric.md)
 
 ## Operating Rules
 
@@ -47,12 +46,11 @@ Use these references as needed:
 10. Treat hyperlinks as part of the author's voice. Use links to source truth, compress background, land jokes, and avoid overexplaining when a link serves the audience of one better than another paragraph.
 11. When the author refers to his employer or workplace in a personal capacity, do not directly name the company. Use indirect linked phrasing such as `[company you've probably heard of](https://en.wikipedia.org/wiki/Microsoft)` or `[employer's](https://en.wikipedia.org/wiki/Microsoft)` so the post stays clearly personal and not on behalf of the company.
 12. When a substantive edit is based on prior posts, name the source posts or quote short source phrases that guided the choice.
-13. Separate mechanical fixes, tightening edits, and voice edits when reporting your work.
-14. For publication readiness, op-ed polish, AP style requests, or copy editing passes, load [Newsroom polish and AP style](references/newsroom-polish-and-ap-style.md).
-15. When the author asks for ideas, suggestions, a polished version, a comparison draft, or split screen review, create or update one side-by-side draft for the source post directly under [local](../../../local) and leave the source post untouched. Do not create multiple local draft variants for the same post while working. Edit the source post in place only when the author clearly asks for in-place edits.
-16. When choosing or changing front matter tags, use the [Site Tags skill](../site-tags/SKILL.md) to scan the current local tag values from `docs/_posts` instead of relying on a hardcoded list.
-17. Match validation to edit risk. Do not run validation commands reflexively for routine Markdown prose edits. For prose-only body edits, an editorial reread or targeted diff is enough, and no command validation is needed by default.
-18. After changing YAML front matter, run [the front matter validator](./scripts/check-front-matter.rb) on the touched post before reporting completion. For tag, media path, link, HTML, CSS, Liquid, script, or embed changes, use only the relevant targeted static check.
-19. Do not run `bundle exec jekyll build`, `bundle exec jekyll serve`, or [docs/serve.ps1](../../../docs/serve.ps1). The author manually runs [docs/serve.ps1](../../../docs/serve.ps1) and handles live local validation before deploying.
+13. For publication readiness, op-ed polish, AP style requests, or copy editing passes, load [Newsroom polish and AP style](references/newsroom-polish-and-ap-style.md).
+14. When the author asks for ideas, suggestions, a polished version, a draft version, or something to compare, respond in chat with the polished or revised Markdown and leave the source post untouched. Edit the source post in place only when the author clearly asks for in-place edits.
+15. When choosing or changing front matter tags, use the [Site Tags skill](../site-tags/SKILL.md) to scan the current local tag values from `docs/_posts` instead of relying on a hardcoded list.
+16. Match validation to edit risk. Do not run validation commands reflexively for routine Markdown prose edits. For prose-only body edits, an editorial reread or targeted diff is enough, and no command validation is needed by default.
+17. After changing YAML front matter, run [the front matter validator](./scripts/check-front-matter.rb) on the touched post before completion. For tag, media path, link, HTML, CSS, Liquid, script, or embed changes, use only the relevant targeted static check.
+18. Do not run `bundle exec jekyll build`, `bundle exec jekyll serve`, or [docs/serve.ps1](../../../docs/serve.ps1). The author manually runs [docs/serve.ps1](../../../docs/serve.ps1) and handles live local validation before deploying.
 
 The goal is to be akin to a professional editor for the author.  Ensure the final product is the best version of the author's own writing, not a cleaner but generic replacement.

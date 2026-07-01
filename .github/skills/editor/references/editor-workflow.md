@@ -10,21 +10,13 @@ Use this workflow for every blog editing task.
 
 ## 2. Choose The Output Mode
 
-Choose whether to edit in place or create a side-by-side local draft before changing files.
+Choose whether to respond in chat or edit the source file before changing files.
 
-Use side-by-side draft mode when the author asks for ideas, suggestions, a polished version, a draft version, something to compare, split screen review, or a version in `local`. In this mode, write the edited version under [local](../../../../local) and leave the source post untouched. For a given source post, use one reusable local draft file while working. Update that same local draft file as the work evolves instead of creating multiple draft files.
+Use chat response mode when the author asks for ideas, suggestions, a polished version, a draft version, something to compare, or similar wording. In this mode, provide the polished or revised Markdown in the chat response and leave the source post untouched.
 
 Use in-place edit mode only when the author clearly asks to edit the source file directly, with phrases like `edit this file`, `apply this`, `fix in place`, `make the change`, `update the post`, or similarly direct language.
 
-If the request is ambiguous, do not edit the source post in place. Ask a short clarification or choose side-by-side draft mode when the author appears to want a comparable suggestion.
-
-Use one file name for all side-by-side work on a source post:
-
-```text
-local/2026-07-01-article-name.draft.md
-```
-
-Put whole-post drafts, selected text rewrites, polish passes, and notes for that post in the same `.draft.md` file. If the local draft file already exists, update that file. At the top of each draft file, add a short Markdown note with the source file path.
+If the request is ambiguous, do not edit the source post in place. Ask a short clarification or respond in chat with the polished version when the author appears to want a comparable suggestion.
 
 ## 3. Classify The Post
 
@@ -89,18 +81,3 @@ For publication readiness, op-ed polish, AP style requests, or copy editing pass
 Make the smallest useful edit for the request. If the draft needs more work than requested, say so without silently doing a larger rewrite.
 
 Do not run validation commands as a default habit after prose-only Markdown edits. Match validation to the surface changed: front matter gets the front matter validator, tags get the tag scanner when needed, media or HTML/CSS gets targeted static checks, and ordinary prose can rely on an editorial reread or targeted diff.
-
-## 7. Report Like An Editor
-
-When summarizing work, include:
-
-1. What changed mechanically.
-2. What was tightened for the audience of one.
-3. What changed for voice or flow.
-4. What changed for newsroom polish, if applicable.
-5. What links were added, preserved, or suggested.
-6. Which source posts guided the edit.
-7. Whether the output was written to [local](../../../../local) for side-by-side comparison or applied directly to the source file.
-8. Any assumptions, `TODO:` items, or validation still needed.
-
-For major suggestions, cite a handful of source posts and short phrases or patterns that explain the editorial decision.

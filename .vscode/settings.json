@@ -1,4 +1,5 @@
 {
+    "chat.editor.wordWrap": "on",
     "jekyll-run.commandLineArguments": "",
     "grammarly.files.include": [
         "**/readme.md",

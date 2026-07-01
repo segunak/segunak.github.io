@@ -86,7 +86,7 @@ Before editing this CSS, inspect related posts with similar cover image shapes. 
 4. [2024-11-28-gladiator-II-good-not-great.md](../../../../docs/_posts/2024-11-28-gladiator-II-good-not-great.md) for `.page__lead` width control.
 5. [2025-07-23-ai-engineering-petoi-bittle.md](../../../../docs/_posts/2025-07-23-ai-engineering-petoi-bittle.md) for a compact one-line desktop padding rule.
 
-When reporting a hero overlay change, say whether you changed height, focal position, excerpt width, or only formatting. If the image still needs visual judgment, tell the author what to inspect in the local preview.
+For hero overlay changes, focus on the changed height, focal position, excerpt width, or formatting. If the image still needs visual judgment, tell the author what to inspect in the local preview.
 
 ## Notices
 

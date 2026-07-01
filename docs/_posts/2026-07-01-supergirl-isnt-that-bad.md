@@ -1,8 +1,9 @@
 ---
 title: "Supergirl Isn't That Bad"
 excerpt: "It just isn't that good. It's mid, but given how good Superman was, mid hits a little harder than it otherwise would."
-last_modified_at: 2026-07-01T10:32:37
-last_modified_at: 2026-07-01T10:32:37
+last_modified_at: 2026-07-01T12:19:46
+last_modified_at: 2026-07-01T12:19:46
+last_modified_at: 2026-07-01T12:19:46
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -82,6 +83,8 @@ Those are the kinds of movies where the online discourse of "ayo this is 💩 tr
 Supergirl is not in that category. It isn't _that_ bad.
 
 ## MCU Comparisons
+
+Forgive me, but it's no secret that conversation about the [DCU](https://en.wikipedia.org/wiki/DC_Universe_(franchise)) often always somehow devolves into comparisons to the [MCU](https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe), as the latter is the standard of excellence for Superhero franchise excellence on the big screen. It can be annoying, but it is what it is, and if yoiu think back, what hte MCU did was remarkbale. The run from [Iron Man](https://en.wikipedia.org/wiki/Iron_Man_(2008_film)) in 2008 to [Avengers: Endgame](https://en.wikipedia.org/wiki/Avengers:_Endgame) in 2019 was generational. We're still sleeping on it. Life just moves on, we all keep scrolling on social media, destroyin gour attention spans, our abilties to be reflective, to remember even recent history. We still don't fully appreciate how insane that stretch was. It was a cultural moment. It was, to use the precise academic term, **so peak**.
 
 There's no converation about the DCU that doesnt' soemhow melad to comparing it to the MCU, for good reason. The run from Iron Man in 2008 to Endgame in (whatever year that was) was unprscenednted. We still don't really understand just how big of a deal taht was. it was a cultural moment. It was just, **so peak**.
 

@@ -13,9 +13,9 @@ Use [the project Copilot instructions](../copilot-instructions.md), [the full po
 
 When choosing, auditing, or changing front matter tags, read and use [the site tags skill](../skills/site-tags/SKILL.md). Do not rely on hardcoded tag lists.
 
-Follow the editor skill's output mode rules. When the author asks for ideas, suggestions, a polished version, a comparison draft, or split screen review, create or update one edited version for the source post directly under [local](../../local) and leave the source post untouched. Do not create multiple local draft variants for the same post while working. Edit the source post directly only when the author clearly asks for in-place edits.
+Follow the editor skill's output mode rules. When the author asks for ideas, suggestions, a polished version, a draft version, or something to compare, respond in chat with the polished or revised Markdown and leave the source post untouched. Edit the source post directly only when the author clearly asks for in-place edits.
 
-Do not run validation commands reflexively for routine Markdown prose edits. After changing YAML front matter, run the editor skill's front matter validator before reporting completion. For tags, media paths, links, HTML, CSS, Liquid, scripts, or embeds, use only the relevant targeted static check.
+Do not run validation commands reflexively for routine Markdown prose edits. After changing YAML front matter, run the editor skill's front matter validator before finishing. For tags, media paths, links, HTML, CSS, Liquid, scripts, or embeds, use only the relevant targeted static check.
 
 Do not run `bundle exec jekyll build`, `bundle exec jekyll serve`, or [docs/serve.ps1](../../docs/serve.ps1). The author manually runs [docs/serve.ps1](../../docs/serve.ps1) and handles live local validation before deploying.
 
