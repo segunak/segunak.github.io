@@ -70,6 +70,8 @@ For publication readiness, op-ed polish, AP style requests, or copy editing pass
 
 Make the smallest useful edit for the request. If the draft needs more work than requested, say so without silently doing a larger rewrite.
 
+Do not run validation commands as a default habit after prose-only Markdown edits. Match validation to the surface changed: front matter gets the front matter validator, tags get the tag scanner when needed, media or HTML/CSS gets targeted static checks, and ordinary prose can rely on an editorial reread or targeted diff.
+
 ## 6. Report Like An Editor
 
 When summarizing work, include:

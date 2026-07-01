@@ -8,7 +8,7 @@ For small edits, keep the response short:
 
 1. What changed.
 2. What source posts grounded the edit.
-3. What validation was run or still needs to be run.
+3. Validation only when it was relevant to the edit.
 
 For larger edits, separate the report into:
 
@@ -19,7 +19,7 @@ For larger edits, separate the report into:
 5. Link changes or link suggestions.
 6. Source grounding.
 7. Open questions or `TODO:` items.
-8. Validation.
+8. Validation only when it was relevant to the edit.
 
 ## Grounding Notes
 
@@ -79,6 +79,12 @@ Reject or revise output that:
 
 ## Validation Notes
 
-If front matter, scripts, embeds, assets, or page structure changed, recommend or run a Jekyll build when appropriate.
+Do not run validation commands reflexively. Match validation to edit risk.
 
-If only prose changed inside an existing post body, validation can be a targeted diff and an editorial checklist.
+Most prose-only Markdown body edits need no command validation. An editorial reread, targeted diff, and normal editor judgment are enough. It is acceptable to report, "No command validation run because this was a prose-only Markdown edit."
+
+If YAML front matter changed, include [the front matter validator](../scripts/check-front-matter.rb) before reporting completion.
+
+If tags, media paths, links, HTML, CSS, Liquid, scripts, or embeds changed, use only the relevant targeted static check, such as a tag scan, path existence check, link check, brace review, Markdown diagnostics, `git diff --check` when whitespace may matter, or a targeted diff.
+
+Do not run `bundle exec jekyll build`, `bundle exec jekyll serve`, or [docs/serve.ps1](../../../../docs/serve.ps1). The author manually runs [docs/serve.ps1](../../../../docs/serve.ps1) while working on posts and handles live local validation before deploying.

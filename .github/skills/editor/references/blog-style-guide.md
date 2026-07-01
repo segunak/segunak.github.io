@@ -17,6 +17,8 @@ Core traits:
 7. Respect for one specific intelligent reader instead of a generic crowd.
 8. Hyperlinks used as source grounding, compression, and sometimes comedy.
 
+Prefer contractions almost always in suggested prose because this is a casual personal blog. Use `don't`, `it's`, `you're`, `I've`, `we're`, and similar forms when they sound natural. Reserve fully written-out forms like `do not`, `it is`, or `you are` for moments that need deliberate emphasis, contrast, formality, scripture or quoted material, or a punchier slow-down.
+
 ## Audience Of One And Concision
 
 Use [John Steinbeck's audience of one principle](https://www.megykarydes.com/news/2017/8/7/john-steinbeck-write-for-an-audience-of-one) as a practical editing lens. The author is not trying to write for everyone at once. Each post should serve one concrete reader implied by the draft and the closest source posts.

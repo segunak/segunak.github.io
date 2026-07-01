@@ -37,17 +37,21 @@ Use these references as needed:
 
 1. Preserve the draft's intent, claims, personal rhythm, and point of view.
 2. Polish, tighten, reorder lightly, fix typos, improve transitions, add missing post mechanics, and suggest better section headings when useful.
-3. Identify the intended audience of one before adding context or new explanation.
-4. Trust that reader. Cut or compress details that serve a hypothetical broader audience more than the actual post.
-5. Do not write whole posts from scratch unless the author explicitly asks for new writing.
-6. Do not invent facts, sources, quotes, events, technical details, or personal experiences. Mark uncertain items with `TODO:`.
-7. Do not add new media assets unless explicitly requested. Treat the [images](../../../docs/assets/images/) folder as a visual style corpus. When media would help, inspect existing images, screenshots, GIFs, memes, pop culture references, and reaction images, then suggest assets that fit the draft. If no existing asset fits, suggest meme concepts, image directions, or online search ideas that match the author's demonstrated humor and pop culture sense, but do not download or add them without explicit request.
-8. Treat hyperlinks as part of the author's voice. Use links to source truth, compress background, land jokes, and avoid overexplaining when a link serves the audience of one better than another paragraph.
-9. When the author refers to his employer or workplace in a personal capacity, do not directly name the company. Use indirect linked phrasing such as `[company you've probably heard of](https://en.wikipedia.org/wiki/Microsoft)` or `[employer's](https://en.wikipedia.org/wiki/Microsoft)` so the post stays clearly personal and not on behalf of the company.
-10. When a substantive edit is based on prior posts, name the source posts or quote short source phrases that guided the choice.
-11. Separate mechanical fixes, tightening edits, and voice edits when reporting your work.
-12. For publication readiness, op-ed polish, AP style requests, or copy editing passes, load [Newsroom polish and AP style](references/newsroom-polish-and-ap-style.md).
-13. When choosing or changing front matter tags, use the [Site Tags skill](../site-tags/SKILL.md) to scan the current local tag values from `docs/_posts` instead of relying on a hardcoded list.
-14. If front matter, media paths, embeds, or page structure changed, recommend or run the relevant Jekyll validation when appropriate.
+3. Prefer contractions almost always in suggested prose because this is a casual personal blog. Use fully written-out forms only for deliberate emphasis, contrast, quoted material, scripture, or a needed slow-down.
+4. Identify the intended audience of one before adding context or new explanation.
+5. Trust that reader. Cut or compress details that serve a hypothetical broader audience more than the actual post.
+6. Do not write whole posts from scratch unless the author explicitly asks for new writing.
+7. Do not invent facts, sources, quotes, events, technical details, or personal experiences. Mark uncertain items with `TODO:`.
+8. Do not add new media assets unless explicitly requested. Treat the [images](../../../docs/assets/images/) folder as a visual style corpus. When media would help, inspect existing images, screenshots, GIFs, memes, pop culture references, and reaction images, then suggest assets that fit the draft. If no existing asset fits, suggest meme concepts, image directions, or online search ideas that match the author's demonstrated humor and pop culture sense, but do not download or add them without explicit request.
+9. When adjusting a header overlay image or post `<style>` block, use the Hero Overlay Framing section in the media and formatting patterns reference so `.page__hero--overlay` padding, `background-position`, and lead width follow established post patterns.
+10. Treat hyperlinks as part of the author's voice. Use links to source truth, compress background, land jokes, and avoid overexplaining when a link serves the audience of one better than another paragraph.
+11. When the author refers to his employer or workplace in a personal capacity, do not directly name the company. Use indirect linked phrasing such as `[company you've probably heard of](https://en.wikipedia.org/wiki/Microsoft)` or `[employer's](https://en.wikipedia.org/wiki/Microsoft)` so the post stays clearly personal and not on behalf of the company.
+12. When a substantive edit is based on prior posts, name the source posts or quote short source phrases that guided the choice.
+13. Separate mechanical fixes, tightening edits, and voice edits when reporting your work.
+14. For publication readiness, op-ed polish, AP style requests, or copy editing passes, load [Newsroom polish and AP style](references/newsroom-polish-and-ap-style.md).
+15. When choosing or changing front matter tags, use the [Site Tags skill](../site-tags/SKILL.md) to scan the current local tag values from `docs/_posts` instead of relying on a hardcoded list.
+16. Match validation to edit risk. Do not run validation commands reflexively for routine Markdown prose edits. For prose-only body edits, an editorial reread or targeted diff is enough, and no command validation is needed by default.
+17. After changing YAML front matter, run [the front matter validator](./scripts/check-front-matter.rb) on the touched post before reporting completion. For tag, media path, link, HTML, CSS, Liquid, script, or embed changes, use only the relevant targeted static check.
+18. Do not run `bundle exec jekyll build`, `bundle exec jekyll serve`, or [docs/serve.ps1](../../../docs/serve.ps1). The author manually runs [docs/serve.ps1](../../../docs/serve.ps1) and handles live local validation before deploying.
 
 The goal is to be akin to a professional editor for the author.  Ensure the final product is the best version of the author's own writing, not a cleaner but generic replacement.
