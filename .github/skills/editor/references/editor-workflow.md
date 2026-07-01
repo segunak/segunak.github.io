@@ -8,7 +8,25 @@ Use this workflow for every blog editing task.
 2. Preserve the draft's thesis, sequence of thought, jokes, and emotional center unless Segun explicitly requests a restructure.
 3. Decide whether the request is a light polish, a structure pass, a mechanics pass, or a full publication readiness pass.
 
-## 2. Classify The Post
+## 2. Choose The Output Mode
+
+Choose whether to edit in place or create a side-by-side local draft before changing files.
+
+Use side-by-side draft mode when the author asks for ideas, suggestions, a polished version, a draft version, something to compare, split screen review, or a version in `local`. In this mode, write the edited version under [local](../../../../local) and leave the source post untouched. For a given source post, use one reusable local draft file while working. Update that same local draft file as the work evolves instead of creating multiple draft files.
+
+Use in-place edit mode only when the author clearly asks to edit the source file directly, with phrases like `edit this file`, `apply this`, `fix in place`, `make the change`, `update the post`, or similarly direct language.
+
+If the request is ambiguous, do not edit the source post in place. Ask a short clarification or choose side-by-side draft mode when the author appears to want a comparable suggestion.
+
+Use one file name for all side-by-side work on a source post:
+
+```text
+local/2026-07-01-article-name.draft.md
+```
+
+Put whole-post drafts, selected text rewrites, polish passes, and notes for that post in the same `.draft.md` file. If the local draft file already exists, update that file. At the top of each draft file, add a short Markdown note with the source file path.
+
+## 3. Classify The Post
 
 Classify the draft before editing. The categories below are common starting points from the current corpus, not limits on future topics:
 
@@ -23,7 +41,7 @@ Classify the draft before editing. The categories below are common starting poin
 
 If the draft does not fit these categories, name a new working category based on the draft itself. Then choose source posts by shared structure, tone, audience, or mechanics instead of forcing a topical match.
 
-## 3. Identify The Audience Of One
+## 4. Identify The Audience Of One
 
 Before editing for structure or adding context, identify the one concrete reader implied by the draft.
 
@@ -42,7 +60,7 @@ Do not make the post serve everyone. If the draft explains basics only because a
 
 The author tends to be detail oriented. Treat concision as an editorial service, not as a voice eraser. Tighten excess detail while preserving rhythm, humor, and the author's natural explanatory style.
 
-## 4. Ground In The Corpus
+## 5. Ground In The Corpus
 
 The full corpus is [the full _posts corpus](../../../../docs/_posts). Read the corpus index or search within it, then choose two to five related posts.
 
@@ -58,7 +76,7 @@ Do not rely on generic writing instincts before checking the corpus. The corpus 
 
 For publication readiness, op-ed polish, AP style requests, or copy editing passes, also load [Newsroom polish and AP style](./newsroom-polish-and-ap-style.md) after grounding in the draft and corpus.
 
-## 5. Edit In Layers
+## 6. Edit In Layers
 
 1. Mechanical pass: typos, Markdown, links, headings, front matter, scripts, media, notices, and obvious syntax.
 2. Clarity pass: sentence order, paragraph breaks, repeated wording, missing transitions, and mobile readability.
@@ -72,7 +90,7 @@ Make the smallest useful edit for the request. If the draft needs more work than
 
 Do not run validation commands as a default habit after prose-only Markdown edits. Match validation to the surface changed: front matter gets the front matter validator, tags get the tag scanner when needed, media or HTML/CSS gets targeted static checks, and ordinary prose can rely on an editorial reread or targeted diff.
 
-## 6. Report Like An Editor
+## 7. Report Like An Editor
 
 When summarizing work, include:
 
@@ -82,6 +100,7 @@ When summarizing work, include:
 4. What changed for newsroom polish, if applicable.
 5. What links were added, preserved, or suggested.
 6. Which source posts guided the edit.
-7. Any assumptions, `TODO:` items, or validation still needed.
+7. Whether the output was written to [local](../../../../local) for side-by-side comparison or applied directly to the source file.
+8. Any assumptions, `TODO:` items, or validation still needed.
 
 For major suggestions, cite a handful of source posts and short phrases or patterns that explain the editorial decision.

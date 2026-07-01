@@ -19,7 +19,8 @@ For larger edits, separate the report into:
 5. Link changes or link suggestions.
 6. Source grounding.
 7. Open questions or `TODO:` items.
-8. Validation only when it was relevant to the edit.
+8. Output mode: local side-by-side draft or in-place source edit.
+9. Validation only when it was relevant to the edit.
 
 ## Grounding Notes
 
