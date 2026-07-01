@@ -1,7 +1,7 @@
 ---
 title: "Supergirl Isn't That Bad"
 excerpt: "It just isn't that good. It's mid, but given how good Superman was, mid hits a little harder than it otherwise would."
-last_modified_at: 2026-07-01T15:22:32
+last_modified_at: 2026-07-01T15:51:29
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -122,11 +122,11 @@ The villain doesn't help. He's milquetoast, and the only strong thought I had ab
 
 But more than that, the color palette of the film might be my biggest gripe. [*Superman*](https://en.wikipedia.org/wiki/Superman_(2025_film)) was bright, colorful, and full of life. *Supergirl*, stylistically, is drab. That choice is especially strange because the graphic novel the movie is based on, [*Supergirl: Woman of Tomorrow*](https://www.dc.com/graphic-novels/supergirl-woman-of-tomorrow-2021/supergirl-woman-of-tomorrow), is extremely colorful and full of vibrant scenery.
 
-Taking that source material and making the film look so dull was certainly [*one of the decisions of all time*](https://www.google.com/search?q=one+of+the+decisions+of+all+time+phrase+meaning&sca_esv=84ffccbe4f1301cb&rlz=1C1HKFL_enUS1218US1218&sxsrf=APpeQnvp3DC98FHWWb3u4OBUzdNjpL3Ktg%3A1782930079166&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cn05EoNqnRUpRtqDK_L3JtdOuIEOJ1nHhG8N6Kw1G1-9sWzOSSwbrTQkS3BTxvxD2TgtVnWiBeZ2UK1DaxpwVSyftlnVYpm6ICwAdzLgeAdWYDeCB6357FlEOXmpHc9VcTbkv0n4iJgm0l9lbj_ludqa20LR2zT-hYP4ifND-3H_easXsryg5SNjax02ypLzQBJ0Ing&aep=1&ntc=1&sa=X&ved=2ahUKEwiLspyQjLKVAxWD5ckDHSPMJzEQ2J8OegQIEhAD&biw=1536&bih=791.2000122070312&dpr=1.25&sourceid=chrome&ccb=1&cs=0&hl=en-US&mstk=AUtExfCYnn1bJxqrOz-5a27_6dUtVKTor1GAMO1pSvVk3PbsyG-V1yixHfW9P1YTSZ5DD7toP8vvlvN6vM34lfIhRaGoDxk7RJp4wLqM7g8iBBPvrgcHAt8uUSyv95VyD3de1nAlPdAHug_SyM93yITduIcIQNg_pgbKkMHBxX1PGJVOeWYT9PJ9794vD7wa7UIC1oR6EZ9YfSj7RABCCohuEPkfd06k3B-3CcMQnZzcHCe2VDz4CZAf7ENW57_BHtXi4vENEsMZQSbPekeJ03gy4nJXB13lLEC5wVs&csuir=1). The universe feels lived in, sure, but it's missing the comic book pop that made *Superman* feel so refreshing, especially for those of us who were sick and tired of grimdark superhero movies. Life already sucks, let the movies be bright, colorful, and hopeful PLEASE!
+Taking that source material and making the film look so dull was certainly [*one of the decisions of all time*](https://www.google.com/search?q=one+of+the+decisions+of+all+time+phrase+meaning&sca_esv=84ffccbe4f1301cb&rlz=1C1HKFL_enUS1218US1218&sxsrf=APpeQnvp3DC98FHWWb3u4OBUzdNjpL3Ktg%3A1782930079166&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cn05EoNqnRUpRtqDK_L3JtdOuIEOJ1nHhG8N6Kw1G1-9sWzOSSwbrTQkS3BTxvxD2TgtVnWiBeZ2UK1DaxpwVSyftlnVYpm6ICwAdzLgeAdWYDeCB6357FlEOXmpHc9VcTbkv0n4iJgm0l9lbj_ludqa20LR2zT-hYP4ifND-3H_easXsryg5SNjax02ypLzQBJ0Ing&aep=1&ntc=1&sa=X&ved=2ahUKEwiLspyQjLKVAxWD5ckDHSPMJzEQ2J8OegQIEhAD&biw=1536&bih=791.2000122070312&dpr=1.25&sourceid=chrome&ccb=1&cs=0&hl=en-US&mstk=AUtExfCYnn1bJxqrOz-5a27_6dUtVKTor1GAMO1pSvVk3PbsyG-V1yixHfW9P1YTSZ5DD7toP8vvlvN6vM34lfIhRaGoDxk7RJp4wLqM7g8iBBPvrgcHAt8uUSyv95VyD3de1nAlPdAHug_SyM93yITduIcIQNg_pgbKkMHBxX1PGJVOeWYT9PJ9794vD7wa7UIC1oR6EZ9YfSj7RABCCohuEPkfd06k3B-3CcMQnZzcHCe2VDz4CZAf7ENW57_BHtXi4vENEsMZQSbPekeJ03gy4nJXB13lLEC5wVs&csuir=1). The universe feels lived in, sure, but it's missing the comic book pop that made *Superman* feel so refreshing, especially for those of us who are sick and tired of grimdark superhero movies. Life already sucks, let the movies be bright, colorful, and hopeful PLEASE!
 
 ## Still Worth Seeing
 
-It's not all bad though, there's still plenty in the film that works. The scenes with Superman are great. Krypto the Superdog is fun whenever he shows up. Jason Momoa is fun as Lobo. The aliens look great, in that original *Star Wars* cantina kind of way. And most importantly, Milly Alcock as Supergirl is not the problem at all. She feels right for the role. It's the movie around her that's a letdown.
+It's not all bad though, there's still plenty in the film that works. The scenes with Superman are great. Krypto the Superdog is fun whenever he shows up. Jason Momoa is fun as Lobo. The aliens look great, in that original *Star Wars* cantina kind of way. And most importantly, Milly Alcock as Supergirl is not a problem. She feels right for the role. It's the movie around her that's a letdown.
 
 If you were thinking about seeing the film, I hope this article hasn't discouraged you. It really isn't a bad movie. If you paid to see any of the other films I mentioned in this post, you should absolutely go see *Supergirl*. You wasted your money on those. You won't be wasting your money here. Not entirely at least.
 
