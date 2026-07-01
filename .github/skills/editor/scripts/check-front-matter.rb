@@ -70,6 +70,7 @@ def validate_indentation(front_matter)
   errors = []
   context = nil
   block_scalar_indent = nil
+  top_level_keys = Hash.new(0)
 
   front_matter.lines.each_with_index do |raw_line, index|
     line_number = index + 2
@@ -98,6 +99,7 @@ def validate_indentation(front_matter)
       end
 
       key = line.split(':', 2).first
+      top_level_keys[key] += 1
       context = key
       block_scalar_indent = indent if block_scalar_header?(line)
       next
@@ -115,6 +117,10 @@ def validate_indentation(front_matter)
     end
 
     block_scalar_indent = indent if block_scalar_header?(line)
+  end
+
+  top_level_keys.each do |key, count|
+    errors << "duplicate top-level key `#{key}` appears #{count} times" if count > 1
   end
 
   errors

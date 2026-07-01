@@ -1,10 +1,7 @@
 ---
 title: "Supergirl Isn't That Bad"
 excerpt: "It just isn't that good. It's mid, but given how good Superman was, mid hits a little harder than it otherwise would."
-last_modified_at: 2026-07-01T15:18:55
-last_modified_at: 2026-07-01T15:18:55
-last_modified_at: 2026-07-01T15:18:55
-last_modified_at: 2026-07-01T15:18:55
+last_modified_at: 2026-07-01T15:22:32
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
