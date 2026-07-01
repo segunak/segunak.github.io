@@ -1,0 +1,77 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+timestamp="$(date '+%Y-%m-%dT%H:%M:%S')"
+updated=0
+
+staged_posts="$(git diff --cached --name-only --diff-filter=ACM -- 'docs/_posts/*.md')"
+
+if [ -z "$staged_posts" ]; then
+  exit 0
+fi
+
+while IFS= read -r file; do
+  [ -n "$file" ] || continue
+  [ -f "$file" ] || continue
+
+  if ! git diff --quiet -- "$file"; then
+    echo "pre-commit: $file has unstaged changes." >&2
+    echo "pre-commit: stage or stash them before committing so last_modified_at can be updated safely." >&2
+    exit 1
+  fi
+
+  if [ "$(sed -n '1p' "$file")" != "---" ]; then
+    echo "pre-commit: skipping $file because it does not start with YAML front matter." >&2
+    continue
+  fi
+
+  tmp="$(mktemp)"
+
+  awk -v ts="$timestamp" '
+    BEGIN { in_front_matter = 0; updated = 0 }
+
+    NR == 1 && $0 == "---" {
+      in_front_matter = 1
+      print
+      next
+    }
+
+    in_front_matter && $0 == "---" {
+      if (!updated) {
+        print "last_modified_at: " ts
+        updated = 1
+      }
+      in_front_matter = 0
+      print
+      next
+    }
+
+    in_front_matter && $0 ~ /^last_modified_at:/ {
+      print "last_modified_at: " ts
+      updated = 1
+      next
+    }
+
+    in_front_matter && !updated && $0 ~ /^excerpt:/ {
+      print
+      print "last_modified_at: " ts
+      updated = 1
+      next
+    }
+
+    { print }
+  ' "$file" > "$tmp"
+
+  if ! cmp -s "$file" "$tmp"; then
+    mv "$tmp" "$file"
+    git add "$file"
+    updated=1
+    echo "pre-commit: updated last_modified_at in $file"
+  else
+    rm "$tmp"
+  fi
+done <<< "$staged_posts"
+
+if [ "$updated" -eq 1 ]; then
+  echo "pre-commit: staged updated last_modified_at values."
+fi

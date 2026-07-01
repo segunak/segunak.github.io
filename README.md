@@ -16,3 +16,13 @@ For example:
 - <https://segunakinyemi.com/ai-interview-workshop>
 
 No CNAME files or custom domain settings needed in those repos.
+
+## Local Git Hooks
+
+This repository uses a versioned Git hook in [.githooks](.githooks/) to update `last_modified_at` for staged posts in [docs/_posts](docs/_posts/) before commits.
+
+Run this once after cloning:
+
+```bash
+git config core.hooksPath .githooks
+```
