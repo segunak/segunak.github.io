@@ -1,7 +1,7 @@
 ---
 title: "Supergirl Isn't That Bad"
 excerpt: "It's mid, but given how good Superman was, mid hits a little harder than it otherwise would."
-last_modified_at: 2026-07-02T07:13:56
+last_modified_at: 2026-07-02T07:15:01
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -138,7 +138,7 @@ Which is fine. Not every movie needs to rearrange your soul. Sometimes "good eno
 
 All that said, I stand by the very simple premise of this article.
 
-*Supergirl* isn't that bad.
+*Supergirl* isn't *that* bad.
 
 To bring it back to the MCU comparison from earlier, imagine if Kevin Feige had been fired after *The Incredible Hulk* came out and stumbled. We would've missed out on a generational run because people panicked too early.
 
