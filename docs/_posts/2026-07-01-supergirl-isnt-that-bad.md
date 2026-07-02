@@ -1,7 +1,7 @@
 ---
 title: "Supergirl Isn't That Bad"
 excerpt: "It's mid, but given how good Superman was, mid hits a little harder than it otherwise would."
-last_modified_at: 2026-07-01T16:09:56
+last_modified_at: 2026-07-02T07:13:56
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -74,7 +74,7 @@ Anyways, I could keep going...and I will.
 
 [*Suicide Squad*](https://en.wikipedia.org/wiki/Suicide_Squad_(2016_film)), the first one, which funny enough also featured Jared Leto doing a terrible job, was that bad. [*Batman v Superman: Dawn of Justice*](https://en.wikipedia.org/wiki/Batman_v_Superman:_Dawn_of_Justice) was that bad. [*Ant-Man and the Wasp: Quantumania*](https://en.wikipedia.org/wiki/Ant-Man_and_the_Wasp:_Quantumania) was that bad, so bad [I ranted about it](https://segunakinyemi.com/blog/antman-quantamania-kang-the-conqueror/). [*Thor: Love and Thunder*](https://en.wikipedia.org/wiki/Thor:_Love_and_Thunder) was that bad, so much so that it had me [questioning how the MCU even works](https://segunakinyemi.com/blog/what-is-a-god-mcu/).
 
-Those are the kinds of movies where the online discourse of "ayo this is 💩 trash" makes sense. You can hardly even defend those films. They're train wrecks.
+Those are the kinds of movies where the online discourse of "ayo this 💩 is trash" makes sense. You can hardly even defend those films. They're train wrecks.
 
 *Supergirl* is not in that category. It isn't *that* bad.
 
