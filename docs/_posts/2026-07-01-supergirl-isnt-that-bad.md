@@ -1,7 +1,7 @@
 ---
 title: "Supergirl Isn't That Bad"
 excerpt: "It's mid, but given how good Superman was, mid hits a little harder than it otherwise would."
-last_modified_at: 2026-07-02T07:15:01
+last_modified_at: 2026-07-03T13:23:43
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -140,8 +140,8 @@ All that said, I stand by the very simple premise of this article.
 
 *Supergirl* isn't *that* bad.
 
-To bring it back to the MCU comparison from earlier, imagine if Kevin Feige had been fired after *The Incredible Hulk* came out and stumbled. We would've missed out on a generational run because people panicked too early.
+To bring it back to the MCU comparison from earlier, imagine if [Kevin Feige](https://en.wikipedia.org/wiki/Kevin_Feige) had been fired after *The Incredible Hulk* came out and stumbled. We would've missed out on a generational run because people panicked too early.
 
-Firing James Gunn and Peter Safran over *Supergirl* would be an overreaction. The movie is mid. That's not the same thing as catastrophic.
+Firing [James Gunn](https://en.wikipedia.org/wiki/James_Gunn) and [Peter Safran](https://en.wikipedia.org/wiki/Peter_Safran) over *Supergirl* would be an overreaction. The movie is mid. That's not the same thing as catastrophic.
 
 Calm down. Let them cook.
