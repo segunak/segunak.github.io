@@ -3,6 +3,8 @@ name: Pages Build and Deployment
 on:
   push:
     branches: [master]
+    paths:
+      - "docs/**"
   workflow_dispatch:
 
 permissions:
