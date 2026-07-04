@@ -8,6 +8,12 @@ on:
     # The America/New_York gate below skips whichever UTC run is not currently 2 PM ET.
     - cron: "0 19 * * 0"
   workflow_dispatch:
+    inputs:
+      aw_context:
+        default: "{}"
+        description: "Agent caller context (used internally by Agentic Workflows)."
+        required: false
+        type: string
 permissions:
   contents: read
   pull-requests: read
@@ -17,7 +23,6 @@ timeout-minutes: 90
 engine: copilot
 tools:
   github:
-    github-token: ${{ secrets.DEPENDABOT_REPAIR_TOKEN }}
     toolsets: [dependabot, repos, pull_requests]
   bash:
     - "bundle:*"
@@ -38,7 +43,6 @@ tools:
 network:
   allowed: [defaults, github, go, node, python, ruby]
 safe-outputs:
-  github-token: ${{ secrets.DEPENDABOT_REPAIR_TOKEN }}
   create-pull-request:
     title-prefix: "[dependabot-alert-repair] "
     labels: [dependencies, security]
