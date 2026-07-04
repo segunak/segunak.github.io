@@ -143,6 +143,12 @@
   margin: 0 1em 1.25em 1em;
 }
 
+@media (min-width: 768px) {
+  .quote-container--odd blockquote:last-child {
+    grid-column: 1 / -1;
+  }
+}
+
 @media (max-width: 575.98px) {
   .quote-container {
     grid-template-columns: repeat(1, 1fr);

@@ -11,7 +11,7 @@
   /*
     Sorts blockquotes inside .quote-container by character length so that
     similarly sized quotes sit next to each other in the 2-column grid.
-    If the count is odd, the longest quote is moved out below the container.
+    If the count is odd, CSS spans the longest quote below the paired grid.
     Migrated verbatim (in spirit) from the inline script that used to live
     in _posts/2022-06-21-favorite-quotes.md.
   */
@@ -20,12 +20,7 @@
     if (!quoteContainer) return;
 
     const blockquotes = Array.from(quoteContainer.querySelectorAll('blockquote'));
-
-    if (blockquotes.length % 2 !== 0) {
-      const lastBlockquote = blockquotes.pop();
-      quoteContainer.removeChild(lastBlockquote);
-      quoteContainer.parentNode.insertBefore(lastBlockquote, quoteContainer.nextSibling);
-    }
+    quoteContainer.classList.toggle('quote-container--odd', blockquotes.length % 2 !== 0);
 
     blockquotes.sort((a, b) => a.innerText.length - b.innerText.length);
     blockquotes.forEach(blockquote => quoteContainer.appendChild(blockquote));

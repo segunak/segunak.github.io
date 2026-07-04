@@ -13,7 +13,9 @@ classes: wide
 ---
 
 <link rel="stylesheet" href="/assets/css/library.css">
+<link rel="stylesheet" href="/assets/css/quotes.css">
 <script src="/assets/js/dynamic-link-targeting.js"></script>
+<script src="/assets/js/random-quote-button.js"></script>
 <script src="/assets/js/library.js" defer></script>
 
 Welcome to my digital library. Books I'm reading, quotes I love, all in one place. **Pick a tab** and have a look around!
@@ -355,7 +357,30 @@ As much as I love that quote, there's someone I love a lot more who said somethi
 
 All that being said, enjoy the rest of some of my favorite quotes below!
 
-## The Quotes
+## Random Quote
+
+If you want a quick pull from my stash of favorite quotes, use the button below.
+
+<div class="random-quote-box">
+  <div id="random-quote-wrapper">
+  <blockquote id="random-quote-display">
+        <p>The greatest weapon against stress is our ability to choose one thought over another.</p>
+        <cite><a href="https://www.goodreads.com/quotes/120416-the-greatest-weapon-against-stress-is-our-ability-to-choose" target="_blank">William James</a></cite>
+  </blockquote>
+  </div>
+  <div id="quote-buttons">
+    <button class="btn" id="twitter-share-button">
+      <a href="https://twitter.com/intent/tweet?text=Hello%20there!"
+          data-size="large"
+          target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </button>
+    <button class="btn" id="random-quote-btn">New Quote</button>
+  </div>
+</div>
+
+## My Favorite Quotes
 
 <div class="quote-container" markdown="1">
 

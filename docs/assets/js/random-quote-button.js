@@ -4,7 +4,24 @@ document.addEventListener('DOMContentLoaded', function () {
         const twitterShareButton = document.querySelector('#twitter-share-button');
         const quoteButtonsExist = randomBtn !== null && twitterShareButton !== null;
 
+        function updateQuoteWrapperState() {
+            const quoteWrapper = document.querySelector('#random-quote-wrapper');
+
+            if (quoteWrapper === null) {
+                return;
+            }
+
+            quoteWrapper.classList.add('random-quote-wrapper--scrollable');
+            quoteWrapper.scrollTop = 0;
+
+            const quoteOverflows = quoteWrapper.scrollHeight > quoteWrapper.clientHeight;
+            quoteWrapper.classList.toggle('random-quote-wrapper--scrollable', quoteOverflows);
+            quoteWrapper.scrollTop = 0;
+        }
+
         if (quoteButtonsExist) {
+            updateQuoteWrapperState();
+
             randomBtn.addEventListener('click', () => {
                 const quoteContainers = document.querySelectorAll('.quote-container');
                 const randomQuoteContainersIndex = Math.floor(Math.random() * quoteContainers.length);
@@ -13,6 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const randomQuote = quotes[randomQuoteIndex].innerHTML;
                 const quoteDisplay = document.querySelector('#random-quote-display');
                 quoteDisplay.innerHTML = randomQuote;
+                updateQuoteWrapperState();
             });
 
             twitterShareButton.addEventListener('click', () => {

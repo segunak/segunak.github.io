@@ -3,8 +3,10 @@
 
 .random-quote-box {
     border-radius: 3px;
+    display: flex;
+    flex-direction: column;
     position: relative;
-    margin: 2% auto auto auto;
+    margin: 2% auto auto 0;
     width: 90%;
     padding: 25px 25px;
     background-color: #fff;
@@ -17,15 +19,24 @@
 
 /* This is what keeps the buttons from jumping up and down when new quotes are phased in */
 #random-quote-wrapper {
-    height: 10em;
+    align-items: center;
+    display: flex;
+    height: 14em;
     overflow-y: auto;
 }
 
+#random-quote-wrapper.random-quote-wrapper--scrollable {
+    align-items: flex-start;
+}
+
 #random-quote-display {
-    margin-bottom: 20px;
+    font-style: normal;
+    margin-bottom: 0;
+    margin-top: 0;
     opacity: 1;
     transition: all 0.8s cubic-bezier(0.44, 1.13, 0.58, 1);
     font-size: 18px;
+    width: 100%;
 
     /* X-Small devices (portrait phones, less than 576px) */
     @media (max-width: 575.98px) {
@@ -36,6 +47,10 @@
     @media (max-width: 767.98px) {
         font-size: 1em;
     }
+}
+
+#random-quote-display * {
+    font-style: normal;
 }
 
 #quote-buttons {
@@ -94,7 +109,7 @@ i.fa.fa-twitter {
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     #random-quote-wrapper {
-        height: 14em;
+        height: 18em;
     }
 
     .random-quote-box {
@@ -105,7 +120,7 @@ i.fa.fa-twitter {
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
     #random-quote-wrapper {
-        height: 14em;
+        height: 18em;
     }
 
     .random-quote-box {
