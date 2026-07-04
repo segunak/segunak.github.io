@@ -1,0 +1,61 @@
+name: Jekyll CI
+
+on:
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: jekyll-ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-serve:
+    name: Build and serve Jekyll site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.4"
+          bundler-cache: true
+          working-directory: docs
+
+      - name: Check bundle
+        working-directory: docs
+        run: bundle check
+
+      - name: Build site
+        working-directory: docs
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build
+
+      - name: Serve smoke test
+        working-directory: docs
+        run: |
+          set -euo pipefail
+
+          log_file="${RUNNER_TEMP}/jekyll-serve.log"
+          bundle exec jekyll serve --host 127.0.0.1 --port 4000 --no-watch > "${log_file}" 2>&1 &
+          server_pid=$!
+          trap 'kill "${server_pid}" 2>/dev/null || true' EXIT
+
+          for attempt in {1..30}; do
+            if curl --fail --silent --show-error http://127.0.0.1:4000/ > "${RUNNER_TEMP}/jekyll-home.html"; then
+              echo "Jekyll served successfully."
+              exit 0
+            fi
+
+            sleep 2
+          done
+
+          echo "Jekyll did not respond in time."
+          cat "${log_file}"
+          exit 1
