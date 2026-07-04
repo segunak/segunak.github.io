@@ -55,6 +55,7 @@ safe-outputs:
     recreate-ref: true
   noop:
     max: 1
+    report-as-issue: false
 ---
 
 # Dependabot Alert Repair
