@@ -2,7 +2,7 @@
 title: > 
   From Fearsome to Floundering: Kang the Conqueror's Disappointing Debut in 'Ant-Man and the Wasp: Quantumania'
 excerpt: "Jonathan Majors impresses as Kang the Conqueror, but the film's lackluster conclusion leaves Marvel's new lead antagonist ineffectual, unimposing, and hard to respect."
-last_modified_at: 2024-11-29T02:08:33
+last_modified_at: 2026-07-04T17:59:44
 classes: wide
 author_profile: false
 sidebar:
@@ -21,6 +21,7 @@ tags:
 ---
 
 <script src="/assets/js/dynamic-link-targeting.js"></script>
+<link rel="stylesheet" href="/assets/css/quotes.css">
 
 <style>
   /* Apply styles only on tablets and larger devices */
@@ -34,31 +35,8 @@ tags:
     width: 35%;
   }
 
-  .quote-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr;
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
-    justify-items: stretch;
-    align-items: stretch;
-  }
-
-  blockquote {
-    border-bottom: 1px solid #cecfd1;
-  }
-
   /* X-Small devices (portrait phones, less than 576px) */
   @media (max-width: 575.98px) {
-    .quote-container {
-      grid-template-columns: repeat(1, 1fr);
-    }
-
-    blockquote {
-      margin: 1em 0 1em 0;
-      border-bottom: 1px solid #cecfd1;
-    }
-
     .gifformat {
       width: 80%;
     }
@@ -66,15 +44,6 @@ tags:
 
   /* Small devices (landscape phones, less than 768px) */
   @media (max-width: 767.98px) {
-    .quote-container {
-      grid-template-columns: repeat(1, 1fr);
-    }
-
-    blockquote {
-      margin: 1em 0 1em 0;
-      border-bottom: 1px solid #cecfd1;
-    }
-
     .gifformat {
       width: 80%;
     }

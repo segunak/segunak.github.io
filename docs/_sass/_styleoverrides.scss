@@ -37,6 +37,12 @@ h3 blockquote {
   body:not(.wide) #main {
     max-width: calc(100vw - 180px);
   }
+
+  // When author_profile is false, no left sidebar renders and article.page is the first child.
+  // Let those pages reclaim the author-profile rail instead of keeping an empty gutter.
+  .layout--single #main > article.page:first-child {
+    width: 100%;
+  }
 }
 
 blockquote {
@@ -222,11 +228,16 @@ a.reversefootnote {
 
 /* Collapsible sections styling for both light and dark themes */
 details {
+  --details-padding: 0.7em;
   margin: 1em 0;
-  padding: 0.7em;
+  padding: 0;
   border-radius: 0.5em;
   overflow: hidden;
   position: relative;
+}
+
+details[open] {
+  padding: 0 var(--details-padding) var(--details-padding);
 }
 
 details p,
@@ -239,8 +250,8 @@ details summary {
   font-weight: bold;
   cursor: pointer;
   padding: 0.5em;
-  margin: -0.5em;
-  border-radius: 0.3em;
+  margin: 0;
+  border-radius: calc(0.5em - 1px);
   display: flex;
   align-items: center;
   list-style: none; /* Hide the default triangle */
@@ -264,7 +275,8 @@ details[open] summary::before {
 
 /* Add proper spacing between the summary button and content */
 details[open] summary {
-  margin-bottom: 1em;
+  margin: 0 calc(-1 * var(--details-padding)) var(--details-padding);
+  border-radius: calc(0.5em - 1px) calc(0.5em - 1px) 0 0;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   padding-bottom: 0.8em;
@@ -273,7 +285,13 @@ details[open] summary {
 /* Style for the content inside details */
 details > *:not(summary) {
   margin-top: 0.5em;
+  margin-right: 0;
   margin-left: 1em;
+}
+
+details > *:not(summary),
+details > *:not(summary) * {
+  transition: none !important;
 }
 
 details ul {

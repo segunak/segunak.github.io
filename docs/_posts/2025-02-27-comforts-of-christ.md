@@ -2,7 +2,7 @@
 title: "The Comforts of Christ"
 excerpt: "A catalog of comforting words spoken by Jesus Christ throughout the Bible."
 pinned: true
-last_modified_at: 2025-03-11T04:58:45
+last_modified_at: 2026-07-04T17:59:44
 toc: true
 toc_label: "On This Page"
 toc_icon: "book"
@@ -38,46 +38,8 @@ tags:
       }
   }
 
-  article.page {
-      width: 100%;
-  }
-
   .page__related {
     float: left;
-  }
-
-  .quote-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr;
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
-    justify-items: stretch;
-    align-items: start;
-  }
-
-  /* X-Small devices (portrait phones, less than 576px) */
-  @media (max-width: 575.98px) {
-    .quote-container {
-      grid-template-columns: repeat(1, 1fr);
-    }
-
-    blockquote {
-      margin: 1em 0 1em 0;
-      border-bottom: 1px solid #cecfd1;
-    }
-  }
-
-  /* Small devices (landscape phones, less than 768px) */
-  @media (max-width: 767.98px) {
-    .quote-container {
-      grid-template-columns: repeat(1, 1fr);
-    }
-
-    blockquote {
-      margin: 1em 0 1em 0;
-      border-bottom: 1px solid #cecfd1;
-    }
   }
 </style>
 

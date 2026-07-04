@@ -2,15 +2,18 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700);
 
 .random-quote-box {
-    border-radius: 3px;
+    border: 1px solid var(--random-quote-box-border, rgba(0, 146, 202, 0.28));
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
     position: relative;
-    margin: 2% auto auto 0;
-    width: 90%;
-    padding: 25px 25px;
-    background-color: #fff;
-    color: black;
+    box-sizing: border-box;
+    margin: 2% 0 0 0;
+    width: 100%;
+    padding: 24px;
+    background: var(--random-quote-box-bg, #ffffff);
+    color: var(--random-quote-box-color, #1f2528);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
 }
 
 .random-quote-box blockquote {
@@ -20,9 +23,28 @@
 /* This is what keeps the buttons from jumping up and down when new quotes are phased in */
 #random-quote-wrapper {
     align-items: center;
+    background: var(--random-quote-panel-bg, #f7fbfd);
+    border: 1px solid var(--random-quote-panel-border, rgba(0, 146, 202, 0.22));
+    border-radius: 8px;
     display: flex;
     height: 14em;
     overflow-y: auto;
+    padding: 32px 40px 32px 120px;
+    position: relative;
+}
+
+#random-quote-wrapper::before {
+    color: var(--random-quote-mark-color, rgba(0, 146, 202, 0.18));
+    content: "\201C";
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 9rem;
+    font-weight: 700;
+    left: 28px;
+    line-height: 0.8;
+    pointer-events: none;
+    position: absolute;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    top: 28px;
 }
 
 #random-quote-wrapper.random-quote-wrapper--scrollable {
@@ -34,19 +56,26 @@
     margin-bottom: 0;
     margin-top: 0;
     opacity: 1;
+    padding-bottom: 0;
+    padding-top: 0;
+    position: relative;
     transition: all 0.8s cubic-bezier(0.44, 1.13, 0.58, 1);
     font-size: 18px;
     width: 100%;
+    z-index: 1;
+}
 
-    /* X-Small devices (portrait phones, less than 576px) */
-    @media (max-width: 575.98px) {
-        font-size: 1em;
-    }
+#random-quote-display p {
+    margin: 0;
+}
 
-    /* Small devices (landscape phones, less than 768px) */
-    @media (max-width: 767.98px) {
-        font-size: 1em;
-    }
+#random-quote-display p + p {
+    margin-top: 0.9em;
+}
+
+#random-quote-display cite {
+    display: block;
+    margin-top: 1.25em;
 }
 
 #random-quote-display * {
@@ -106,14 +135,64 @@ i.fa.fa-twitter {
     outline: none;
 }
 
+.quote-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 1.5em;
+    justify-items: stretch;
+    align-items: start;
+    padding-top: 1.25em;
+}
+
+.quote-container blockquote {
+    align-self: start;
+    margin: 0 1em 1.5em 1em;
+    padding-block: 0;
+}
+
+.quote-container blockquote p:last-of-type {
+    margin-bottom: 0.5em;
+}
+
+.quote-container blockquote cite {
+    display: inline-block;
+    margin-top: 0.25em;
+}
+
+@media (min-width: 768px) {
+    .quote-container__quote--long,
+    .quote-container__quote--odd {
+        grid-column: 1 / -1;
+    }
+}
+
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     #random-quote-wrapper {
         height: 18em;
+        padding: 24px 22px;
+    }
+
+    #random-quote-wrapper::before {
+        display: none;
+    }
+
+    #random-quote-display {
+        font-size: 1em;
     }
 
     .random-quote-box {
         width: 100%;
+        padding: 18px;
+    }
+
+    .quote-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .quote-container blockquote {
+        margin: 1em 0 1em 0;
     }
 }
 
@@ -121,9 +200,27 @@ i.fa.fa-twitter {
 @media (max-width: 767.98px) {
     #random-quote-wrapper {
         height: 18em;
+        padding: 24px 22px;
+    }
+
+    #random-quote-wrapper::before {
+        display: none;
+    }
+
+    #random-quote-display {
+        font-size: 1em;
     }
 
     .random-quote-box {
         width: 100%;
+        padding: 18px;
+    }
+
+    .quote-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .quote-container blockquote {
+        margin: 1em 0 1em 0;
     }
 }

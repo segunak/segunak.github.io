@@ -8,7 +8,7 @@ header:
   og_image: /assets/images/cozy-reading-nook.jpeg
   overlay_image: /assets/images/cozy-reading-nook.jpeg
   overlay_filter: 0.6
-author_profile: true
+author_profile: false
 classes: wide
 ---
 
@@ -449,11 +449,6 @@ If you want a quick pull from my stash of favorite quotes, use the button below.
 > <cite>[Thomas à  Kempis in "The Imitation of Christ"](https://en.wikipedia.org/wiki/The_Imitation_of_Christ)</cite>
 
 
-> A thing isn't beautiful because it lasts.
->
-> <cite>[The Vision in "Avengers: Age of Ultron"](https://www.youtube.com/watch?v=SrSNQCa-C7A)</cite>
-
-
 > God's plan is like a beautiful tapestry. And the tragedy of being human is that we only get to see it from the back with all the ragged threads and the muddy colors. We don't get a hint at the true beauty that would be revealed if we could see the whole pattern... as God does.
 >
 > <cite>[Matt Murdock (Daredevil)](https://www.imdb.com/title/tt6741948/quotes/) in [Netflix's "Daredevil"](https://www.imdb.com/title/tt3322312)</cite>
@@ -477,6 +472,11 @@ If you want a quick pull from my stash of favorite quotes, use the button below.
 > We live in a society that likes to approach things from a utilitarian eye, and there are advantages to that... But our society treats art too utilitarianly. It doesn't look at the primary purpose of art, which is making the artist's life more enriched. It's sincerely what I believe the primary purpose is. It is to make your life better by creating something... They will ask you when you're going to sell your writing. They're going to ask you if you're published. And that's OK. But I want you to understand that's not why you have to write. In fact, it's probably not why you should write. Writing is good for you. Expressing yourself is good for you. Creating art is good for you.
 >
 > <cite>[Brandon Sanderson](https://en.wikipedia.org/wiki/Brandon_Sanderson) in ["The Philosophy of Professional Writing" Lecture at Brigham Young University in 2025](https://youtu.be/MEUh_y1IFZY?si=cFKFsBD2CG3KUVEt&t=852)</cite>
+
+
+> The poorest way to face life is to face it with a sneer. There are many men who feel a kind of twisted pride in cynicism; there are many who confine themselves to criticism of the way others do what they themselves dare not even attempt. There is no more unhealthy being, no man less worthy of respect, than he who either really holds, or feigns to hold, an attitude of sneering disbelief toward all that is great and lofty, whether in achievement or in that noble effort which, even if it fails, comes to second achievement. A cynical habit of thought and speech, a readiness to criticise work which the critic himself never tries to perform, an intellectual aloofness which will not accept contact with life's realities — all these are marks, not as the possessor would fain to think, of superiority but of weakness. They mark the men unfit to bear their part painfully in the stern strife of living, who seek, in the affection of contempt for the achievements of others, to hide from others and from themselves in their own weakness. The rôle is easy; there is none easier, save only the rôle of the man who sneers alike at both criticism and performance.
+>
+> <cite>[Theodore Roosevelt](https://www.goodreads.com/quotes/9243907-the-poorest-way-to-face-life-is-to-face-it)</cite>
 
 </div>
 
