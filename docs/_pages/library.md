@@ -384,6 +384,10 @@ If you want a quick pull from my stash of favorite quotes, use the button below.
 
 <div class="quote-container" markdown="1">
 
+> Comparison is the thief of joy.
+>
+> <cite>[Unknown](https://quoteinvestigator.com/2021/02/06/thief-of-joy/)</cite>
+
 > The greatest weapon against stress is our ability to choose one thought over another.
 >
 > <cite>[William James](https://www.goodreads.com/quotes/120416-the-greatest-weapon-against-stress-is-our-ability-to-choose)</cite>
