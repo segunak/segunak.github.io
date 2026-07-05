@@ -16,6 +16,7 @@ on:
         type: string
 permissions:
   contents: read
+  copilot-requests: write
   pull-requests: read
   security-events: read
   vulnerability-alerts: read
@@ -42,7 +43,10 @@ tools:
     - "yarn:*"
 network:
   allowed: [defaults, github, go, node, python, ruby]
+# safe-outputs are gh-aw's controlled write path: the agent asks for a PR, comment,
+# issue, or other GitHub action, then a separate permissioned job performs it.
 safe-outputs:
+  github-token: ${{ secrets.GH_AW_GITHUB_TOKEN }}
   create-pull-request:
     title-prefix: "[dependabot-alert-repair] "
     labels: [dependencies, security]
