@@ -388,9 +388,20 @@ If you want a quick pull from my stash of favorite quotes, use the button below.
 >
 > <cite>[Unknown](https://quoteinvestigator.com/2021/02/06/thief-of-joy/)</cite>
 
+
 > The greatest weapon against stress is our ability to choose one thought over another.
 >
 > <cite>[William James](https://www.goodreads.com/quotes/120416-the-greatest-weapon-against-stress-is-our-ability-to-choose)</cite>
+
+
+> For what is highly esteemed among men is an abomination in the sight of God.
+>
+> [Luke 16:15](https://www.biblegateway.com/passage/?search=Luke%2016%3A14-15&version=NKJV)
+
+
+> Jesus said to them, "Most assuredly, I say to you, before Abraham was, I AM."
+>
+> [John 8:58](https://www.biblegateway.com/passage/?search=John%208%3A50-58&version=NKJV)
 
 
 > We need to read - above all the Word of God, but also history and biographies and great novels. If we don't read, we condemn ourselves to chronic stupidity and a conditioning by mass media that have no sympathy for the things we believe. If we fill our heads with poison and junk, we make ourselves angry and dumb.
