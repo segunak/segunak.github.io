@@ -14,10 +14,10 @@ concurrency:
 
 jobs:
   build-and-serve:
-    name: Build and serve Jekyll site
+    name: Build and Serve Jekyll Site
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
       - name: Setup Ruby
@@ -27,17 +27,17 @@ jobs:
           bundler-cache: true
           working-directory: docs
 
-      - name: Check bundle
+      - name: Check Bundle
         working-directory: docs
         run: bundle check
 
-      - name: Build site
+      - name: Build Site
         working-directory: docs
         env:
           JEKYLL_ENV: production
         run: bundle exec jekyll build
 
-      - name: Serve smoke test
+      - name: Serve Smoke Test
         working-directory: docs
         run: |
           set -euo pipefail
