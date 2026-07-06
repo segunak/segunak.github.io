@@ -1,7 +1,7 @@
 ---
 title: "Supergirl Isn't That Bad"
 excerpt: "It's mid, but given how good Superman was, mid hits a little harder than it otherwise would."
-last_modified_at: 2026-07-03T18:43:12
+last_modified_at: 2026-07-06T12:39:06
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -33,6 +33,7 @@ tags:
 
 If your feed looks anything like mine, you've probably seen headlines like these:
 
+- [‘Supergirl’ Review: Milly Alcock Takes Charge in a Dystopian Superhero Movie So Flat It’s Super-Horrendous](https://variety.com/2026/film/reviews/supergirl-review-milly-alcock-1236788124/)
 - [Behind the ‘Supergirl’ Bomb: Competing Cuts, Creative Differences](https://www.hollywoodreporter.com/movies/movie-features/supergirl-making-box-office-bomb-1236636425/)
 - [How *Supergirl*'s Box Office Failure Could Reshape The Future Of James Gunn's DC Studios](https://www.slashfilm.com/2204407/james-gunn-supergirl-box-office-dc-studios-future/)
 - [Where Does DC Go After '*Supergirl*' Box Office Crash?](https://www.thewrap.com/creative-content/movies/supergirl-box-office-bomb-explained/)
