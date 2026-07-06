@@ -1,7 +1,7 @@
 ---
 title: "Supergirl Isn't That Bad"
 excerpt: "It's mid, but given how good Superman was, mid hits a little harder than it otherwise would."
-last_modified_at: 2026-07-06T12:39:06
+last_modified_at: 2026-07-06T12:39:32
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -33,13 +33,13 @@ tags:
 
 If your feed looks anything like mine, you've probably seen headlines like these:
 
-- [‘Supergirl’ Review: Milly Alcock Takes Charge in a Dystopian Superhero Movie So Flat It’s Super-Horrendous](https://variety.com/2026/film/reviews/supergirl-review-milly-alcock-1236788124/)
-- [Behind the ‘Supergirl’ Bomb: Competing Cuts, Creative Differences](https://www.hollywoodreporter.com/movies/movie-features/supergirl-making-box-office-bomb-1236636425/)
+- [‘Supergirl' Review: Milly Alcock Takes Charge in a Dystopian Superhero Movie So Flat It's Super-Horrendous](https://variety.com/2026/film/reviews/supergirl-review-milly-alcock-1236788124/)
+- [Behind the ‘Supergirl' Bomb: Competing Cuts, Creative Differences](https://www.hollywoodreporter.com/movies/movie-features/supergirl-making-box-office-bomb-1236636425/)
 - [How *Supergirl*'s Box Office Failure Could Reshape The Future Of James Gunn's DC Studios](https://www.slashfilm.com/2204407/james-gunn-supergirl-box-office-dc-studios-future/)
 - [Where Does DC Go After '*Supergirl*' Box Office Crash?](https://www.thewrap.com/creative-content/movies/supergirl-box-office-bomb-explained/)
-- [‘*Supergirl*’ Braces for $100 Million Loss: What DC Studios Should Learn From Its Box Office Bomb](https://variety.com/2026/film/box-office/supergirl-box-office-bomb-dc-studios-1236797855/)
+- [‘*Supergirl*' Braces for $100 Million Loss: What DC Studios Should Learn From Its Box Office Bomb](https://variety.com/2026/film/box-office/supergirl-box-office-bomb-dc-studios-1236797855/)
 - [*Supergirl* Will Lose Warner Bros. Over $125 Million](https://www.yahoo.com/entertainment/movies/articles/supergirl-lose-warner-bros-over-053611014.html)
-- [‘*Supergirl*’: DC Studios Boss “Confident” in Strategy Despite Film Opening Below Expectations](https://www.hollywoodreporter.com/movies/movie-news/supergirl-opening-box-office-dc-studios-peter-safran-1236632757/)
+- [‘*Supergirl*': DC Studios Boss “Confident” in Strategy Despite Film Opening Below Expectations](https://www.hollywoodreporter.com/movies/movie-news/supergirl-opening-box-office-dc-studios-peter-safran-1236632757/)
 
 I get why you might be thinking, man, is it really *that* bad of a movie?
 
