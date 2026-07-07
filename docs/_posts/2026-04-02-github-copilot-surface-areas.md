@@ -1,5 +1,5 @@
 ---
-title: "Should I Use GitHub Copilot in the CLI, VS Code, or the Web? It Hardly Matters. Context Engineering Makes the Difference."
+title: "Should I Use GitHub Copilot in the CLI, VS Code, or the Web? It Hardly Matters. Context Engineering Makes the Difference"
 excerpt: "GitHub Copilot Chat, CLI, and Cloud Agent are different doors to the same AI. The real lever for better output is Context Engineering, not which interface you type into."
 toc: true
 toc_sticky: true
