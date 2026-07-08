@@ -23,7 +23,7 @@ permissions:
 timeout-minutes: 90
 engine:
   id: copilot
-  model: opus
+  model: claude-opus-4.8
 tools:
   github:
     toolsets: [dependabot, repos, pull_requests]
