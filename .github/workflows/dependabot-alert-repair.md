@@ -21,7 +21,9 @@ permissions:
   security-events: read
   vulnerability-alerts: read
 timeout-minutes: 90
-engine: copilot
+engine:
+  id: copilot
+  model: agent?effort=high
 tools:
   github:
     toolsets: [dependabot, repos, pull_requests]
