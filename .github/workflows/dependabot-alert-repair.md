@@ -23,7 +23,7 @@ permissions:
 timeout-minutes: 90
 engine:
   id: copilot
-  model: agent
+  model: copilot
 tools:
   github:
     toolsets: [dependabot, repos, pull_requests]
