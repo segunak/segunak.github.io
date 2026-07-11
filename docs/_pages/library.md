@@ -493,6 +493,11 @@ If you want a quick pull from my stash of favorite quotes, use the button below.
 >
 > <cite>[Theodore Roosevelt](https://www.goodreads.com/quotes/9243907-the-poorest-way-to-face-life-is-to-face-it)</cite>
 
+
+> I cannot and will not recant anything, for to go against conscience is neither right nor safe. Here I stand, I can do no other, so help me God. Amen.
+>
+> <cite>[Martin Luther](https://www.goodreads.com/quotes/8031119-i-cannot-and-will-not-recant-anything-for-to-go)</cite>
+
 </div>
 
 </section>
