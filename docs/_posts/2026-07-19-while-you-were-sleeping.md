@@ -1,7 +1,7 @@
 ---
 title: "While You Were Sleeping (1995) Is The Most Ridiculous Rom-Com I've Ever Seen. I Loved It"
 excerpt: "Sandra Bullock turns an absurd case of mistaken identity into a warm story about loneliness, family, and finding love where least expected. It makes no sense. I loved it."
-last_modified_at: 2026-07-19T13:17:58
+last_modified_at: 2026-07-19T19:29:38
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -94,7 +94,7 @@ She goes from having nobody to having an entire family overnight. Literally. She
 
 The real love story in [*While You Were Sleeping*](https://en.wikipedia.org/wiki/While_You_Were_Sleeping_(film)) isn't only between Lucy and Jack Callaghan. It's between Lucy and the entire Callaghan family.
 
-The Callaghans don't merely make room for Lucy. Before long, she feels like family. Peter's godfather discovers that Lucy and Peter were never engaged. But he keeps her secret anyway because the lie gives the Callaghans hope that Peter has something worth waking up for. Meanwhile, Lucy fits so naturally into their lives that she already feels less like a stranger and more like a daughter. They need her, and she needs them.
+The Callaghans fully embrace Lucy, and before long, she feels like family. Peter's godfather discovers that Lucy and Peter were never engaged. But he keeps her secret anyway because the lie gives the Callaghans hope that Peter has something worth waking up for. Meanwhile, Lucy fits so naturally into their lives that she already feels less like a stranger and more like a daughter. They need her, and she needs them.
 
 Peter might be the reason she enters their lives, but the family is the reason she stays.
 
@@ -119,7 +119,7 @@ Sometimes, you even develop a crush.
 
 The problem with a commute crush is that if you shoot your shot and get rejected, you still have to see that person every day. Neither of you can avoid it. You both have jobs to get to, and now you're back on the same train the next morning thinking, man, I wish I hadn't done that.
 
-But if you never say anything, you'll never know if they feel the same. Shooters shoot, man.
+But if you never say anything, you'll never know if they feel the same. [Shooters shoot](https://www.urbandictionary.com/define.php?term=shooters+shoot).
 
 **An Aside:** I miss the years when I commuted by bus or train instead of driving everywhere. Charlotte, North Carolina, is a great city, but like much of the South, it's lagging behind the coasts when it comes to public transportation. I tried living here for a year without a car, but I couldn't make it work without basically limiting my life to neighborhoods along the [Rail Trail](https://www.charlottenc.gov/Growth-and-Development/Planning-and-Development/Common-Services/Rail-Trail).
 {: .notice--primary}
@@ -136,17 +136,17 @@ A ridiculous part of this film is what happens when the lie is finally exposed.
 
 Lucy confesses that she was never engaged to Peter, had never spoken to him before the accident, and had spent the previous several weeks deceiving the entire family. She also tells them she's in love with Jack (Peter's younger brother).
 
-But she doesn't just admit the lie. She opens up about how alone she was and how, for a little while, the misunderstanding allowed her to feel like a fiancee, a daughter, a granddaughter, a sister, and a friend. She essentially tells them, "I'm a lonely loser and I let this continue because it finally gave me a family."
+But she goes beyond just admitting the lie. She opens up about how alone she was and how, for a little while, the misunderstanding allowed her to feel like a fiancee, a daughter, a granddaughter, a sister, and a friend. She essentially tells them, "I'm a lonely loser and I let this continue because it finally gave me a family."
 
 The Callaghans are stunned. They ask why she never told them, but before anyone can fully process what she's saying, the wedding descends into even more chaos and Lucy slips away. Their forgiveness becomes clear later when the entire family helps Jack propose to her.
 
-In reality, any reasonable family would be livid. Some of them would probably be considering legal action. Peter is a wealthy, well connected lawyer with court side Bulls tickets, investments, and an apartment in Paris. Jack even jokes that if Peter were really engaged, he would've announced it in the *Chicago Tribune*. Yet here is Lucy, a complete stranger who let everyone believe she was his fiancee **while the man was in a coma**.
+In reality, any reasonable family would be livid. Some of them would probably be considering legal action. Peter is a wealthy, well connected lawyer with court side Bulls tickets, lofty investments, and an apartment in Paris. Jack even jokes that if Peter were really engaged, he would've announced it in the [*Chicago Tribune*](https://en.wikipedia.org/wiki/Chicago_Tribune). Yet here is Lucy, a complete stranger who let everyone believe she was his fiancee **while the man was in a coma**.
 
-Yet, the movie has the family basically go, "Well, we like you, so don't worry about it. Let's get you married to our other son!"
+In response to this revelation, instead of outrage, the movie has the family basically go, "Well, we like you, so don't worry about it. Let's get you married to our other son!"
 
-It's absurd, but it works because of how honest Lucy is about why she kept the lie going. She never intended to hurt anyone. She just wanted to feel loved.
+It's absurd, but it works because of how honest Lucy was about her motivations. She never intended to hurt anyone. She just wanted to feel loved.
 
-The way the family reacted to her confession reminds me of a Bible verse.
+The way the family reacted reminds me of a Bible verse.
 
 > People do not despise a thief if he steals to satisfy his hunger when he is starving.
 >
@@ -156,7 +156,7 @@ And boy, was Lucy **STARVING**.
 
 She was starving for connection, relationship, companionship, family, and love. The Callaghans can see that what she did was wrong without believing she did it maliciously. Lucy might have saved Peter's life on the tracks, but the Callaghans saved hers by giving her somewhere to belong.
 
-That doesn't erase the lie, but saving their son's life has to buy her some grace. They can only be so mad at her. Legally, their forgiveness makes little sense. Humanly though, I get it.
+That doesn't erase the lie, but saving their son's life buys her some grace. They can only be so mad at her. Legally, their forgiveness makes little sense. Humanly though, I get it. [A little bit of mercy goes a long way](https://www.biblegateway.com/passage/?search=Matthew%209%3A11-13&version=NKJV)!
 
 ## Some Movies Aren't Meant For Deep Introspection
 
@@ -170,9 +170,9 @@ But when I'm unwinding after work, I don't want entertainment that demands too m
 
 For example, I enjoy the [*Transformers*](https://en.wikipedia.org/wiki/Transformers_(film_series)) movies because I want to see robots fight and things blow up. The plot makes no sense, and I don't care. Just fight.
 
-Same with [*Dragon Ball Z*](https://en.wikipedia.org/wiki/Dragon_Ball_Z). Nobody watches it for nuanced storytelling. We're here to get stronger, overcome our limits, and beat the bad guy in epic fashion. Nothing fancy. Just go [Super Saiyan](https://www.youtube.com/watch?v=quvJvFO_9uA) and throw hands.
+Same with [*Dragon Ball Z*](https://en.wikipedia.org/wiki/Dragon_Ball_Z). Nobody watches it for nuanced storytelling. We watch to see [Goku](https://dragonball.fandom.com/wiki/Goku) get stronger, overcome his limits, and beat the bad guy in epic fashion. Nothing fancy. Just going [Super Saiyan](https://www.youtube.com/watch?v=quvJvFO_9uA) and throwing hands.
 
-And as much as I love science fiction and fantasy with deep lore, [there's a time for everything](https://www.biblegateway.com/passage/?search=Ecclesiastes%203&version=NIV). Sometimes it's time to not think too deep and just enjoy. *While You Were Sleeping* isn't one of the greatest movies ever made. It's probably not even in Sandra Bullock's top ten. But I smiled like an idiot the whole way through.
+And as much as I love science fiction and fantasy with deep lore, [there's a time for everything](https://www.biblegateway.com/passage/?search=Ecclesiastes%203&version=NIV). Sometimes it's time to just chill. *While You Were Sleeping* isn't one of the greatest movies ever made. It's probably not even in Sandra Bullock's top ten. But I smiled like an idiot the whole way through.
 
 I'm not handing out Oscars over here. Movies are about enjoyment. Sometimes that's enough.
 
@@ -183,11 +183,11 @@ I'm not handing out Oscars over here. Movies are about enjoyment. Sometimes that
 
 Apparently, I'm not the only person who was surprised by how much I enjoyed this movie.
 
-[Roger Ebert](https://en.wikipedia.org/wiki/Roger_Ebert) was one of the most influential film critics in American history and the first film critic to win a [Pulitzer Prize](https://en.wikipedia.org/wiki/Pulitzer_Prize) for criticism. In [his 1995 review](https://www.rogerebert.com/reviews/while-you-were-sleeping-1995) of [*While You Were Sleeping*](https://en.wikipedia.org/wiki/While_You_Were_Sleeping_(film)), he describes almost the exact experience I had. Ebert calls out the movie's obvious flaws, but by the end admits he was "still a little astonished how much I was enjoying it."
+[Roger Ebert](https://en.wikipedia.org/wiki/Roger_Ebert) was one of the most influential film critics in American history. In [his 1995 review](https://www.rogerebert.com/reviews/while-you-were-sleeping-1995) of [*While You Were Sleeping*](https://en.wikipedia.org/wiki/While_You_Were_Sleeping_(film)), he describes almost the exact experience I had. Ebert calls out the movie's obvious flaws, but by the end admits he was "still a little astonished how much I was enjoying it."
 
 Same, Roger. Same.
 
-If you're reading this and want to smile, be happy, and maybe shake your head at something ridiculous, check out [*While You Were Sleeping*](https://en.wikipedia.org/wiki/While_You_Were_Sleeping_(film)).
+If you're reading this and want to smile and maybe shake your head at something ridiculous, check out [*While You Were Sleeping*](https://en.wikipedia.org/wiki/While_You_Were_Sleeping_(film)).
 
 It's quite alright.
 
