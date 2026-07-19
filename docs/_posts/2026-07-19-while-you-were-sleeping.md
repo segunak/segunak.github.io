@@ -1,7 +1,7 @@
 ---
 title: "While You Were Sleeping (1995) Is The Most Ridiculous Rom-Com I've Ever Seen. I Loved It"
 excerpt: "Sandra Bullock turns an absurd case of mistaken identity into a warm story about loneliness, family, and finding love where least expected. It makes no sense. I loved it."
-last_modified_at: 2026-07-19T13:15:13
+last_modified_at: 2026-07-19T13:17:58
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -140,7 +140,7 @@ But she doesn't just admit the lie. She opens up about how alone she was and how
 
 The Callaghans are stunned. They ask why she never told them, but before anyone can fully process what she's saying, the wedding descends into even more chaos and Lucy slips away. Their forgiveness becomes clear later when the entire family helps Jack propose to her.
 
-In reality, any reasonable family would be livid. Some of them would probably be considering legal action. Peter is a wealthy, well connected lawyer with court side Bulls tickets, investments, and an apartment in Paris. Jack even jokes that if Peter were really engaged, he would've announced it in the *Chicago Tribune*. Yet here is Lucy, a complete stranger who let everyone believe she was his fiance **while the man was in a coma**.
+In reality, any reasonable family would be livid. Some of them would probably be considering legal action. Peter is a wealthy, well connected lawyer with court side Bulls tickets, investments, and an apartment in Paris. Jack even jokes that if Peter were really engaged, he would've announced it in the *Chicago Tribune*. Yet here is Lucy, a complete stranger who let everyone believe she was his fiancee **while the man was in a coma**.
 
 Yet, the movie has the family basically go, "Well, we like you, so don't worry about it. Let's get you married to our other son!"
 
