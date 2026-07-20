@@ -1,7 +1,7 @@
 ---
 title: "While You Were Sleeping (1995) Is The Most Ridiculous Rom-Com I've Ever Seen. I Loved It"
 excerpt: "Sandra Bullock turns an absurd case of mistaken identity into a warm story about loneliness, family, and finding love where least expected. It makes no sense. I loved it."
-last_modified_at: 2026-07-19T19:29:38
+last_modified_at: 2026-07-19T21:40:53
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -32,7 +32,7 @@ tags:
   }
 </style>
 
-**Warning:** This article contains major spoilers for the 1995 film [*While You Were Sleeping*](https://en.wikipedia.org/wiki/While_You_Were_Sleeping_(film)). If you haven't seen it, go watch it first. I mean it came out literally before I was born, so I feel like a spoiler warning isn't really needed, but the ridiculousness of the film is better experienced than explained. Also, it's a rom-com, so spoilers don't really matter. The plot is always predictable in those. You're watching for the vibes.
+**Warning:** This article contains major spoilers for the 1995 film [*While You Were Sleeping*](https://en.wikipedia.org/wiki/While_You_Were_Sleeping_(film)). If you haven't seen it, go watch it first. I mean it came out literally before I was born, so I feel like a spoiler warning isn't really needed, but the ridiculousness of the film is better experienced than explained. Also, it's a rom-com, so spoilers don't really matter. The plot is always predictable. You're watching for the vibes.
 {: .notice--warning}
 
 ## This Shouldn't Work
