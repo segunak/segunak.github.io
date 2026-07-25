@@ -1,7 +1,7 @@
 ---
 title: "While You Were Sleeping (1995) Is The Most Ridiculous Rom-Com I've Ever Seen. I Loved It"
 excerpt: "Sandra Bullock turns an absurd case of mistaken identity into a warm story about loneliness, family, and finding love where least expected. It makes no sense. I loved it."
-last_modified_at: 2026-07-19T21:40:53
+last_modified_at: 2026-07-25T12:15:43
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -62,7 +62,7 @@ So yeah. The mechanics are ridiculous, but the emotional beats aren't.
 
 [*While You Were Sleeping*](https://en.wikipedia.org/wiki/While_You_Were_Sleeping_(film)) predates social media, but make this same film today and Lucy would absolutely be a [doomscroller](https://en.wikipedia.org/wiki/Doomscrolling).
 
-She'd work her dead end job, go home to her cat, and lie alone in her [empty apartment](https://www.youtube.com/watch?v=Y1gHa6VZXqA), scrolling for hours through other people's ostensibly perfect lives. She'd watch family Christmas reels, engagement announcements, vacation videos, and couples wearing matching pajamas while having nothing even close to that in her own life. Nobody to even share her jealousy with. Misery without company.
+She'd work her dead end job, go home to her cat, and lie alone in her [empty apartment](https://www.youtube.com/watch?v=Y1gHa6VZXqA), scrolling for hours through other people's ostensibly perfect lives. She'd watch family Christmas reels, engagement announcements, vacation videos, and couples wearing matching pajamas while having nothing even close to that in her own life. Nobody to even share her jealousy with. [Misery](https://www.youtube.com/watch?v=aCyGvGEtOwc) without company.
 
 Lucy isn't just lonely. She's stalled. She carries a passport with no stamps in it, just in case she "suddenly needs to leave the country", and dreams of going to [Florence, Italy](https://en.wikipedia.org/wiki/Florence). But she never follows through. She plans vacations she doesn't take and always finds some reason why now isn't the right time.
 
