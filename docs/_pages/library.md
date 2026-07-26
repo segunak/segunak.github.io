@@ -394,6 +394,16 @@ If you want a quick pull from my stash of favorite quotes, use the button below.
 > <cite>[William James](https://www.goodreads.com/quotes/120416-the-greatest-weapon-against-stress-is-our-ability-to-choose)</cite>
 
 
+> If I were hungry, I would not tell you; For the world is Mine, and all its fullness.
+>
+> [Psalm 50:12](https://www.biblegateway.com/passage/?search=Psalm%2050%3A12&version=NKJV)
+
+
+> For my thoughts are not your thoughts, neither are your ways my ways, declares the Lord. As the heavens are higher than the earth, so are my ways higher than your ways and my thoughts than your thoughts.
+>
+> [Isaiah 55:8-9](https://www.biblegateway.com/passage/?search=Isaiah%2055%3A8-9&version=NIV)
+
+
 > For what is highly esteemed among men is an abomination in the sight of God.
 >
 > [Luke 16:15](https://www.biblegateway.com/passage/?search=Luke%2016%3A14-15&version=NKJV)
