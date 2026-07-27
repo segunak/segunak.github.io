@@ -22,13 +22,15 @@ Welcome! This page highlights various [stuff and thangs](https://www.google.com/
 
 - **[Carolina Youth Coalition](https://www.carolinayouth.org/):** I serve on their [Young Professionals Board](https://www.carolinayouth.org/yp) and volunteer as a writing coach helping students craft college essays and win scholarships. I also mentor students interested in tech careers. Working directly with students gives me unfiltered feedback on how CYC impacts their lives, and it's all positive. I've watched first-generation kids like me go from nothing to college degrees and careers that transform their families. CYC changes lives, and I encourage everyone to [get involved](https://www.carolinayouth.org/join-us)!
 
-Also be sure to connect with me on [LinkedIn](https://www.linkedin.com/in/segunakinyemi/) and check out my [GitHub](https://github.com/segunak) for more of what I've been up to lately.
+Also be sure to connect with me on [LinkedIn](https://www.linkedin.com/in/segunakinyemi/), check out my [GitHub](https://github.com/segunak), and subscribe to my [YouTube channel](https://www.youtube.com/@segun.akinyemi) for more of what I've been up to lately.
 
 ## Year by Year
 
 Scroll through to see what I've been up to [as the world spins madly on](https://www.youtube.com/watch?v=L4sa2HoXpsE).
 
 ### 2026
+
+- Spoke at the [SEO Career Summit 2026](https://career.seo-usa.org/career-summit/) in New York at [The Times Center](https://www.thetimescenter.com/). I gave an updated version of my [Agentic AI: From Acronyms to Applications](https://segunakinyemi.com/blog/agentic-ai-from-acronyms-to-applications/) talk to around 200 college students preparing for summer internships across business, finance, technology, marketing, and more. This version used interactive workplace scenarios to explain what Agentic AI can do, where it can go wrong, and why human judgment still matters. Check out the [slide deck](https://1drv.ms/p/c/750d396c5cadcebd/IQBwmTDFyBOlSYkFAeQFiGGkAdYyTeO4M7Akp8HAZ3HlG_Y?e=jJ4bNe), [full recording of the talk](https://youtu.be/o9cHtYimL0c), and a [testimonial from a student who attended my session](https://www.linkedin.com/feed/update/urn:li:activity:7466564386992861184).
 
 - Organized a Microsoft volunteer visit to [UNC Charlotte](https://en.wikipedia.org/wiki/University_of_North_Carolina_at_Charlotte) to record content for its [AI Assisted Software Development Online Degree Program](https://academics.charlotte.edu/program/computer-science-ai-assisted-software-engineering-concentration-b-a-online/). I coordinated with UNC Charlotte staff, pulled together Microsoft employees across different roles, created the slide deck and questions, managed the recording logistics, and helped turn the session into a career resource for students learning how AI is changing software work. Check out the [LinkedIn recap by Microsoft](https://www.linkedin.com/posts/microsoft_exploring-how-ai-is-shaping-industries-can-activity-7463574391981912069-z4n3), my article on why [coding is dead, but software engineering isn't](https://segunakinyemi.com/blog/coding-is-dead-software-engineering-isnt/), and [AI & Your Tech Career](https://aka.ms/nocap), the resource site I built for students trying to make sense of it all.
 
