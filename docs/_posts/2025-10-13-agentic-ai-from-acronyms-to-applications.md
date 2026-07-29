@@ -1,7 +1,7 @@
 ---
 title: "Agentic AI: From Acronyms to Applications"
 excerpt: "Everybody's talking but nobody's making sense. Let's demystify Agentic AI, its key differences from Generative AI, and its essential terms. Learn what RAG, MCP, GANs, RLHF and more actually mean in plain English. No jargon, no hype, just practical explanations for the curious mind."
-last_modified_at:
+last_modified_at: 2026-07-29T11:59:59
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -27,7 +27,7 @@ tags:
     }
 </style>
 
-You can skip the prologue and hop straight to the core concepts [by clicking here](#what-agentic-ai-is). This article is a companion piece to presentations delivered to [PMI Carolinas](https://pmicarolina.org/pdd-2025), the [Charlotte Women in Data Science (WiDS) Conference](https://wids.charlotte.edu/) at [UNC Charlotte](https://en.wikipedia.org/wiki/University_of_North_Carolina_at_Charlotte), and the [SEO Career Summit](https://career.seo-usa.org/career-summit/). You can check out the [PMI Carolinas deck here](https://1drv.ms/p/c/750d396c5cadcebd/ETOAltIn6FtErV2gWQYHlfkBg0uvsKEcp0QuaYnBgGm0og?e=diVNW4), the [WiDS Charlotte deck here](https://1drv.ms/p/c/750d396c5cadcebd/IQBTr0Er7OGZSYPxsMfkgORjAQp5HuUoO7BFG4Yl_PEZX5A), or the [SEO Career Summit deck here](https://1drv.ms/p/c/750d396c5cadcebd/IQBwmTDFyBOlSYkFAeQFiGGkAdYyTeO4M7Akp8HAZ3HlG_Y?e=jJ4bNe).
+You can skip the prologue and hop straight to the core concepts [by clicking here](#what-agentic-ai-is). This article is a companion piece to presentations delivered to [PMI Carolinas](https://pmicarolina.org/pdd-2025), the [Charlotte Women in Data Science (WiDS) Conference](https://wids.charlotte.edu/) at [UNC Charlotte](https://en.wikipedia.org/wiki/University_of_North_Carolina_at_Charlotte), the [SEO Career Summit](https://career.seo-usa.org/career-summit/), and the [SEO Tech Developer Conference](https://tech.seo-usa.org/). You can check out the [PMI Carolinas deck here](https://1drv.ms/p/c/750d396c5cadcebd/ETOAltIn6FtErV2gWQYHlfkBg0uvsKEcp0QuaYnBgGm0og?e=diVNW4), the [WiDS Charlotte deck here](https://1drv.ms/p/c/750d396c5cadcebd/IQBTr0Er7OGZSYPxsMfkgORjAQp5HuUoO7BFG4Yl_PEZX5A) the [SEO Career Summit deck here](https://1drv.ms/p/c/750d396c5cadcebd/IQBwmTDFyBOlSYkFAeQFiGGkAdYyTeO4M7Akp8HAZ3HlG_Y?e=jJ4bNe), or the [SEO TechDevCon deck here](https://1drv.ms/p/c/750d396c5cadcebd/IQBlE2SKOUcxRpnB-VjuWGfkAW0IWFjp7-B1Qc78JqxnFjw?e=zb8Xm2).
 {: .notice--info}
 
 ## Some Background
