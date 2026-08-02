@@ -394,11 +394,6 @@ If you want a quick pull from my stash of favorite quotes, use the button below.
 > <cite>[William James](https://www.goodreads.com/quotes/120416-the-greatest-weapon-against-stress-is-our-ability-to-choose)</cite>
 
 
-> If I were hungry, I would not tell you; For the world is Mine, and all its fullness.
->
-> [Psalm 50:12](https://www.biblegateway.com/passage/?search=Psalm%2050%3A12&version=NKJV)
-
-
 > For my thoughts are not your thoughts, neither are your ways my ways, declares the Lord. As the heavens are higher than the earth, so are my ways higher than your ways and my thoughts than your thoughts.
 >
 > [Isaiah 55:8-9](https://www.biblegateway.com/passage/?search=Isaiah%2055%3A8-9&version=NIV)
@@ -412,6 +407,11 @@ If you want a quick pull from my stash of favorite quotes, use the button below.
 > Jesus said to them, "Most assuredly, I say to you, before Abraham was, I AM."
 >
 > [John 8:58](https://www.biblegateway.com/passage/?search=John%208%3A50-58&version=NKJV)
+
+
+> These people draw near to Me with their mouth, and honor Me with their lips, but their heart is far from Me. And in vain they worship Me, teaching as doctrines the commandments of men.
+>
+> [Matthew 15:8-9](https://www.biblegateway.com/passage/?search=Matthew%2015%3A8-9&version=NKJV)
 
 
 > We need to read - above all the Word of God, but also history and biographies and great novels. If we don't read, we condemn ourselves to chronic stupidity and a conditioning by mass media that have no sympathy for the things we believe. If we fill our heads with poison and junk, we make ourselves angry and dumb.
