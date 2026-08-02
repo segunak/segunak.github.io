@@ -444,9 +444,9 @@ If you want a quick pull from my stash of favorite quotes, use the button below.
 > <cite>[A.W. Tozer in "The Purpose of Man: Designed to Worship"](https://www.google.com/search?q=The+Purpose+of+Man+A.W.+Tozer)</cite>
 
 
-> Religion that God our Father accepts as pure and faultless is this: to look after orphans and widows in their distress and to keep oneself from being polluted by the world.
+> Those who consider themselves religious and yet do not keep a tight rein on their tongues deceive themselves, and their religion is worthless. Religion that God our Father accepts as pure and faultless is this: to look after orphans and widows in their distress and to keep oneself from being polluted by the world.
 >
-> <cite>[James 1:27](https://www.biblegateway.com/passage/?search=James+1%3A27&version=NIV)</cite>
+> <cite>[James 1:27](https://www.biblegateway.com/passage/?search=James%201%3A26-27&version=NIV)</cite>
 
 
 > It is the mark of an educated mind to be able to entertain a thought without accepting it.
