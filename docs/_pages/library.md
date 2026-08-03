@@ -414,7 +414,7 @@ If you want a quick pull from my stash of favorite quotes, use the button below.
 > [Matthew 15:8-9](https://www.biblegateway.com/passage/?search=Matthew%2015%3A8-9&version=NKJV)
 
 
-> We need to read - above all the Word of God, but also history and biographies and great novels. If we don't read, we condemn ourselves to chronic stupidity and a conditioning by mass media that have no sympathy for the things we believe. If we fill our heads with poison and junk, we make ourselves angry and dumb.
+> We need to read - above all the Word of God, but also history and biographies and great novels. If we don't read, we condemn ourselves to chronic stupidity and a conditioning by mass media that have no sympathy for the things we believe. [...] If we fill our heads with poison and junk, we make ourselves angry and dumb.
 >
 > <cite>[Archbishop Charles Caput](https://catholicphilly.com/2017/07/homilies-speeches/whats-next-catholics-america-and-a-world-made-new/)</cite>
 
