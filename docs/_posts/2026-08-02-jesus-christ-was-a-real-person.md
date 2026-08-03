@@ -1,7 +1,7 @@
 ---
 title: "Jesus Christ Was a Real Person"
 excerpt: "Religion aside, the existence of Jesus Christ is a historical fact, though awareness of it may be fading with each new generation."
-last_modified_at: 2026-08-02T23:11:50
+last_modified_at: 2026-08-03T10:43:52
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -46,7 +46,9 @@ If you're reading this right now, that statement is true for me, you, and everyo
 
 If I say [Julius Caesar](https://en.wikipedia.org/wiki/Julius_Caesar) was a real person, nobody gets defensive, nobody bats an eye. Which is good, because he totally was. There's no doubt about it. Saying that Jesus Christ was a real person is the same level of factual. [That's not just like, uhhhh, my opinion, man](https://www.youtube.com/watch?v=j95kNwZw8YY), and I'm a bit shocked that a good number of people, particularly in the Western world, aren't aware of that.
 
-The debate surrounding Jesus is about whether the [New Testament](https://en.wikipedia.org/wiki/New_Testament) account of him is true. Did he really perform all those miracles? Was he actually the Son of God? Did he die for our sins? And most importantly, did he rise from the dead? But there's [no credible debate among scholars, including atheists and agnostics, about whether Jesus Christ existed](https://en.wikipedia.org/wiki/Historical_Jesus). There are plenty of [historical records for Jesus that aren't the Bible](https://en.wikipedia.org/wiki/Sources_for_the_historicity_of_Jesus).
+The debate surrounding Jesus is about whether the [New Testament](https://en.wikipedia.org/wiki/New_Testament) account of him is true. Did he really perform all those miracles? Was he actually the Son of God? Did he die for our sins? And most importantly, did he rise from the dead?
+
+But [there's no credible scholarly dispute over whether Jesus Christ existed](https://en.wikipedia.org/wiki/Historical_Jesus), a consensus shared by atheist and agnostic scholars alike. There are plenty of [historical records for Jesus that aren't the Bible](https://en.wikipedia.org/wiki/Sources_for_the_historicity_of_Jesus).
 
 His existence is a historical fact.
 
@@ -137,7 +139,7 @@ Accepting that simple historical fact opens the door to much bigger questions ab
 
 As for whether I believe the [claims Jesus made about himself](https://www.biblegateway.com/passage/?search=John%2014%3A6), [I do](https://www.biblegateway.com/passage/?search=John%2020%3A28-29). I am [proudly, unambiguously, and devoutly](https://www.biblegateway.com/passage/?search=Luke%209%3A25-26&version=NIV) a [Christian](https://www.biblegateway.com/passage/?search=Romans%2010%3A9).
 
-But *Christian* is an identity nearly 2,000 years old. The term had a clear meaning when it [emerged during the Roman Empire](https://en.wikipedia.org/wiki/Christianity_as_the_Roman_state_religion), *long before the United States existed*, and it still has a clear meaning for billions of people across [hundreds of countries worldwide](https://en.wikipedia.org/wiki/Christianity_by_country). Reducing that ancient, global identity to one American politician or political movement is beyond inaccurate. It's breathtakingly arrogant. Christianity has never belonged to one country, race, politician, or political party.
+But *Christian* is an identity nearly 2,000 years old. The term had a clear meaning when it [emerged during the Roman Empire](https://en.wikipedia.org/wiki/Christianity_as_the_Roman_state_religion), *long before the United States existed*, and it still has a clear meaning for billions of people across [hundreds of countries worldwide](https://en.wikipedia.org/wiki/Christianity_by_country). Reducing that ancient, global identity to one American politician or political movement is [breathtakingly arrogant](https://en.wikipedia.org/wiki/Americentrism). Christianity has never belonged to one country, race, politician, or political party.
 
 Its meaning comes from Christ himself, a real person whose family [fled a murderous ruler and took refuge in Egypt](https://www.biblegateway.com/passage/?search=Matthew%202%3A13-15) ([hey Siri, what's a refugee?](https://www.unrefugees.org/refugee-facts/what-is-a-refugee/)), who [experienced homelessness](https://www.biblegateway.com/passage/?search=Matthew%208%3A19-20&version=NIV), and who told his followers to [love their enemies](https://www.biblegateway.com/passage/?search=Matthew%205%3A44), [welcome strangers](https://www.biblegateway.com/passage/?search=Matthew%2025%3A35-40), and show their love for him [through their actions](https://www.biblegateway.com/passage/?search=John%2014%3A15&version=NIV), being [rather blunt about that last part](https://www.biblegateway.com/passage/?search=Matthew%207%3A21-23&version=NIV), even [with his own family](https://www.biblegateway.com/passage/?search=Matthew%2012%3A46-50&version=NIV).
 
