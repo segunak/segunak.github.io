@@ -28,14 +28,15 @@ h3 blockquote {
   color: green;
 }
 
-// See conversation at: https://github.com/mmistakes/minimal-mistakes/issues/2214
-// This adjust the main area on a blog post to be wider, including the table of contents when sticky.
-// This is an alternative to using the "wide" class which makes the table of content full width and not sticky.
-// We don't apply this to the wide class because it's already taking up the full width.
-// Only apply this rule on desktop screens (large and up)
+// Keep standard article layouts flexible while bounding wide page layouts on desktop.
 @include breakpoint($large) {
   body:not(.wide) #main {
     max-width: calc(100vw - 180px);
+  }
+
+  body.wide #main {
+    width: calc(100% - 180px);
+    max-width: 1280px;
   }
 
   // When author_profile is false, no left sidebar renders and article.page is the first child.

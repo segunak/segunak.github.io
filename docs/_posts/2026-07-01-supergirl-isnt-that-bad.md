@@ -1,7 +1,7 @@
 ---
 title: "Supergirl Isn't That Bad"
 excerpt: "It's mid, but given how good Superman was, mid hits a little harder than it otherwise would."
-last_modified_at: 2026-07-06T12:39:32
+last_modified_at: 2026-08-03T15:48:15
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -20,6 +20,39 @@ tags:
 <script src="/assets/js/dynamic-link-targeting.js"></script>
 
 <style>
+  .music-reaction-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1em;
+    max-width: 656px;
+    margin: 1em 0 0;
+  }
+
+  .music-reaction-grid img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    margin: 0;
+    border: 3px solid;
+    border-radius: 8px;
+    box-sizing: border-box;
+    object-fit: cover;
+  }
+
+  .music-reaction-grid__banger {
+    border-color: #b42318 !important;
+  }
+
+  .music-reaction-grid__calm {
+    border-color: #1f7a3f !important;
+  }
+
+  @media (max-width: 575.98px) {
+    .music-reaction-grid {
+      gap: 0.5em;
+    }
+  }
+
   /* Tablet and larger */
     @media (min-width: 768px) {
         .page__hero--overlay {
@@ -62,13 +95,9 @@ Reality, as it often is, is far more boring. The truth is, [*Supergirl*](https:/
 
 Or to illustrate, my range of emotions when listening to Thirty Seconds to Mars fluctuates from <strong style="color: #b42318;">this</strong> to <strong style="color: #1f7a3f;">that</strong>:
 
-<div style="display: flex; flex-wrap: wrap; gap: 1em; align-items: flex-start; margin: 1em 0 0;">
-  <div class="meme-wrapper" style="width: min(100%, 320px); height: 220px; margin: 0; padding: 12px; border: 3px solid #b42318; border-radius: 12px; box-sizing: border-box;">
-    <img alt="Banger song reaction" src="/assets/images/banger-song-gif.gif" style="width: 100%; height: 100%; margin: 0; border-radius: 8px; object-fit: cover;" />
-  </div>
-  <div class="meme-wrapper" style="width: min(100%, 320px); height: 220px; margin: 0; padding: 12px; border: 3px solid #1f7a3f; border-radius: 12px; box-sizing: border-box;">
-    <img alt="Monkey listening to music reaction" src="/assets/images/monkey-music-gif.gif" style="width: 100%; height: 100%; margin: 0; border-radius: 8px; object-fit: cover;" />
-  </div>
+<div class="music-reaction-grid">
+  <img class="music-reaction-grid__banger" alt="Banger song reaction" src="/assets/images/banger-song-gif.gif" />
+  <img class="music-reaction-grid__calm" alt="Monkey listening to music reaction" src="/assets/images/monkey-music-gif.gif" />
 </div>
 </div>
 
