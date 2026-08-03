@@ -1,7 +1,7 @@
 ---
 title: "Agentic AI: From Acronyms to Applications"
 excerpt: "Everybody's talking but nobody's making sense. Let's demystify Agentic AI, its key differences from Generative AI, and its essential terms. Learn what RAG, MCP, GANs, RLHF and more actually mean in plain English. No jargon, no hype, just practical explanations for the curious mind."
-last_modified_at: 2026-07-29T11:59:59
+last_modified_at: 2026-08-03T16:11:26
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -16,7 +16,6 @@ tags:
   - artificial-intelligence
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 <style>
     /* Apply styles only on tablets and larger devices */

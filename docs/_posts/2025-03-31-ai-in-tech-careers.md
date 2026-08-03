@@ -1,7 +1,7 @@
 ---
 title: "On the Nature of Artificial Intelligence in Tech Careers"
 excerpt: "Thoughts from a software engineer on navigating AI's impact and maintaining relevance amidst rapid technological change."
-last_modified_at: 2025-04-18T16:25:44
+last_modified_at: 2026-08-03T16:11:26
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -18,7 +18,6 @@ tags:
   - artificial-intelligence
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 <style>
   /* Tablet and larger */

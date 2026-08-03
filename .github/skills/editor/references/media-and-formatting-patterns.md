@@ -16,13 +16,9 @@ When suggesting media:
 
 ## Scripts
 
-Most posts load this immediately after front matter:
+Every published post automatically loads `dynamic-link-targeting.js` through [docs/_includes/scripts.html](../../../../docs/_includes/scripts.html) when `page.collection == "posts"`. Do not add that script tag directly to a post or draft because it would duplicate the shared inclusion after publication.
 
-```html
-<script src="/assets/js/dynamic-link-targeting.js"></script>
-```
-
-Posts that use Mermaid diagrams load this before the dynamic link script:
+Posts that use Mermaid diagrams load this custom script after front matter:
 
 ```html
 <script src="/assets/js/mermaid.min.js"></script>

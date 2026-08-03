@@ -5,7 +5,7 @@ toc: true
 toc_sticky: true
 toc_label: "On This Page"
 toc_icon: "coffee"
-last_modified_at: 2025-02-02T14:13:35
+last_modified_at: 2026-08-03T16:11:26
 header:
   teaser: /assets/images/skyline-vibrant.jpeg
 categories:
@@ -14,7 +14,6 @@ tags:
   - tech
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 ![HelloThere](/assets/images/kakashi-hello.gif)
 

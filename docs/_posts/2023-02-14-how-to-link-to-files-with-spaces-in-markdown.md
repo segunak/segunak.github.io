@@ -1,7 +1,7 @@
 ---
 title: "How To Have a Link With Spaces in Markdown"
 excerpt: "You can link to files, folders, websites, or anything with spaces in it, using this one simple Markdown trick (intentional built-in feature)."
-last_modified_at: 2024-06-03T02:37:46
+last_modified_at: 2026-08-03T16:11:26
 classes: wide
 header:
   teaser: /assets/images/markdown-image.jpg
@@ -11,7 +11,6 @@ tags:
   - tech
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 I recently edited some [Markdown](https://www.markdownguide.org/) files that needed to link to documents with spaces in their name. I had never done that before and set out to discover how to make it happen. Here's what I learned.
 

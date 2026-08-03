@@ -1,7 +1,7 @@
 ---
 title: "How To Send and Receive Emails From a Squarespace Forwarding Alias Using Gmail"
 excerpt: "Learn how to set up Gmail to send and receive emails using a Squarespace forwarding alias."
-last_modified_at: 2024-09-26T04:30:16
+last_modified_at: 2026-08-03T16:11:26
 toc: true
 toc_label: "On This Page"
 toc_sticky: true
@@ -13,7 +13,6 @@ tags:
   - miscellaneous
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 ## Some Background
 

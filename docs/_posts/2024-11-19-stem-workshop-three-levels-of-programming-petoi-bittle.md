@@ -1,7 +1,7 @@
 ---
 title: "Three Levels of Programming With the Petoi 'Bittle X' Robot Dog"
 excerpt: "Learn how to engage students in a journey through three levels of computer programming using the highly capable Petoi 'Bittle X' Robot Dog."
-last_modified_at: 2025-02-22T19:31:11
+last_modified_at: 2026-08-03T16:11:26
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -17,7 +17,6 @@ tags:
   - stem-education
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 

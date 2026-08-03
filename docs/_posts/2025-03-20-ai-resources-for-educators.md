@@ -1,7 +1,7 @@
 ---
 title: "A Curated List of AI Resources for Educators"
 excerpt: "A collection of practical, mostly free resources to help educators integrate AI into the classroom, enhance student learning, and stay ahead in an AI-driven world."
-last_modified_at: 2025-03-21T00:21:00
+last_modified_at: 2026-08-03T16:11:26
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -18,7 +18,6 @@ tags:
   - artificial-intelligence
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 <style>
     /* Apply styles only on tablets and larger devices */

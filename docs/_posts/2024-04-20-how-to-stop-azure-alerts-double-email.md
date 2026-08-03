@@ -5,7 +5,7 @@ excerpt: "Learn how to configure Azure alert rules to stop getting two emails wh
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
-last_modified_at: 2024-06-03T02:28:15
+last_modified_at: 2026-08-03T16:11:26
 header:
   teaser: /assets/images/azure3.png
 categories:
@@ -14,7 +14,6 @@ tags:
   - tech
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 <style>
     .greentext {

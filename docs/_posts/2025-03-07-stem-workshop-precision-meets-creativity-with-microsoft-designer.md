@@ -1,7 +1,7 @@
 ---
 title: "Prompt Engineering: Precision Meets Creativity with Microsoft Designer"
 excerpt: "Explore how specificity, clarity, and creativity in writing shape Generative AI results with this Microsoft Designer workshop."
-last_modified_at: 2025-03-16T12:01:00
+last_modified_at: 2026-08-03T16:11:26
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -18,7 +18,6 @@ tags:
   - artificial-intelligence
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 <style>
     /* Apply styles only on tablets and larger devices */

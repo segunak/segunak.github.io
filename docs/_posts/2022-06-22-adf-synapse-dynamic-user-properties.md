@@ -1,7 +1,7 @@
 ---
 title: "Dynamic User Properties in Azure Data Factory and Azure Synapse Analytics"
 excerpt: "Your guide to dynamic user properties in Azure Data Factory and Azure Synapse Analytics."
-last_modified_at: 2024-06-03T02:37:45
+last_modified_at: 2026-08-03T16:11:26
 classes: wide
 header:
   teaser: /assets/images/azure.jpg
@@ -11,7 +11,6 @@ tags:
   - tech
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 In [Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/) and [Azure Synapse Analytics](https://docs.microsoft.com/en-us/azure/synapse-analytics/), user properties are metadata fields attached to individual activities. They show up in the monitoring logs whenever a pipeline is run and can be useful for things like debugging and troubleshooting. They look like this.
 

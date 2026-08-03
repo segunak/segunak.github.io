@@ -4,7 +4,7 @@ excerpt: "Here's how to create messages with a countdown timer to a given date u
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
-last_modified_at: 2024-06-03T02:37:47
+last_modified_at: 2026-08-03T16:11:26
 header:
   teaser: /assets/images/PowerAutomate.png
 categories:
@@ -13,7 +13,6 @@ tags:
   - tech
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 I recently planned an event (side note, event planning is exhausting) that had a lot of moving parts, participants, and busy people on the planning team. To help us stay on track, I created automated reminders of how long we had until event day using Power Automate. Here's how to do that.
 

@@ -5,7 +5,7 @@ toc: true
 toc_sticky: true
 toc_label: "On This Page"
 toc_icon: "robot"
-last_modified_at: 2025-06-29T01:03:01
+last_modified_at: 2026-08-03T16:11:26
 header:
   teaser: /assets/images/aieducation.jpg
 categories:
@@ -15,7 +15,6 @@ tags:
   - artificial-intelligence
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 <style>
   blockquote {

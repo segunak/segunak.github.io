@@ -1,7 +1,7 @@
 ---
 title: "Times Are Changing: Coding Is Dead, Software Engineering Isn't"
 excerpt: "Coding, as we've known it, is dead. Companies like Canva and Meta are already letting candidates use AI in technical interviews. But the real job has always been more than writing code. Long live software engineering."
-last_modified_at:
+last_modified_at: 2026-08-03T16:11:26
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -17,7 +17,6 @@ tags:
   - artificial-intelligence
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 <style>
     /* Apply styles only on tablets and larger devices */

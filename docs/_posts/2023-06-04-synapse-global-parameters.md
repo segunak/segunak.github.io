@@ -6,7 +6,7 @@ toc_label: "On This Page"
 toc_icon: "database"
 toc_sticky: true
 author_profile: true
-last_modified_at: 2024-06-03T02:37:46
+last_modified_at: 2026-08-03T16:11:26
 header:
   teaser: /assets/images/SynapseTeaser.jpg
 categories:
@@ -15,7 +15,6 @@ tags:
   - tech
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 One of the more attractive features of [Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/) is its support for [global parameters](https://docs.microsoft.com/en-us/azure/data-factory/author-global-parameters). Despite the [dogmatic](https://softwareengineering.stackexchange.com/questions/148108/why-is-global-state-so-evil) aversion to global variables that some in the software engineering community have, there are scenarios where their usage is appropriate, if not preferred. [Azure Synapse Analytics](https://docs.microsoft.com/en-us/azure/synapse-analytics/) (Microsoft's answer to [Databricks](https://databricks.com/), and much [more](https://azure.microsoft.com/en-us/blog/azure-sql-data-warehouse-is-now-azure-synapse-analytics/)) presents many cases where, like Azure Data Factory, having access to global variables would be immensely valuable.
 

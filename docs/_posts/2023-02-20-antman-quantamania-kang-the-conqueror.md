@@ -2,7 +2,7 @@
 title: > 
   From Fearsome to Floundering: Kang the Conqueror's Disappointing Debut in 'Ant-Man and the Wasp: Quantumania'
 excerpt: "Jonathan Majors impresses as Kang the Conqueror, but the film's lackluster conclusion leaves Marvel's new lead antagonist ineffectual, unimposing, and hard to respect."
-last_modified_at: 2026-07-04T17:59:44
+last_modified_at: 2026-08-03T16:11:26
 classes: wide
 author_profile: false
 sidebar:
@@ -20,7 +20,6 @@ tags:
   - entertainment
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 <link rel="stylesheet" href="/assets/css/quotes.css">
 
 <style>

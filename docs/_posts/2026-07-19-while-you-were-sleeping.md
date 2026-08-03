@@ -1,7 +1,7 @@
 ---
 title: "While You Were Sleeping (1995) Is The Most Ridiculous Rom-Com I've Ever Seen. I Loved It"
 excerpt: "Sandra Bullock turns an absurd case of mistaken identity into a warm story about loneliness, family, and finding love where least expected. It makes no sense. I loved it."
-last_modified_at: 2026-07-25T12:15:43
+last_modified_at: 2026-08-03T16:11:26
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -17,7 +17,6 @@ tags:
   - entertainment
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 <style>
   .page__hero--overlay {

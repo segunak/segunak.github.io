@@ -1,7 +1,7 @@
 ---
 title: "Jesus Christ Was a Real Person"
 excerpt: "Religion aside, the existence of Jesus Christ is a historical fact, though awareness of it may be fading with each new generation."
-last_modified_at: 2026-08-03T10:43:52
+last_modified_at: 2026-08-03T16:11:26
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -17,7 +17,6 @@ tags:
   - faith
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 <style>
   .page__hero--overlay {
@@ -33,7 +32,7 @@ tags:
 </style>
 
 
-**Note:** I'm a Christian, but for most of this article, I'm setting aside that bias. I'm also aware that, technically speaking, [*Christ*](https://en.wikipedia.org/wiki/Christ_(title)) is a religious title. *Jesus of Nazareth* would be the more neutral title, but *Jesus Christ* is what nearly everyone calls him, including people who aren't Christians. Even [Wikipedia](https://en.wikipedia.org/wiki/Jesus) agrees. The name is so common that people even [use it as a swear word](https://en.wikipedia.org/wiki/Jesus_H._Christ). So, that's what I'll call him throughout.
+**Note:** I'm a Christian, but for most of this article, I'm setting aside that bias. I'm also aware that, technically speaking, [*Christ*](https://en.wikipedia.org/wiki/Christ_(title)) is a religious title. *Jesus of Nazareth* would be the more neutral title, but *Jesus Christ* is what nearly everyone calls him, including people who aren't Christians. [Wikipedia](https://en.wikipedia.org/wiki/Jesus) agrees. The name is so common that people even [use it as a swear word](https://en.wikipedia.org/wiki/Jesus_H._Christ). So, that's what I'll call him throughout.
 {: .notice--primary}
 
 ## True For You and Me

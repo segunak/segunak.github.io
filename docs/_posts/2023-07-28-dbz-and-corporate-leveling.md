@@ -4,7 +4,7 @@ excerpt: "Dragon Ball Z has a message for anyone feeling stuck by their corporat
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
-last_modified_at: 2024-06-03T02:28:15
+last_modified_at: 2026-08-03T16:11:26
 header:
   teaser: /assets/images/itsover9000.jpg
   overlay_image: /assets/images/gokuvsvegeta-1.jpg
@@ -15,7 +15,6 @@ tags:
   - miscellaneous
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 <style>
   /* X-Small devices (portrait phones, less than 576px) */

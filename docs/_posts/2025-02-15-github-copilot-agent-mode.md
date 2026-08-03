@@ -5,7 +5,7 @@ toc: true
 toc_sticky: true
 toc_label: "On This Page"
 toc_icon: "robot"
-last_modified_at: 2025-02-23T15:33:16
+last_modified_at: 2026-08-03T16:11:26
 header:
   teaser: /assets/images/be-water.jpeg
   og_image: /assets/images/be-water.jpeg
@@ -43,7 +43,6 @@ tags:
     }
 </style>
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 **Author's Note:** While researching this article, I spent a fair amount of time using GitHub Copilot (and its Agent Mode). I discovered that some privacy settings, specifically how they use your code and data, are on by default from the moment you [interact with Copilot](https://www.reddit.com/r/github/comments/1hhrntv/comment/m388n38/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button). If you have a GitHub account, I **strongly suggest** heading to the [Copilot page](https://github.com/settings/copilot) and double-checking your privacy settings. Maybe disable **"Allow GitHub to use my data for product improvements"** and **"Allow GitHub to use my data for AI model training"**. GitHub is [owned by Microsoft](https://en.wikipedia.org/wiki/GitHub#Acquisition_by_Microsoft), who have a [significant stake in OpenAI](https://finance.yahoo.com/news/microsoft-openai-haggling-over-tech-170816471.html), the folks behind ChatGPT, so they'll be just fine without your data. Privacy first!
 {: .notice--primary}

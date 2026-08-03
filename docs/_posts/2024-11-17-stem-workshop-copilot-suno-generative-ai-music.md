@@ -1,7 +1,7 @@
 ---
 title: "Exploring Responsible Generative AI Through Music With Microsoft Copilot and Suno"
 excerpt: "Discover how to use Microsoft Copilot and Suno's Generative AI to engage students in hands-on STEM learning and Responsible AI practices through an interactive music creation workshop."
-last_modified_at: 2024-11-19T17:16:35
+last_modified_at: 2026-08-03T16:11:26
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -18,7 +18,6 @@ tags:
   - artificial-intelligence
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 **Heads Up:** This post starts off with an anecdote related to how I found my way into STEM. While I'd certainly appreciate you reading it, if you're feeling like '[I ain't reading all that](https://knowyourmeme.com/memes/i-aint-reading-all-that){:target="_blank"}' you can skip to the actual workshop by clicking [here](#workshop-overview).
 {: .notice--warning}

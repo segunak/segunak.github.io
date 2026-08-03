@@ -1,7 +1,7 @@
 ---
 title: "Dough Diaries: On the Nature of Cinnamon Rolls in Jefferson City, Missouri"
 excerpt: "Read on to discover one man's journey through the cinnamon roll scene of Jefferson City, Missouri."
-last_modified_at: 2025-02-02T16:10:00
+last_modified_at: 2026-08-03T16:11:26
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -17,7 +17,6 @@ tags:
   - dough-diaries
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 **Note:** If you're curious, the article title is inspired by legendary composer [Max Richter's](https://en.wikipedia.org/wiki/Max_Richter) marvelously melancholic song _[On the Nature of Daylight](https://www.youtube.com/watch?v=b_YHE4Sx-08)_. It's worth a listen!
 {: .notice--info}

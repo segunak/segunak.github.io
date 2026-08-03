@@ -1,7 +1,7 @@
 ---
 title: "How To Train Your AI: Demystifying ChatGPT With Machine Learning, Neural Networks, and Deep Learning Basics"
 excerpt: "Demystify the concepts behind tools like ChatGPT with an approachable introduction to Machine Learning, Neural Networks, and Deep Learning."
-last_modified_at: 2025-04-11T20:07:32
+last_modified_at: 2026-08-03T16:11:26
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -18,7 +18,6 @@ tags:
   - artificial-intelligence
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 <style>
     .page__hero--overlay {

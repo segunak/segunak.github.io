@@ -4,7 +4,7 @@ excerpt: "GitHub Copilot Chat, CLI, and Cloud Agent are different doors to the s
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
-last_modified_at:
+last_modified_at: 2026-08-03T16:11:26
 header:
   teaser: /assets/images/ghcp-cli.webp
   og_image: /assets/images/ghcp-cli.webp
@@ -17,7 +17,6 @@ tags:
   - artificial-intelligence
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 <style>
   /* Tablet and larger */

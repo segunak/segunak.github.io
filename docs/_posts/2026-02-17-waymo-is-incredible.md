@@ -1,7 +1,7 @@
 ---
 title: "I Tried Waymo for the First Time and It's Incredible"
 excerpt: "After years of hearing about Waymo, I finally tried it, and the experience filled me with childlike excitement. It's science fiction made real!"
-last_modified_at:
+last_modified_at: 2026-08-03T16:11:26
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -16,7 +16,6 @@ tags:
   - tech
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 <style>
     /* Apply styles only on tablets and larger devices */

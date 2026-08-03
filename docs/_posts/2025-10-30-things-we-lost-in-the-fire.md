@@ -1,7 +1,7 @@
 ---
 title: "Things We Lost in the Fire (2007): Grief, Addiction, and Love Beyond the Grave"
 excerpt: "A rainy Wednesday morning, a cafe/video store hybrid, and a random 2007 film brought me to an unexpected but welcome reflection. Love doesn't die when people do. It just finds new ways to heal the living."
-last_modified_at:
+last_modified_at: 2026-08-03T16:11:26
 toc: true
 toc_label: "On This Page"
 toc_icon: "book"
@@ -17,7 +17,6 @@ tags:
   - entertainment
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 <style>
     /* Apply styles only on tablets and larger devices */

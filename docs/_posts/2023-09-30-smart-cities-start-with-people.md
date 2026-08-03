@@ -2,7 +2,7 @@
 title: "Smart Cities Need Smart People, Not Just Smart Things"
 excerpt: "To solve pressing problems, smart cities need to focus on people."
 classes: wide
-last_modified_at: 2024-06-03T02:28:15
+last_modified_at: 2026-08-03T16:11:26
 header:
   teaser: /assets/images/smartcity.jpg
 categories:
@@ -11,7 +11,6 @@ tags:
   - tech
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 <style>
   /* X-Small devices (portrait phones, less than 576px) */

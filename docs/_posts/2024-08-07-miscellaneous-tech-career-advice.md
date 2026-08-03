@@ -1,7 +1,7 @@
 ---
 title: "Miscellaneous Advice For People Interested In Tech Careers"
 excerpt: "An assorted collection of one man's advice related to careers in technology."
-last_modified_at: 2025-04-05T23:58:26
+last_modified_at: 2026-08-03T16:11:26
 toc: true
 toc_sticky: true
 read_time: false
@@ -14,7 +14,6 @@ tags:
   - tech
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 <p>
   <div class="image-container">

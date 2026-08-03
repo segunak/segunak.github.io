@@ -1,7 +1,7 @@
 ---
 title: "Supergirl Isn't That Bad"
 excerpt: "It's mid, but given how good Superman was, mid hits a little harder than it otherwise would."
-last_modified_at: 2026-08-03T15:48:15
+last_modified_at: 2026-08-03T16:11:26
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -17,7 +17,6 @@ tags:
   - entertainment
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 <style>
   .music-reaction-grid {

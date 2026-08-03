@@ -1,7 +1,7 @@
 ---
 title: "How To Reference Linked Services In Azure Synapse Analytics Notebooks"
 excerpt: "Learn how to reference linked services when writing Apache Spark code in Azure Synapse Analytics notebooks."
-last_modified_at: 2025-06-29T01:03:01
+last_modified_at: 2026-08-03T16:11:26
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -13,7 +13,6 @@ tags:
   - tech
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 [Azure Synapse Analytics](https://learn.microsoft.com/en-us/azure/synapse-analytics/) is described by Microsoft as a "limitless analytics service that brings together enterprise data warehousing and Big Data analytics". I'd say _limitless_ is a rather strong word, considering the meteoric rise of their own ~~competing~~ successor product dubbed [Microsoft Fabric](https://blog.fabric.microsoft.com/en-us/blog/microsoft-fabric-explained-for-existing-synapse-users/), but if you're trying to query a [Linked Service](https://learn.microsoft.com/en-us/azure/data-factory/concepts-linked-services?tabs=data-factory) from a [Synapse notebook](https://learn.microsoft.com/en-us/azure/synapse-analytics/spark/apache-spark-development-using-notebooks), here's how to do so. This feature is documented in more detail [here](https://learn.microsoft.com/en-us/azure/synapse-analytics/spark/apache-spark-secure-credentials-with-tokenlibrary?pivots=programming-language-python#adls-gen2-storage-with-linked-services).
 

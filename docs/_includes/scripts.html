@@ -27,4 +27,8 @@
 {% endfor %}
 {% endif %}
 
+{% if page.collection == "posts" %}
+<script src="{{ '/assets/js/dynamic-link-targeting.js' | relative_url }}"></script>
+{% endif %}
+
 <script src="/assets/js/sitewide.js"></script>

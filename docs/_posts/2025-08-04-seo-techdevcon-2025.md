@@ -1,7 +1,7 @@
 ---
 title: "We're Not Cooked: Your Tech Career Survival Guide in the Age of AI Engineering"
 excerpt: "From SEO TechDevCon 2025 attendees to anyone curious, AI Engineering is why we still need technical people. Here's your guide to what it is, where to learn, who to follow, and how to thrive."
-last_modified_at:
+last_modified_at: 2026-08-03T16:11:26
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -17,7 +17,6 @@ tags:
   - artificial-intelligence
 ---
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
 
 <style>
     /* Apply styles only on tablets and larger devices */
