@@ -1,7 +1,7 @@
 ---
 title: "Jesus Christ Was a Real Person"
 excerpt: "Religion aside, the existence of Jesus Christ is a historical fact, though awareness of it may be fading with each new generation."
-last_modified_at: 2026-08-04T11:28:06
+last_modified_at: 2026-08-04T11:34:36
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -88,7 +88,7 @@ Seeing this clip recently drove home my belief that it is in fact **not common k
 
 While promoting [*Ghostbusters: Frozen Empire*](https://en.wikipedia.org/wiki/Ghostbusters:_Frozen_Empire), [McKenna Grace](https://en.wikipedia.org/wiki/Mckenna_Grace), [Paul Rudd](https://en.wikipedia.org/wiki/Paul_Rudd), and [Finn Wolfhard](https://en.wikipedia.org/wiki/Finn_Wolfhard) were asked which person from history they'd go back in time to spend a day with. Rudd answered, "Jesus Christ", which immediately provoked a sort of "yeah right lol" laughter from McKenna and Finn.
 
-Rudd responded, "Laugh all you want", then stated, "He existed. We know". He continued, "So wouldn't you want to spend some time with him and go, 'Hey Jesus, what's the deal?'" After he explained himself, McKenna and Finn conceded that his response was actually a great answer. Rudd wasn't making a religious statement. [He's Jewish but doesn't practice Judaism and has publicly said he isn't "particularly religious"](https://en.wikipedia.org/wiki/Paul_Rudd#Personal_life). Instead, he grounded his answer in the fact that Jesus was a real person and therefore relevant to the question.
+Rudd responded, "Laugh all you want", then stated, "He existed. We know". He continued, "So wouldn't you want to spend some time with him and go, 'Hey Jesus, what's the deal?'" After he explained himself, McKenna and Finn conceded that his response was actually a great answer. Rudd wasn't making a religious statement. [He's Jewish but doesn't practice Judaism and has publicly said he isn't "particularly religious"](https://en.wikipedia.org/wiki/Paul_Rudd#Personal_life). Instead, he grounded his answer in the fact that Jesus was a real person and therefore *suitably germane* (been looking for an excuse to use that fancy sounding phrase) to the question.
 
 Now to be fair, I can't know why McKenna and Finn laughed, and the clip doesn't prove that either thought Jesus was fictional. Still, their laughter came across as mocking, and Rudd immediately felt the need to clarify that Jesus existed. That made me wonder whether part of this confusion is generational.
 
