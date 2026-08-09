@@ -1,7 +1,7 @@
 ---
-title: "Why Should I Bother To Read Something You Couldn't Be Bothered To Write?"
+title: "Why Should I Bother To Read Something You Didn't Bother To Write?"
 excerpt: "AI has its uses, but if you couldn't be bothered to write something, why should anyone bother to read it?"
-last_modified_at: 2026-08-08T21:55:28
+last_modified_at: 2026-08-08T22:20:55
 toc: true
 toc_icon: "pen"
 toc_sticky: true
