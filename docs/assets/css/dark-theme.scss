@@ -2,8 +2,6 @@
 # Replaces light-theme.scss when skin/theme toggle button is pressed.
 ---
 
-$max-width: 85%;
-
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin2 | default: 'dark' }}"; // skin

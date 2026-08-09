@@ -3,9 +3,6 @@
 
 @charset "utf-8";
 
-/* Any variable overrides must come before @import */
-$max-width: 85%;
-
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 /*

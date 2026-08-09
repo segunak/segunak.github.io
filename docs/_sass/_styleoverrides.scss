@@ -2,6 +2,32 @@
 // Check https://github.com/mmistakes/minimal-mistakes/blob/master/_sass/minimal-mistakes/_variables.scss
 // to discover the values of the $small, $medium, $large, etc. breakpoints.
 
+// UNIVERSAL SITE WIDTH SETTING
+// This is the hard maximum for content everywhere on the site, regardless of page layout,
+// `classes: wide`, author profile, or TOC settings. Increase it to let site content grow wider;
+// decrease it to constrain all site content. Individual layouts can still be narrower.
+//
+// Suggested values for a large-desktop blog post with both an author profile and sticky TOC:
+// - 1200px: compact, roughly 55-65 characters per line, good for focused prose and the lowest
+//   suggested cap before the three-column layout starts to feel constrained.
+// - 1280px: balanced, roughly 65-75 characters per line, a solid recommendation for reading.
+// - 1360px: roomier, roughly 75-85 characters per line, gives tables and code more space.
+// - 1440px: spacious, roughly 85-95 characters per line, a sensible upper limit, but longer than
+//   the commonly recommended 45-75 characters per line for sustained reading.
+// These are estimates because font metrics, browser rendering, and sidebar content affect line length.
+$site-content-max-width: 1280px;
+
+// These are all the outer content wrappers used by Minimal Mistakes. Full-width backgrounds
+// still reach the browser edges, but the content inside them cannot exceed the maximum above.
+.masthead__inner-wrap,
+.breadcrumbs,
+#main,
+.page__footer footer,
+.search-content__inner-wrap,
+.page__hero--overlay .wrapper {
+  max-width: $site-content-max-width;
+}
+
 html {
   font-size: 16px; // originally 16px
 
@@ -28,21 +54,30 @@ h3 blockquote {
   color: green;
 }
 
-// Keep standard article layouts flexible while bounding wide page layouts on desktop.
 @include breakpoint($large) {
+  // Preserve the existing desktop space beside standard and wide pages below the universal cap.
+  // These rules can make `#main` narrower than the cap, but never wider than it.
   body:not(.wide) #main {
-    max-width: calc(100vw - 180px);
+    width: calc(100vw - 180px);
   }
 
   body.wide #main {
     width: calc(100% - 180px);
-    max-width: 1280px;
   }
 
   // When author_profile is false, no left sidebar renders and article.page is the first child.
   // Let those pages reclaim the author-profile rail instead of keeping an empty gutter.
   .layout--single #main > article.page:first-child {
     width: 100%;
+  }
+}
+
+@include breakpoint($x-large) {
+  // Preserve the existing proportions of these wrappers below the universal cap.
+  .masthead__inner-wrap,
+  .search-content__inner-wrap,
+  .page__hero--overlay .wrapper {
+    width: 85%;
   }
 }
 
@@ -227,10 +262,6 @@ a.reversefootnote {
 
   @include breakpoint($large) {
     padding-inline: 3rem;
-  }
-  
-  @include breakpoint($x-large) {
-    max-width: 85%;
   }
 }
 
