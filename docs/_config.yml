@@ -22,7 +22,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.\
 # Font Awesome Icons: Uses the same jsDelivr @latest loader as Minimal Mistakes.
-
+# 
+# Emojis can be used in posts and pages by using the jemoji plugin.
+# See: https://github.com/ikatyang/emoji-cheat-sheet for the shortcodes. 
+# For example, :smile: will render as 😄. Or you can actually just use the 
+# emoji, but that doesn't guarantee that it will render properly on all devices. 
+# The jemoji plugin will convert the emoji to an image for better compatibility.
+#
 # To build this site (and not serve) bundle exec jekyll build
 
 title: Segun Akinyemi

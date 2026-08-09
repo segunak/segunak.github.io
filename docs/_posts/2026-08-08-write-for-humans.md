@@ -1,7 +1,7 @@
 ---
 title: "Why Should I Bother To Read Something You Didn't Bother To Write?"
 excerpt: "AI has its uses, but if you couldn't be bothered to write something, why should anyone bother to read it?"
-last_modified_at: 2026-08-09T13:30:55
+last_modified_at: 2026-08-09T14:46:33
 toc: true
 toc_label: "On This Page"
 toc_icon: "pen"
@@ -86,7 +86,9 @@ It's one thing in a formal setting like work or public speeches or even books fr
   </div>
 </div>
 
-[My brother in Christ](https://knowyourmeme.com/sensitive/memes/my-brother-in-christ), why are you sending me AI generated messages? Did **YOU** even read it? And even if you did, why did you generate it to begin with? You can't just text me? [Are you okay](https://www.tiktok.com/@solobobo29/video/7461690032101821728)? [Are you mad](https://www.youtube.com/shorts/OCoQ-pMkXFg)? [You dey craze](http://naijalingo.com/words/u-dey-craze)?
+[My brother in Christ](https://knowyourmeme.com/sensitive/memes/my-brother-in-christ), why are you sending me AI generated messages? Did **YOU** even read it? And even if you did, why did you generate it to begin with? You can't just text me **yourself**?
+
+:nigeria: [Are you okay](https://www.tiktok.com/@solobobo29/video/7461690032101821728)? [Are you mad](https://www.youtube.com/shorts/OCoQ-pMkXFg)? [You dey craze](http://naijalingo.com/words/u-dey-craze)? :nigeria:
 
 [The nerve, the audacity, the unmitigated gall](https://youtu.be/Q0ib0nzJMGs?si=IKcnKZQPPkr7lALl&t=16), it takes for someone to outsource the hard work of writing, then expect someone else to do the cognitive work of reading, it's [blasphemous](https://youtu.be/1OEnzTDhpfE?si=0npKyCSrBKnQ1uBM&t=38)!
 
