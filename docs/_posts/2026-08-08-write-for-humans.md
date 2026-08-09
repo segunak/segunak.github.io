@@ -1,7 +1,7 @@
 ---
 title: "Why Should I Bother To Read Something You Didn't Bother To Write?"
 excerpt: "AI has its uses, but if you couldn't be bothered to write something, why should anyone bother to read it?"
-last_modified_at: 2026-08-08T22:20:55
+last_modified_at: 2026-08-08T22:59:59
 toc: true
 toc_icon: "pen"
 toc_sticky: true
@@ -34,7 +34,7 @@ There's some message, some meaning, some knowledge, some emotion that you mean t
 
 But what happens when someone sends you something they didn't write? That wasn't even written by a human? At least [ghostwriters](https://en.wikipedia.org/wiki/Ghostwriter), who've been a thing forever, used to be human. These days with AI, who knows?
 
-After seeing how some people are [using AI to write personal messages](https://theconversation.com/most-people-do-not-realize-when-a-personal-message-they-receive-was-written-by-ai-study-finds-278874), from texts and emails to messages on TikTok, Instagram, Snapchat, Facebook, WhatsApp, Teams, Slack, GroupMe, Discord, and who knows what else, I'm starting to wonder whether we're all on the same page about what I thought was common sense.
+After seeing how some people are [using AI to write personal messages](https://theconversation.com/most-people-do-not-realize-when-a-personal-message-they-receive-was-written-by-ai-study-finds-278874), from texts and emails to messages on TikTok, Instagram, Snapchat, Facebook, WhatsApp, Teams, Slack, Tinder, Bumble, Hinge, Discord, and who knows what else, I'm starting to wonder whether we're all on the same page about what I thought was common sense.
 
 When you write, you want people to read it.
 
