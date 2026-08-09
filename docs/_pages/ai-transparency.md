@@ -31,7 +31,9 @@ That said, I'm no [Luddite](https://en.wikipedia.org/wiki/Luddite). I think anyo
 
 With respect to writing, I use AI the way authors have used [literary editors](https://en.wikipedia.org/wiki/Literary_editor) for centuries.
 
-I write in plain text Markdown in [VS Code](https://en.wikipedia.org/wiki/Visual_Studio_Code). When my mind is racing, I tend to blow past spelling and grammar mistakes so I can get my ideas down before I lose them. Once a draft exists, I reread it **myself** and give it a second pass, focusing on organization and section headings while continuing to ignore grammar and spelling mistakes.
+I write in [Markdown](https://en.wikipedia.org/wiki/Markdown) in [VS Code](https://en.wikipedia.org/wiki/Visual_Studio_Code), which is a plain text editor without the built-in spelling and grammar checks found in tools like [Google Docs](https://en.wikipedia.org/wiki/Google_Docs) and [Microsoft Word](https://en.wikipedia.org/wiki/Microsoft_Word). You can add some of that with [extensions](https://marketplace.visualstudio.com/vscode), but it never quite rivals what a rich text editor gives you.
+
+When my mind is racing, I tend to blow past spelling and grammar mistakes so I can get my ideas down before I lose them. Once a draft exists, I reread it **myself** and give it a second pass, focusing on organization and section headings while continuing to ignore spelling and grammar mistakes.
 
 Then, and only then, after **I've written something myself and reviewed it myself**, do I let AI hop in to catch misspellings, grammar errors, repetition, unclear passages, and the like. From there, I **review every suggestion it makes** using the diff tool built into [VS Code's Chat view](https://code.visualstudio.com/docs/agents/run/chat-view), where AI suggestions aren't applied until I click either the `Keep` or `Undo` button.
 
