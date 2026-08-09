@@ -21,8 +21,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.\
-# Font Awesome Icons: Version 5 is used in Minimal Mistakes.
-# https://fontawesome.com/v5/search#
+# Font Awesome Icons: Uses the same jsDelivr @latest loader as Minimal Mistakes.
 
 # To build this site (and not serve) bundle exec jekyll build
 
@@ -125,6 +124,9 @@ author:
       icon: "fas fa-fw fa-envelope"
       url: "http://eepurl.com/itDfHE"
 
+atom_feed:
+  hide: true
+
 footer:
   links:
     - label: "LinkedIn"
@@ -139,6 +141,12 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/segunak"
+    - label: "AI Transparency"
+      icon: "fas fa-fw fa-robot"
+      url: "/ai-transparency/"
+    - label: "Feed"
+      icon: "fas fa-fw fa-rss-square"
+      url: "/feed.xml"
 
 defaults:
   # _posts

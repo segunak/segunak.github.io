@@ -38,7 +38,7 @@ Common controls:
 2. `background-position` moves the image crop. Existing values include `center`, `center bottom`, `center 60%`, and `center 92%`.
 3. `.page__hero--overlay .page__lead` can set `max-width` when the excerpt line needs a more readable width over the image.
 4. Put tablet and desktop changes inside `@media (min-width: 768px)` unless the mobile crop also needs a deliberate adjustment.
-5. Always check that every `<style>`, `@media`, and CSS rule block is closed. Use static checks and careful review for this. Do not run a Jekyll build or serve command.
+5. Always check that every `<style>`, `@media`, and CSS rule block is closed. Use static checks and careful review for this. Never run or invoke a Jekyll build, server, or live preview. The author always handles that validation.
 
 Default desktop pattern:
 

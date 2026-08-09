@@ -20,6 +20,14 @@ Anything you place after this point will therefore "cascade and override" the pr
     background: #f21368;
 }
 
+.btn--ai-transparency {
+  background-color: #f21368;
+}
+
+.btn--ai-transparency:hover {
+  background-color: #d3105a;
+}
+
 ::selection {
     background-color: #f21368; /* Change this to the desired background color */
 }

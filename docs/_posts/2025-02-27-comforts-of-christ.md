@@ -2,7 +2,7 @@
 title: "The Comforts of Christ"
 excerpt: "A catalog of comforting words spoken by Jesus Christ throughout the Bible."
 pinned: true
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-08T21:55:28
 toc: true
 toc_label: "On This Page"
 toc_icon: "book"
@@ -84,7 +84,7 @@ For a quick dose of comfort, use the widget below to generate a random quote. Be
       <a href="https://twitter.com/intent/tweet?text=Hello%20there!"
           data-size="large"
           target="_blank">
-        <i class="fa fa-twitter"></i>
+        <i class="fab fa-twitter"></i>
       </a>
     </button>
     <button class="btn" id="random-quote-btn">New Comfort</button>

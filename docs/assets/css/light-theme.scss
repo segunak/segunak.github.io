@@ -23,6 +23,14 @@ put it in _styleoverrides.scss*/
     background: #0092ca;
 }
 
+.btn--ai-transparency {
+    background-color: #0092ca;
+}
+
+.btn--ai-transparency:hover {
+    background-color: #0080b3;
+}
+
 /* Light theme specific styles for collapsible sections */
 details {
     background-color: #f8f9fa;

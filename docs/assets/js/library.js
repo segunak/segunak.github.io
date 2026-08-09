@@ -55,7 +55,7 @@
     'books-currently-reading',
     'books-to-read',
     'books-read',
-    'books-thoughts'
+    'books-literature'
   ];
 
   function activateTab(tabBtn, tabBtns, panels, opts) {

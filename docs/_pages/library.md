@@ -310,16 +310,16 @@ _**Nerd Note:** The Frieren gif above is from the anime [Frieren: Beyond Journey
   <script src="https://www.goodreads.com/review/grid_widget/39852937.Segun's%20Bookshelf:%20Read?cover_size=medium&hide_link=&hide_title=&num_books=200&order=d&shelf=read&sort=date_read&widget_id=1749920056" type="text/javascript" charset="utf-8"></script>
 </div>
 
-## Book Thoughts {#books-thoughts}
+## Books & Literature {#books-literature}
 
-I'm not on [#BookTok](https://www.tiktok.com/tag/BookTok), but I do have _book thoughts_😏, some of which you can read below.
+I'm not on [#BookTok](https://www.tiktok.com/tag/BookTok), but I do have _book thoughts_, some of which you can read below.
 
 ---
 
 <div>
-  {% assign books_posts = site.tags.books | sort: 'date' | reverse %}
-  {% if books_posts.size > 0 %}
-    {% for post in books_posts %}
+  {% assign literature_posts = site.tags.literature | sort: 'date' | reverse %}
+  {% if literature_posts.size > 0 %}
+    {% for post in literature_posts %}
       <article class="archive__item">
         <h3 class="archive__item-title no_toc">
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -333,7 +333,7 @@ I'm not on [#BookTok](https://www.tiktok.com/tag/BookTok), but I do have _book t
       </article>
     {% endfor %}
   {% else %}
-    <p><em>No posts about books yet. Check back soon!</em></p>
+    <p><em>No posts about books or literature yet. Check back soon!</em></p>
   {% endif %}
 </div>
 
@@ -373,7 +373,7 @@ If you want a quick pull from my stash of favorite quotes, use the button below.
       <a href="https://twitter.com/intent/tweet?text=Hello%20there!"
           data-size="large"
           target="_blank">
-        <i class="fa fa-twitter"></i>
+        <i class="fab fa-twitter"></i>
       </a>
     </button>
     <button class="btn" id="random-quote-btn">New Quote</button>
@@ -494,7 +494,7 @@ If you want a quick pull from my stash of favorite quotes, use the button below.
 > <cite>[Stephen R. Covey in "The 7 Habits of Highly Effective People"](https://en.wikipedia.org/wiki/The_7_Habits_of_Highly_Effective_People)</cite>
 
 
-> We live in a society that likes to approach things from a utilitarian eye, and there are advantages to that... But our society treats art too utilitarianly. It doesn't look at the primary purpose of art, which is making the artist's life more enriched. It's sincerely what I believe the primary purpose is. It is to make your life better by creating something... They will ask you when you're going to sell your writing. They're going to ask you if you're published. And that's OK. But I want you to understand that's not why you have to write. In fact, it's probably not why you should write. Writing is good for you. Expressing yourself is good for you. Creating art is good for you.
+> We live in a society that likes to approach things from a utilitarian eye, and there are advantages to that... But our society treats art too utilitarianly. It doesn't look at the primary purpose of art, which is making the artist's life more enriched. It's sincerely what I believe the primary purpose is. It is to make your life better by creating something [...] They will ask you when you're going to sell your writing. They're going to ask you if you're published. And that's OK. But I want you to understand that's not why you have to write. In fact, it's probably not why you should write. Writing is good for you. Expressing yourself is good for you. Creating art is good for you.
 >
 > <cite>[Brandon Sanderson](https://en.wikipedia.org/wiki/Brandon_Sanderson) in ["The Philosophy of Professional Writing" Lecture at Brigham Young University in 2025](https://youtu.be/MEUh_y1IFZY?si=cFKFsBD2CG3KUVEt&t=852)</cite>
 

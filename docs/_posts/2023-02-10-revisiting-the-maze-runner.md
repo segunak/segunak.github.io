@@ -3,7 +3,7 @@ title: >
   A Timeless Thriller: James Dashner's 'The Maze Runner' Proves Its Endurance as a Modern Classic
 excerpt: >
  Putting aside its cinematic adaptation, "The Maze Runner" novel has aged gracefully into a classic of dystopian science fiction.
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-08T21:55:28
 classes: wide
 header:
   teaser: /assets/images/mazerunnerart.jpg
@@ -14,7 +14,7 @@ header:
 categories:
   - blog
 tags:
-  - books
+  - literature
 ---
 
 

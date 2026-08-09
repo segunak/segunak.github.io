@@ -1,7 +1,7 @@
 ---
 title: "Excerpts From The Imitation of Christ"
 excerpt: "Noteworthy excerpts from the Christian devotional The Imitation of Christ by Thomas à Kempis."
-last_modified_at: 2026-07-04T17:59:44
+last_modified_at: 2026-08-08T21:55:28
 toc: true
 toc_label: "On This Page"
 toc_icon: "book"
@@ -58,7 +58,7 @@ If you don't feel like scrolling through the entire webpage, you can generate a 
       <a href="https://twitter.com/intent/tweet?text=Hello%20there!"
           data-size="large"
           target="_blank">
-        <i class="fa fa-twitter"></i>
+        <i class="fab fa-twitter"></i>
       </a>
     </button>
     <button class="btn" id="random-quote-btn">New Quote</button>
