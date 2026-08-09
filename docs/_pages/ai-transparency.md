@@ -4,6 +4,7 @@ excerpt: "How I use AI as an editor without outsourcing my writing."
 layout: single
 toc: true
 toc_icon: "robot"
+toc_label: "On This Page"
 toc_sticky: true
 author_profile: true
 permalink: /ai-transparency/

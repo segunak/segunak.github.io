@@ -158,9 +158,11 @@ defaults:
       show_date: true
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
+      toc_label: "On This Page"
+      toc_sticky: true
   # _pages
   - scope:
       path: "_pages"
