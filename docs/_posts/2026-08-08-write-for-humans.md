@@ -1,7 +1,7 @@
 ---
 title: "Why Should I Bother To Read Something You Didn't Bother To Write?"
 excerpt: "AI has its uses, but if you couldn't be bothered to write something, why should anyone bother to read it?"
-last_modified_at: 2026-08-09T14:46:33
+last_modified_at: 2026-08-09T22:50:21
 toc: true
 toc_label: "On This Page"
 toc_icon: "pen"
@@ -61,7 +61,7 @@ It's a great short read. Here's another good one on a similar theme.
 
 Their point and my point are largely the same. You write because you want people to read it. If you didn't write it, why should I read it? If it wasn't important enough for you to write, why should it be important enough for me to read?
 
-## Bring Back Writing Letters
+## Bring Back Pen Pals
 
 I find myself longing for the days when people wrote letters to one another. Bring back pen pals. I'm partial to a good rom-com, particularly from the 90s and early 2000s (less raunchy, more wholesome), and [*You've Got Mail*](https://en.wikipedia.org/wiki/You%27ve_Got_Mail) is one of my favorites.
 
