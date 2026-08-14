@@ -86,7 +86,9 @@ foreach ($file in $targets) {
     }
     elseif ($ext -in '.jpg', '.jpeg') {
         $kind = 'still'
-        jpegoptim -q $work | Out-Null
+        # --all-progressive only re-orders how coefficients are stored, so the pixels are
+        # untouched. It usually beats baseline optimization, which often finds nothing.
+        jpegoptim -q --all-progressive $work | Out-Null
     }
     elseif ($ext -eq '.gif') {
         if (-not $hasGifsicle) { $skipped += "$($file.Name)  gifsicle not installed"; continue }
