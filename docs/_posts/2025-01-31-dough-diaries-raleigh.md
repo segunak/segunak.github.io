@@ -1,15 +1,15 @@
 ---
 title: "Dough Diaries: On the Nature of Cinnamon Rolls in Raleigh, North Carolina"
 excerpt: "Join me on a journey through Raleigh's delightful cinnamon roll scene."
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
 toc_icon: "info-circle"
 header:
-  teaser: /assets/images/raleigh.jpg
-  og_image: /assets/images/raleigh.jpg
-  overlay_image: /assets/images/raleigh.jpg
+  teaser: /assets/images/misc/raleigh.jpg
+  og_image: /assets/images/misc/raleigh.jpg
+  overlay_image: /assets/images/misc/raleigh.jpg
   overlay_filter: 0.6
 categories:
   - blog
@@ -38,7 +38,7 @@ If you've seen my [Jefferson City, Missouri](https://segunakinyemi.com/blog/doug
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/sydney-the-bear-wtf-look.gif" alt="Sydney from The Bear" />
+    <img src="/assets/gifs/sydney-the-bear-wtf-look.gif" alt="Sydney from The Bear" />
   </div>
 </div>
 
@@ -98,7 +98,7 @@ It's good, but it leans dry. The icing doesn't quite melt into the roll, it stay
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/NoFromMeDawg.jpg" alt="Randy from American Idol" />
+    <img src="/assets/images/misc/NoFromMeDawg.jpg" alt="Randy from American Idol" />
   </div>
 </div>
 
@@ -152,7 +152,7 @@ That is to say: **The Market Bakery in Raleigh, North Carolina, has done it. The
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/perfection-perfect.gif" alt="Magneto saying perfection"/>
+    <img src="/assets/gifs/perfection-perfect.gif" alt="Magneto saying perfection"/>
   </div>
 </div>
 
@@ -164,13 +164,13 @@ The cinnamon roll itself is masterfully crafted. Soft yet structured, delicate b
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/perfectly-balanced-meme.jpg" alt="Thanos perfectly balanced" />
+    <img src="/assets/images/misc/perfectly-balanced-meme.jpg" alt="Thanos perfectly balanced" />
   </div>
 </div>
 
 The icing is applied with a true artisan's precision. Generous but never excessive, sweet but never cloying. Many bakeries make the mistake of drowning their cinnamon rolls in icing (_looking at you, Cinnabon_), but _The Market Bakery_ achieves an equilibrium few have even dared to dream of.
 
-Warm or cold, it is transcendent. No exaggeration: it's the greatest cinnamon roll I've ever had. It's so divinely made that I found myself thanking <a href="/assets/images/JesusIsGod.png" target="_blank">God</a> for allowing humanity to experience such baked perfection.
+Warm or cold, it is transcendent. No exaggeration: it's the greatest cinnamon roll I've ever had. It's so divinely made that I found myself thanking <a href="/assets/images/misc/JesusIsGod.png" target="_blank">God</a> for allowing humanity to experience such baked perfection.
 
 If you're ever in Raleigh, you must come here. Every other place in this article can be ignored. This alone is worth the journey. But heed my warning: _arrive early_.
 
@@ -306,6 +306,6 @@ That said, this was a lot of writing, and I'm tired. If you actually read this e
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/sydney-the-bear-laptop-close.gif" alt="Syndey from The Bear" />
+    <img src="/assets/gifs/sydney-the-bear-laptop-close.gif" alt="Syndey from The Bear" />
   </div>
 </div>

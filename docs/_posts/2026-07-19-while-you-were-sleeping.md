@@ -1,15 +1,15 @@
 ---
 title: "While You Were Sleeping (1995) Is The Most Ridiculous Rom-Com I've Ever Seen. I Loved It"
 excerpt: "Sandra Bullock turns an absurd case of mistaken identity into a warm story about loneliness, family, and finding love where least expected. It makes no sense. I loved it."
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
 toc_icon: "heart"
 header:
-  teaser: /assets/images/creepy-sandra-bullock-banner.png
-  og_image: /assets/images/creepy-sandra-bullock-banner.png
-  overlay_image: /assets/images/creepy-sandra-bullock-banner.png
+  teaser: /assets/images/misc/creepy-sandra-bullock-banner.png
+  og_image: /assets/images/misc/creepy-sandra-bullock-banner.png
+  overlay_image: /assets/images/misc/creepy-sandra-bullock-banner.png
   overlay_filter: 0.7
 categories:
   - blog
@@ -69,7 +69,7 @@ Which, upon viewing, left me feeling like:
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img alt="Homer Fading Meme" src="/assets/images/homer-fading-into-bush.gif"/>
+    <img alt="Homer Fading Meme" src="/assets/gifs/homer-fading-into-bush.gif"/>
   </div>
 </div>
 

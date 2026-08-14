@@ -5,9 +5,9 @@ toc: true
 toc_sticky: true
 toc_label: "On This Page"
 toc_icon: "coffee"
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 header:
-  teaser: /assets/images/skyline-vibrant.jpeg
+  teaser: /assets/images/misc/skyline-vibrant.jpeg
 categories:
   - blog
 tags:
@@ -15,7 +15,7 @@ tags:
 ---
 
 
-![HelloThere](/assets/images/kakashi-hello.gif)
+![HelloThere](/assets/gifs/kakashi-hello.gif)
 
 Hello, and welcome! Charlotte Third Places is a project I built to help people explore various 'third places' around Charlotte, North Carolina. Third places are social environments separate from home (the "first place") and work/school (the "second place") where people come together to build community, exchange ideas, and relax. Think coffee shops, cafes, libraries, casual restaurants, and the like. You can read more about third places as a concept [here](https://en.wikipedia.org/wiki/Third_place).
 

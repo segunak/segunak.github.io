@@ -31,9 +31,9 @@ toc_sticky: true
 toc_label: "On This Page"
 toc_icon: "robot"
 header:
-  teaser: /assets/images/example.jpg
-  og_image: /assets/images/example.jpg
-  overlay_image: /assets/images/example.jpg
+  teaser: /assets/images/misc/example.jpg
+  og_image: /assets/images/misc/example.jpg
+  overlay_image: /assets/images/misc/example.jpg
   overlay_filter: 0.6
 categories:
   - blog
@@ -56,8 +56,8 @@ Follow the front matter formatting already used throughout [docs/_posts](../../.
 
    ```yaml
    header:
-     teaser: /assets/images/example.jpg
-     overlay_image: /assets/images/example.jpg
+     teaser: /assets/images/misc/example.jpg
+     overlay_image: /assets/images/misc/example.jpg
    ```
 
 6. Under `categories:` and `tags:`, indent each list item exactly two spaces:
@@ -134,9 +134,9 @@ Header pattern:
 
 ```yaml
 header:
-  teaser: /assets/images/example.jpg
-  og_image: /assets/images/example.jpg
-  overlay_image: /assets/images/example.jpg
+  teaser: /assets/images/misc/example.jpg
+  og_image: /assets/images/misc/example.jpg
+  overlay_image: /assets/images/misc/example.jpg
   overlay_filter: 0.6
   caption: "Image Credit: [**Source**](url)"
 ```

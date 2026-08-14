@@ -10,7 +10,7 @@ permalink: /highlights/
 
 <a id="top"></a>
 
-![HelloThere](/assets/images/hello-there-old-obi-wan.gif)
+![HelloThere](/assets/gifs/hello-there-old-obi-wan.gif)
 
 Welcome! This page highlights various [stuff and thangs](https://www.google.com/search?q=stuff+and+thangs+rick+grimes+the+walking+dead) I've been working on or involved in. I try to keep it updated, so it's a good place to check in if you're curious about what I've been up to.
 
@@ -110,6 +110,6 @@ Scroll through to see what I've been up to [as the world spins madly on](https:/
 
 - I volunteered at the City of Charlotte Mayor's Youth Employment Program Engage event, introducing 400+ high school students to STEM and technology careers at Central Piedmont Community College (CPCC). Check out a recap in [this LinkedIn post](https://www.linkedin.com/posts/sblackmon_microsoftcrew-microsoftlife-tech-activity-7009264717294706688-yvJm).
 
-- I launched my Discovery Day program with the first ever edition at Microsoft Charlotte with the Carolina Youth Coalition. You can check out what went down in [this recap photo](/assets/images/FirstEveryDiscoveryDay-Sep2022-CYC.jpg). I've since opted for LinkedIn recaps, but that was the first, you live and learn!
+- I launched my Discovery Day program with the first ever edition at Microsoft Charlotte with the Carolina Youth Coalition. You can check out what went down in [this recap photo](/assets/images/misc/FirstEveryDiscoveryDay-Sep2022-CYC.jpg). I've since opted for LinkedIn recaps, but that was the first, you live and learn!
 
 [Back to top](#top)

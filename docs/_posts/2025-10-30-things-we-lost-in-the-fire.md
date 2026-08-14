@@ -1,15 +1,15 @@
 ---
 title: "Things We Lost in the Fire (2007): Grief, Addiction, and Love Beyond the Grave"
 excerpt: "A rainy Wednesday morning, a cafe/video store hybrid, and a random 2007 film brought me to an unexpected but welcome reflection. Love doesn't die when people do. It just finds new ways to heal the living."
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 toc: true
 toc_label: "On This Page"
 toc_icon: "book"
 toc_sticky: true
 header:
-  teaser: /assets/images/things-we-lost-in-the-fire.jpg
-  og_image: /assets/images/things-we-lost-in-the-fire.jpg
-  overlay_image: /assets/images/things-we-lost-in-the-fire.jpg
+  teaser: /assets/images/misc/things-we-lost-in-the-fire.jpg
+  og_image: /assets/images/misc/things-we-lost-in-the-fire.jpg
+  overlay_image: /assets/images/misc/things-we-lost-in-the-fire.jpg
   overlay_filter: 0.7
 categories:
   - blog
@@ -143,7 +143,7 @@ One day at a time man. One day at a time. [The wind rises, we must try to live!]
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/wind-rises-plane.gif" alt="The wind rises"/>
+    <img src="/assets/gifs/wind-rises-plane.gif" alt="The wind rises"/>
   </div>
 </div>
 

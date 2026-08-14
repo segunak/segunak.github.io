@@ -1,7 +1,7 @@
 ---
 title: "The Commands of Christ"
 excerpt: "A catalog of commands issued by Jesus Christ throughout the Bible."
-last_modified_at: 2026-08-08T21:55:28
+last_modified_at: 2026-08-13T20:14:57
 toc: true
 toc_label: "On This Page"
 toc_icon: "book"
@@ -9,9 +9,9 @@ toc_sticky: true
 read_time: false
 author_profile: false
 header:
-  teaser: /assets/images/blue-christ-the-redeemer.png
-  og_image: /assets/images/blue-christ-the-redeemer.png
-  overlay_image: /assets/images/blue-christ-the-redeemer.png
+  teaser: /assets/images/misc/blue-christ-the-redeemer.png
+  og_image: /assets/images/misc/blue-christ-the-redeemer.png
+  overlay_image: /assets/images/misc/blue-christ-the-redeemer.png
   overlay_filter: 0.6
 categories:
   - blog

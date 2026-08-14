@@ -1,12 +1,12 @@
 ---
 title: "How To Stop GitHub Copilot in VS Code From Asking You To Approve Every URL It Visits"
 excerpt: "Add chat.tools.urls.autoApprove to your VS Code settings.json to stop GitHub Copilot from prompting you to approve every URL it visits."
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
 header:
-  teaser: /assets/images/github-copilot.png
+  teaser: /assets/images/misc/github-copilot.png
 categories:
   - blog
 tags:

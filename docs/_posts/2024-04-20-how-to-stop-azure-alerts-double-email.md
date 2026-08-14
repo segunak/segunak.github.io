@@ -5,9 +5,9 @@ excerpt: "Learn how to configure Azure alert rules to stop getting two emails wh
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 header:
-  teaser: /assets/images/azure3.png
+  teaser: /assets/images/misc/azure3.png
 categories:
   - blog
 tags:
@@ -79,23 +79,23 @@ If you want to ensure you only get one email from your Azure alert rule, here's 
 
 1. Set up your [alert rule](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-types). I'm going to assume that if you're reading this article, you already have an alert rule, and it's causing you problems, so this step is likely done.
 2. In the Azure Portal, go to `Alerts –> Alert processing rules`.
-    ![AlertRules](/assets/images/alertprocessingrules.png)
+    ![AlertRules](/assets/images/misc/alertprocessingrules.png)
 3. Click `Create` on the `Alert processing rules` page.
-    ![AlertRules](/assets/images/alertprocessingrules-2.png)
+    ![AlertRules](/assets/images/misc/alertprocessingrules-2.png)
 4. Here's where things get interesting. For the `Scope`, you need to select the resource that your alert rule is tied to. In my case, I was monitoring a Synapse workspace, but it was done by picking up data it emitted to a Log Analytics workspace. This meant I needed to attach my alert processing rule to the Log Analytics workspace, rather than the Synapse workspace directly. Your situation may differ, but the general guidance is to choose the resource your alert rule is directly scanning as your scope.
-    ![AlertRules](/assets/images/scope.png)
+    ![AlertRules](/assets/images/misc/scope.png)
 5. Now with your scope chosen, apply filters to tie your alert processing rule to the alert rule causing you problems. Under `Scope` there should be a `Filter` section with dropdown menus.
 6. Set your first filter to `Alert rule name` and choose the name of your problematic alert rule.
 7. Set your second filter to `Alert condition` and choose either `Fired` or `Resolved`, whichever condition you want to silence (not get an email for). Here's an example of what this could look like.
-    ![AlertRules](/assets/images/scopeandfilter.png)
+    ![AlertRules](/assets/images/misc/scopeandfilter.png)
 8. Proceed to the `Rule settings` page and choose `Suppress notifications`, which does exactly what it sounds like. The alert will still fire, but its action groups won't be invoked, so you won't receive any notifications when it fires.
-    ![AlertRules](/assets/images/rulesettings.png)
+    ![AlertRules](/assets/images/misc/rulesettings.png)
 9. Proceed to the `Scheduling` page and select `Always` to ensure the alert processing rule is always active.
-    ![AlertRules](/assets/images/scheduling.png)
+    ![AlertRules](/assets/images/misc/scheduling.png)
 10. Proceed to the `Details` page and select a resource group for your alert processing rule. Give it a sensible name and description.
-    ![AlertRules](/assets/images/detailsscreen.png)
+    ![AlertRules](/assets/images/misc/detailsscreen.png)
 11. Proceed to the `Review + create` page and create the alert processing rule. Once created, it should show up on the overview page for all alert processing rules.
-    ![AlertRules](/assets/images/createdalertprocessingrule.png)
+    ![AlertRules](/assets/images/misc/createdalertprocessingrule.png)
 12. Test your alert processing rule by triggering your alert rule and seeing if you end up getting two emails.
 
 The trickiest part of the instructions above is selecting the correct scope for your alert processing rule. It took me a few tries to get the right configuration that would apply to my Synapse workspace indirectly through the Log Analytics workspace it emits to. If you go through the instructions and are still getting two emails, double-check your scope.

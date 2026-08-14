@@ -1,15 +1,15 @@
 ---
 title: "Context Is All You Need: AI Engineering with the Petoi 'Bittle X' Robot Dog"
 excerpt: "Check out an AI Engineering workshop, the art of providing models with good context, using robot dogs, Python, and VS Code."
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
 toc_icon: "robot"
 header:
-  teaser: /assets/images/ai-engineering-petoi-bittle-banner.png
-  og_image: /assets/images/ai-engineering-petoi-bittle-banner.png
-  overlay_image: /assets/images/ai-engineering-petoi-bittle-banner.png
+  teaser: /assets/images/misc/ai-engineering-petoi-bittle-banner.png
+  og_image: /assets/images/misc/ai-engineering-petoi-bittle-banner.png
+  overlay_image: /assets/images/misc/ai-engineering-petoi-bittle-banner.png
   overlay_filter: 0.6
 categories:
   - blog

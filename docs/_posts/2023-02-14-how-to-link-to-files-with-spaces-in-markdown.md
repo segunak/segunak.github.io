@@ -1,10 +1,10 @@
 ---
 title: "How To Have a Link With Spaces in Markdown"
 excerpt: "You can link to files, folders, websites, or anything with spaces in it, using this one simple Markdown trick (intentional built-in feature)."
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 classes: wide
 header:
-  teaser: /assets/images/markdown-image.jpg
+  teaser: /assets/images/misc/markdown-image.jpg
 categories:
   - blog
 tags:
@@ -40,6 +40,6 @@ But sometimes, it's out of your control. In that case, do what you got to do, mu
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img alt="Obi Wan Do What I Must" src="/assets/images/obi-wan-must.gif"/>
+    <img alt="Obi Wan Do What I Must" src="/assets/gifs/obi-wan-must.gif"/>
   </div>
 </div>

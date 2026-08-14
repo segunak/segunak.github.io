@@ -1,14 +1,14 @@
 ---
 title: "Times Are Changing: Coding Is Dead, Software Engineering Isn't"
 excerpt: "Coding, as we've known it, is dead. Companies like Canva and Meta are already letting candidates use AI in technical interviews. But the real job has always been more than writing code. Long live software engineering."
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
 header:
-  teaser: /assets/images/future-artificial-intelligence.png
-  og_image: /assets/images/future-artificial-intelligence.png
-  overlay_image: /assets/images/future-artificial-intelligence.png
+  teaser: /assets/images/misc/future-artificial-intelligence.png
+  og_image: /assets/images/misc/future-artificial-intelligence.png
+  overlay_image: /assets/images/misc/future-artificial-intelligence.png
   overlay_filter: 0.8
 categories:
   - blog
@@ -166,7 +166,7 @@ This graphic by [Kedasha Kerr on LinkedIn](https://www.linkedin.com/posts/kedash
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img alt="Coding Is Dead Graphic" src="/assets/images/coding-is-dead-graphic.jpg"/>
+    <img alt="Coding Is Dead Graphic" src="/assets/images/misc/coding-is-dead-graphic.jpg"/>
   </div>
 </div>
 

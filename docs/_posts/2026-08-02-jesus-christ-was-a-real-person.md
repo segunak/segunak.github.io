@@ -1,15 +1,15 @@
 ---
 title: "Jesus Christ Was a Real Person"
 excerpt: "Religion aside, the existence of Jesus Christ is a historical fact, though awareness of it may be fading with each new generation."
-last_modified_at: 2026-08-04T11:58:27
+last_modified_at: 2026-08-13T20:14:57
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
 toc_icon: "cross"
 header:
-  teaser: /assets/images/historical-portrait-jesus.jpg
-  og_image: /assets/images/christ-the-redeemer-sunrise.jpg
-  overlay_image: /assets/images/christ-the-redeemer-sunrise.jpg
+  teaser: /assets/images/misc/historical-portrait-jesus.jpg
+  og_image: /assets/images/misc/christ-the-redeemer-sunrise.jpg
+  overlay_image: /assets/images/misc/christ-the-redeemer-sunrise.jpg
   overlay_filter: 0.7
 categories:
   - blog
@@ -63,7 +63,7 @@ In response to those numbers, I have only this:
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img alt="My Disappointment Is Immeasurable, and My Day Is Ruined" src="/assets/images/disappointment-immeasurable.gif"/>
+    <img alt="My Disappointment Is Immeasurable, and My Day Is Ruined" src="/assets/gifs/disappointment-immeasurable.gif"/>
   </div>
 </div>
 
@@ -120,7 +120,7 @@ Spelled out in its entirety, it would more accurately be something like, "I beli
 
 <div class="meme-container">
   <div class="meme-wrapper" style="width: min(100%, 420px); margin: 0 auto;">
-    <img alt="Ain't Nobody Got Time for That" src="/assets/images/aint-nobody-got-time-for-that.gif"/>
+    <img alt="Ain't Nobody Got Time for That" src="/assets/gifs/aint-nobody-got-time-for-that.gif"/>
   </div>
 </div>
 

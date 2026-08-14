@@ -4,12 +4,14 @@ Use this reference for post mechanics after checking related posts in [the full 
 
 ## Media Corpus
 
-Treat [docs/assets/images](../../../../docs/assets/images/) as a visual style corpus. It contains not only post assets but also evidence of the author's cover image taste, meme culture, pop culture references, reaction GIF rhythm, screenshots, and visual humor.
+Media lives in 4 folders. [docs/assets/images/misc](../../../../docs/assets/images/misc/) holds blog art, screenshots, banners, logos, teasers, and everything just in general, its assorted. [docs/assets/gifs](../../../../docs/assets/gifs/) holds every GIF. [docs/assets/images/me](../../../../docs/assets/images/me/) holds photos of the author and events and related things about the author. [docs/assets/videos](../../../../docs/assets/videos/) holds videos.
+
+Treat those folders as a visual style corpus. They contain not only post assets but also evidence of the author's cover image taste, meme culture, pop culture references, reaction GIF rhythm, screenshots, and visual humor.
 
 When suggesting media:
 
 1. Check how related posts use images and GIFs.
-2. Prefer existing assets from [docs/assets/images](../../../../docs/assets/images/) when they fit the draft.
+2. Prefer existing assets from [misc](../../../../docs/assets/images/misc/) and [gifs](../../../../docs/assets/gifs/) when they fit the draft.
 3. Match the moment, not just the topic. A reaction GIF should fit the emotional beat in the prose.
 4. If no existing asset fits, suggest meme concepts, image directions, or online search ideas that align with the author's demonstrated humor and references.
 5. Do not download, add, or invent new media unless the user explicitly asks.
@@ -107,7 +109,7 @@ Reaction GIFs usually use this wrapper:
 ```html
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/filename.gif" />
+    <img src="/assets/gifs/filename.gif" />
   </div>
 </div>
 ```
@@ -117,10 +119,10 @@ Use this for a full reaction beat. Plain Markdown images or raw `img` tags are f
 ## Standard Images
 
 ```markdown
-![DescriptiveAltText](/assets/images/filename.jpg)
+![DescriptiveAltText](/assets/images/misc/filename.jpg)
 ```
 
-Use descriptive alt text. Keep image paths under `/assets/images/`.
+Use descriptive alt text. Blog art, screenshots, banners, teasers, and literally everything in general go under `/assets/images/misc/` which is the default place for images, assorted in nature. GIFs go under `/assets/gifs/`. Photos of the author and specific personal branding related things go under `/assets/images/me/`.
 
 ## YouTube Embeds
 

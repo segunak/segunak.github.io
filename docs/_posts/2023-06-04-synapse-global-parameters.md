@@ -6,9 +6,9 @@ toc_label: "On This Page"
 toc_icon: "database"
 toc_sticky: true
 author_profile: true
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 header:
-  teaser: /assets/images/SynapseTeaser.jpg
+  teaser: /assets/images/misc/SynapseTeaser.jpg
 categories:
   - blog
 tags:
@@ -62,21 +62,21 @@ You have some options for storage of your JSON object containing global values, 
 
 Then in your parent pipeline, load the global values from the `.json` file using a [Lookup activity](https://learn.microsoft.com/en-us/azure/data-factory/control-flow-lookup-activity).
 
-![StorageAccountJson](/assets/images/storage-account-json.jpg)
+![StorageAccountJson](/assets/images/misc/storage-account-json.jpg)
 
 ---
 
-![SynapseDataset](/assets/images/synapse-dataset.jpg)
+![SynapseDataset](/assets/images/misc/synapse-dataset.jpg)
 
 ---
 
-![GetGlobals](/assets/images/get-globals.jpg)
+![GetGlobals](/assets/images/misc/get-globals.jpg)
 
 **Option 2:** Save your JSON in the default value field of a parameter with the type `Object` on your parent pipeline.
 
 This may sound weird, but this whole thing is a workaround, so bear with me. Create a parameter of the type `Object` in your parent pipeline. Populate its default with your JSON object string containing global values. Be sure to create a parameter of type `Object`, and not a variable. Only pipeline parameters support the `Object` type, which is another strange limitation of Synapse. Paste your JSON into the "Default value" field of the parameter.
 
-![GlobalData](/assets/images/ParentPipelineGlobalData.jpg)
+![GlobalData](/assets/images/misc/ParentPipelineGlobalData.jpg)
 
 ### Pass your globals JSON object to child pipelines
 
@@ -84,21 +84,21 @@ Ensure each child pipeline has a parameter of type `Object` for receiving global
 
 For example, here's a child pipeline with a parameter of type `Object`.
 
-![SettingUpChildPipeline](/assets/images/Synapse-ChildPipeline-TakingGlobalObject-FromParent.jpg)
+![SettingUpChildPipeline](/assets/images/misc/Synapse-ChildPipeline-TakingGlobalObject-FromParent.jpg)
 
 Now in the parent, when the child pipeline is executed, the globals JSON object can be provided to it via the parameter.
 
 Here's how you would pass the globals object if you chose **Option 1 (using a `.json`)** for storing your JSON.
 
-![LookupJsonDetailed](/assets/images/lookup-json-detailed.jpg)
+![LookupJsonDetailed](/assets/images/misc/lookup-json-detailed.jpg)
 
 Here's how it'd be passed if you chose **Option 2 (using the default value of an `Object` type parameter in the parent pipeline)** for storing your JSON.
 
-![CallingChildPipeline](/assets/images/Synapse-ParentPipeline-CallingChild.jpg)
+![CallingChildPipeline](/assets/images/misc/Synapse-ParentPipeline-CallingChild.jpg)
 
 And then back in the child pipeline, global values inherited from the parent can be accessed using dot notation.
 
-![ChildPipelineUsingGlobal](/assets/images/Synapse-ChildPipeline-UsingGlobalFromParent.jpg)
+![ChildPipelineUsingGlobal](/assets/images/misc/Synapse-ChildPipeline-UsingGlobalFromParent.jpg)
 
 This workaround is essentially recreating the principle of [inheritance](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)), with some [dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) mixed in, albeit in a somewhat roundabout way. It reminds me of some classes I took in college where professors demanded we create data structures from scratch. I can't say those were my favorite lessons at the time, but I certainly learned a lot. Perhaps Microsoft intentionally omitted global parameters from Synapse to [empower](https://www.microsoft.com/en-us/about) our growth as software artisans. Probably not, but they've certainly forced users to work on their problem-solving skills.
 
@@ -120,7 +120,7 @@ There are some drawbacks to the aforementioned parent-child inheritance workarou
 
 In a nutshell, while this workaround might _work_, it's inferior to the native support for global parameters that's [already available](https://learn.microsoft.com/en-us/azure/data-factory/author-global-parameters) in Azure Data Factory.
 
-![GlobalsSupportADFSynapse](/assets/images/GlobalsSupportADFSynapse.jpg)
+![GlobalsSupportADFSynapse](/assets/images/misc/GlobalsSupportADFSynapse.jpg)
 
 ## A Closing Soliloquy
 

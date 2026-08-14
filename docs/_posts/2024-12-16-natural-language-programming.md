@@ -5,11 +5,11 @@ toc: true
 toc_sticky: true
 toc_label: "On This Page"
 toc_icon: "robot"
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 header:
-  teaser: /assets/images/all-might-hero-graphic.png
-  og_image: /assets/images/all-might-hero-graphic.png
-  overlay_image: /assets/images/all-might-hero-graphic.png
+  teaser: /assets/images/misc/all-might-hero-graphic.png
+  og_image: /assets/images/misc/all-might-hero-graphic.png
+  overlay_image: /assets/images/misc/all-might-hero-graphic.png
   overlay_filter: 0.6
 categories:
   - blog
@@ -49,7 +49,7 @@ In case you haven't heard, I'll start by sharing that Artificial Intelligence (A
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/ai-spending-cropped.jpg" />
+    <img src="/assets/images/misc/ai-spending-cropped.jpg" />
   </div>
 </div>
 
@@ -71,7 +71,7 @@ Or put another way, **you too can become a *<s>hero</s>* software developer**.
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/all-might-you-too-hero.gif"/>
+    <img src="/assets/gifs/all-might-you-too-hero.gif"/>
   </div>
 </div>
 
@@ -105,7 +105,7 @@ In that list, consider that Microsoft [owns GitHub](https://www.google.com/searc
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/sus-dog.gif"/>
+    <img src="/assets/gifs/sus-dog.gif"/>
   </div>
 </div>
 
@@ -125,7 +125,7 @@ That bit about *deliver, not replace* developer creativity? That's where many in
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/im-in-danger.gif" />
+    <img src="/assets/gifs/im-in-danger.gif" />
   </div>
 </div>
 
@@ -222,7 +222,7 @@ Let me end with some lighthearted memeing about Microsoft's naming conventions. 
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/wtf-azure-post.png" />
+    <img src="/assets/images/misc/wtf-azure-post.png" />
   </div>
 </div>
 
@@ -249,6 +249,6 @@ Anyways, that's all. Godspeed.
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/peace-out-bye.gif" />
+    <img src="/assets/gifs/peace-out-bye.gif" />
   </div>
 </div>

@@ -1,14 +1,14 @@
 ---
 title: "We're Not Cooked: Your Tech Career Survival Guide in the Age of AI Engineering"
 excerpt: "From SEO TechDevCon 2025 attendees to anyone curious, AI Engineering is why we still need technical people. Here's your guide to what it is, where to learn, who to follow, and how to thrive."
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
 header:
-  teaser: /assets/images/blue-bead-thingy-banner.jpg
-  og_image: /assets/images/black-with-grid-banner.png
-  overlay_image: /assets/images/black-with-grid-banner.png
+  teaser: /assets/images/misc/blue-bead-thingy-banner.jpg
+  og_image: /assets/images/misc/black-with-grid-banner.png
+  overlay_image: /assets/images/misc/black-with-grid-banner.png
   overlay_filter: 0.5
 categories:
   - blog
@@ -35,7 +35,7 @@ Be sure to [connect with me on LinkedIn](https://www.linkedin.com/in/segunakinye
 
 ## What's Up
 
-![KakashiWaving](/assets/images/kakashi-hello.gif)
+![KakashiWaving](/assets/gifs/kakashi-hello.gif)
 
 Welcome! If you're reading this, you might've scanned a QR code during my workshop at [SEO's](https://www.seo-usa.org/) 2025 [Tech Developer Conference](https://tech.seo-usa.org/) in New York. If you didn't, that's alright. The information written here remains relevant in perpetuity for anyone interested in the tech field and feeling anxiety.
 
@@ -82,7 +82,7 @@ It's still a relatively new term, although [it's going mainstream](https://www.l
 
 I created this visual to illustrate what AI Engineering means in practice. It's not perfect, but it gets the point across:
 
-![AI Engineer Image](/assets/images/AI-Engineer-Graph.png)
+![AI Engineer Image](/assets/images/misc/AI-Engineer-Graph.png)
 
 **Aside:** The image shows AI Engineer as the #1 fastest growing job title, which comes from [LinkedIn's 2025 Jobs on the Rise report](https://www.linkedin.com/pulse/linkedin-jobs-rise-2025-25-fastest-growing-us-linkedin-news-gryie).
 {: .notice--info}
@@ -91,7 +91,7 @@ Though honestly, [this AI Engineer interview cheatsheet](https://www.linkedin.co
 
 [Software development is so much more than writing code!](https://terriblesoftware.org/2025/12/11/ai-can-write-your-code-it-cant-do-your-job/)
 
-![AI Engineer Interview Cheatsheet](/assets/images/AI-Engineering-CheatSheet.jpg)
+![AI Engineer Interview Cheatsheet](/assets/images/misc/AI-Engineering-CheatSheet.jpg)
 
 In general, think of Machine Learning Engineer vs. AI Engineer this way. They're both athletes, but in different sports.
 
@@ -146,7 +146,7 @@ For me, you, and anyone wanting a tech career who isn't great at math or trying 
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img alt="Gimli saying Aye I could do that" src="/assets/images/gimli-aye-i-could-do-that-lotr.gif"/>
+    <img alt="Gimli saying Aye I could do that" src="/assets/gifs/gimli-aye-i-could-do-that-lotr.gif"/>
   </div>
 </div>
 
@@ -160,7 +160,7 @@ To all my "vibe coding will get me hired in tech" people out there, I love you, 
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img alt="Not Serious People" src="/assets/images/succession-not-serious-people.gif"/>
+    <img alt="Not Serious People" src="/assets/gifs/succession-not-serious-people.gif"/>
   </div>
 </div>
 
@@ -173,7 +173,7 @@ Sorry if that's harsh, but I want to be sure I don't have to go full...
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img alt="Justin Bieber Not Clocking to You" src="/assets/images/justin-bieber-clocking-to-you.gif"/>
+    <img alt="Justin Bieber Not Clocking to You" src="/assets/gifs/justin-bieber-clocking-to-you.gif"/>
   </div>
 </div>
 
@@ -199,7 +199,7 @@ Learning to code today isn't about prepping for a future where you type every li
 
 The future is being technical enough to orchestrate AI while you handle the problems that need human judgment.
 
-Writing effective prompts, catching when AI hallucinates garbage, and debugging when things inevitably break. Those are the things no serious company will ever [trust solely to a machine](/assets/images/ibm-slide.jpg), and they're what make you valuable and get you paid.
+Writing effective prompts, catching when AI hallucinates garbage, and debugging when things inevitably break. Those are the things no serious company will ever [trust solely to a machine](/assets/images/misc/ibm-slide.jpg), and they're what make you valuable and get you paid.
 
 But you can only do these things if you can read and understand code, generate it with very specific prompts (essentially [pseudocode](https://en.wikipedia.org/wiki/Pseudocode)), and occasionally, write it when needed.
 
@@ -429,7 +429,7 @@ Some people might hear that and think:
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img alt="Aint Nobody Got Time for That" src="/assets/images/aint-nobody-got-time-for-that.gif"/>
+    <img alt="Aint Nobody Got Time for That" src="/assets/gifs/aint-nobody-got-time-for-that.gif"/>
   </div>
 </div>
 

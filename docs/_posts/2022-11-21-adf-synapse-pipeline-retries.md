@@ -1,14 +1,14 @@
 ---
 title: "How To Retry Pipelines in Azure Data Factory and Synapse Analytics"
 excerpt: "If at first, you don't succeed, pick yourself up and make sure your Azure Data Factory or Azure Synapse Analytics pipelines have adequate retry policies."
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 classes: wide
 author_profile: false
 sidebar:
   title: "On This Page"
   nav: adf-synapse-pipeline-retries
 header:
-  teaser: /assets/images/cloudnetworking.jpg
+  teaser: /assets/images/misc/cloudnetworking.jpg
 categories:
   - blog
 tags:
@@ -34,7 +34,7 @@ In life, things don't always go well. Sometimes you try, you fail, and you try a
 The path to retrying a pipeline varies depending on its trigger type, either [tumbling window](https://learn.microsoft.com/en-us/azure/data-factory/how-to-create-tumbling-window-trigger) or [scheduled](https://learn.microsoft.com/en-us/azure/data-factory/how-to-create-schedule-trigger). Microsoft documentation on that can be seen below, and also [here](https://learn.microsoft.com/en-us/azure/data-factory/concepts-pipeline-execution-triggers#trigger-type-comparison).
 
 <div class="postimage" markdown="1">
-  ![TriggerComparison](/assets/images/trigger-comparison.png)
+  ![TriggerComparison](/assets/images/misc/trigger-comparison.png)
 </div>
 
 ## Tumbling Window Triggers
@@ -42,7 +42,7 @@ The path to retrying a pipeline varies depending on its trigger type, either [tu
 If you're using a [tumbling window trigger](https://learn.microsoft.com/en-us/azure/data-factory/how-to-create-tumbling-window-trigger), retry capabilities are built into Data Factory and Synapse. All you'll need to do is head over to your trigger's configuration page and set the `Retry policy: count` and `Retry policy: interval` in seconds properties to your liking.
 
 <div class="postimage" markdown="1">
-  ![TumblingWindowTriggerExample](/assets/images/retry-twt.png)
+  ![TumblingWindowTriggerExample](/assets/images/misc/retry-twt.png)
 </div>
 
 ## Scheduled Triggers
@@ -53,7 +53,7 @@ If you're using a [scheduled trigger](https://learn.microsoft.com/en-us/azure/da
 
 The pattern below is a basic implementation of a retry policy for a pipeline that runs on a scheduled trigger in Data Factory or Synapse.
 
-![ScheduledTriggerExample](/assets/images/scheduledtriggerexample.jpg)
+![ScheduledTriggerExample](/assets/images/misc/scheduledtriggerexample.jpg)
 
 Here's what's going on, activity by activity, from left to right.
 
@@ -105,8 +105,8 @@ There's nothing "advanced" about the following pattern, but in comparison to the
 
 This pattern relies on the use of a parent pipeline from which all other pipelines are called. Inside, any child pipelines needing retry logic must be wrapped in an [Until](https://learn.microsoft.com/en-us/azure/data-factory/control-flow-until-activity) activity whose iteration is tied to pipeline parameters and variables. Namely, the following.
 
-![ParametersToPipeline](/assets/images/parametersForRetryPipeline.jpg)
-![VariablesForRetryPipeline](/assets/images/variablesForRetryPipeline.jpg)
+![ParametersToPipeline](/assets/images/misc/parametersForRetryPipeline.jpg)
+![VariablesForRetryPipeline](/assets/images/misc/variablesForRetryPipeline.jpg)
 
 Here's what each of those is used for.
 
@@ -117,7 +117,7 @@ Here's what each of those is used for.
 
 Here's what the pipeline looks like at the highest level. The timeout should be set to something reasonable based on the expected runtime of the pipeline being called.
 
-![ExpressionSectionRetryPipeline](/assets/images/expressionSectionRetryPipeline.jpg)
+![ExpressionSectionRetryPipeline](/assets/images/misc/expressionSectionRetryPipeline.jpg)
 
 Take note of the highlighted area containing the expression code. It makes use of the aforementioned variables to break the Until when it's appropriate to do so. The expression code is below.
 
@@ -133,21 +133,21 @@ Take note of the highlighted area containing the expression code. It makes use o
 
 Here's what it looks like inside of the Until.
 
-![InsideUntil](/assets/images/insideUntil.jpg)
+![InsideUntil](/assets/images/misc/insideUntil.jpg)
 
 Things start with `Execute Target Pipeline` which is an [*Execute Pipeline*](https://learn.microsoft.com/en-us/azure/data-factory/control-flow-execute-pipeline-activity) activity. It calls whatever pipeline needs to have retry capabilities.
 
 If `Execute Target Pipeline` succeeds, we go to the [*Set Variable*](https://learn.microsoft.com/en-us/azure/data-factory/control-flow-set-variable-activity) activity `Set Has Pipeline Succeeded to True`, which sets the value of the parameter `HasPipelineSucceeded`, and in so doing, breaks the loop.
 
-![SetHasPipelineSucceededToTrue](/assets/images/setHasPipelineSucceededToTrue.jpg)
+![SetHasPipelineSucceededToTrue](/assets/images/misc/setHasPipelineSucceededToTrue.jpg)
 
 If `Execute Target Pipeline` fails, we go to a Wait activity that waits according to the value of the `RetryInterval` parameter.
 
-![WaitBeforeRetrying](/assets/images/waitBeforeRetrying.jpg)
+![WaitBeforeRetrying](/assets/images/misc/waitBeforeRetrying.jpg)
 
 After waiting, the iteration ends with appending a value (can be any value at all since the count of the array is what we care about) to the `RetryTracker` array. You might be wondering, why are you adding a dummy value to an array just so you can use its length as an integer? Why not just have an integer that you increment each pass through the loop (Until activity)? Well, that'd certainly make more sense, but in Azure Data Factory, the only variables you can "[append](https://learn.microsoft.com/en-us/azure/data-factory/control-flow-append-variable-activity)" to are arrays. The screenshot below says as much with the message in small text near the bottom. There is another way to work around this, detailed [here](https://kloudspro.com/how-to-increment-a-variable-in-adf-azure-data-factory/), but I felt using an array was just less work than adding yet another variable to keep track of. I'm sure the ability to increment integers is coming soon to Azure Synapse Analytics & Data Factory. It has to be, right? Right.
 
-![AppendingToRetryTracker](/assets/images/appendingToRetryTracker.jpg)
+![AppendingToRetryTracker](/assets/images/misc/appendingToRetryTracker.jpg)
 
 And so, with a great deal of effort, this pattern provides retry capabilities for pipelines run by scheduled triggers. While it better supports multiple retries, it still kind of sucks. Here's why.
 

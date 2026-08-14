@@ -1,14 +1,14 @@
 ---
 title: "At Least I Was Entertained: Gladiator II Was Good, But It Could Have Been Great"
 excerpt: "A smorgasbord of Denzel Washington was more than enough to keep me entertained, but a curious central conflict, a lethargic leading man, and over-reliance on nostalgia left Gladiator II a pale reflection of the original masterpiece."
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
 header:
-  teaser: /assets/images/gladiator-2-movie.jpg
-  og_image: /assets/images/gladiator-2-movie.jpg
-  overlay_image: /assets/images/gladiator-2-movie.jpg
+  teaser: /assets/images/misc/gladiator-2-movie.jpg
+  og_image: /assets/images/misc/gladiator-2-movie.jpg
+  overlay_image: /assets/images/misc/gladiator-2-movie.jpg
   overlay_filter: 0.6
 categories:
   - blog
@@ -48,7 +48,7 @@ This past weekend, [Ridley Scott's](https://en.wikipedia.org/wiki/Ridley_Scott) 
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/are-you-not-entertained-maximus.gif"/>
+    <img src="/assets/gifs/are-you-not-entertained-maximus.gif"/>
   </div>
 </div>
 
@@ -68,7 +68,7 @@ Denzel has been known to mentor young actors in Hollywood, encouraging them to l
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/denzel-award.gif"/>
+    <img src="/assets/gifs/denzel-award.gif"/>
   </div>
 </div>
 
@@ -80,7 +80,7 @@ To start, Denzel Washington was good, great really. When I saw this in the previ
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/denzel-g2-handshake.gif"/>
+    <img src="/assets/gifs/denzel-g2-handshake.gif"/>
   </div>
 </div>
 
@@ -136,7 +136,7 @@ If you're looking for a sequel that truly lives up to its predecessor, look no f
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/banderas.gif"/>
+    <img src="/assets/gifs/banderas.gif"/>
   </div>
 </div>
 
@@ -144,6 +144,6 @@ If you're looking for a sequel that truly lives up to its predecessor, look no f
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/denzel-door-slam.gif"/>
+    <img src="/assets/gifs/denzel-door-slam.gif"/>
   </div>
 </div>

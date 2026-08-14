@@ -1,15 +1,15 @@
 ---
 title: "On the Nature of Artificial Intelligence in Tech Careers"
 excerpt: "Thoughts from a software engineer on navigating AI's impact and maintaining relevance amidst rapid technological change."
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
 toc_icon: "microchip"
 header:
-  teaser: /assets/images/ai-tech-banner.jpeg
-  og_image: /assets/images/ai-tech-banner.jpeg
-  overlay_image: /assets/images/ai-tech-banner.jpeg
+  teaser: /assets/images/misc/ai-tech-banner.jpeg
+  og_image: /assets/images/misc/ai-tech-banner.jpeg
+  overlay_image: /assets/images/misc/ai-tech-banner.jpeg
   overlay_filter: 0.6
 categories:
   - blog
@@ -63,7 +63,7 @@ So, does the rise of AI mean:
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img alt="Naruto Meme" src="/assets/images/naruto-lightning-village-no.gif"/>
+    <img alt="Naruto Meme" src="/assets/gifs/naruto-lightning-village-no.gif"/>
   </div>
 </div>
 

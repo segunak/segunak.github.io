@@ -2,9 +2,9 @@
 title: "Smart Cities Need Smart People, Not Just Smart Things"
 excerpt: "To solve pressing problems, smart cities need to focus on people."
 classes: wide
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 header:
-  teaser: /assets/images/smartcity.jpg
+  teaser: /assets/images/misc/smartcity.jpg
 categories:
   - blog
 tags:
@@ -45,7 +45,7 @@ Of all the articles I've read about smart cities, there's one by Microsoft's [Je
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/chefskiss.gif" alt="Chef's kiss"/>
+    <img src="/assets/gifs/chefskiss.gif" alt="Chef's kiss"/>
   </div>
 </div>
 

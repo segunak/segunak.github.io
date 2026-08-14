@@ -1,15 +1,15 @@
 ---
 title: "Exploring Responsible Generative AI Through Music With Microsoft Copilot and Suno"
 excerpt: "Discover how to use Microsoft Copilot and Suno's Generative AI to engage students in hands-on STEM learning and Responsible AI practices through an interactive music creation workshop."
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
 toc_icon: "microchip"
 header:
-  teaser: /assets/images/ai-music.jpeg
-  og_image: /assets/images/music-banner.jpeg
-  overlay_image: /assets/images/music-banner.jpeg
+  teaser: /assets/images/misc/ai-music.jpeg
+  og_image: /assets/images/misc/music-banner.jpeg
+  overlay_image: /assets/images/misc/music-banner.jpeg
   overlay_filter: 0.6
 categories:
   - blog

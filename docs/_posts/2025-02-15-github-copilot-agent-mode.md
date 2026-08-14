@@ -5,11 +5,11 @@ toc: true
 toc_sticky: true
 toc_label: "On This Page"
 toc_icon: "robot"
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 header:
-  teaser: /assets/images/be-water.jpeg
-  og_image: /assets/images/be-water.jpeg
-  overlay_image: /assets/images/be-water.jpeg
+  teaser: /assets/images/misc/be-water.jpeg
+  og_image: /assets/images/misc/be-water.jpeg
+  overlay_image: /assets/images/misc/be-water.jpeg
   overlay_filter: 0.6
 categories:
   - blog
@@ -55,7 +55,7 @@ After reading through it, my initial reaction, out of deep philosophical concern
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/concern-oscar-office.gif" />
+    <img src="/assets/gifs/concern-oscar-office.gif" />
   </div>
 </div>
 
@@ -63,7 +63,7 @@ Which, with time and reflection, transitioned into feelings more aptly conveyed 
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/alonzo-mourning.gif" />
+    <img src="/assets/gifs/alonzo-mourning.gif" />
   </div>
 </div>
 
@@ -117,7 +117,7 @@ If your reaction to all this as a developer is...
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/im-in-danger.gif" />
+    <img src="/assets/gifs/im-in-danger.gif" />
   </div>
 </div>
 
@@ -153,7 +153,7 @@ If you're a software developer, or in a related code-heavy position, a reaction 
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/screwed-the-office.gif" />
+    <img src="/assets/gifs/screwed-the-office.gif" />
   </div>
 </div>
 

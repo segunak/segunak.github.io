@@ -1,12 +1,12 @@
 ---
 title: "Microsoft Fabric Lakehouse SQL Analytics Endpoints: One Per Workspace, Not Per Lakehouse"
 excerpt: "Microsoft Fabric SQL Analytics Endpoints have changed, now all Lakehouses in a workspace share one endpoint, which makes all of our lives easier."
-last_modified_at:
+last_modified_at: 2026-08-13T20:14:57
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
 header:
-  teaser: /assets/images/microsoft-fabric.jpg
+  teaser: /assets/images/misc/microsoft-fabric.jpg
 categories:
   - blog
 tags:
@@ -34,7 +34,7 @@ According to this [Microsoft documentation page](https://learn.microsoft.com/en-
 >
 > [What is a Lakehouse SQL Analytics Endpoint?](https://learn.microsoft.com/en-us/fabric/data-warehouse/get-started-lakehouse-sql-analytics-endpoint)
 
-![LakehouseDetails](/assets/images/lakehouse-items-quote.png)
+![LakehouseDetails](/assets/images/misc/lakehouse-items-quote.png)
 
 Reading that, you'd naturally think: "Okay, so if I have 3 Lakehouses in my workspace, I'll have 3 different SQL endpoints to connect to." Right? At least to me, that's how the language comes across. And well, that used to be true, but not anymore.
 
@@ -83,18 +83,18 @@ It's an ugly URL. A bunch of gibberish. Pretty hard to tell what it's pointing t
 
 Thankfully, the latest version of SQL Server Management Studio (SSMS) has added a feature to address this. When connecting to a Fabric SQL Analytics Endpoint, the pretty name of the workspace shows up.
 
-![SSM22](/assets/images/fabric-ssms-22.png)
+![SSM22](/assets/images/misc/fabric-ssms-22.png)
 
 Read the full details of SSMS 22 here: [SQL Server Management Studio (SSMS) 22 is Now Generally Available](https://techcommunity.microsoft.com/blog/sqlserver/sql-server-management-studio-ssms-22-is-now-generally-available-ga/4469003)
 
 It ends up looking like this when you connect. You can see the Fabric language now integrated into the platform. The black bar, redacted for privacy, would show the name of the Fabric workspace on which the SQL Analytics Endpoint sits.
 
-![FabricExample](/assets/images/example-fabric-name.png)
+![FabricExample](/assets/images/misc/example-fabric-name.png)
 
 And side note, I'm digging the new SSMS logo. Makes me feel very modern, very suave, very cool. Like a hip, in the know, fresh, data modernist kind of guy, rather than an ancient on-premises SQL Server legacy infrastructure [DBA](https://voiceofthedba.com/2018/04/04/is-the-dba-title-dying/) type of guy, which I'm totally _not_. But looking at the old SSMS logo did at times make me feel like one of those legends (shout out to anyone who was doing data engineering before ChatGPT, you deserve your flowers).
 
 <div style="text-align: center;">
-  <img src="/assets/images/new-ssms-logo.png" alt="New SSMS Logo" style="width: 30%;" />
+  <img src="/assets/images/misc/new-ssms-logo.png" alt="New SSMS Logo" style="width: 30%;" />
 </div>
 
 ## Why This Is Better

@@ -5,10 +5,10 @@ toc: true
 toc_sticky: true
 toc_label: "On This Page"
 toc_icon: "jedi"
-last_modified_at: 2024-06-03T02:28:15
+last_modified_at: 2026-08-13T20:14:57
 header:
-  teaser: /assets/images/mcslogo.png
-  overlay_image: /assets/images/coruscant.jpg
+  teaser: /assets/images/misc/mcslogo.png
+  overlay_image: /assets/images/misc/coruscant.jpg
   overlay_filter: 0.1
   caption: "**Star Wars: [Coruscant](https://steamcommunity.com/sharedfiles/filedetails/?id=933733098)**"
 categories:
@@ -101,7 +101,7 @@ Ultimately, sustainability, especially in urban settings, is a priority for inno
 <div class="meme-container">
   <div class="meme-wrapper">
     <a href="https://knowyourmeme.com/memes/im-doing-my-part" target="_blank">
-      <img src="/assets/images/im-doing-my-part-serious.gif" alt="Doing my part"/>
+      <img src="/assets/gifs/im-doing-my-part-serious.gif" alt="Doing my part"/>
     </a>
   </div>
 </div>

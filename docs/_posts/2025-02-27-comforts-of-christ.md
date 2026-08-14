@@ -2,7 +2,7 @@
 title: "The Comforts of Christ"
 excerpt: "A catalog of comforting words spoken by Jesus Christ throughout the Bible."
 pinned: true
-last_modified_at: 2026-08-08T21:55:28
+last_modified_at: 2026-08-13T20:14:57
 toc: true
 toc_label: "On This Page"
 toc_icon: "book"
@@ -10,9 +10,9 @@ toc_sticky: true
 read_time: false
 author_profile: false
 header:
-  teaser: /assets/images/christ-the-redeemer-sunrise.jpeg
-  og_image: /assets/images/christ-the-redeemer-sunrise.jpeg
-  overlay_image: /assets/images/christ-the-redeemer-comforts.jpg
+  teaser: /assets/images/misc/christ-the-redeemer-sunrise.jpeg
+  og_image: /assets/images/misc/christ-the-redeemer-sunrise.jpeg
+  overlay_image: /assets/images/misc/christ-the-redeemer-comforts.jpg
   overlay_filter: 0.7
 categories:
   - blog

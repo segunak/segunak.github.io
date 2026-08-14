@@ -38,7 +38,7 @@ masthead_title:
 search: true
 email:
 breadcrumbs: false  # disabled by default
-#logo: "/assets/images/logo-fullytransparent.png"
+#logo: "/assets/images/misc/logo-fullytransparent.png"
 locale: "en-US"
 tagline: "The personal blog of Segun Akinyemi"
 description: "The personal website, blog and digital playground of Segun Akinyemi."
@@ -56,9 +56,9 @@ minimal_mistakes_skin2: neon
 # For pages that don't have a header.image assigned in their YAML Front Matter, 
 # site.og_image (OG is open graph) will be used as a fallback. Use your logo, icon, 
 # avatar or something else that is meaningful. Just make sure it is placed in the 
-# /assets/images/ folder, has a minimum size of 120px by 120px, and is less than 1MB in file size.
-og_image: /assets/images/space.jpg
-teaser: /assets/images/coolcityscape.jpg # Default teaser for all posts. Can be overridden per post.
+# /assets/images/misc/ folder, has a minimum size of 120px by 120px, and is less than 1MB in file size.
+og_image: /assets/images/misc/space.jpg
+teaser: /assets/images/misc/coolcityscape.jpg # Default teaser for all posts. Can be overridden per post.
 head_scripts:
   - /assets/js/social-thumbnails.js
 
@@ -111,7 +111,7 @@ plugins:
 
 author:
   name   : "Segun Akinyemi"
-  avatar : "/assets/images/bitmoji-square.png"
+  avatar : "/assets/images/misc/bitmoji-square.png"
   bio    : "Christian, Software Engineer, Tech Enthusiast."
   links:
     - label: "LinkedIn"

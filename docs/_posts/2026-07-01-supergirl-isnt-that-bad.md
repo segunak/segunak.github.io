@@ -1,15 +1,15 @@
 ---
 title: "Supergirl Isn't That Bad"
 excerpt: "It's mid, but given how good Superman was, mid hits a little harder than it otherwise would."
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
 toc_icon: "bolt"
 header:
-  teaser: /assets/images/supergirl-banner.webp
-  og_image: /assets/images/supergirl-banner.webp
-  overlay_image: /assets/images/supergirl-banner.webp
+  teaser: /assets/images/misc/supergirl-banner.webp
+  og_image: /assets/images/misc/supergirl-banner.webp
+  overlay_image: /assets/images/misc/supergirl-banner.webp
   overlay_filter: 0.8
 categories:
   - blog
@@ -95,8 +95,8 @@ Reality, as it often is, is far more boring. The truth is, [*Supergirl*](https:/
 Or to illustrate, my range of emotions when listening to Thirty Seconds to Mars fluctuates from <strong style="color: #b42318;">this</strong> to <strong style="color: #1f7a3f;">that</strong>:
 
 <div class="music-reaction-grid">
-  <img class="music-reaction-grid__banger" alt="Banger song reaction" src="/assets/images/banger-song-gif.gif" />
-  <img class="music-reaction-grid__calm" alt="Monkey listening to music reaction" src="/assets/images/monkey-music-gif.gif" />
+  <img class="music-reaction-grid__banger" alt="Banger song reaction" src="/assets/gifs/banger-song-gif.gif" />
+  <img class="music-reaction-grid__calm" alt="Monkey listening to music reaction" src="/assets/gifs/monkey-music-gif.gif" />
 </div>
 </div>
 

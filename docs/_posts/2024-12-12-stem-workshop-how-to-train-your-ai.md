@@ -1,15 +1,15 @@
 ---
 title: "How To Train Your AI: Demystifying ChatGPT With Machine Learning, Neural Networks, and Deep Learning Basics"
 excerpt: "Demystify the concepts behind tools like ChatGPT with an approachable introduction to Machine Learning, Neural Networks, and Deep Learning."
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
 toc_icon: "robot"
 header:
-  teaser: /assets/images/how-to-train-your-dragon.jpg
-  og_image: /assets/images/how-to-train-your-dragon.jpg
-  overlay_image: /assets/images/how-to-train-your-dragon.jpg
+  teaser: /assets/images/misc/how-to-train-your-dragon.jpg
+  og_image: /assets/images/misc/how-to-train-your-dragon.jpg
+  overlay_image: /assets/images/misc/how-to-train-your-dragon.jpg
   overlay_filter: 0.7
 categories:
   - blog

@@ -1,13 +1,13 @@
 ---
 title: "Miscellaneous Advice For People Interested In Tech Careers"
 excerpt: "An assorted collection of one man's advice related to careers in technology."
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 toc: true
 toc_sticky: true
 read_time: false
 toc_label: "On This Page"
 header:
-  teaser: /assets/images/techcareers.png
+  teaser: /assets/images/misc/techcareers.png
 categories:
   - blog
 tags:
@@ -17,7 +17,7 @@ tags:
 
 <p>
   <div class="image-container">
-    <img alt="HelloThereClippy" src="/assets/images/hellothere-clippy.gif"/>
+    <img alt="HelloThereClippy" src="/assets/gifs/hellothere-clippy.gif"/>
     <div class="image-credit">
       Image Credit: <a href="https://cloudblogs.microsoft.com/">Microsoft Cloud</a>
     </div>
@@ -135,7 +135,7 @@ These are online communities I think are worth engaging in for anyone interested
 
 ## Product Management
 
-This section covers Product Management, a notoriously nebulous job title. While I'm not a PM myself, I work closely with many and count several as friends and mentors. In the PM world, where the `P` can mean Product, Program, or Project, confusion abounds about differences between these roles. From my observation, they all share core [skills and competencies](/assets/images/pm-skills.png), with variations based on company culture and specific projects. This section groups these related roles together to provide broadly applicable advice.
+This section covers Product Management, a notoriously nebulous job title. While I'm not a PM myself, I work closely with many and count several as friends and mentors. In the PM world, where the `P` can mean Product, Program, or Project, confusion abounds about differences between these roles. From my observation, they all share core [skills and competencies](/assets/images/misc/pm-skills.png), with variations based on company culture and specific projects. This section groups these related roles together to provide broadly applicable advice.
 
 <details markdown="1">
 <summary>Alternative Job Titles</summary>
@@ -445,7 +445,7 @@ So, if you're interested in Google, head over to their [careers site](https://ww
 
 <div class="meme-container">
   <div class="meme-wrapper">
-  <img alt="Played yourself gif" src="/assets/images/playedyourself.gif"/>
+  <img alt="Played yourself gif" src="/assets/gifs/playedyourself.gif"/>
   </div>
 </div>
 

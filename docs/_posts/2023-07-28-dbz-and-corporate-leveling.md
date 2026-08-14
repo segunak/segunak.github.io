@@ -4,10 +4,10 @@ excerpt: "Dragon Ball Z has a message for anyone feeling stuck by their corporat
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 header:
-  teaser: /assets/images/itsover9000.jpg
-  overlay_image: /assets/images/gokuvsvegeta-1.jpg
+  teaser: /assets/images/misc/itsover9000.jpg
+  overlay_image: /assets/images/misc/gokuvsvegeta-1.jpg
   overlay_filter: 0.6
 categories:
   - blog
@@ -49,7 +49,7 @@ There's no denying the enduring legacy of [Dragon Ball Z](https://en.wikipedia.o
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img alt="It's Over 9000" src="/assets/images/itsover9000gif.gif"/>
+    <img alt="It's Over 9000" src="/assets/gifs/itsover9000gif.gif"/>
   </div>
 </div>
 
@@ -64,7 +64,7 @@ In the corporate world, there's a system similar to Dragon Ball Z's power levels
 Companies may use different terminology, but the basic idea of corporate leveling is the same. Employees are hired at a level and must meet certain (sometimes vague) requirements to be promoted to the next one. There's a great website called [Levels.fyi](https://www.levels.fyi/) that pools leveling and compensation data for many large corporations. I find it particularly useful for seeing how levels at different companies measure up to one another. Check out how Software Engineering levels at Google and Apple compare.
 
 <p align="center">
-  <img src="/assets/images/levels.jpg"/>
+  <img src="/assets/images/misc/levels.jpg"/>
 </p>
 
 You can see that there's overlap, and some disconnect, between their notions of what makes you a Junior, Senior, and Principal Software Engineer. You could be an `L4 Software Engineer III` at Google doing work Apple would consider worthy of their `ICT4 Senior Software Engineer` post. There are many such combinations of levels being comparable in some ways and not in others across companies. The takeaway is that while leveling is instrumental to an employee's experience, it can also be arbitrary, inaccurate, and potentially limiting to one's career velocity.
@@ -85,7 +85,7 @@ While I understand the merits of corporate leveling systems, I can't help but fe
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img alt="Super Saiyan Transformation" src="/assets/images/super-saiyan-transformation.gif"/>
+    <img alt="Super Saiyan Transformation" src="/assets/gifs/super-saiyan-transformation.gif"/>
   </div>
 </div>
 

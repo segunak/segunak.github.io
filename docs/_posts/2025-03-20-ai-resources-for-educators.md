@@ -1,15 +1,15 @@
 ---
 title: "A Curated List of AI Resources for Educators"
 excerpt: "A collection of practical, mostly free resources to help educators integrate AI into the classroom, enhance student learning, and stay ahead in an AI-driven world."
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
 toc_icon: "microchip"
 header:
-  teaser: /assets/images/gen-ai-banner.png
-  og_image: /assets/images/gen-ai-banner.png
-  overlay_image: /assets/images/gen-ai-banner.png
+  teaser: /assets/images/misc/gen-ai-banner.png
+  og_image: /assets/images/misc/gen-ai-banner.png
+  overlay_image: /assets/images/misc/gen-ai-banner.png
   overlay_filter: 0.6
 categories:
   - blog

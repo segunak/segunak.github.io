@@ -1,14 +1,14 @@
 ---
 title: "I Tried Waymo for the First Time and It's Incredible"
 excerpt: "After years of hearing about Waymo, I finally tried it, and the experience filled me with childlike excitement. It's science fiction made real!"
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
 header:
-  teaser: /assets/images/waymo.jfif
-  og_image: /assets/images/waymo.jfif
-  overlay_image: /assets/images/waymo.jfif
+  teaser: /assets/images/misc/waymo.jfif
+  og_image: /assets/images/misc/waymo.jfif
+  overlay_image: /assets/images/misc/waymo.jfif
   overlay_filter: 0.8
 categories:
   - blog

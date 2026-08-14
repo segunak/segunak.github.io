@@ -1,15 +1,15 @@
 ---
 title: "Dough Diaries: On the Nature of Cinnamon Rolls in Jefferson City, Missouri"
 excerpt: "Read on to discover one man's journey through the cinnamon roll scene of Jefferson City, Missouri."
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
 toc_icon: "info-circle"
 header:
-  teaser: /assets/images/jefferson-city-cinnamon-rolls.jpeg
-  og_image: /assets/images/jefferson-city-cinnamon-rolls.jpeg
-  overlay_image: /assets/images/jefferson-city-cinnamon-rolls.jpeg
+  teaser: /assets/images/misc/jefferson-city-cinnamon-rolls.jpeg
+  og_image: /assets/images/misc/jefferson-city-cinnamon-rolls.jpeg
+  overlay_image: /assets/images/misc/jefferson-city-cinnamon-rolls.jpeg
   overlay_filter: 0.6
 categories:
   - blog
@@ -35,7 +35,7 @@ Now, I know there are those who might disagree. Perhaps the croissant connoisseu
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/naruto-lightning-village-no.gif" />
+    <img src="/assets/gifs/naruto-lightning-village-no.gif" />
   </div>
 </div>
 

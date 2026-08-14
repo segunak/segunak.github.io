@@ -1,14 +1,14 @@
 ---
 title: "Agentic AI: From Acronyms to Applications"
 excerpt: "Everybody's talking but nobody's making sense. Let's demystify Agentic AI, its key differences from Generative AI, and its essential terms. Learn what RAG, MCP, GANs, RLHF and more actually mean in plain English. No jargon, no hype, just practical explanations for the curious mind."
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
 header:
-  teaser: /assets/images/robot-ai-banner.png
-  og_image: /assets/images/robot-ai-banner.png
-  overlay_image: /assets/images/dark-blue-far-right-gradient-banner.jpg
+  teaser: /assets/images/misc/robot-ai-banner.png
+  og_image: /assets/images/misc/robot-ai-banner.png
+  overlay_image: /assets/images/misc/dark-blue-far-right-gradient-banner.jpg
   overlay_filter: 0.5
 categories:
   - blog
@@ -39,7 +39,7 @@ And it's all because of one thing.
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/ai-spongebob-rainbow-meme.jpg" alt="Spongebob Rainbow Meme"/>
+    <img src="/assets/images/misc/ai-spongebob-rainbow-meme.jpg" alt="Spongebob Rainbow Meme"/>
   </div>
 </div>
 
@@ -57,7 +57,7 @@ But given the risen of AI, I'm here to tell you that...
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/undertaker-rising.gif" alt="Undertaker Rising Gif"/>
+    <img src="/assets/gifs/undertaker-rising.gif" alt="Undertaker Rising Gif"/>
   </div>
 </div>
 
@@ -85,7 +85,7 @@ For each and every one of us, I say to you...
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/wolf-of-wall-street-the-show-goes-on.gif" alt="The Show Goes On Wolf of Wall Street"/>
+    <img src="/assets/gifs/wolf-of-wall-street-the-show-goes-on.gif" alt="The Show Goes On Wolf of Wall Street"/>
   </div>
 </div>
 
@@ -93,7 +93,7 @@ For each and every one of us, I say to you...
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/leo-crazy-face-wolf-of-wall-street.gif" alt="Leo Crazy Face Wolf of Wall Street"/>
+    <img src="/assets/gifs/leo-crazy-face-wolf-of-wall-street.gif" alt="Leo Crazy Face Wolf of Wall Street"/>
   </div>
 </div>
 
@@ -177,7 +177,7 @@ And for good measure, [College Park is not Atlanta](https://www.google.com/searc
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/omeretta-not-atlanta.jpg" alt="Omeretta Not Atlanta"/>
+    <img src="/assets/images/misc/omeretta-not-atlanta.jpg" alt="Omeretta Not Atlanta"/>
   </div>
 </div>
 

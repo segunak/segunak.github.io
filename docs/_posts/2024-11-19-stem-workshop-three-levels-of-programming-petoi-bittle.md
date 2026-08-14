@@ -1,15 +1,15 @@
 ---
 title: "Three Levels of Programming With the Petoi 'Bittle X' Robot Dog"
 excerpt: "Learn how to engage students in a journey through three levels of computer programming using the highly capable Petoi 'Bittle X' Robot Dog."
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
 toc_icon: "robot"
 header:
-  teaser: /assets/images/three-levels-programming-background.jpeg
-  og_image: /assets/images/three-levels-programming-background.jpeg
-  overlay_image: /assets/images/three-levels-programming-background.jpeg
+  teaser: /assets/images/misc/three-levels-programming-background.jpeg
+  og_image: /assets/images/misc/three-levels-programming-background.jpeg
+  overlay_image: /assets/images/misc/three-levels-programming-background.jpeg
   overlay_filter: 0.6
 categories:
   - blog

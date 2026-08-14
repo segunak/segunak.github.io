@@ -83,7 +83,7 @@ Do not load every reference by default. Read a reference only when its trigger a
 
 ## Repository Boundaries And Validation
 
-1. Do not add or download media assets unless explicitly requested. Treat [docs/assets/images](../../../docs/assets/images/) as the visual style corpus when media is in scope.
+1. Do not add or download media assets unless explicitly requested. Treat [misc](../../../docs/assets/images/misc/), [gifs](../../../docs/assets/gifs/), [me](../../../docs/assets/images/me/), and [videos](../../../docs/assets/videos/) as the visual style corpus when media is in scope.
 2. When choosing or changing tags, use the [Site Tags skill](../site-tags/SKILL.md) to scan current local values instead of relying on a hardcoded list.
 3. For prose-only body edits, an editorial reread or targeted diff is sufficient. Do not run commands reflexively.
 4. After changing YAML front matter, run [the front matter validator](./scripts/check-front-matter.rb) on the touched post. For tag, media path, link, HTML, CSS, Liquid, script, or embed changes, use only the relevant targeted static check.

@@ -1,10 +1,10 @@
 ---
 title: "How To Check If It's a Weekday in Azure Data Factory and Synapse Analytics"
 excerpt: "Sometimes your system needs to know if today's a weekday. Here's how to find out using Microsoft's Azure Data Factory or Azure Synapse Analytics."
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 classes: wide
 header:
-  teaser: /assets/images/azurecity.jpg
+  teaser: /assets/images/misc/azurecity.jpg
 categories:
   - blog
 tags:
@@ -27,13 +27,13 @@ Sometimes you need activities inside of a pipeline to only run on certain days o
 First, create an [`If` condition](https://learn.microsoft.com/en-us/azure/data-factory/control-flow-if-condition-activity) in your pipeline. Next, click on the `Add dynamic content` button.
 
 <div class="postimage" markdown="1">
-  ![IfConditionImage](/assets/images/ifcondition.png)
+  ![IfConditionImage](/assets/images/misc/ifcondition.png)
 </div>
 
 You should now be in the Pipeline Expression Builder menu.
 
 <div class="postimage" markdown="1">
-  ![PipelineExpressionMenu](/assets/images/expressionbuilder.png)
+  ![PipelineExpressionMenu](/assets/images/misc/expressionbuilder.png)
 </div>
 
 Using these functions, you can write the code below which will return `true` if the current day is a weekday. Make sure to choose your desired time zone, since the day of the week varies based on where one is in the world. Options on [this](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11#time-zones) page.
@@ -99,7 +99,7 @@ If you had two or more pipelines needing these values, you could make a paramete
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img alt="JonahHillNope" src="/assets/images/jonahhill-nope.gif"/>
+    <img alt="JonahHillNope" src="/assets/gifs/jonahhill-nope.gif"/>
   </div>
 </div>
 

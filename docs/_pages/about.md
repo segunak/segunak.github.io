@@ -8,7 +8,7 @@ permalink: /about/
 
 <script src="/assets/js/dynamic-link-targeting.js"></script>
 
-![Obi-Wan](/assets/images/obiwan.gif)
+![Obi-Wan](/assets/gifs/obiwan.gif)
 
 ## Background & Education
 

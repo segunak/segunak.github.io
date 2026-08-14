@@ -5,9 +5,9 @@ toc: true
 toc_sticky: true
 toc_label: "On This Page"
 toc_icon: "robot"
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 header:
-  teaser: /assets/images/aieducation.jpg
+  teaser: /assets/images/misc/aieducation.jpg
 categories:
   - blog
 tags:
@@ -22,7 +22,7 @@ tags:
   }
 </style>
 
-![HelloThereGif](/assets/images/obiwan.gif)
+![HelloThereGif](/assets/gifs/obiwan.gif)
 
 **Looking for career advice too?** I built [AI & Your Tech Career](https://segunakinyemi.com/stem-education/ai-resources/) as a one-stop resource for anyone anxious about AI's impact on tech careers. Skills to learn, tools to use, free courses, student perks, and answers to the questions I keep getting asked. Check it out at [aka.ms/nocap](https://aka.ms/nocap).
 {: .notice--info}
@@ -256,7 +256,7 @@ Machine Learning, Neural Networks, and Deep Learning are all important domains o
 
 This image from [Data Camp](https://www.datacamp.com/blog/how-to-learn-ai) does an excellent job of breaking down the terminology and their relationships.
 
-![AITypesExplainer](/assets/images/ai-types-explainer.png)
+![AITypesExplainer](/assets/images/misc/ai-types-explainer.png)
 
 What follows are specific learning resources for these advanced subdomains of AI.
 

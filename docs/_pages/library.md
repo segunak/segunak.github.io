@@ -4,9 +4,9 @@ title: "Library"
 excerpt: "Books I'm reading and quotes I love."
 permalink: /library/
 header:
-  teaser: /assets/images/cozy-reading-nook.jpeg
-  og_image: /assets/images/cozy-reading-nook.jpeg
-  overlay_image: /assets/images/cozy-reading-nook.jpeg
+  teaser: /assets/images/misc/cozy-reading-nook.jpeg
+  og_image: /assets/images/misc/cozy-reading-nook.jpeg
+  overlay_image: /assets/images/misc/cozy-reading-nook.jpeg
   overlay_filter: 0.6
 author_profile: false
 classes: wide
@@ -33,10 +33,10 @@ As you scroll, you'll find books from both ends of the spectrum:
 
 <div class="library-feelings">
   <figure class="library-feelings__cell">
-    <img alt="Frieren happily reading a book" src="/assets/images/frieren-reading.gif">
+    <img alt="Frieren happily reading a book" src="/assets/gifs/frieren-reading.gif">
   </figure>
   <figure class="library-feelings__cell">
-    <img alt="Jimmy Butler reading a book courtside" src="/assets/images/jimmy-butler-reading.jpg">
+    <img alt="Jimmy Butler reading a book courtside" src="/assets/images/misc/jimmy-butler-reading.jpg">
   </figure>
 </div>
 

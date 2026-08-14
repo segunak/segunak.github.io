@@ -1,11 +1,11 @@
 ---
 title: "Check Out My Post on Microsoft's Blog: Simplifying Nonprofit Volunteering With Power Automate"
 excerpt: "I had the opportunity to write for Microsoft's blog about Power Automate and community service, check it out!"
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 classes: wide
 pinned: true
 header:
-  teaser: /assets/images/pa-teaser-2.jpg
+  teaser: /assets/images/misc/pa-teaser-2.jpg
 categories:
   - blog
 tags:

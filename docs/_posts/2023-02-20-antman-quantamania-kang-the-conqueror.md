@@ -2,16 +2,16 @@
 title: > 
   From Fearsome to Floundering: Kang the Conqueror's Disappointing Debut in 'Ant-Man and the Wasp: Quantumania'
 excerpt: "Jonathan Majors impresses as Kang the Conqueror, but the film's lackluster conclusion leaves Marvel's new lead antagonist ineffectual, unimposing, and hard to respect."
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 classes: wide
 author_profile: false
 sidebar:
   title: "On This Page"
   nav: quantumania
 header:
-  teaser: /assets/images/antman3.jpg
-  og_image: /assets/images/antman3.jpg # OG = Open Graph, shows up in social sharing situations.
-  overlay_image: /assets/images/antman3.jpg
+  teaser: /assets/images/misc/antman3.jpg
+  og_image: /assets/images/misc/antman3.jpg # OG = Open Graph, shows up in social sharing situations.
+  overlay_image: /assets/images/misc/antman3.jpg
   overlay_filter: 0.6
   caption: "Image Credit: [**collider.com**](https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/02/ant-man-and-the-wasp-quantumania-easter-eggs-jonathan-majors-marvel-mcu.jpg)"
 categories:
@@ -79,7 +79,7 @@ If Ant-Man and some friends gave Kang problems, can you imagine what the full Av
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img alt="Mojo Jojo" src="/assets/images/mojojojo.gif"/>
+    <img alt="Mojo Jojo" src="/assets/gifs/mojojojo.gif"/>
   </div>
 </div>
 
@@ -95,7 +95,7 @@ Going forward, I'm going to remember Kang as the guy who couldn't fight his way 
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img alt="Kobe Soft" src="/assets/images/kobe-soft.gif"/>
+    <img alt="Kobe Soft" src="/assets/gifs/kobe-soft.gif"/>
   </div>
 </div>
 

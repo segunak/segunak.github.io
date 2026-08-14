@@ -1,15 +1,15 @@
 ---
 title: "Why Should I Bother To Read Something You Didn't Bother To Write?"
 excerpt: "AI has its uses, but if you couldn't be bothered to write something, why should anyone bother to read it?"
-last_modified_at: 2026-08-09T22:50:21
+last_modified_at: 2026-08-13T20:14:57
 toc: true
 toc_label: "On This Page"
 toc_icon: "pen"
 toc_sticky: true
 header:
-  teaser: /assets/images/ink-pen-graphic.webp
-  og_image: /assets/images/ink-pen-graphic.webp
-  overlay_image: /assets/images/ink-pen-graphic.webp
+  teaser: /assets/images/misc/ink-pen-graphic.webp
+  og_image: /assets/images/misc/ink-pen-graphic.webp
+  overlay_image: /assets/images/misc/ink-pen-graphic.webp
   overlay_filter: 0.8
 categories:
   - blog  
@@ -82,7 +82,7 @@ It's one thing in a formal setting like work or public speeches or even books fr
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/caption-really-spongebob.png" alt="Really SpongeBob Meme"/>
+    <img src="/assets/images/misc/caption-really-spongebob.png" alt="Really SpongeBob Meme"/>
   </div>
 </div>
 
@@ -113,7 +113,7 @@ Thankfully, some platforms are doing stuff to help address this problem. [Substa
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/linkedin-ai-slop-button.png" alt="LinkedIn AI Slop Report Button"/>
+    <img src="/assets/images/misc/linkedin-ai-slop-button.png" alt="LinkedIn AI Slop Report Button"/>
   </div>
 </div>
 

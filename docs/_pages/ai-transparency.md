@@ -88,6 +88,6 @@ If you're reading this, and you love to write as I do, don't let AI rob you of t
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/obama-mic-drop-captioned.gif" alt="Obama Mic Drop"/>
+    <img src="/assets/gifs/obama-mic-drop-captioned.gif" alt="Obama Mic Drop"/>
   </div>
 </div>

@@ -4,11 +4,11 @@ excerpt: "GitHub Copilot Chat, CLI, and Cloud Agent are different doors to the s
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 header:
-  teaser: /assets/images/ghcp-cli.webp
-  og_image: /assets/images/ghcp-cli.webp
-  overlay_image: /assets/images/banner-github-copilot.jpg
+  teaser: /assets/images/misc/ghcp-cli.webp
+  og_image: /assets/images/misc/ghcp-cli.webp
+  overlay_image: /assets/images/misc/banner-github-copilot.jpg
   overlay_filter: 0.8
 categories:
   - blog
@@ -50,7 +50,7 @@ If you're confused, you're not alone.
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img alt="Confused Math Lady meme" src="/assets/images/confused-math-lady-meme.gif"/>
+    <img alt="Confused Math Lady meme" src="/assets/gifs/confused-math-lady-meme.gif"/>
   </div>
 </div>
 
@@ -118,7 +118,7 @@ From a [single dropdown in VS Code](https://code.visualstudio.com/docs/copilot/a
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img alt="VS Code dropdown showing CLI and Cloud Agent options" src="/assets/images/vsscode-dropdown.png"/>
+    <img alt="VS Code dropdown showing CLI and Cloud Agent options" src="/assets/images/misc/vsscode-dropdown.png"/>
   </div>
 </div>
 
@@ -141,7 +141,7 @@ And here's what's left me the most perplexed throughout the CLI craze. There's a
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img alt="Why Not Both" src="/assets/images/why-not-both.gif"/>
+    <img alt="Why Not Both" src="/assets/gifs/why-not-both.gif"/>
   </div>
 </div>
 
@@ -182,7 +182,7 @@ An IDE with a built-in terminal gives you the best of both worlds. You can revie
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img alt="Always has been meme about VS Code having a terminal" src="/assets/images/always-has-been-vscode-terminal.jpg"/>
+    <img alt="Always has been meme about VS Code having a terminal" src="/assets/images/misc/always-has-been-vscode-terminal.jpg"/>
   </div>
 </div>
 

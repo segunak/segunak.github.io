@@ -4,9 +4,9 @@ excerpt: "Here's how to create messages with a countdown timer to a given date u
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 header:
-  teaser: /assets/images/PowerAutomate.png
+  teaser: /assets/images/misc/PowerAutomate.png
 categories:
   - blog
 tags:
@@ -30,9 +30,9 @@ Hello! We are @{int(split(dateDifference(convertTimeZone(utcNow(), 'UTC', 'Easte
 
 ### Screenshots
 
-![BasicMessage](/assets/images/PA-BasicMessage.png)
+![BasicMessage](/assets/images/misc/PA-BasicMessage.png)
 
-![BasicMessageResult](/assets/images/PA-ResultBasicMessage.png)
+![BasicMessageResult](/assets/images/misc/PA-ResultBasicMessage.png)
 
 ### Explanation
 
@@ -69,7 +69,7 @@ dateDifference(
 
 #### Screenshots
 
-![InitDateDifference](/assets/images/PA-InitDateDifference.png)
+![InitDateDifference](/assets/images/misc/PA-InitDateDifference.png)
 
 ### Set Your Countdown Message
 
@@ -93,8 +93,8 @@ away from Event Name!
 
 #### Screenshots
 
-![DetailedMessage](/assets/images/PA-DetailedMessage.png)
-![ResultDetailedMessage](/assets/images/PA-ResultDetailedMessage.png)
+![DetailedMessage](/assets/images/misc/PA-DetailedMessage.png)
+![ResultDetailedMessage](/assets/images/misc/PA-ResultDetailedMessage.png)
 
 #### Explanation
 
@@ -138,8 +138,8 @@ and @{int(split(split(variables('DateDifference'),'.')[1],':')[2])} seconds
 
 ### Screenshots
 
-![BasicBoldedRedResult](/assets/images/PA-BasicBoldedRedResult.png)
-![DetailedBoldedRedResult](/assets/images/PA-DetailedBoldedRedResult.png)
+![BasicBoldedRedResult](/assets/images/misc/PA-BasicBoldedRedResult.png)
+![DetailedBoldedRedResult](/assets/images/misc/PA-DetailedBoldedRedResult.png)
 
 ## Send Your Message
 
@@ -147,7 +147,7 @@ Take the `CountdownMessage` variable you initialized (or whatever you called you
 
 ### Screenshots
 
-![FinalMessage](/assets/images/PA-FinalMessagSend.png)
+![FinalMessage](/assets/images/misc/PA-FinalMessagSend.png)
 
 ## Conclusion
 

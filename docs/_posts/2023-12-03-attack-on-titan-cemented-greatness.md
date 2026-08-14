@@ -2,16 +2,16 @@
 title: > 
   The Final Triumph: Attack on Titan Cements Itself Among the Greatest Anime of All Time
 excerpt: "A grand journey, more than a decade in the making, culminated in Attack on Titan's epic conclusion, solidifying its place among the anime greats."
-last_modified_at: 2026-08-03T16:11:26
+last_modified_at: 2026-08-13T20:14:57
 classes: wide
 author_profile: false
 sidebar:
   title: "On This Page"
   nav: attackontitan
 header:
-  teaser: /assets/images/aot3.jpg
-  og_image: /assets/images/aot3.jpg # OG = Open Graph, shows up in social sharing situations.
-  overlay_image: /assets/images/aot2.png
+  teaser: /assets/images/misc/aot3.jpg
+  og_image: /assets/images/misc/aot3.jpg # OG = Open Graph, shows up in social sharing situations.
+  overlay_image: /assets/images/misc/aot2.png
   overlay_filter: 0.6
 categories:
   - blog
@@ -95,7 +95,7 @@ There's a great video from the YouTuber Gigguk that I think perfectly captures h
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=kCyJiC_25tA" target="_blank">
-    <img id="youtubeimage" src="/assets/images/aot-preview-2.jpg">
+    <img id="youtubeimage" src="/assets/images/misc/aot-preview-2.jpg">
   </a>
 </p>
 
@@ -107,6 +107,6 @@ I feel no such pain discussing Attack on Titan. While its ending wasn't perfect,
 
 <div class="meme-container">
   <div class="meme-wrapper">
-    <img src="/assets/images/leviaot.gif" />
+    <img src="/assets/gifs/leviaot.gif" />
   </div>
 </div>
