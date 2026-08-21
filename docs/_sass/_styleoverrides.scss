@@ -1534,7 +1534,21 @@ body.speaking-gallery-lightbox-open {
   }
 
   .mfp-bottom-bar {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0.5rem;
+    align-items: start;
     margin-top: -3.25rem;
+  }
+
+  .mfp-title {
+    min-width: 0;
+    padding-right: 0;
+  }
+
+  .mfp-counter {
+    position: static;
+    white-space: nowrap;
   }
 
   .mfp-image-holder .mfp-close,
