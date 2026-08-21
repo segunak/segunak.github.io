@@ -161,7 +161,7 @@ Stuff from [my YouTube channel](https://www.youtube.com/@segun.akinyemi) of me t
 
 <div class="speaking-playlist" data-speaking-playlist data-speaking-playlist-featured-video-id="o9cHtYimL0c">
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed?listType=playlist&amp;list=PLeGO3FeWfgp8" title="Speaking and Workshops Playlist" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen data-speaking-playlist-player></iframe>
+    <iframe src="https://www.youtube.com/embed/o9cHtYimL0c?list=PLeGO3FeWfgp8" title="Speaking and Workshops Playlist" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen data-speaking-playlist-player></iframe>
   </div>
   <div class="speaking-playlist__navigation" data-speaking-playlist-navigation hidden>
     <button class="speaking-playlist__control" type="button" title="Previous videos" aria-label="Previous videos" data-speaking-playlist-previous>
