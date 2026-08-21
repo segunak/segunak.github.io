@@ -31,7 +31,7 @@
           <figure class="speaking-gallery__photo">
             <a class="speaking-gallery__trigger" href="{{ photo.display | relative_url }}" data-speaking-gallery-trigger data-speaking-gallery-file="{{ photo.file | escape }}" aria-label="Open {{ caption | escape }} in the photo gallery">
               <span class="speaking-gallery__media">
-                <img src="{{ photo.thumbnail | relative_url }}" width="{{ photo.thumbnail_width }}" height="{{ photo.thumbnail_height }}" alt="{{ caption | escape }}" title="{{ caption | escape }}" loading="lazy" decoding="async">
+                <img src="{{ photo.thumbnail | relative_url }}" width="{{ photo.thumbnail_width }}" height="{{ photo.thumbnail_height }}" alt="{{ caption | escape }}" title="{{ caption | escape }}" loading="eager" decoding="async">
               </span>
             </a>
             <figcaption>

@@ -742,7 +742,8 @@ details p:last-of-type {
   }
 }
 
-.page__hero-local-video__media {
+.page__hero-local-video__media,
+.page__hero-local-video__fallback {
   z-index: 0;
   grid-area: 1 / 1;
   width: 100%;
@@ -751,6 +752,16 @@ details p:last-of-type {
   margin: 0;
   object-fit: cover;
   object-position: var(--local-video-position, center);
+}
+
+.page__hero-local-video__fallback {
+  display: none;
+  pointer-events: none;
+}
+
+.page__hero--local-video[data-local-video-state="fallback"]
+  .page__hero-local-video__fallback {
+  display: block;
 }
 
 .page__hero-local-video__content {

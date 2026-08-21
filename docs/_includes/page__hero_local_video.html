@@ -1,10 +1,16 @@
 <section
   class="page__hero--overlay page__hero--local-video"
   style="--local-video-overlay-opacity: {{ page.header.overlay_filter | default: 0.55 }}; --local-video-position: {{ page.header.video_position | default: 'center' }};"
+  data-local-video-hero
+  data-local-video-state="loading"
 >
-  <video class="page__hero-local-video__media" width="1280" height="720" autoplay muted loop playsinline preload="auto"{% if page.header.video_poster %} poster="{{ page.header.video_poster | relative_url }}"{% endif %} aria-hidden="true" tabindex="-1">
+  <video class="page__hero-local-video__media" width="1280" height="720" autoplay muted loop playsinline preload="auto"{% if page.header.video_poster %} poster="{{ page.header.video_poster | relative_url }}"{% endif %} data-local-video aria-hidden="true" tabindex="-1">
     <source src="{{ page.header.local_video | relative_url }}" type="{{ page.header.local_video_type | default: 'video/mp4' }}">
   </video>
+
+  {% if page.header.video_fallback %}
+    <img class="page__hero-local-video__fallback" data-local-video-fallback data-src="{{ page.header.video_fallback | relative_url }}" alt="" loading="eager" fetchpriority="high" decoding="async" aria-hidden="true" hidden>
+  {% endif %}
 
   <div class="wrapper">
     <div class="page__hero-local-video__content">
@@ -39,3 +45,5 @@
     </div>
   </div>
 </section>
+
+<script src="{{ '/assets/js/local-video-hero.js' | relative_url }}" defer></script>
