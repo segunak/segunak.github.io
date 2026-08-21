@@ -105,7 +105,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-archives
   - jekyll-seo-tag
   - jemoji
 
