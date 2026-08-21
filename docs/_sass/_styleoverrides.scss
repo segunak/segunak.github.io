@@ -1025,6 +1025,7 @@ details p:last-of-type {
   width: min(94vw, var(--speaking-dialog-max-width));
   max-width: none;
   height: min(90vh, 900px);
+  height: min(90dvh, 900px);
   max-height: none;
   margin: auto;
   padding: 0;
@@ -1180,7 +1181,7 @@ details p:last-of-type {
 
 .speaking-talk-dialog__footer {
   z-index: 1;
-  padding: 0.75rem 1rem calc(0.75rem + env(safe-area-inset-bottom));
+  padding: 0.75rem 1rem;
   border-top: 1px solid $border-color;
   background: $background-color;
 
@@ -1196,6 +1197,7 @@ details p:last-of-type {
   justify-content: center;
   width: 100%;
   min-height: 2.75rem;
+  margin: 0;
 }
 
 @media print {
@@ -1326,6 +1328,7 @@ body.speaking-gallery-lightbox-open {
   width: min(94vw, 1200px);
   max-width: none;
   height: min(90vh, 900px);
+  height: min(90dvh, 900px);
   max-height: none;
   margin: auto;
   padding: 0;
@@ -1421,7 +1424,7 @@ body.speaking-gallery-lightbox-open {
 
 .speaking-gallery__dialog-footer {
   z-index: 1;
-  padding: 0.75rem 1rem calc(0.75rem + env(safe-area-inset-bottom));
+  padding: 0.75rem 1rem;
   border-top: 1px solid $border-color;
   background: $background-color;
 
@@ -1437,6 +1440,7 @@ body.speaking-gallery-lightbox-open {
   gap: 0.45em;
   width: 100%;
   min-height: 2.75rem;
+  margin: 0;
 }
 
 .speaking-gallery__all-photo {
@@ -2094,6 +2098,7 @@ body.speaking-gallery-lightbox-open {
   width: min(94vw, var(--speaking-dialog-max-width));
   max-width: none;
   height: min(90vh, 900px);
+  height: min(90dvh, 900px);
   max-height: none;
   margin: auto;
   padding: 0;
@@ -2189,7 +2194,7 @@ body.speaking-gallery-lightbox-open {
 
 .speaking-features__dialog-footer {
   z-index: 1;
-  padding: 0.75rem 1rem calc(0.75rem + env(safe-area-inset-bottom));
+  padding: 0.75rem 1rem;
   border-top: 1px solid $border-color;
   background: $background-color;
 
@@ -2205,6 +2210,7 @@ body.speaking-gallery-lightbox-open {
   justify-content: center;
   width: 100%;
   min-height: 2.75rem;
+  margin: 0;
 }
 
 .speaking-feature {

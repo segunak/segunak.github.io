@@ -100,6 +100,10 @@
       activeTrigger = trigger;
       document.documentElement.classList.add("speaking-talk-dialog-open");
       dialog.showModal();
+      dialogContent.scrollTop = 0;
+      window.requestAnimationFrame(function () {
+        dialogContent.scrollTop = 0;
+      });
       window.dispatchEvent(new Event("resize"));
     }
 
