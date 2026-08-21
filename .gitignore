@@ -1,2 +1,4 @@
 local
 docs/_drafts/
+.playwright-mcp/
+.sass-cache/

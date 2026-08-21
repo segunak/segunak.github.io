@@ -3,7 +3,7 @@ title: " "
 title_separator: "|"
 excerpt: >
   <strong style="font-size:4em;line-height:1.5em;font-style:bold;">Hello</strong><br/>
-  I'm <strong>Segun Akinyemi</strong>, welcome to my personal website. You can learn more about me <strong><a href="/about">here</a></strong>, or check out my blog <strong><a href="/blog">here</a></strong>.
+  <span class="home-intro">I'm <strong>Segun Akinyemi</strong>, welcome to my personal website<span class="home-intro__desktop">. You can learn more about me <strong><a href="/about">here</a></strong>, or check out my blog <strong><a href="/blog">here</a></strong>.</span></span>
 layout: custom-site-home
 classes: wide
 author_profile: true
@@ -17,4 +17,31 @@ header:
   .page__hero--overlay {
     background-position: center left;
   }
+
+  .home-intro::after {
+    content: "!";
+  }
+
+  .home-intro__desktop {
+    display: none;
+  }
+
+  @media (min-width: 768px) {
+    .home-intro::after {
+      content: none;
+    }
+
+    .home-intro__desktop {
+      display: inline;
+    }
+  }
 </style>
+
+<nav class="home-utility-band" aria-label="Explore this site">
+  <a class="home-utility-band__link" href="/about/"><i class="fas fa-user" aria-hidden="true"></i><span>About</span></a>
+  <a class="home-utility-band__link" href="/blog/"><i class="fas fa-pen-to-square" aria-hidden="true"></i><span>Blog</span></a>
+  <a class="home-utility-band__link" href="/speaking/"><i class="fas fa-microphone" aria-hidden="true"></i><span>Speaking</span></a>
+  <a class="home-utility-band__link" href="/highlights/"><i class="fas fa-star" aria-hidden="true"></i><span>Highlights</span></a>
+  <a class="home-utility-band__link" href="/library/"><i class="fas fa-book-open" aria-hidden="true"></i><span>Library</span></a>
+  <a class="home-utility-band__link" href="/contact/"><i class="fas fa-envelope" aria-hidden="true"></i><span>Contact</span></a>
+</nav>

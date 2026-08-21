@@ -5,7 +5,7 @@ toc: true
 toc_sticky: true
 toc_label: "On This Page"
 toc_icon: "robot"
-last_modified_at: 2026-08-13T20:14:57
+last_modified_at: 2026-08-20T20:56:16
 header:
   teaser: /assets/images/misc/be-water.jpeg
   og_image: /assets/images/misc/be-water.jpeg
@@ -131,9 +131,14 @@ Regardless, this is a turning point for AI-assisted development. How far it goes
 
 If you have a few minutes, watch this video.
 
-<p>
-    <iframe width="100%" height="70" src="https://www.youtube.com/embed/of--3Fq1M3w?si=V1QofPqRt68BQ0Do" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</p>
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/of--3Fq1M3w"
+    title="Agent Mode and New Models in GitHub Copilot Chat, Visual Studio Code"
+    loading="lazy"
+    allow="clipboard-write; encrypted-media; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen></iframe>
+</div>
 
 If you don't, let me sum it up: **_Agent Mode_ is insane**.
 

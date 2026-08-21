@@ -28,7 +28,7 @@ textarea {
 
 #form-container {
     border: solid 3px #0092ca;
-    max-width: 768px;
+    max-width: 100%;
     margin: 60px auto;
     position: relative;
 }
@@ -78,7 +78,7 @@ textarea {
     background: none;
     border: none;
     border-bottom: solid 2px #0092ca;
-    color: #0092ca;
+    color: inherit;
     font-size: 1.000em;
     font-weight: 400;
     letter-spacing: 1px;
@@ -119,6 +119,7 @@ textarea:focus {
     outline: none;
     -moz-appearance: none;
     -webkit-appearance: none;
+    appearance: none;
 }
 
 #form-container select::-ms-expand {

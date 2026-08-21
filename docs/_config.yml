@@ -112,7 +112,7 @@ plugins:
 author:
   name   : "Segun Akinyemi"
   avatar : "/assets/images/misc/bitmoji-square.png"
-  bio    : "Christian, Software Engineer, Tech Enthusiast."
+  bio    : "Christian, Software Engineer, Educator."
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"

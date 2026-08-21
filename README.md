@@ -19,7 +19,7 @@ No CNAME files or custom domain settings needed in those repos.
 
 ## Local Git Hooks
 
-This repository uses a versioned Git hook in [.githooks](.githooks/) to update `last_modified_at` for staged posts in [docs/_posts](docs/_posts/) before commits.
+This repository uses a versioned Git hook in [.githooks](.githooks/) to update `last_modified_at` for staged posts, generate Speaking page photo derivatives and data, and compile staged Agentic Workflow files before commits.
 
 Run this once after cloning:
 

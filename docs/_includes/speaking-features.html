@@ -1,0 +1,57 @@
+{% assign feature_items = site.data.features %}
+{% assign default_embed_height = 560 %}
+{% assign featured_items = feature_items | where: "featured", true %}
+{% assign feature_count = feature_items | size %}
+{% assign featured_count = featured_items | size %}
+{% assign nonfeatured_count = feature_count | minus: featured_count %}
+
+{% if feature_items and feature_items != empty %}
+  <div class="speaking-features" data-speaking-features>
+    {% if featured_items and featured_items != empty %}
+      <div class="speaking-features__grid">
+        {% for item in featured_items %}
+          {% include speaking-feature-item.html item=item default_embed_height=default_embed_height %}
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    {% if nonfeatured_count > 0 %}
+      <p class="speaking-features__actions">
+        <button class="btn btn--primary" type="button" data-speaking-features-open aria-haspopup="dialog" aria-controls="speaking-features-all">
+          <i class="fas fa-th-large" aria-hidden="true"></i>
+          View More
+        </button>
+      </p>
+
+      <dialog class="speaking-features__dialog" id="speaking-features-all" data-speaking-features-dialog aria-labelledby="speaking-features-dialog-title">
+        <div class="speaking-features__dialog-shell">
+          <header class="speaking-features__dialog-header">
+            <div class="speaking-features__dialog-heading">
+              <div class="speaking-features__dialog-title" id="speaking-features-dialog-title">More Items</div>
+              <p class="speaking-features__dialog-count">{{ nonfeatured_count }} items</p>
+            </div>
+            <button class="speaking-features__dialog-close" type="button" data-speaking-features-close title="Close items" aria-label="Close items">
+              <i class="fas fa-times" aria-hidden="true"></i>
+            </button>
+          </header>
+
+          <div class="speaking-features__all-grid" data-speaking-features-all>
+            {% for item in feature_items %}
+              {% unless item.featured %}
+                {% include speaking-feature-item.html item=item default_embed_height=default_embed_height %}
+              {% endunless %}
+            {% endfor %}
+          </div>
+
+          <footer class="speaking-features__dialog-footer">
+            <button class="btn btn--primary speaking-features__dialog-close-action" type="button" data-speaking-features-close>
+              <i class="fas fa-times" aria-hidden="true"></i>
+              Close Items
+            </button>
+          </footer>
+        </div>
+      </dialog>
+
+    {% endif %}
+  </div>
+{% endif %}

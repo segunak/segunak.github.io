@@ -1,0 +1,199 @@
+# Speaking page external-evidence schema.
+#
+# Properties:
+# - type: Required. One of `embed`, `feature`, `testimonial`, or `mention`.
+# - featured: Optional boolean. `true` shows the item in the initial grid;
+#   `false` or omission keeps it in the View More dialog. Featured items are
+#   not repeated in the dialog. Defaults to `false`.
+# - url: Required. Absolute source URL. An `embed` URL must be a LinkedIn post
+#   containing an `activity` or `ugcPost` ID.
+# - height: Optional integer for `embed` only. Iframe height in pixels; defaults
+#   to 560.
+# - quote: Required Markdown for `testimonial` only. Exact source excerpt.
+# - context: Optional Markdown for `testimonial` only. Stable attribution.
+# - note: Optional Markdown for `embed` and `testimonial`, and required for
+#   `mention`. Short supporting context shown in an attached caption band.
+# - title: Required plain text for `feature` only.
+# - source: Required plain text publisher or organization for `feature` only.
+# - description: Optional Markdown summary for `feature` only.
+# - image: Optional local or absolute image URL for `feature` only.
+# - image_alt: Required plain text when a `feature` has `image`.
+# - embed_url: Optional verified media-player URL for `feature` only. Use instead
+#   of `image` when the source provides a dedicated iframe player.
+# - action_label: Optional plain text for `feature` only; defaults to View Source.
+# A `feature` must provide exactly one visual mode: `image` or `embed_url`.
+# Use only the properties supported by the selected type.
+#
+# `embed`: Use when the complete LinkedIn post is relevant.
+# - type: embed
+#   featured: true
+#   url: https://www.linkedin.com/posts/example-activity-1234567890123456789-example/
+#   height: 640
+#
+# `feature`: Use for a whole external article, profile, or embeddable video.
+# - type: feature
+#   featured: true
+#   url: https://example.com/article
+#   title: Example Feature
+#   source: Example Publisher
+#   description: A concise **Markdown** summary.
+#   image: /assets/images/misc/example.jpg
+#   image_alt: Description of the preview image
+#   action_label: Read Article
+# - type: feature
+#   url: https://example.com/video
+#   title: Example Video Feature
+#   source: Example Station
+#   embed_url: https://example.com/video/player
+#   action_label: Watch Video
+#
+# `testimonial`: Use when only a short excerpt of a longer source is relevant.
+# - type: testimonial
+#   url: https://www.linkedin.com/posts/example-activity-1234567890123456789-example/
+#   quote: Exact excerpt with **bold text**.
+#   context: [Example Conference](https://example.com/) Attendee
+#
+# `mention`: Use for compact LinkedIn evidence that should not be embedded.
+# - type: mention
+#   url: https://www.linkedin.com/posts/example-activity-1234567890123456789-example/
+#   note: Organization's [recap](https://example.com/) of my workshop
+
+- type: embed
+  featured: true
+  url: https://www.linkedin.com/posts/microsoft_during-an-altogether-ai-workshop-at-the-microsoft-activity-7417928619500691456-UQvb/
+
+- type: testimonial
+  featured: true
+  url: https://www.linkedin.com/posts/shenunavi_techdevcon-techdevcon-seo-activity-7489110186863976448-GUa6/
+  quote: >-
+    Segun Akinyemi captivated the entire room, memes and all. His presentation on Agentic AI and the evolving landscape of AI engineering roles was one of the most informative sessions I've been to, and left me genuinely hopeful about where tech careers are headed.
+  context: 'SEO [TechDevCon 2026](https://www.linkedin.com/posts/techdevcon-techdevcon2027-ugcPost-7491172550232793089-Hbnt/) Attendee'
+
+- type: feature
+  featured: true
+  url: https://segunakinyemi.com/blog/cbj-40-under-40/
+  title: '40 Under 40: Segun Akinyemi, Microsoft Corporation'
+  source: Charlotte Business Journal
+  description: Charlotte Business Journal's 2025 40 Under 40 profile of Segun Akinyemi.
+  image: /assets/images/misc/suit-40-under-40.jpg
+  image_alt: Segun Akinyemi speaking with attendees at the Charlotte Business Journal 40 Under 40 Awards
+  action_label: View Profile
+
+- type: embed
+  featured: true
+  url: https://www.linkedin.com/posts/annie251_segun-akinyemi-a-senior-microsoft-employee-activity-7361062461082353664-VeSH
+
+- type: testimonial
+  url: https://www.linkedin.com/posts/richelldelacruz_togetherwewin-seocareer-futureintech-activity-7466564386992861184-YTh0
+  quote: >-
+    One of my favorite moments from the summit happened after the final session, when a few peers and I had the chance to continue a conversation with Mr. Akinyemi outside the event. What started as a casual conversation turned into a meaningful discussion about technology, AI, and career growth. Walking away from that conversation, I realized how powerful it is to connect with people beyond the stage and simply be curious. It was such a genuine interaction, and I learned so much from it.
+  context: 'SEO [Career Summit 2026](https://www.linkedin.com/posts/seousa_seocommunity-togetherwewin-activity-7467637579266523136-f83A) Attendee'
+
+- type: embed
+  url: https://www.linkedin.com/posts/microsoft_exploring-how-ai-is-shaping-industries-can-share-activity-7463574391981912069-z4n3
+  note: An effort I led to record content for [UNC Charlotte's AI-Assisted Software Engineering](https://online.charlotte.edu/unc-charlotte-launches-two-new-online-bachelors-degree-programs-for-fall-2026/) degree program.
+
+- type: embed
+  url: https://www.linkedin.com/posts/microsoft_microsoft-team-members-in-charlotte-volunteered-activity-7429525031459704833-HIuq
+  note: Delivering my [AI Technical Interview Workshop](https://segunakinyemi.com/ai-interview-workshop/) at [UNC Charlotte](https://www.charlotte.edu/).
+
+- type: testimonial
+  url: https://www.linkedin.com/posts/yasirhashi_seo-seotechdev-techdevcon-activity-7490822357117280256-NvkX
+  quote: >-
+    There will always be a need for great software engineers who are committed to learning and solving meaningful problems from [Segun Akinyemi](https://www.linkedin.com/in/segunakinyemi/) (My fav panel + [Amazinggg website btw…🔥](https://segunakinyemi.com/stem-education/ai-resources/))
+  context: 'SEO [TechDevCon 2026](https://www.linkedin.com/posts/techdevcon-techdevcon2027-ugcPost-7491172550232793089-Hbnt/) Attendee'
+
+- type: testimonial
+  url: https://www.linkedin.com/posts/diego-purr-agua_seo-seotechdeveloper-activity-7490163581619994624-GQTX
+  quote: >-
+    Beyond that I was surprised by the valuable insights I gained from all the panelists during, a big one from [Segun Akinyemi](https://www.linkedin.com/in/segunakinyemi/) being that I won't be out of a job, discovering that Agentic AI is just another tool in my arsenal as an aspiring Software Engineer that encapsulates all these new AI-related "roles" (like Prompt Engineering).
+  context: 'SEO [TechDevCon 2026](https://www.linkedin.com/posts/techdevcon-techdevcon2027-ugcPost-7491172550232793089-Hbnt/) Attendee'
+
+- type: feature
+  url: https://www.microsoft.com/insidetrack/blog/simplifying-nonprofit-volunteering-at-microsoft-with-power-automate/
+  title: Simplifying Nonprofit Volunteering at Microsoft with Power Automate
+  source: Microsoft Blog
+  description: Segun Akinyemi shares how he uses Microsoft Power Platform and Power Automate to help manage his work-life-volunteering balance.
+  image: /assets/images/misc/pa-teaser-2.jpg
+  image_alt: Power Automate surrounded by connected automation icons
+  action_label: Read Article
+
+- type: embed
+  url: https://www.linkedin.com/posts/microsoft_microsoft50-activity-7313183997474283520-_v2i
+  note: Microsoft's 50th Anniversary Celebration video of the Charlotte campus, which I'm in a lot.
+
+- type: testimonial
+  url: https://www.linkedin.com/posts/tylerle-uf_thrilled-to-be-in-new-york-city-for-the-seo-activity-7490062677780758528-YGFH
+  quote: >-
+    [Segun Akinyemi](https://www.linkedin.com/in/segunakinyemi/) - Thank you for reminding me that tech is a marathon of learning new tools, where a strong foundation keeps you running. Plus, learning public speaking is something I'm excited to take back and refine in my student org and leadership.
+  context: 'SEO [TechDevCon 2026](https://www.linkedin.com/posts/techdevcon-techdevcon2027-ugcPost-7491172550232793089-Hbnt/) Attendee'
+
+- type: testimonial
+  url: https://www.linkedin.com/posts/jia-xu-li-96a3a8329_seotechdeveloper-seo-techdevcon-activity-7489055542267691008-8uQ2
+  quote: >-
+    Shoutout to my favorite panelist [Segun Akinyemi](https://www.linkedin.com/in/segunakinyemi/) (although I didn't get any Microsoft merch) whose humor, insights, and energy about AI and its misconceptions put to rest any doubt inside me to pursue a career in tech. This has made me ponder where I would want to add value in my career.
+  context: 'SEO [TechDevCon 2026](https://www.linkedin.com/posts/techdevcon-techdevcon2027-ugcPost-7491172550232793089-Hbnt/) Attendee'
+
+- type: embed
+  url: https://www.linkedin.com/posts/seousa_seotechdeveloper-activity-7457459247757541377-xRAg
+
+- type: embed
+  url: https://www.linkedin.com/posts/jadoraross_one-of-my-favorite-activities-is-to-lead-activity-7273047155014086657-jPcS
+
+- type: feature
+  url: https://www.petoi.com/blogs/blog/bittle-python-robotics-curriculum
+  title: Bittle Python Robotics Curriculum & Microsoft Event Focusing On K12 STEM Education
+  source: Petoi
+  description: Petoi features Segun Akinyemi's three-level programming curriculum and Microsoft Discovery Day workshop using Bittle X robot dogs.
+  image: /assets/images/misc/petoi.jpg
+  image_alt: Two Petoi Bittle robot dogs under pink and blue lighting
+  action_label: Read Article
+
+- type: embed
+  url: https://www.linkedin.com/posts/pmicarolina_last-night-we-had-an-amazing-kick-off-event-activity-7285305266454056960-F1J-
+  note: A [PMI Carolinas](https://pmicarolina.org/) event where I delivered my [How to Train Your AI](https://segunakinyemi.com/blog/stem-workshop-how-to-train-your-ai/) AI literacy workshop.
+
+- type: embed
+  url: https://www.linkedin.com/posts/microsoft_what-happens-when-40-high-school-students-activity-7297978253225381888-GP3S
+  note: A [Discovery Day](https://aka.ms/discovery-day/flyer) edition where I delivered a hands-on version of my [How to Train Your AI](https://segunakinyemi.com/blog/stem-workshop-how-to-train-your-ai/) workshop.
+
+- type: feature
+  url: https://www.wcnc.com/video/news/local/microsoft-hosts-students-for-discovery-day/275-15fcdc4a-f87d-46bf-ae28-d0e4c6050c3d
+  title: Microsoft Hosts Students for Discovery Day
+  source: WCNC Charlotte
+  description: Bailey Middle School students visited Microsoft Charlotte for Discovery Day, a field trip program founded in 2022 by Microsoft software engineer Segun Akinyemi to connect local students with tech careers and hands on learning.
+  embed_url: https://media.wcnc.com/embeds/video/responsive/275-15fcdc4a-f87d-46bf-ae28-d0e4c6050c3d/iframe
+  action_label: Watch on WCNC
+
+- type: embed
+  url: https://www.linkedin.com/posts/petoi_petoi-bittle-roboticseducation-activity-7358251691764338690-B0Cj
+
+- type: embed
+  url: https://www.linkedin.com/posts/microsoft_50-students-2-nonprofits-1-hands-on-ai-activity-7361018635915579392-xO6j
+  note: Delivering my [AI Engineering With the Petoi 'Bittle X'](https://segunakinyemi.com/blog/ai-engineering-petoi-bittle/) workshop to high school students at a [Discovery Day](https://aka.ms/discovery-day/flyer) event.
+
+- type: testimonial
+  url: https://www.linkedin.com/posts/pujitha-attuluri-738830158_wids-ai-responsibleai-activity-7441979112287666176-j7cg
+  quote: >-
+    The hands-on session on Agentic AI by [Segun Akinyemi](https://www.linkedin.com/in/segunakinyemi/) was particularly insightful. It was interesting to see how agent-based systems are orchestrated in practice, from real-time decision-making and API interactions to configuring tool usage and instruction layers for more controlled, context-aware behavior.
+  context: 'UNC Charlotte [Women in Data Science Conference 2026](https://www.linkedin.com/posts/our-2026-women-in-data-science-conference-ugcPost-7442604064489668608-iUQ9/) Attendee'
+
+- type: embed
+  url: https://www.linkedin.com/posts/carolina-youth-coalition_everydreamneedsateam-activity-7361056398471749632-yfcK
+
+- type: embed
+  url: https://www.linkedin.com/posts/curtis-york-jr-885570b7_carolinaspmi-activity-7385341607245611010-TStX
+
+- type: testimonial
+  url: https://www.linkedin.com/posts/mutiyat-data-scientist_womenindatascience-wids-datascience-activity-7442210236230389760-V_J6
+  quote: >-
+    Another highlight for me was the Agentic AI workshop by [Segun Akinyemi](https://www.linkedin.com/in/segunakinyemi/), where we explored concepts like RAG, MCP, and RLHF in practice. It was a clear reminder that AI is evolving into a collaborative tool, not just a system.
+  context: '[UNC Charlotte Women in Data Science Conference 2026](https://www.linkedin.com/posts/our-2026-women-in-data-science-conference-ugcPost-7442604064489668608-iUQ9/) Attendee'
+
+- type: embed
+  url: https://www.linkedin.com/posts/microsoft_600-students-from-28-schools-across-north-activity-7196494809136558080-Wij3
+  note: A recap of Black at Microsoft's Minority Student Day, a STEM education event I led for students from high schools across Charlotte.
+
+- type: embed
+  url: https://www.linkedin.com/posts/motivated-men-s-movement_last-friday-triple-m-had-the-opportunity-activity-7124781512113180672-DwZ9
+  note: A [Discovery Day](https://aka.ms/discovery-day/flyer) event where I led coding, robotics, and career activities for a group of high school students.

@@ -1,7 +1,7 @@
 ---
 title: "On the Nature of Artificial Intelligence in Tech Careers"
 excerpt: "Thoughts from a software engineer on navigating AI's impact and maintaining relevance amidst rapid technological change."
-last_modified_at: 2026-08-13T20:14:57
+last_modified_at: 2026-08-20T20:56:16
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -81,9 +81,14 @@ And Ng isn't alone in this view. [Yann LeCun](https://en.wikipedia.org/wiki/Yann
 
 Even more striking, [Thomas Dohmke](https://github.com/ashtom), CEO of GitHub (home of [Copilot](https://github.com/features/copilot), the most widely-used AI coding assistant), insists that learning to code remains essential, perhaps even more so, in the AI era. Dohmke has a unique perspective as someone now leading the very platform that's integrating AI into the development workflow.
 
-<p>
-    <iframe width="100%" height="70" src="https://www.youtube.com/embed/5UhnQ2h-5BY?si=y73Jqrj4QhQNd9TW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</p>
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/5UhnQ2h-5BY"
+    title="GitHub CEO Thomas Dohmke on Why Learning to Code Still Matters"
+    loading="lazy"
+    allow="clipboard-write; encrypted-media; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen></iframe>
+</div>
 
 In this interview, he makes the case that coding is a vital skill in an AI-driven world because it lets people shape technology, not just consume it. He draws a parallel to how we teach math or physics, not because everyone will become mathematicians, but because these subjects help us understand and shape the world. He views his journey, from coding without internet as a teenager to leading GitHub through the AI revolution, as proof that the craft of building still matters, even as the tools evolve.
 

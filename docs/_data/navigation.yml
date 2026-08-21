@@ -5,10 +5,10 @@ main:
     url: /about/
   - title: "Blog"
     url: /blog/
+  - title: "Speaking"
+    url: /speaking/
   - title: "Highlights"
     url: /highlights/
-  - title: "Tags"
-    url: "/tags/"
   - title: "Library"
     url: /library/
   - title: "Contact"

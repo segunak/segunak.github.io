@@ -1,7 +1,7 @@
 ---
 title: "Prompt Engineering: Precision Meets Creativity with Microsoft Designer"
 excerpt: "Explore how specificity, clarity, and creativity in writing shape Generative AI results with this Microsoft Designer workshop."
-last_modified_at: 2026-08-13T20:14:57
+last_modified_at: 2026-08-20T20:56:16
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -100,7 +100,7 @@ You don't need technical expertise to deliver this workshop, just familiarity wi
 This slide deck includes interactive elements where students guess which prompts created specific images, plus educational definitions and guidance. It's designed to work with the website but can stand alone. **Click the "Open in New Window" button** in the bottom right to access the presenter notes and download the presentation.
 
 <iframe
-    src="https://1drv.ms/p/c/750d396c5cadcebd/IQSE_slIMswMRpeAew1t9TPuAT5j7dSZKqCW1_ZvS4jDk_E?em=2&amp;wdAr=1.7777777777777777"
+    src="https://1drv.ms/p/c/750d396c5cadcebd/IQCE_slIMswMRpeAew1t9TPuAZjbbHKSUMkrkhT3vUOnWes?e=hnJb5H&amp;wdAr=1.7777777777777777"
     width="100%"
     height="500px"
     frameborder="0">

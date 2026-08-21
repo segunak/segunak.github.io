@@ -1,0 +1,115 @@
+{% assign gallery_photos = site.data.speaking_photos.photos %}
+{% assign photo_settings = page.speaking_gallery.photos %}
+{% assign download_prefix = page.speaking_gallery.download_prefix | default: "segun-akinyemi" %}
+{% assign month_names = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
+{% assign gallery_count = 0 %}
+{% assign first_gallery_photo = nil %}
+
+{% for photo_setting in photo_settings %}
+  {% assign photo = gallery_photos | where: "file", photo_setting.file | first %}
+  {% if photo %}
+    {% assign gallery_count = gallery_count | plus: 1 %}
+    {% if first_gallery_photo == nil %}{% assign first_gallery_photo = photo %}{% endif %}
+  {% endif %}
+{% endfor %}
+
+<div class="speaking-gallery" data-speaking-gallery>
+  <div class="speaking-gallery__grid">
+    {% assign featured_count = 0 %}
+    {% for photo_setting in photo_settings %}
+      {% if photo_setting.featured == true and featured_count < 6 %}
+        {% assign photo = gallery_photos | where: "file", photo_setting.file | first %}
+        {% if photo %}
+          {% assign caption = photo_setting.caption | default: photo.default_caption %}
+          {% if photo_setting.month %}
+            {% assign month_parts = photo_setting.month | split: "-" %}
+            {% assign month_index = month_parts[0] | minus: 1 %}
+            {% assign formatted_month = month_names[month_index] | append: " " | append: month_parts[1] %}
+            {% assign caption = caption | append: ", " | append: formatted_month %}
+          {% endif %}
+          {% assign featured_count = featured_count | plus: 1 %}
+          <figure class="speaking-gallery__photo">
+            <a class="speaking-gallery__trigger" href="{{ photo.display | relative_url }}" data-speaking-gallery-trigger data-speaking-gallery-file="{{ photo.file | escape }}" aria-label="Open {{ caption | escape }} in the photo gallery">
+              <span class="speaking-gallery__media">
+                <img src="{{ photo.thumbnail | relative_url }}" width="{{ photo.thumbnail_width }}" height="{{ photo.thumbnail_height }}" alt="{{ caption | escape }}" title="{{ caption | escape }}" loading="lazy" decoding="async">
+              </span>
+            </a>
+            <figcaption>
+              {{ caption }}
+              {% if photo_setting.credit %}
+                <span class="speaking-gallery__credit">
+                  Photo: {% if photo_setting.credit_url %}<a href="{{ photo_setting.credit_url }}">{{ photo_setting.credit }}</a>{% else %}{{ photo_setting.credit }}{% endif %}
+                </span>
+              {% endif %}
+            </figcaption>
+          </figure>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  {% if first_gallery_photo %}
+    <p class="speaking-gallery__actions">
+      <a class="btn btn--primary" href="{{ first_gallery_photo.display | relative_url }}" data-speaking-gallery-open aria-haspopup="dialog" aria-controls="speaking-gallery-all">
+        <i class="fas fa-images" aria-hidden="true"></i>
+        View All
+      </a>
+    </p>
+  {% endif %}
+
+  <dialog class="speaking-gallery__dialog" id="speaking-gallery-all" data-speaking-gallery-dialog aria-labelledby="speaking-gallery-dialog-title">
+    <div class="speaking-gallery__dialog-shell">
+      <header class="speaking-gallery__dialog-header">
+        <div>
+          <div class="speaking-gallery__dialog-title" id="speaking-gallery-dialog-title">All Photos</div>
+          <p class="speaking-gallery__dialog-count">{{ gallery_count }} photos</p>
+        </div>
+        <button class="speaking-gallery__dialog-close" type="button" data-speaking-gallery-close title="Close photo gallery" aria-label="Close photo gallery">
+          <i class="fas fa-times" aria-hidden="true"></i>
+        </button>
+      </header>
+
+      <div class="speaking-gallery__all-grid">
+        {% for photo_setting in photo_settings %}
+          {% assign photo = gallery_photos | where: "file", photo_setting.file | first %}
+          {% if photo %}
+            {% assign caption = photo_setting.caption | default: photo.default_caption %}
+            {% if photo_setting.month %}
+              {% assign month_parts = photo_setting.month | split: "-" %}
+              {% assign month_index = month_parts[0] | minus: 1 %}
+              {% assign formatted_month = month_names[month_index] | append: " " | append: month_parts[1] %}
+              {% assign caption = caption | append: ", " | append: formatted_month %}
+            {% endif %}
+            {% assign extension = photo.file | split: "." | last | downcase %}
+            {% assign download_hash = photo.source_sha256 | slice: 0, 12 %}
+            {% capture download_name %}{{ download_prefix }}-{{ download_hash }}.{{ extension }}{% endcapture %}
+            <figure class="speaking-gallery__all-photo">
+              <a href="{{ photo.display | relative_url }}"
+                data-speaking-gallery-item
+                data-speaking-gallery-file="{{ photo.file | escape }}"
+                data-speaking-gallery-caption="{{ caption | escape }}"
+                data-speaking-gallery-month="{{ photo_setting.month | escape }}"
+                data-speaking-gallery-download="{{ download_name | strip | escape }}"
+                data-speaking-gallery-original="{{ photo.original | relative_url }}"
+                {% if photo_setting.credit %}data-speaking-gallery-credit="{{ photo_setting.credit | escape }}"{% endif %}
+                {% if photo_setting.credit_url %}data-speaking-gallery-credit-url="{{ photo_setting.credit_url | escape }}"{% endif %}
+                aria-label="View {{ caption | escape }} larger">
+                <span class="speaking-gallery__all-media">
+                  <img src="{{ photo.thumbnail | relative_url }}" width="{{ photo.thumbnail_width }}" height="{{ photo.thumbnail_height }}" alt="{{ caption | escape }}" loading="lazy" decoding="async">
+                </span>
+              </a>
+              <figcaption>{{ caption }}</figcaption>
+            </figure>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <footer class="speaking-gallery__dialog-footer">
+        <button class="btn btn--primary speaking-gallery__dialog-close-action" type="button" data-speaking-gallery-close>
+          <i class="fas fa-times" aria-hidden="true"></i>
+          Close Gallery
+        </button>
+      </footer>
+    </div>
+  </dialog>
+</div>

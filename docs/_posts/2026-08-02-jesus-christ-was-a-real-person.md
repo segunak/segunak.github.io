@@ -1,7 +1,7 @@
 ---
 title: "Jesus Christ Was a Real Person"
 excerpt: "Religion aside, the existence of Jesus Christ is a historical fact, though awareness of it may be fading with each new generation."
-last_modified_at: 2026-08-13T20:14:57
+last_modified_at: 2026-08-20T20:56:16
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -77,13 +77,12 @@ That level of uncertainty is striking given the [broad historical consensus that
 Seeing this clip recently drove home my belief that it is in fact **not common knowledge** that Jesus Christ was a real person.
 
 <div class="video-container">
-  <iframe
-    src="https://www.youtube.com/embed/AICN9DE8z3k?start=158"
-    title="Paul Rudd chooses Jesus Christ as the historical person he would most like to meet"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  <iframe src="https://www.youtube.com/embed/AICN9DE8z3k?start=158"
+    title="Paul Rudd Chooses Jesus Christ as the Historical Person He Would Most Like to Meet"
+    loading="lazy"
+    allow="clipboard-write; encrypted-media; picture-in-picture; web-share"
     referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen>
-  </iframe>
+    allowfullscreen></iframe>
 </div>
 
 While promoting [*Ghostbusters: Frozen Empire*](https://en.wikipedia.org/wiki/Ghostbusters:_Frozen_Empire), [McKenna Grace](https://en.wikipedia.org/wiki/Mckenna_Grace), [Paul Rudd](https://en.wikipedia.org/wiki/Paul_Rudd), and [Finn Wolfhard](https://en.wikipedia.org/wiki/Finn_Wolfhard) were asked which person from history they'd go back in time to spend a day with. Rudd answered, "Jesus Christ", which immediately provoked a sort of "yeah right lol" laughter from McKenna and Finn.

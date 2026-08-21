@@ -1,0 +1,31 @@
+<div class="bio-card{% if include.mobile_dialog %} bio-card--mobile-dialog{% endif %}" data-bio-card{% if include.mobile_dialog %} data-bio-mobile-dialog{% endif %}>
+  <div class="bio-card__content" data-bio-copy-source>
+    {{ include.bio | markdownify }}
+  </div>
+  <div class="bio-card__actions">
+    <button class="btn btn--primary bio-card__copy" type="button" data-bio-copy>
+      <i class="fas fa-copy" aria-hidden="true"></i>
+      <span data-bio-copy-label>Copy</span>
+    </button>
+    <span class="bio-card__status" role="status" aria-live="polite" data-bio-copy-status></span>
+  </div>
+</div>
+{% if include.mobile_dialog %}
+<dialog class="speaking-talk-dialog bio-card__dialog" id="long-bio-dialog" data-bio-dialog aria-labelledby="long-bio-dialog-title">
+  <div class="speaking-talk-dialog__shell">
+    <header class="speaking-talk-dialog__header">
+      <div class="speaking-talk-dialog__title" id="long-bio-dialog-title">Long Bio</div>
+      <button class="speaking-talk-dialog__close" type="button" data-bio-dialog-close title="Close long bio" aria-label="Close long bio">
+        <i class="fas fa-times" aria-hidden="true"></i>
+      </button>
+    </header>
+    <div class="speaking-talk-dialog__content" data-bio-dialog-content></div>
+    <footer class="speaking-talk-dialog__footer">
+      <button class="btn btn--primary speaking-talk-dialog__close-action" type="button" data-bio-dialog-close>
+        <i class="fas fa-times" aria-hidden="true"></i>
+        Close Bio
+      </button>
+    </footer>
+  </div>
+</dialog>
+{% endif %}

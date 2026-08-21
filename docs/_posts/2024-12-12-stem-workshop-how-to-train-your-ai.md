@@ -1,7 +1,7 @@
 ---
 title: "How To Train Your AI: Demystifying ChatGPT With Machine Learning, Neural Networks, and Deep Learning Basics"
 excerpt: "Demystify the concepts behind tools like ChatGPT with an approachable introduction to Machine Learning, Neural Networks, and Deep Learning."
-last_modified_at: 2026-08-13T20:14:57
+last_modified_at: 2026-08-20T20:56:16
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -112,7 +112,7 @@ You can find the facilitation guide for this workshop below, with the latest ver
 The **Coding Activity** version of this workshop is below. It features a live AI training exercise using [Visual Studio Code for Education](https://vscodeedu.com/) requiring laptops for participants. If you download a copy, be sure to review the notes section for key discussion points and essential concepts to share with participants.
 
 <iframe
-  src="https://1drv.ms/p/c/750d396c5cadcebd/IQS10Ps2jcCrR4jWYJmitxuqAbEgwZWs0ZeYC7lTNEo9CaI?em=2&amp;wdAr=1.7777777777777777"  
+  src="https://1drv.ms/p/c/750d396c5cadcebd/IQC10Ps2jcCrR4jWYJmitxuqARgfA1jpLbwi8_a5uBSZCW8?e=8BJhNW&amp;wdAr=1.7777777777777777"
   width="100%"
   height="500px"
   frameborder="0">
@@ -123,7 +123,7 @@ The **Coding Activity** version of this workshop is below. It features a live AI
 The **Language Activity** version of this workshop, designed for participants with varying levels of technical expertise, is linked below. It remains interactive but uses a group-based approach where participants are shown images of different languages with non-English characters and learn to recognize patterns over time, demonstrating how AI models learn to distinguish patterns. Participants will only need pen and paper.
 
 <iframe
-  src="https://1drv.ms/p/c/750d396c5cadcebd/IQShwvRnbTzxSLUzum-NV0vQAartnDl4cQJ42eL2ccVtiwk?em=2&amp;wdAr=1.7777777777777777"
+  src="https://1drv.ms/p/c/750d396c5cadcebd/IQChwvRnbTzxSLUzum-NV0vQAb45buFpFfHNndlmBYbNmdU?e=kyNgp5&amp;wdAr=1.7777777777777777"
   width="100%"
   height="500px"
   frameborder="0">

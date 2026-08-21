@@ -1,0 +1,41 @@
+<section
+  class="page__hero--overlay page__hero--local-video"
+  style="--local-video-overlay-opacity: {{ page.header.overlay_filter | default: 0.55 }}; --local-video-position: {{ page.header.video_position | default: 'center' }};"
+>
+  <video class="page__hero-local-video__media" width="1280" height="720" autoplay muted loop playsinline preload="auto"{% if page.header.video_poster %} poster="{{ page.header.video_poster | relative_url }}"{% endif %} aria-hidden="true" tabindex="-1">
+    <source src="{{ page.header.local_video | relative_url }}" type="{{ page.header.local_video_type | default: 'video/mp4' }}">
+  </video>
+
+  <div class="wrapper">
+    <div class="page__hero-local-video__content">
+      {% if page.header.show_profile and site.author %}
+        <div class="page__hero-local-video__profile">
+          {% if site.author.avatar %}
+            <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name | default: site.name }}">
+          {% endif %}
+          <div>
+            <span class="page__hero-local-video__name">{{ site.author.name | default: site.name }}</span>
+            {% if site.author.bio %}<span class="page__hero-local-video__bio">{{ site.author.bio }}</span>{% endif %}
+            {% if site.author.links %}
+              <nav class="page__hero-local-video__social" aria-label="{{ site.author.name | default: site.name }} social links">
+                {% for link in site.author.links %}
+                  {% if link.label and link.url %}
+                    <a href="{{ link.url }}" title="{{ link.label }}" aria-label="{{ link.label }}" rel="nofollow noopener noreferrer me">
+                      {% if link.icon %}<i class="{{ link.icon }}" aria-hidden="true"></i>{% endif %}
+                    </a>
+                  {% endif %}
+                {% endfor %}
+              </nav>
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+
+      {% if page.title %}<h1 class="page__title">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+      {% if page.excerpt %}<div class="page__lead">{{ page.excerpt | markdownify }}</div>{% endif %}
+      {% if page.header.cta_label and page.header.cta_url %}
+        <a href="{{ page.header.cta_url }}" class="btn btn--light-outline">{{ page.header.cta_label }}</a>
+      {% endif %}
+    </div>
+  </div>
+</section>

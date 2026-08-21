@@ -16,13 +16,13 @@ Welcome! This page highlights various [stuff and thangs](https://www.google.com/
 
 ## Ongoing Stuff
 
-- **[Discovery Days](https://www.linkedin.com/posts/activity-7264735736778690560-71lh):** A recurring field trip program I founded in 2022 that brings local students to Microsoft Charlotte for hands-on STEM learning and career exploration, [learn more here](https://aka.ms/discovery-day/flyer).
+- **[Discovery Days](https://www.linkedin.com/posts/activity-7264735736778690560-71lh):** A field trip program I founded in 2022 that brings local students to Microsoft Charlotte for hands-on STEM learning and career exploration, [learn more here](https://aka.ms/discovery-day/flyer).
 
-- **[Charlotte Third Places](https://charlottethirdplaces.com/):** An open-source directory that helps Charlotte residents discover "third places", which are welcoming community spaces beyond home and work. The project began as a personal list on my phone while I explored the city and worked from different spots, and features personally curated listings with details like size, Wi-Fi availability, parking situations, fun facts, and most importantly, whether they have [cinnamon rolls](https://segunakinyemi.com/tags/#dough-diaries).
+- **[Charlotte Third Places](https://charlottethirdplaces.com/):** An open-source directory that helps Charlotte residents discover "third places", which are welcoming community spaces beyond home and work. The project began as a list on my phone while I explored the city and worked from different spots, and features personally curated listings with details like size, Wi-Fi availability, parking situations, fun facts, and most importantly, whether they have [cinnamon rolls](https://segunakinyemi.com/tags/#dough-diaries).
 
-- **[Carolina Youth Coalition](https://www.carolinayouth.org/):** I serve on their [Young Professionals Board](https://www.carolinayouth.org/yp) and volunteer as a writing coach helping students craft college essays and win scholarships. I also mentor students interested in tech careers. Working directly with students gives me unfiltered feedback on how CYC impacts their lives, and it's all positive. I've watched first-generation kids like me go from nothing to college degrees and careers that transform their families. CYC changes lives, and I encourage everyone to [get involved](https://www.carolinayouth.org/join-us)!
+- **[Carolina Youth Coalition](https://www.carolinayouth.org/):** I mentor students, help with college essays, and serve on their [Young Professionals Board](https://www.carolinayouth.org/yp). Working with students directly, I've watched many first-generation kids like me go from nothing to college degrees and careers that change everything for them and their families. If you're in Charlotte, I'd encourage you to [get involved](https://www.carolinayouth.org/join-us)!
 
-Also be sure to connect with me on [LinkedIn](https://www.linkedin.com/in/segunakinyemi/), check out my [GitHub](https://github.com/segunak), and subscribe to my [YouTube channel](https://www.youtube.com/@segun.akinyemi) for more of what I've been up to lately.
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/segunakinyemi/), check out my [GitHub](https://github.com/segunak), or subscribe to my [YouTube channel](https://www.youtube.com/@segun.akinyemi) to see what I've been up to lately. You can also visit my [speaking page](/speaking/) for more about my talks, workshops, and public speaking.
 
 ## Year by Year
 

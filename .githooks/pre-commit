@@ -6,9 +6,70 @@ updated=0
 
 staged_posts="$(git diff --cached --name-only --diff-filter=ACM -- 'docs/_posts/*.md')"
 staged_agentic_workflows="$(git diff --cached --name-only --diff-filter=ACM -- '.github/workflows/*.md')"
+staged_me_changes="$(git diff --cached --name-only --diff-filter=ACMRD -- 'docs/assets/images/me')"
+staged_speaking_photos="$(printf '%s\n' "$staged_me_changes" | grep -Ev '^docs/assets/images/me/(display|thumbs)/' || true)"
+staged_speaking_photo_script="$(git diff --cached --name-only --diff-filter=ACM -- '.github/skills/speaking-photos/scripts/sync.ps1')"
+staged_speaking_photo_validator="$(git diff --cached --name-only --diff-filter=ACM -- '.github/skills/speaking-photos/scripts/validate-gallery.rb')"
+staged_speaking_page="$(git diff --cached --name-only --diff-filter=ACM -- 'docs/_pages/speaking.md')"
 
-if [ -z "$staged_posts" ] && [ -z "$staged_agentic_workflows" ]; then
+if [ -z "$staged_posts" ] && [ -z "$staged_agentic_workflows" ] && [ -z "$staged_speaking_photos" ] && [ -z "$staged_speaking_photo_script" ] && [ -z "$staged_speaking_photo_validator" ] && [ -z "$staged_speaking_page" ]; then
   exit 0
+fi
+
+if [ -n "$staged_speaking_photos" ] || [ -n "$staged_speaking_photo_script" ]; then
+  if ! command -v pwsh >/dev/null 2>&1; then
+    echo "pre-commit: pwsh is required to generate speaking photo assets." >&2
+    exit 1
+  fi
+
+  while IFS= read -r file; do
+    [ -n "$file" ] || continue
+
+    if ! git diff --quiet -- "$file"; then
+      echo "pre-commit: $file has unstaged changes." >&2
+      echo "pre-commit: stage or stash them before generating speaking photo assets." >&2
+      exit 1
+    fi
+  done <<< "$staged_speaking_photos"
+
+  if [ -n "$staged_speaking_photo_script" ] && ! git diff --quiet -- '.github/skills/speaking-photos/scripts/sync.ps1'; then
+    echo "pre-commit: the speaking photo sync script has unstaged changes." >&2
+    echo "pre-commit: stage or stash them before committing." >&2
+    exit 1
+  fi
+
+  echo "pre-commit: syncing speaking photo assets"
+  if [ -n "$staged_speaking_photo_script" ]; then
+    pwsh -NoProfile -File '.github/skills/speaking-photos/scripts/sync.ps1' -Force
+  else
+    pwsh -NoProfile -File '.github/skills/speaking-photos/scripts/sync.ps1'
+  fi
+
+  git add -A -- \
+    'docs/assets/images/me/display' \
+    'docs/assets/images/me/thumbs' \
+    'docs/_data/speaking_photos.json'
+  echo "pre-commit: staged speaking photo derivatives and manifest"
+fi
+
+if [ -n "$staged_speaking_page" ] || [ -n "$staged_speaking_photo_validator" ]; then
+  if ! command -v ruby >/dev/null 2>&1; then
+    echo "pre-commit: ruby is required to validate the Speaking gallery." >&2
+    exit 1
+  fi
+
+  for file in $staged_speaking_page $staged_speaking_photo_validator; do
+    [ -n "$file" ] || continue
+
+    if ! git diff --quiet -- "$file"; then
+      echo "pre-commit: $file has unstaged changes." >&2
+      echo "pre-commit: stage or stash them before validating the Speaking gallery." >&2
+      exit 1
+    fi
+  done
+
+  echo "pre-commit: validating Speaking gallery configuration"
+  ruby '.github/skills/speaking-photos/scripts/validate-gallery.rb'
 fi
 
 if [ -n "$staged_posts" ]; then

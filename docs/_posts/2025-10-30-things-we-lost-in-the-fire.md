@@ -1,7 +1,7 @@
 ---
 title: "Things We Lost in the Fire (2007): Grief, Addiction, and Love Beyond the Grave"
 excerpt: "A rainy Wednesday morning, a cafe/video store hybrid, and a random 2007 film brought me to an unexpected but welcome reflection. Love doesn't die when people do. It just finds new ways to heal the living."
-last_modified_at: 2026-08-13T20:14:57
+last_modified_at: 2026-08-20T20:56:16
 toc: true
 toc_label: "On This Page"
 toc_icon: "book"
@@ -132,7 +132,12 @@ The closing scenes are deeply emotional. Audrey drives through the rain to pick 
 And then we get [a final monologue from Benicio del Toro's Jerry](https://www.youtube.com/watch?v=GC0-WPjtMDs). It's hauntingly beautiful. A man 89 days clean of heroin, battling through it all, adopting the simple but true concept of [taking life one day at a time](https://www.biblegateway.com/passage/?search=Matthew%206%3A34&version=NKJV).
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/GC0-WPjtMDs?si=hLgfgjh_m_owjDtw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/GC0-WPjtMDs"
+    title="Things We Lost in the Fire, Jerry's Closing Monologue"
+    loading="lazy"
+    allow="clipboard-write; encrypted-media; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen></iframe>
 </div>
 
 That's how Jerry gets clean. That's how Audrey moves through grief. That's how the kids learn to live without their father. That's how we all get through the things we lose in the fire.
