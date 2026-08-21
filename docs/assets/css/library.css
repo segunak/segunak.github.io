@@ -114,18 +114,6 @@
   }
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .library-panel {
-    animation: none;
-  }
-  .library-tabs__btn,
-  .library-tabs__btn:hover,
-  .library-tabs__btn:focus-visible {
-    transition: none;
-    transform: none;
-  }
-}
-
 /* -------- Reading-vibes diptych (side-by-side gifs with headings) ------- */
 
 .library-feelings {

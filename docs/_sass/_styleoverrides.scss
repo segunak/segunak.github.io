@@ -815,12 +815,6 @@ details p:last-of-type {
   }
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .page__hero-local-video__media {
-    display: none;
-  }
-}
-
 /* ========================================
    Speaking Page
    ======================================== */
@@ -917,12 +911,6 @@ details p:last-of-type {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .speaking-playlist__control {
-    transition: none;
   }
 }
 
@@ -2023,12 +2011,6 @@ body.speaking-gallery-lightbox-open {
 @keyframes linkedin-embed-spin {
   to {
     transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .linkedin-embed[data-linkedin-state="loading"] .linkedin-embed__spinner {
-    animation: none;
   }
 }
 

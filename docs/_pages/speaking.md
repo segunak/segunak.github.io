@@ -16,6 +16,7 @@ header:
   show_profile: true
   cta_label: "Get In Touch"
   cta_url: "#get-in-touch"
+  video_poster: /assets/images/me/display/OnStageSpeaking-HandsSpread-MicrosoftCharlotteAISummit-2026.webp
 speaking_gallery:
   download_prefix: segun-akinyemi
   photos:

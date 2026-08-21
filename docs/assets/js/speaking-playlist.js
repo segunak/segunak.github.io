@@ -53,7 +53,6 @@
     var player;
     var activeIndex = -1;
     var featuredVideoApplied = false;
-    var reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
     function updateScrollControls() {
       var maximumScroll = rail.scrollWidth - rail.clientWidth;
@@ -82,7 +81,7 @@
 
       if (scrollIntoView && activeThumbnail) {
         activeThumbnail.scrollIntoView({
-          behavior: reducedMotion ? "auto" : "smooth",
+          behavior: "smooth",
           block: "nearest",
           inline: "center",
         });
@@ -198,14 +197,14 @@
 
     previous.addEventListener("click", function () {
       rail.scrollBy({
-        behavior: reducedMotion ? "auto" : "smooth",
+        behavior: "smooth",
         left: -Math.max(rail.clientWidth * 0.8, 160),
       });
     });
 
     next.addEventListener("click", function () {
       rail.scrollBy({
-        behavior: reducedMotion ? "auto" : "smooth",
+        behavior: "smooth",
         left: Math.max(rail.clientWidth * 0.8, 160),
       });
     });
