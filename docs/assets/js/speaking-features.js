@@ -1,8 +1,6 @@
 (function () {
   "use strict";
 
-  var EMBED_BATCH_SIZE = 2;
-  var EMBED_BATCH_DELAY = 400;
   var EMBED_TIMEOUT = 15000;
 
   function initializeSpeakingFeatures() {
@@ -11,8 +9,6 @@
     var openDialog = features && features.querySelector("[data-speaking-features-open]");
     var closeDialogs = features && features.querySelectorAll("[data-speaking-features-close]");
     var allFeatures = features && features.querySelector("[data-speaking-features-all]");
-    var batchTimer;
-    var backgroundLoadingStarted = false;
 
     if (
       !features ||
@@ -83,52 +79,90 @@
       iframe.removeAttribute("data-src");
     }
 
-    function loadNextEmbedBatch() {
-      var queuedEmbeds = Array.prototype.slice.call(
-        features.querySelectorAll('[data-linkedin-embed][data-linkedin-state="queued"]'),
-        0,
-        EMBED_BATCH_SIZE
-      );
+    function setFeatureEmbedState(embed, state, labelText) {
+      var label = embed.querySelector("[data-feature-embed-label]");
+      embed.dataset.featureEmbedState = state;
 
-      queuedEmbeds.forEach(activateEmbed);
-
-      if (
-        features.querySelector('[data-linkedin-embed][data-linkedin-state="queued"]')
-      ) {
-        batchTimer = window.setTimeout(loadNextEmbedBatch, EMBED_BATCH_DELAY);
+      if (label && labelText) {
+        label.textContent = labelText;
       }
     }
 
-    function startBackgroundEmbedLoading() {
-      if (backgroundLoadingStarted) {
+    function activateFeatureEmbed(embed) {
+      var iframe;
+      var source;
+      var timeout;
+
+      if (embed.dataset.featureEmbedState !== "queued") {
         return;
       }
 
-      backgroundLoadingStarted = true;
-      loadNextEmbedBatch();
+      iframe = embed.querySelector("[data-feature-embed-frame]");
+      source = iframe && iframe.dataset.src;
+
+      if (!iframe || !source) {
+        setFeatureEmbedState(embed, "failed", "Open Video");
+        return;
+      }
+
+      setFeatureEmbedState(embed, "loading", "Loading Video");
+
+      iframe.addEventListener(
+        "load",
+        function () {
+          window.clearTimeout(timeout);
+          setFeatureEmbedState(embed, "loaded");
+        },
+        { once: true }
+      );
+
+      timeout = window.setTimeout(function () {
+        if (embed.dataset.featureEmbedState === "loading") {
+          setFeatureEmbedState(embed, "failed", "Open Video");
+        }
+      }, EMBED_TIMEOUT);
+
+      iframe.src = source;
+      iframe.removeAttribute("data-src");
     }
 
-    function prioritizeRemainingEmbeds() {
-      window.clearTimeout(batchTimer);
-      features
-        .querySelectorAll('[data-linkedin-embed][data-linkedin-state="queued"]')
-        .forEach(activateEmbed);
+    function activateDeferredContent(element) {
+      if (element.hasAttribute("data-linkedin-embed")) {
+        activateEmbed(element);
+      } else {
+        activateFeatureEmbed(element);
+      }
     }
 
-    if (document.readyState === "complete") {
-      window.setTimeout(startBackgroundEmbedLoading, 0);
-    } else {
-      window.addEventListener("load", startBackgroundEmbedLoading, { once: true });
+    function activateAllDeferredContent() {
+      var queuedContent = features.querySelectorAll(
+        '[data-linkedin-embed][data-linkedin-state="queued"], ' +
+          '[data-feature-embed][data-feature-embed-state="queued"]'
+      );
+
+      queuedContent.forEach(activateDeferredContent);
     }
+
+    allFeatures.addEventListener("click", function (event) {
+      var trigger = event.target.closest("[data-feature-embed-load]");
+      var embed = trigger && trigger.closest("[data-feature-embed]");
+
+      if (!embed || embed.dataset.featureEmbedState === "failed") {
+        return;
+      }
+
+      event.preventDefault();
+      activateFeatureEmbed(embed);
+    });
 
     openDialog.addEventListener("click", function () {
       if (typeof dialog.showModal !== "function") {
         return;
       }
 
-      prioritizeRemainingEmbeds();
       document.documentElement.classList.add("speaking-features-open");
       dialog.showModal();
+      activateAllDeferredContent();
       window.dispatchEvent(new Event("resize"));
     });
 

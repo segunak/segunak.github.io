@@ -25,6 +25,8 @@ Preserve the existing page structure and components. For routine additions, clon
 
 - Add entries to `docs/_data/features.yml`, not directly to the page. Follow the complete schema and examples documented at the top of that file.
 - Mark an entry `featured: true` to show it in the initial grid. Featured items are not repeated in **View More**, which contains only nonfeatured items. Recommend exactly 4 featured entries for a complete 2 by 2 desktop preview.
+- Keep loading behavior data-driven. Every `featured: true` embed or media player loads eagerly regardless of how many featured entries exist. Only nonfeatured content inside the closed **View More** dialog may use deferred iframe URLs.
+- Give every nonfeatured `feature` with `embed_url` a `poster` and `poster_alt` so its facade remains complete until **View More** opens and loads the player.
 - Arrange entries as mixed desktop pairs. Interleave types, avoid runs longer than 2 of one type, do not place 2 testimonials in the same row, and alternate testimonial columns when practical.
 - Use `embed` for a complete LinkedIn post, `feature` for a whole external article, profile, or video, `testimonial` for an exact excerpt from a longer source, and `mention` for compact evidence.
 - Never iframe a normal article page. Use a verified dedicated media player or an image-backed feature card.

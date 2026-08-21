@@ -29,7 +29,7 @@
         <div class="linkedin-embed__placeholder" role="status">
           <i class="fab fa-linkedin linkedin-embed__placeholder-icon" aria-hidden="true"></i>
           <span class="linkedin-embed__spinner" aria-hidden="true"></span>
-          <span data-linkedin-status>LinkedIn post queued</span>
+          <span data-linkedin-status>LinkedIn post</span>
         </div>
         <iframe data-linkedin-frame data-src="https://www.linkedin.com/embed/feed/update/urn:li:{{ embed_type }}:{{ embed_id }}" title="LinkedIn post" allowfullscreen></iframe>
         <div class="linkedin-embed__fallback" data-linkedin-fallback hidden>
@@ -52,9 +52,24 @@
   {% assign feature_action_label = item.action_label | default: "View Source" %}
   <article class="speaking-feature speaking-feature--feature">
     {% if item.embed_url %}
+      {% if item.featured %}
       <div class="speaking-feature__media speaking-feature__media--embed">
         <iframe src="{{ item.embed_url | escape }}" title="{{ item.title | escape }}" allowfullscreen></iframe>
       </div>
+      {% else %}
+      <div class="speaking-feature__media speaking-feature__media--embed" data-feature-embed data-feature-embed-state="queued">
+        <a class="speaking-feature__embed-facade" href="{{ item.url | escape }}" data-feature-embed-load aria-label="Play {{ item.title | escape }}">
+          {% if item.poster %}
+            <img src="{{ item.poster | escape }}" alt="{{ item.poster_alt | escape }}" loading="lazy" decoding="async">
+          {% endif %}
+          <span class="speaking-feature__embed-facade-action">
+            <i class="fas fa-play" aria-hidden="true"></i>
+            <span data-feature-embed-label>Play Video</span>
+          </span>
+        </a>
+        <iframe data-feature-embed-frame data-src="{{ item.embed_url | escape }}" title="{{ item.title | escape }}" allowfullscreen></iframe>
+      </div>
+      {% endif %}
     {% elsif item.image %}
       <a class="speaking-feature__media" href="{{ item.url | escape }}" aria-label="Open {{ item.title | escape }}">
         {% if item.image contains "://" %}
@@ -62,7 +77,7 @@
         {% else %}
           {% assign feature_image_url = item.image | relative_url %}
         {% endif %}
-        <img src="{{ feature_image_url | escape }}" alt="{{ item.image_alt | escape }}">
+        <img src="{{ feature_image_url | escape }}" alt="{{ item.image_alt | escape }}"{% unless item.featured %} loading="lazy" decoding="async"{% endunless %}>
       </a>
     {% endif %}
     <div class="speaking-feature__content">

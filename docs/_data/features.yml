@@ -20,6 +20,9 @@
 # - image_alt: Required plain text when a `feature` has `image`.
 # - embed_url: Optional verified media-player URL for `feature` only. Use instead
 #   of `image` when the source provides a dedicated iframe player.
+# - poster: Optional local or absolute facade image for a nonfeatured `feature`
+#   with `embed_url`.
+# - poster_alt: Required plain text when `poster` is present.
 # - action_label: Optional plain text for `feature` only; defaults to View Source.
 # A `feature` must provide exactly one visual mode: `image` or `embed_url`.
 # Use only the properties supported by the selected type.
@@ -75,7 +78,7 @@
   title: '40 Under 40: Segun Akinyemi, Microsoft Corporation'
   source: Charlotte Business Journal
   description: Charlotte Business Journal's 2025 40 Under 40 profile of Segun Akinyemi.
-  image: /assets/images/misc/suit-40-under-40.jpg
+  image: /assets/images/misc/suit-40-under-40-card.webp
   image_alt: Segun Akinyemi speaking with attendees at the Charlotte Business Journal 40 Under 40 Awards
   action_label: View Profile
 
@@ -163,6 +166,8 @@
   source: WCNC Charlotte
   description: Bailey Middle School students visited Microsoft Charlotte for Discovery Day, a field trip program founded in 2022 by Microsoft software engineer Segun Akinyemi to connect local students with tech careers and hands on learning.
   embed_url: https://media.wcnc.com/embeds/video/responsive/275-15fcdc4a-f87d-46bf-ae28-d0e4c6050c3d/iframe
+  poster: /assets/images/misc/wcnc-discovery-day-poster.jpg
+  poster_alt: A colorful quadruped robot beside a laptop, with the WCNC Charlotte logo
   action_label: Watch on WCNC
 
 - type: embed
