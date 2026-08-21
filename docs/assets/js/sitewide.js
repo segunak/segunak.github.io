@@ -44,22 +44,10 @@ const setDesiredTheme = (desiredTheme) => {
 }
 
 const setSiteThemeOnLoad = () => {
-    // Get the current date/time in Eastern Time
-    const currentTime = new Date().toLocaleString("en-US", { timeZone: "America/New_York" });
-    const easternTime = new Date(currentTime);
-    const easternHours = easternTime.getHours();
-
     const savedTheme = localStorage.getItem('theme');
     const userSetTheme = localStorage.getItem('userSetTheme');
 
-    // If the user hasn't set a theme manually, set the theme based on time
-    if (!userSetTheme) {
-        if (easternHours >= 19 || easternHours < 9) {
-            setDesiredTheme('dark');
-        } else {
-            setDesiredTheme('light');
-        }
-    } else {
+    if (userSetTheme && (savedTheme === 'light' || savedTheme === 'dark')) {
         setDesiredTheme(savedTheme);
     }
 }
