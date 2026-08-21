@@ -25,7 +25,7 @@ Manage the Speaking page photo pipeline without modifying original images.
    - `month` uses quoted `MM-YYYY` format, controls newest-first ordering, and is optional only when the date is unknown. Undated photos render last.
    - Download names are generated automatically as `segun-akinyemi-{12-character content hash}.{extension}`. Do not add download metadata to individual photos.
    - `featured: true` adds a photo to the visible grid. Omit `featured` otherwise. List order controls featured order.
-   - Load thumbnails rendered in the visible featured grid eagerly. Keep thumbnails shown only inside the closed **View All** dialog lazy, and keep display images demand-loaded by the lightbox.
+   - Load every gallery thumbnail eagerly. Keep display images demand-loaded by the lightbox.
    - `credit` and `credit_url` add attribution.
    - Omit non-gallery assets such as the headshot. Do not use `include`.
    - Keep exactly one supported original with the stem `SegunAkinyemiHeadshot`. The validator requires it, and the Speaking page derives its extension, dimensions, paths, and download filename from the generated manifest record. The shared gallery popup supplies its enlarged-view download control.

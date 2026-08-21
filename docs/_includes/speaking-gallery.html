@@ -95,7 +95,7 @@
                 {% if photo_setting.credit_url %}data-speaking-gallery-credit-url="{{ photo_setting.credit_url | escape }}"{% endif %}
                 aria-label="View {{ caption | escape }} larger">
                 <span class="speaking-gallery__all-media">
-                  <img src="{{ photo.thumbnail | relative_url }}" width="{{ photo.thumbnail_width }}" height="{{ photo.thumbnail_height }}" alt="{{ caption | escape }}" loading="lazy" decoding="async">
+                  <img src="{{ photo.thumbnail | relative_url }}" width="{{ photo.thumbnail_width }}" height="{{ photo.thumbnail_height }}" alt="{{ caption | escape }}" loading="eager" decoding="async">
                 </span>
               </a>
               <figcaption>{{ caption }}</figcaption>

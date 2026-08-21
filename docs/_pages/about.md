@@ -7,6 +7,9 @@ toc_sticky: true
 toc_label: "On This Page"
 toc_icon: "user"
 permalink: /about/
+header:
+  teaser: /assets/images/me/display/CharlotteObserverFeatureArticle-CommonMarketOnLaptop-2025.webp
+  og_image: /assets/images/me/display/CharlotteObserverFeatureArticle-CommonMarketOnLaptop-2025.webp
 ---
 
 <script src="/assets/js/dynamic-link-targeting.js"></script>

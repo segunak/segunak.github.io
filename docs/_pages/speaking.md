@@ -10,6 +10,8 @@ toc_sticky: true
 toc_label: "On This Page"
 toc_icon: "microphone"
 header:
+  teaser: /assets/images/me/display/OnStageSpeaking-HandsSpread-MicrosoftCharlotteAISummit-2026.webp
+  og_image: /assets/images/me/display/OnStageSpeaking-HandsSpread-MicrosoftCharlotteAISummit-2026.webp
   local_video: /assets/videos/speaking-broll.mp4
   video_position: "center top"
   overlay_filter: 0.7
