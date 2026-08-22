@@ -1,7 +1,7 @@
 ---
 title: "Why Should I Bother To Read Something You Didn't Bother To Write?"
 excerpt: "AI has its uses, but if you couldn't be bothered to write something, why should anyone bother to read it?"
-last_modified_at: 2026-08-13T20:14:57
+last_modified_at: 2026-08-22T15:35:05
 toc: true
 toc_label: "On This Page"
 toc_icon: "pen"
@@ -45,11 +45,11 @@ So, if you didn't write it, why should I read it?  Why would I bother to read so
 
 ## Your Words Matter
 
-We've [crossed the Rubicon](https://en.wikipedia.org/wiki/Crossing_the_Rubicon). People are sending other people AI generated messages, and on the receiving end, it's not always being noticed, because [LLMs](https://en.wikipedia.org/wiki/Large_language_model) have gotten better.
+We've [crossed the Rubicon](https://en.wikipedia.org/wiki/Crossing_the_Rubicon). People are sending other people AI generated messages, and on the receiving end, it's not always being noticed, because [LLMs](https://en.wikipedia.org/wiki/Large_language_model) have gotten better, and companies like OpenAI and Anthropic are pushing the boundaries of how much they can handle for you. For example, [ChatGPT can now read, draft, and send Apple iMessages on your behalf](https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/).
 
 [This 💩 is bananas, B-A-N-A-N-A-S](https://youtu.be/_jAAixDgHhM?si=TZmPiouFyKrsHq1h&t=142).
 
-It's not a good thing. I don't like it, and I'm not alone.
+This is NOT a good thing. I don't like it, and [I'm not alone](https://x.com/mchlhess/status/2090623398988927082).
 
 There's a great article going viral right now in the tech community that calls out how [*not very cash money*](https://knowyourmeme.com/sensitive/memes/that-wasnt-very-cash-money-of-you) it is to pass off AI generated text as your own.
 
