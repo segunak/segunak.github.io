@@ -56,6 +56,6 @@ This rule does not forbid naming the company when the post is directly discussin
 
 Humor should feel like it belongs to the argument. Do not add jokes as decoration.
 
-Preserve cultural references and jokes already present in the draft. If one is rough, sharpen it without replacing its premise or introducing a different reference. Use related posts in [the full _posts corpus](../../../../docs/_posts) to understand how the author deploys humor. Consult the [library](../../../../docs/_pages/library.md) or public [Goodreads profile](https://www.goodreads.com/user/show/39852937-segun) only when an existing literary reference makes that relevant.
+Preserve cultural references and jokes already present in the draft. If one is rough, sharpen it without replacing its premise or introducing a different reference. Use related posts in [the full _posts corpus](../../../../docs/_posts) to understand how the author deploys humor. Consult the [library](../../../../docs/_pages/library.md) or public [Goodreads profile](https://www.goodreads.com/segunak) only when an existing literary reference makes that relevant.
 
 For post-specific structure and endings, use [Post type playbooks](./post-type-playbooks.md). Do not force a draft into an existing category merely because a playbook exists.

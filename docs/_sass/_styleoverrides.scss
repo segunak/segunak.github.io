@@ -2246,6 +2246,8 @@ body.speaking-gallery-lightbox-open {
   display: flex;
   flex-direction: column;
   padding: 1.7rem;
+  border: 1px solid $border-color;
+  border-top: 4px solid $primary-color;
   border-radius: 8px;
   background: rgba(128, 128, 128, 0.06);
 
@@ -2257,6 +2259,7 @@ body.speaking-gallery-lightbox-open {
 
   @media (min-width: 900px) {
     padding: 0;
+    border: 0;
     border-radius: 0;
     background: transparent;
 

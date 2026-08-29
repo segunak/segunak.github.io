@@ -182,19 +182,21 @@ Here are some of the talks and workshops I've developed. I try to keep this sect
 
 <div class="speaking-talks-grid" markdown="1">
 
-<div class="talk-card" markdown="1">
+<div class="talk-card" id="agentic-ai" markdown="1">
 
 <div class="talk-card__title">Agentic AI: From Acronyms to Applications</div>
 
-**Best For:** College students through working professionals, with versions tailored for general and technical audiences
+**Best For:** College students and working professionals, with versions tailored for general and technical audiences
 
 **Format:** 60 minute interactive talk or hands on workshop
 
-With the rise of Agentic AI, [Uncle Ben's](https://en.wikipedia.org/wiki/Uncle_Ben) "with great power comes great responsibility" warning has never felt more relevant. AI agents can gather information, use tools, make decisions, and take action across multiple steps with limited human direction. They've forever changed how software is built, shipped, and maintained.
+With the rise of Agentic AI, [Uncle Ben's](https://en.wikipedia.org/wiki/Uncle_Ben) "with great power comes great responsibility" warning has never felt more relevant. AI agents can gather information, use tools, make decisions, and take action with limited human direction. Everybody's talking about them, but ask 10 people what an agent is and you'll get [10 different answers](https://simonwillison.net/2025/Sep/18/agents/).
 
 So, what makes a system agentic? What separates Agentic AI from Generative AI and ordinary automation? And where does human responsibility still lie?
 
-Through interactive activities, participants learn what LLMs, RAG, MCP, RLHF, context, context windows, and more mean and how they relate to AI agents. They'll see both the power and limits of these systems, and why the growing field of AI Engineering still needs humans in the loop.
+Depending on the audience and format, participants either investigate AI agents through a game or build one themselves. Each game round reveals an agent's goal, prompt, and seemingly successful output, then challenges the room to uncover the failure, risk, or human effort behind it. General audiences get AI remixes of real business disasters, while technical audiences get cited engineering incidents. In the hands on version, participants interact with a working agent, write its instructions, choose its tools, and try to get it onto a shared live feed.
+
+By the end, participants understand LLMs, RAG, MCP, RLHF, context, and context windows through firsthand experience. They see what Agentic AI can do, where it falls short, and why the growing field of AI Engineering still needs humans in the loop.
 
 **Presented At:** [SEO Career Summit 2026](https://youtu.be/o9cHtYimL0c) · [SEO TechDevCon 2026](https://www.linkedin.com/posts/techdevcon-techdevcon2027-ugcPost-7491172550232793089-Hbnt/) · [UNC Charlotte Women in Data Science Conference 2026](https://www.linkedin.com/posts/pujitha-attuluri-738830158_wids-ai-responsibleai-activity-7441979112287666176-j7cg) · [PMI Carolinas Professional Development Day 2025](https://www.linkedin.com/posts/curtis-york-jr-mba-pmp-pmi-cp-885570b7_carolinaspmi-ugcPost-7385341606171889664-ZFM3) · Numerous [Discovery Days](http://aka.ms/discovery-day/flyer) at Microsoft Charlotte
 
@@ -202,15 +204,21 @@ Through interactive activities, participants learn what LLMs, RAG, MCP, RLHF, co
 
 </div>
 
-<div class="talk-card" markdown="1">
+<div class="talk-card" id="how-to-train-your-ai" markdown="1">
 
 <div class="talk-card__title">How to Train Your AI: Demystifying ChatGPT With Machine Learning Basics</div>
 
-**Best For:** Middle school students through working professionals, with versions tailored for technical and nontechnical audiences at every level
+**Best For:** Middle school, high school, and college students, as well as working professionals, with versions tailored for technical and nontechnical audiences
 
 **Format:** 60 minute interactive talk or hands on workshop
 
-ChatGPT can feel like magic, but underneath it all, it's making **highly educated** guesses based on patterns. This AI Literacy workshop takes an intentionally oversimplified dive into machine learning, neural networks, and deep learning by turning participants into the computers for live lessons in pattern recognition and next token prediction. They first try to write rules for recognizing a cat, then watch those rules break on wolves, cartoon cats, and other edge cases. From there, they predict missing words and, depending on the version, learn to recognize an unfamiliar language or train a simplified model with code. By the end, they'll understand how examples become patterns, how patterns become predictions, and what makes training AI models so expensive. The result may be an impressive stochastic parrot, but it isn't conscious or creative, and it can't replace human guidance and oversight.
+ChatGPT can feel like magic, but underneath it all, it's making **highly educated** guesses based on patterns. This AI Literacy workshop takes an intentionally oversimplified dive into machine learning, neural networks, and deep learning by turning participants into the computers.
+
+They start by writing traditional programming rules for [recognizing a cat](https://arxiv.org/abs/1112.6209), then watch those rules break on wolves, cartoon cats, and other edge cases. This leads into an approachable understanding of supervised learning, where computers learn patterns from labeled examples instead of relying on written rules.
+
+Next, they guess missing words in sentences. Familiar phrases are easy because they've seen them before, while random sentences are nearly impossible without context. That contrast leads into an understanding of self-supervised learning, where large language models (LLMs) learn language patterns by guessing, checking, and adjusting across enormous amounts of text. Depending on the version, they also learn to recognize an unfamiliar writing system from examples or train and tune a simplified LLM with code.
+
+By the end, they'll understand how examples become patterns, how patterns become predictions, and what makes training AI models so expensive. The result may seem intelligent, but it's fundamentally pattern recognition at scale, and still requires human guidance and oversight.
 
 **Presented At:** Numerous [Discovery Days](https://www.linkedin.com/posts/microsoft_what-happens-when-40-high-school-students-activity-7297978253225381888-GP3S) at Microsoft Charlotte, including [this one with Carolina Youth Coalition](https://www.linkedin.com/posts/microsoft_50-students-2-nonprofits-1-hands-on-ai-activity-7361018635915579392-xO6j) · [PMI Carolinas 2025 Kickoff](https://www.linkedin.com/posts/pmicarolina_last-night-we-had-an-amazing-kick-off-event-ugcPost-7285305265048989696-ej4O) · [Demystifying AI With Techsgiving](https://www.linkedin.com/posts/techsgiving_techsgiving-demystifyingai-microsoft-activity-7328910035625873410-K390)
 
@@ -218,7 +226,7 @@ ChatGPT can feel like magic, but underneath it all, it's making **highly educate
 
 </div>
 
-<div class="talk-card" markdown="1">
+<div class="talk-card" id="ai-technical-interview" markdown="1">
 
 <div class="talk-card__title">AI Technical Interview Workshop</div>
 
@@ -226,9 +234,9 @@ ChatGPT can feel like magic, but underneath it all, it's making **highly educate
 
 **Format:** 60 minute hands on workshop
 
-AI can write code now, and everyone's using it. Companies like [Canva](https://www.canva.dev/blog/engineering/yes-you-can-use-ai-in-our-interviews/) and [Meta](https://www.wired.com/story/meta-ai-job-interview-coding/) even let candidates use it in technical interviews. That raises a few questions. What even is software engineering? If AI can write code, why do we need you? How do we evaluate whether you know what you're doing?
+AI-assisted coding is everywhere now. Companies like [Canva](https://www.canva.dev/blog/engineering/yes-you-can-use-ai-in-our-interviews/) and [Meta](https://www.wired.com/story/meta-ai-job-interview-coding/) even let candidates use AI coding tools in technical interviews. So if candidates can use AI to write the code, what are interviewers actually evaluating? What does software engineering require beyond writing code, and how do you prove you can do the job?
 
-In this workshop, students use a custom AI agent as their pair programmer across 5 increasingly realistic challenges. They start with familiar LeetCode problems, then move into incident log triage, API verification, and turning a script into a product anyone can use. Every challenge follows Plan, Prove, Explain. Students can use AI for everything, but they must understand what it produces, explain their decisions, and prove it works.
+In this workshop, students tackle 5 increasingly realistic challenges with a custom AI agent as their pair programmer. They start with familiar LeetCode problems, then move into incident log triage, API verification, and turning a script into a product anyone can use. Every challenge follows Plan, Prove, Explain. They can use AI for everything, but they must understand the output, explain their decisions, and prove the result works.
 
 [AI can write code, but it can't do your job](https://terriblesoftware.org/2025/12/11/ai-can-write-your-code-it-cant-do-your-job/). [Your job is to deliver code you have proven to work](https://simonwillison.net/2025/Dec/18/code-proven-to-work/).
 
@@ -238,7 +246,7 @@ In this workshop, students use a custom AI agent as their pair programmer across
 
 </div>
 
-<div class="talk-card" markdown="1">
+<div class="talk-card" id="were-not-cooked" markdown="1">
 
 <div class="talk-card__title">We're Not Cooked: Your Tech Career Survival Guide in the Age of AI</div>
 
@@ -246,9 +254,9 @@ In this workshop, students use a custom AI agent as their pair programmer across
 
 **Format:** 60 minute interactive talk
 
-AI can write code, so does that mean it's over for software engineers? [Not at all](https://segunakinyemi.com/blog/coding-is-dead-software-engineering-isnt/)! This interactive talk briefly traces the history of AI, uses a live next token prediction exercise to show how LLMs work under the hood, and explores the increasingly popular argument that [code was never the bottleneck](https://www.google.com/search?q=code+was+never+the+bottleneck).
+AI-assisted coding is everywhere now. Does that mean it's over for software engineers? [Not at all](https://segunakinyemi.com/blog/coding-is-dead-software-engineering-isnt/)! After a quick history of AI, participants work through a live [next token prediction exercise](https://academy.claude.com/courses/ai-capabilities-and-limitations/next-token-prediction) to see how LLMs work under the hood. From there, we examine the increasingly popular argument that [writing code was never the real bottleneck in software engineering](https://www.google.com/search?q=code+was+never+the+bottleneck).
 
-Participants meet [AI Engineering](https://www.latent.space/p/ai-engineer), an evolution of software engineering that connects AI models to real systems, data, and tools. They learn how it differs from Machine Learning and which technical skills still matter when AI writes the code. We also follow the money behind layoffs, GPUs, data centers, and AI's enormous cost, cutting through [AI washing](https://www.fastcompany.com/91495694/even-sam-altman-thinks-ceos-are-blaming-ai-for-layoffs) to separate claims of replacement from corporate cost cutting. By the end, they'll understand that [AI accelerates the work, but engineers still own the result](https://www.linkedin.com/pulse/ai-made-us-faster-problem-david-fowler-mgnzc/).
+Participants meet [AI Engineering](https://www.latent.space/p/ai-engineer), an evolution of software engineering that connects AI models to real systems, data, and tools. They learn how it differs from Machine Learning and which technical skills still matter when developers use AI to write code. We also follow the money through GPUs, data centers, and layoffs, cutting through [AI washing](https://www.fastcompany.com/91495694/even-sam-altman-thinks-ceos-are-blaming-ai-for-layoffs) to separate job replacement from corporate cost cutting. By the end, they'll understand that [AI accelerates the work, but engineers still own the result](https://www.linkedin.com/pulse/ai-made-us-faster-problem-david-fowler-mgnzc/).
 
 **Presented At:** [SEO TechDevCon 2025](https://www.linkedin.com/posts/seousa_techdevcon-seocommunity-techdevcon2026-activity-7361426367948775426-4OVS) · [NC A&T and Winston-Salem State University College Discovery Days](https://www.linkedin.com/posts/activity-7447388584438939648-t0A8)
 
@@ -256,15 +264,15 @@ Participants meet [AI Engineering](https://www.latent.space/p/ai-engineer), an e
 
 </div>
 
-<div class="talk-card" markdown="1">
+<div class="talk-card" id="precision-meets-creativity" markdown="1">
 
 <div class="talk-card__title">Precision Meets Creativity with Microsoft Designer</div>
 
-**Best For:** Middle school through high school students, including complete beginners
+**Best For:** Middle school and high school students of all backgrounds
 
 **Format:** 60 minute interactive hands on workshop
 
-AI can generate an image in seconds, but creativity still belongs to the human behind the prompt. Students start by matching an AI generated image to 2 possible prompts, 1 weak and 1 detailed. The choices start close enough to make the game challenging, but soon reveal how specificity, clarity, and creativity shape the result. Students then put that lesson into practice using structured, fill in the blank prompts to create their own image with [Microsoft Designer](https://designer.microsoft.com/). They leave with something they made themselves and a clear understanding that AI supports human creativity rather than replacing it.
+AI can generate an image in seconds, but creativity still belongs to the human behind the prompt. Students start by matching an AI generated image to 2 possible prompts, 1 weak and 1 detailed. The choices start close enough to make the game challenging, but soon reveal how specificity, clarity, and creativity shape the result. Students then put that lesson into practice using structured, fill in the blank prompts to create their own image with [Microsoft Designer](https://designer.microsoft.com/). They leave with an image they conceived and directed, using AI as a tool to bring their idea to life, and a clear understanding that AI supports human creativity rather than replacing it.
 
 **Presented At:** Numerous [Discovery Days](https://aka.ms/discovery-day/flyer) at Microsoft Charlotte · [Charlotte-Mecklenburg Schools Bases Loaded 2025](https://www.linkedin.com/posts/activity-7366135290366705665-sEnI) · [Charlotte-Mecklenburg Schools Bases Loaded 2026](https://www.gofevo.com/event/BacktoSchool2026) · [Black at Microsoft Minority Student Day](https://www.linkedin.com/posts/microsoft_600-students-from-28-schools-across-north-ugcPost-7196494793907048449-6Oad) · [NSBE Charlotte STEM Fair](https://www.linkedin.com/posts/sblackmon_microsoftcharlotte-stemeducation-communityimpact-ugcPost-7312451070532747265-FzZE)
 
@@ -272,11 +280,11 @@ AI can generate an image in seconds, but creativity still belongs to the human b
 
 </div>
 
-<div class="talk-card" markdown="1">
+<div class="talk-card" id="context-is-all-you-need" markdown="1">
 
 <div class="talk-card__title">Context Is All You Need: AI Engineering with the Petoi 'Bittle X' Robot Dog</div>
 
-**Best For:** High school through college students interested in AI, programming, or robotics
+**Best For:** High school and college students interested in AI, programming, or robotics
 
 **Format:** 60 minute hands on workshop
 

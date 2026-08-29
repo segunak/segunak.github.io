@@ -12,7 +12,9 @@
     var dialogContent = dialog && dialog.querySelector("[data-speaking-talk-dialog-content]");
     var dialogTitle = dialog && dialog.querySelector("#speaking-talk-dialog-title");
     var closeButtons = dialog && dialog.querySelectorAll("[data-speaking-talk-dialog-close]");
+    var talksById = Object.create(null);
     var activeTrigger = null;
+    var activeTalkId = null;
 
     if (
       !cards.length ||
@@ -25,8 +27,19 @@
       return;
     }
 
-    function openTalkDialog(fullContent, trigger) {
-      var dialogCard = fullContent.cloneNode(true);
+    function createTalkTemplate(card) {
+      var template = document.createElement("template");
+
+      Array.prototype.slice.call(card.childNodes).forEach(function (node) {
+        template.content.appendChild(node.cloneNode(true));
+      });
+
+      return template;
+    }
+
+    function openTalkDialog(talkTemplate, trigger, talkId, updateHash) {
+      var dialogCard = document.createElement("article");
+      dialogCard.appendChild(talkTemplate.content.cloneNode(true));
       var titleElement = dialogCard.querySelector(".talk-card__title");
       var dialogChildren = Array.prototype.slice.call(dialogCard.children);
       var bestFor = dialogChildren.find(function (element) {
@@ -94,12 +107,20 @@
           label.textContent = label.textContent.replace(/:\s*$/, "");
         });
 
-      dialogCard.removeAttribute("markdown");
       dialogCard.className = "speaking-talk-dialog__article";
       dialogContent.replaceChildren(dialogCard);
       activeTrigger = trigger;
+      activeTalkId = talkId;
       document.documentElement.classList.add("speaking-talk-dialog-open");
-      dialog.showModal();
+
+      if (!dialog.open) {
+        dialog.showModal();
+      }
+
+      if (updateHash && talkId && location.hash !== "#" + talkId) {
+        history.replaceState(history.state, "", "#" + talkId);
+      }
+
       dialogContent.scrollTop = 0;
       window.requestAnimationFrame(function () {
         dialogContent.scrollTop = 0;
@@ -120,8 +141,15 @@
     });
 
     dialog.addEventListener("close", function () {
+      var closedTalkId = activeTalkId;
+
       document.documentElement.classList.remove("speaking-talk-dialog-open");
       dialogContent.replaceChildren();
+      activeTalkId = null;
+
+      if (closedTalkId && location.hash === "#" + closedTalkId) {
+        history.replaceState(history.state, "", location.pathname + location.search);
+      }
 
       if (activeTrigger) {
         activeTrigger.focus({ preventScroll: true });
@@ -134,7 +162,8 @@
         return;
       }
 
-      var fullContent = card.cloneNode(true);
+      var talkId = card.id;
+      var talkTemplate = createTalkTemplate(card);
       var children = Array.prototype.slice.call(card.children);
       var formatIndex = children.findIndex(function (element) {
         return element.tagName === "P" && hasLabel(element, "Format:");
@@ -184,12 +213,35 @@
       details.after(actions);
 
       button.addEventListener("click", function () {
-        openTalkDialog(fullContent, button);
+        openTalkDialog(talkTemplate, button, talkId, true);
       });
 
       details.hidden = true;
       card.dataset.talkCardReady = "true";
+
+      if (talkId) {
+        talksById[talkId] = {
+          template: talkTemplate,
+          trigger: button,
+        };
+      }
     });
+
+    function openTalkFromHash() {
+      var talkId = location.hash.replace(/^#/, "");
+      var talk = talksById[talkId];
+
+      if (talk) {
+        if (!dialog.open || activeTalkId !== talkId) {
+          openTalkDialog(talk.template, talk.trigger, talkId, false);
+        }
+      } else if (dialog.open && activeTalkId) {
+        dialog.close();
+      }
+    }
+
+    openTalkFromHash();
+    window.addEventListener("hashchange", openTalkFromHash);
   }
 
   if (document.readyState === "loading") {

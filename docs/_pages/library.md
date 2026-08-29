@@ -27,7 +27,7 @@ Welcome to my digital library. Books I'm reading, quotes I love, all in one plac
 
 <section id="library-panel-books" class="library-panel" role="tabpanel" aria-labelledby="library-tab-books" markdown="1">
 
-Below you can see what I'm currently reading, what's on my reading list, and what I've read, all courtesy of my [Goodreads profile](https://www.goodreads.com/user/show/39852937-segun).
+Below you can see what I'm currently reading, what's on my reading list, and what I've read, all courtesy of my [Goodreads profile](https://www.goodreads.com/segunak).
 
 As you scroll, you'll find books from both ends of the spectrum:
 
