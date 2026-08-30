@@ -15,6 +15,7 @@
     var talksById = Object.create(null);
     var activeTrigger = null;
     var activeTalkId = null;
+    var slideLoadTimers = [];
 
     if (
       !cards.length ||
@@ -35,6 +36,65 @@
       });
 
       return template;
+    }
+
+    function clearSlideLoadTimers() {
+      slideLoadTimers.forEach(function (timer) {
+        window.clearTimeout(timer);
+      });
+      slideLoadTimers = [];
+    }
+
+    function loadTalkSlides(dialogCard) {
+      clearSlideLoadTimers();
+
+      dialogCard.querySelectorAll("[data-speaking-talk-slides-iframe]").forEach(function (iframe) {
+        var frame = iframe.closest(".speaking-talk-dialog__slides-frame");
+        var source = iframe.getAttribute("data-speaking-talk-slides-src");
+
+        if (!frame || !source) {
+          return;
+        }
+
+        var status = document.createElement("div");
+        status.className = "speaking-talk-dialog__slides-status";
+        status.setAttribute("role", "status");
+        status.setAttribute("aria-live", "polite");
+
+        var spinner = document.createElement("span");
+        spinner.className = "speaking-talk-dialog__slides-spinner";
+        spinner.setAttribute("aria-hidden", "true");
+
+        var statusText = document.createElement("span");
+        statusText.textContent = "Loading slides.";
+
+        status.appendChild(spinner);
+        status.appendChild(statusText);
+        frame.prepend(status);
+        iframe.setAttribute("aria-hidden", "true");
+        iframe.setAttribute("tabindex", "-1");
+
+        var timer = window.setTimeout(function () {
+          spinner.hidden = true;
+          statusText.textContent =
+            "Slides are taking longer than expected. Use the PowerPoint link under Resources.";
+        }, 12000);
+        slideLoadTimers.push(timer);
+
+        iframe.addEventListener(
+          "load",
+          function () {
+            window.clearTimeout(timer);
+            status.hidden = true;
+            frame.classList.add("speaking-talk-dialog__slides-frame--loaded");
+            iframe.removeAttribute("aria-hidden");
+            iframe.removeAttribute("tabindex");
+          },
+          { once: true }
+        );
+
+        iframe.setAttribute("src", source);
+      });
     }
 
     function openTalkDialog(talkTemplate, trigger, talkId, updateHash) {
@@ -109,6 +169,7 @@
 
       dialogCard.className = "speaking-talk-dialog__article";
       dialogContent.replaceChildren(dialogCard);
+      loadTalkSlides(dialogCard);
       activeTrigger = trigger;
       activeTalkId = talkId;
       document.documentElement.classList.add("speaking-talk-dialog-open");
@@ -143,6 +204,7 @@
     dialog.addEventListener("close", function () {
       var closedTalkId = activeTalkId;
 
+      clearSlideLoadTimers();
       document.documentElement.classList.remove("speaking-talk-dialog-open");
       dialogContent.replaceChildren();
       activeTalkId = null;

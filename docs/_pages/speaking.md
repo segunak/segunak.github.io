@@ -137,6 +137,76 @@ speaking_gallery:
   .page__hero-local-video__profile {
     margin-bottom: 1.75rem;
   }
+
+  .speaking-talk-dialog__slides {
+    margin: 1.75rem 0 0;
+  }
+
+  .speaking-talk-dialog__slides-frame {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 476 / 288;
+    overflow: hidden;
+    border: 1px solid rgba(128, 128, 128, 0.45);
+    border-radius: 6px;
+    background: #111;
+  }
+
+  .speaking-talk-dialog__slides-frame iframe {
+    position: relative;
+    z-index: 2;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .speaking-talk-dialog__slides-frame--loaded iframe {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .speaking-talk-dialog__slides-status {
+    position: absolute;
+    z-index: 1;
+    inset: 0;
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    color: #f5f5f5;
+    text-align: center;
+    background: #111;
+  }
+
+  .speaking-talk-dialog__slides-status[hidden] {
+    display: none;
+  }
+
+  .speaking-talk-dialog__slides-spinner {
+    flex: 0 0 auto;
+    width: 1.75rem;
+    height: 1.75rem;
+    border: 3px solid rgba(255, 255, 255, 0.35);
+    border-top-color: #fff;
+    border-radius: 50%;
+    animation: speaking-talk-slides-spin 0.8s linear infinite;
+  }
+
+  @keyframes speaking-talk-slides-spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .speaking-talk-dialog__slides-spinner {
+      animation: none;
+    }
+  }
 </style>
 
 <script src="/assets/js/dynamic-link-targeting.js"></script>
@@ -198,6 +268,13 @@ Depending on the audience and format, participants either investigate AI agents 
 
 By the end, participants understand LLMs, RAG, MCP, RLHF, context, and context windows through firsthand experience. They see what Agentic AI can do, where it falls short, and why the growing field of AI Engineering still needs humans in the loop.
 
+<div class="speaking-talk-dialog__slides">
+  <div class="speaking-talk-dialog__section-heading">Slides</div>
+  <div class="speaking-talk-dialog__slides-frame">
+    <iframe data-speaking-talk-slides-iframe data-speaking-talk-slides-src="https://1drv.ms/p/c/750d396c5cadcebd/IQRlE2SKOUcxRpnB-VjuWGfkAVdQ_6onqJLYpMVWuHyH5nw?em=2&amp;wdAr=1.7777777777777777" title="Agentic AI: From Acronyms to Applications slides" loading="lazy" allowfullscreen></iframe>
+  </div>
+</div>
+
 **Presented At:** [SEO Career Summit 2026](https://youtu.be/o9cHtYimL0c) · [SEO TechDevCon 2026](https://www.linkedin.com/posts/techdevcon-techdevcon2027-ugcPost-7491172550232793089-Hbnt/) · [UNC Charlotte Women in Data Science Conference 2026](https://www.linkedin.com/posts/pujitha-attuluri-738830158_wids-ai-responsibleai-activity-7441979112287666176-j7cg) · [PMI Carolinas Professional Development Day 2025](https://www.linkedin.com/posts/curtis-york-jr-mba-pmp-pmi-cp-885570b7_carolinaspmi-ugcPost-7385341606171889664-ZFM3) · Numerous [Discovery Days](http://aka.ms/discovery-day/flyer) at Microsoft Charlotte
 
 **Resources:** [Companion Article](/blog/agentic-ai-from-acronyms-to-applications/) · [Hands On Workshop](https://aka.ms/aaw) · [General Audience Gamified Deck](https://1drv.ms/p/c/750d396c5cadcebd/IQBwmTDFyBOlSYkFAeQFiGGkAdYyTeO4M7Akp8HAZ3HlG_Y?e=jJ4bNe) · [Technical Audience Gamified Deck](https://1drv.ms/p/c/750d396c5cadcebd/IQBlE2SKOUcxRpnB-VjuWGfkAW0IWFjp7-B1Qc78JqxnFjw?e=zb8Xm2) · [Hands On Workshop Deck](https://1drv.ms/p/c/750d396c5cadcebd/IQBTr0Er7OGZSYPxsMfkgORjAQp5HuUoO7BFG4Yl_PEZX5A)
@@ -220,6 +297,13 @@ Next, they guess missing words in sentences. Familiar phrases are easy because t
 
 By the end, they'll understand how examples become patterns, how patterns become predictions, and what makes training AI models so expensive. The result may seem intelligent, but it's fundamentally pattern recognition at scale, and still requires human guidance and oversight.
 
+<div class="speaking-talk-dialog__slides">
+  <div class="speaking-talk-dialog__section-heading">Slides</div>
+  <div class="speaking-talk-dialog__slides-frame">
+    <iframe data-speaking-talk-slides-iframe data-speaking-talk-slides-src="https://1drv.ms/p/c/750d396c5cadcebd/IQShwvRnbTzxSLUzum-NV0vQAartnDl4cQJ42eL2ccVtiwk?em=2&amp;wdAr=1.7777777777777777" title="How to Train Your AI: Demystifying ChatGPT With Machine Learning Basics slides" loading="lazy" allowfullscreen></iframe>
+  </div>
+</div>
+
 **Presented At:** Numerous [Discovery Days](https://www.linkedin.com/posts/microsoft_what-happens-when-40-high-school-students-activity-7297978253225381888-GP3S) at Microsoft Charlotte, including [this one with Carolina Youth Coalition](https://www.linkedin.com/posts/microsoft_50-students-2-nonprofits-1-hands-on-ai-activity-7361018635915579392-xO6j) · [PMI Carolinas 2025 Kickoff](https://www.linkedin.com/posts/pmicarolina_last-night-we-had-an-amazing-kick-off-event-ugcPost-7285305265048989696-ej4O) · [Demystifying AI With Techsgiving](https://www.linkedin.com/posts/techsgiving_techsgiving-demystifyingai-microsoft-activity-7328910035625873410-K390)
 
 **Resources:** [Companion Article](/blog/stem-workshop-how-to-train-your-ai/) · [Language Activity Deck](https://1drv.ms/p/c/750d396c5cadcebd/IQChwvRnbTzxSLUzum-NV0vQAb45buFpFfHNndlmBYbNmdU?e=kyNgp5) · [Coding Activity Deck](https://1drv.ms/p/c/750d396c5cadcebd/IQC10Ps2jcCrR4jWYJmitxuqARgfA1jpLbwi8_a5uBSZCW8?e=8BJhNW) · [Facilitation Guide](https://github.com/segunak/stem-education/blob/master/workshops/How-To-Train-Your-AI/how-to-train-your-ai.md) · Inspired by [Parand Tony Dugar's](https://www.linkedin.com/in/parand/) articles on [AI](https://www.parand.com/a-completely-non-technical-explanation-of-ai.html), [ChatGPT](https://www.parand.com/a-non-technical-explanation-of-chatgpt.html), and [Deep Learning](https://www.parand.com/a-non-technical-explanation-of-chatgpt-deep-learning.html)
@@ -240,6 +324,13 @@ In this workshop, students tackle 5 increasingly realistic challenges with a cus
 
 [AI can write code, but it can't do your job](https://terriblesoftware.org/2025/12/11/ai-can-write-your-code-it-cant-do-your-job/). [Your job is to deliver code you have proven to work](https://simonwillison.net/2025/Dec/18/code-proven-to-work/).
 
+<div class="speaking-talk-dialog__slides">
+  <div class="speaking-talk-dialog__section-heading">Slides</div>
+  <div class="speaking-talk-dialog__slides-frame">
+    <iframe data-speaking-talk-slides-iframe data-speaking-talk-slides-src="https://1drv.ms/p/c/750d396c5cadcebd/IQRsRMeY3HSzRIBxRgHkaxD1AQ6BaZyC_ulybkKvtVR_jAI?em=2&amp;wdAr=1.7777777777777777" title="AI Technical Interview Workshop slides" loading="lazy" allowfullscreen></iframe>
+  </div>
+</div>
+
 **Presented At:** [UNC Charlotte Industry Day](https://www.linkedin.com/posts/microsoft_microsoft-team-members-in-charlotte-volunteered-activity-7429525031459704833-HIuq) · [Microsoft Charlotte AI Engineering Summit With Central Piedmont Community College](https://www.linkedin.com/posts/microsoft_learning-together-is-one-of-the-fastest-ways-activity-7457051408404467712-iLMn)
 
 **Resources:** [Workshop Website](https://segunakinyemi.com/ai-interview-workshop/) · [How This Workshop Was Built](https://segunakinyemi.com/ai-interview-workshop/how-this-was-built/) · [GitHub Repository](https://github.com/segunak/ai-interview-workshop) · [Companion Article](/blog/coding-is-dead-software-engineering-isnt/) · [Presentation Deck](https://1drv.ms/p/c/750d396c5cadcebd/IQBsRMeY3HSzRIBxRgHkaxD1AWZG14z_B3al7wfnPaezf4g?e=hmihna)
@@ -258,6 +349,13 @@ AI-assisted coding is everywhere now. Does that mean it's over for software engi
 
 Participants meet [AI Engineering](https://www.latent.space/p/ai-engineer), an evolution of software engineering that connects AI models to real systems, data, and tools. They learn how it differs from Machine Learning and which technical skills still matter when developers use AI to write code. We also follow the money through GPUs, data centers, and layoffs, cutting through [AI washing](https://www.fastcompany.com/91495694/even-sam-altman-thinks-ceos-are-blaming-ai-for-layoffs) to separate job replacement from corporate cost cutting. By the end, they'll understand that [AI accelerates the work, but engineers still own the result](https://www.linkedin.com/pulse/ai-made-us-faster-problem-david-fowler-mgnzc/).
 
+<div class="speaking-talk-dialog__slides">
+  <div class="speaking-talk-dialog__section-heading">Slides</div>
+  <div class="speaking-talk-dialog__slides-frame">
+    <iframe data-speaking-talk-slides-iframe data-speaking-talk-slides-src="https://1drv.ms/p/c/750d396c5cadcebd/IQSqQjBk4wTsTrhznzu2Wz1SAQIrlVRIQdtu8DROGmgVxas?em=2&amp;wdAr=1.7777777777777777" title="We're Not Cooked: Your Tech Career Survival Guide in the Age of AI slides" loading="lazy" allowfullscreen></iframe>
+  </div>
+</div>
+
 **Presented At:** [SEO TechDevCon 2025](https://www.linkedin.com/posts/seousa_techdevcon-seocommunity-techdevcon2026-activity-7361426367948775426-4OVS) · [NC A&T and Winston-Salem State University College Discovery Days](https://www.linkedin.com/posts/activity-7447388584438939648-t0A8)
 
 **Resources:** [Companion Article](/blog/seo-techdevcon-2025/) · [AI & Your Tech Career](https://aka.ms/nocap) · [Presentation Deck](https://1drv.ms/p/c/750d396c5cadcebd/IQCqQjBk4wTsTrhznzu2Wz1SAbdy-tWOKysHOteTwUZyfmA?e=hyQsVw) · [The Rise of the AI Engineer](https://www.latent.space/p/ai-engineer) · [The Concerns That Inspired the Talk](https://segunakinyemi.com/blog/github-copilot-agent-mode/)
@@ -273,6 +371,13 @@ Participants meet [AI Engineering](https://www.latent.space/p/ai-engineer), an e
 **Format:** 60 minute interactive hands on workshop
 
 AI can generate an image in seconds, but creativity still belongs to the human behind the prompt. Students start by matching an AI generated image to 2 possible prompts, 1 weak and 1 detailed. The choices start close enough to make the game challenging, but soon reveal how specificity, clarity, and creativity shape the result. Students then put that lesson into practice using structured, fill in the blank prompts to create their own image with [Microsoft Designer](https://designer.microsoft.com/). They leave with an image they conceived and directed, using AI as a tool to bring their idea to life, and a clear understanding that AI supports human creativity rather than replacing it.
+
+<div class="speaking-talk-dialog__slides">
+  <div class="speaking-talk-dialog__section-heading">Slides</div>
+  <div class="speaking-talk-dialog__slides-frame">
+    <iframe data-speaking-talk-slides-iframe data-speaking-talk-slides-src="https://1drv.ms/p/c/750d396c5cadcebd/IQSE_slIMswMRpeAew1t9TPuAT5j7dSZKqCW1_ZvS4jDk_E?em=2&amp;wdAr=1.7777777777777777" title="Precision Meets Creativity with Microsoft Designer slides" loading="lazy" allowfullscreen></iframe>
+  </div>
+</div>
 
 **Presented At:** Numerous [Discovery Days](https://aka.ms/discovery-day/flyer) at Microsoft Charlotte · [Charlotte-Mecklenburg Schools Bases Loaded 2025](https://www.linkedin.com/posts/activity-7366135290366705665-sEnI) · [Charlotte-Mecklenburg Schools Bases Loaded 2026](https://www.gofevo.com/event/BacktoSchool2026) · [Black at Microsoft Minority Student Day](https://www.linkedin.com/posts/microsoft_600-students-from-28-schools-across-north-ugcPost-7196494793907048449-6Oad) · [NSBE Charlotte STEM Fair](https://www.linkedin.com/posts/sblackmon_microsoftcharlotte-stemeducation-communityimpact-ugcPost-7312451070532747265-FzZE)
 
