@@ -1,7 +1,7 @@
 ---
 title: "Why Should I Bother To Read Something You Didn't Bother To Write?"
 excerpt: "AI has its uses, but if you couldn't be bothered to write something, why should anyone bother to read it?"
-last_modified_at: 2026-08-22T15:35:05
+last_modified_at: 2026-08-31T13:31:59
 toc: true
 toc_label: "On This Page"
 toc_icon: "pen"
@@ -26,6 +26,9 @@ tags:
     }
   }
 </style>
+
+The amazing site **[Don't Paste the AI](https://dontpastetheai.com/)** captures what I'm saying here more succinctly. It explains why it sucks when someone sends you something as though they wrote it, but it actually came from AI. I highly suggest checking it out. You *could* even send it to the next person who pastes a wall of AI-generated text into your messages. And if you really want to be feisty, you could send them [this more explicit version](https://dontpastetheai.com/angry/).
+{: .notice--primary}
 
 ## You Write For Humans
 
