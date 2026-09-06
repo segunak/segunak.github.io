@@ -60,10 +60,16 @@ Source locked editing is the default.
 10. Put punctuation outside quotation marks. Write `The author said, "This is a test".` rather than `The author said, "This is a test."`
 11. Use natural contractions in suggested prose unless grammar, quoted material, scripture, titles, proper names, or deliberate emphasis requires the fully written-out form.
 
+## Chat Output Format
+
+Whenever a chat response includes a polished, edited, revised, corrected, tightened, expanded, or otherwise transformed version of the author's text, place the complete version inside a fenced code block whose language is `markdown`. This rule is unconditional and applies to text of every length and type, including a single word, title, sentence, caption, paragraph, list, excerpt, front matter block, or full draft.
+
+Put each distinct version or option in its own `markdown` fenced code block. Never return edited text as rendered Markdown, a blockquote, an unfenced list, or ordinary prose. Explanations may appear outside the fence, but the edited text itself must always be fenced. This requirement applies only to versions returned in chat, not text written directly to a source file.
+
 ## Required Workflow
 
 1. Read the active draft or selected text.
-2. Choose the output mode before changing files. Chat is mandatory for suggestions, polished versions, comparisons, and options. Edit a source file only when the author explicitly asks for a direct file change. An attachment, active selection, file reference, visible typo, or request to polish a named file provides context, not permission.
+2. Choose the output mode before changing files. Chat is mandatory for suggestions, polished versions, comparisons, and options, and every edited version returned in chat must follow the Chat Output Format above. Edit a source file only when the author explicitly asks for a direct file change. An attachment, active selection, file reference, visible typo, or request to polish a named file provides context, not permission.
 3. Determine the requested scope and do not silently broaden it. Apply only the relevant mechanical, clarity, tightening, voice, link, integrity, or publication-readiness passes.
 4. Before substantive voice or structure edits, identify the audience of one, search [the full _posts corpus](../../../docs/_posts), and read related posts by topic, structure, tone, mechanics, and recency. Expand the corpus review as needed until you have enough context to make the editorial judgment. Routine typo and mechanical corrections do not require corpus research.
 5. Load only the references required by the task, following the routing below. Use generic editorial judgment last.
