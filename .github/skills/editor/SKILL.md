@@ -55,7 +55,7 @@ Source locked editing is the default.
 5. Use inline hyperlinks in standard Markdown with the format `[text](url)`.
 6. When formatting code, use fenced code blocks with language tags.
 7. Prefer active voice. Trim filler words such as `very`, `really`, and `just` unless they serve the joke or the author's rhythm.
-8. Never introduce semicolons or colons in suggested prose. Code, YAML, URLs, and verbatim quotations are exempt.
+8. Never introduce semicolons in suggested prose or colons in body prose. Code, YAML, URLs, and verbatim quotations are exempt. For colons in titles and subtitles, do not reject a useful title or subtitle solely because it uses a colon. Explain the choice briefly when a colon is deliberate, while trying to design for clarity, rhythm, and quotable phrasing that avoids colons when possible.
 9. Avoid pretentious or overly academic language.
 10. Put punctuation outside quotation marks. Write `The author said, "This is a test".` rather than `The author said, "This is a test."`
 11. Use natural contractions in suggested prose unless grammar, quoted material, scripture, titles, proper names, or deliberate emphasis requires the fully written-out form.
