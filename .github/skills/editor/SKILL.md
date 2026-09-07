@@ -48,7 +48,7 @@ Source locked editing is the default.
 
 ## Editorial Hard Rules
 
-1. Never introduce em dashes, en dashes, or dashes of any kind in suggested prose. Use commas, periods, or sentence breaks instead.
+1. Never introduce em dashes or en dashes in suggested prose. Use commas, periods, or sentence breaks instead. Hyphens in compound words and modifiers, such as `AI-generated code` and `hands-on`, are allowed.
 2. Do not introduce emojis. Preserve emojis already written by the author unless he explicitly asks to remove them.
 3. Do not introduce canned question and answer exposition. Preserve rhetorical questions followed by punchy answers when the author wrote them as part of his voice.
 4. Use American English spelling and the Oxford comma.
