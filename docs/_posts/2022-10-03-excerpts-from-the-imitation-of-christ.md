@@ -1,7 +1,7 @@
 ---
 title: "Excerpts From The Imitation of Christ"
 excerpt: "Noteworthy excerpts from the Christian devotional The Imitation of Christ by Thomas à Kempis."
-last_modified_at: 2026-08-13T20:14:57
+last_modified_at: 2026-09-13T16:39:21
 toc: true
 toc_label: "On This Page"
 toc_icon: "book"
@@ -366,7 +366,7 @@ If you don't feel like scrolling through the entire webpage, you can generate a 
 > <cite>Book Two, Chapter 1</cite>
 
 
-> He whose disposition is well ordered cares nothing about the strange, perverse behavior of others, for a man is upset and distracted only in proportion as he engrosses himself in externals.
+> **He whose disposition is well ordered cares nothing about the strange, perverse behavior of others, for a man is upset and distracted only in proportion as he engrosses himself in externals.**
 >
 > <cite>Book Two, Chapter 1</cite>
 
