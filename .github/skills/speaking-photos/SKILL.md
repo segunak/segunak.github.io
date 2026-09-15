@@ -1,6 +1,6 @@
 ---
 name: speaking-photos
-description: 'Add, remove, regenerate, or troubleshoot photos for the Speaking page gallery. Use for speaking photos, speaker gallery, personal brand photos, gallery thumbnails, gallery WebPs, or files in docs/assets/images/me.'
+description: 'Add, remove, regenerate, or troubleshoot photos for the Speaking page gallery. Use for speaking photos, speaker gallery, personal brand photos, gallery thumbnails, gallery WebPs, gallery alt text, image sitemaps, or files in docs/assets/images/me.'
 argument-hint: 'A photo path or gallery task'
 ---
 
@@ -21,7 +21,8 @@ Manage the Speaking page photo pipeline without modifying original images.
 
 5. Treat `speaking_gallery.photos` inside `docs/_pages/speaking.md` as the gallery inclusion list. Only listed photos render.
    - `file` is required and must match an original and manifest record.
-   - `caption` is required and excludes the date, which is rendered from `month`.
+   - `caption` is required and excludes the date, which is rendered from `month`. Describe the actual photo.
+   - `alt` is optional. Normally omit it to use the generated author name, caption, and date. Use a nonblank string when that description is inaccurate or insufficient. It replaces the complete alt text without changing the caption. Identify people accurately and avoid keyword stuffing.
    - `month` uses quoted `MM-YYYY` format, controls newest-first ordering, and is optional only when the date is unknown. Undated photos render last.
    - Download names are generated automatically as `segun-akinyemi-{12-character content hash}.{extension}`. Do not add download metadata to individual photos.
    - `featured: true` adds a photo to the visible grid. Omit `featured` otherwise. List order controls featured order.
@@ -35,3 +36,7 @@ Manage the Speaking page photo pipeline without modifying original images.
 9. Never commit or push.
 
 The Git pre-commit hook runs the same generator for staged original changes.
+
+## Image Sitemap
+
+Add or remove photos in `speaking_gallery.photos`. The image sitemap updates automatically when the site builds. You don't need to edit the sitemap or `docs/robots.txt` for photo changes.

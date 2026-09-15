@@ -1,0 +1,23 @@
+---
+layout: null
+permalink: /speaking-images.xml
+sitemap: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  {%- assign speaking_page = site.pages | where: "url", "/speaking/" | first %}
+  {%- if speaking_page %}
+  {%- assign photo_files = speaking_page.speaking_gallery.photos | map: "file" | uniq %}
+  <url>
+    <loc>{{ speaking_page.url | absolute_url | xml_escape }}</loc>
+    {%- for photo_file in photo_files %}
+    {%- assign photo = site.data.speaking_photos.photos | where: "file", photo_file | first %}
+    {%- if photo and photo.display and photo.display != empty %}
+    <image:image>
+      <image:loc>{{ photo.display | absolute_url | xml_escape }}</image:loc>
+    </image:image>
+    {%- endif %}
+    {%- endfor %}
+  </url>
+  {%- endif %}
+</urlset>

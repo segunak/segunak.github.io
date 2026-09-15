@@ -27,11 +27,13 @@
             {% assign formatted_month = month_names[month_index] | append: " " | append: month_parts[1] %}
             {% assign caption = caption | append: ", " | append: formatted_month %}
           {% endif %}
+          {% assign default_alt = site.author.name | append: ". " | append: caption %}
+          {% assign alt_text = photo_setting.alt | default: default_alt %}
           {% assign featured_count = featured_count | plus: 1 %}
           <figure class="speaking-gallery__photo">
             <a class="speaking-gallery__trigger" href="{{ photo.display | relative_url }}" data-speaking-gallery-trigger data-speaking-gallery-file="{{ photo.file | escape }}" aria-label="Open {{ caption | escape }} in the photo gallery">
               <span class="speaking-gallery__media">
-                <img src="{{ photo.thumbnail | relative_url }}" width="{{ photo.thumbnail_width }}" height="{{ photo.thumbnail_height }}" alt="{{ caption | escape }}" title="{{ caption | escape }}" loading="eager" decoding="async">
+                <img src="{{ photo.thumbnail | relative_url }}" width="{{ photo.thumbnail_width }}" height="{{ photo.thumbnail_height }}" alt="{{ alt_text | escape }}" title="{{ caption | escape }}" loading="eager" decoding="async">
               </span>
             </a>
             <figcaption>
@@ -80,6 +82,8 @@
               {% assign formatted_month = month_names[month_index] | append: " " | append: month_parts[1] %}
               {% assign caption = caption | append: ", " | append: formatted_month %}
             {% endif %}
+            {% assign default_alt = site.author.name | append: ". " | append: caption %}
+            {% assign alt_text = photo_setting.alt | default: default_alt %}
             {% assign extension = photo.file | split: "." | last | downcase %}
             {% assign download_hash = photo.source_sha256 | slice: 0, 12 %}
             {% capture download_name %}{{ download_prefix }}-{{ download_hash }}.{{ extension }}{% endcapture %}
@@ -95,7 +99,7 @@
                 {% if photo_setting.credit_url %}data-speaking-gallery-credit-url="{{ photo_setting.credit_url | escape }}"{% endif %}
                 aria-label="View {{ caption | escape }} larger">
                 <span class="speaking-gallery__all-media">
-                  <img src="{{ photo.thumbnail | relative_url }}" width="{{ photo.thumbnail_width }}" height="{{ photo.thumbnail_height }}" alt="{{ caption | escape }}" loading="eager" decoding="async">
+                  <img src="{{ photo.thumbnail | relative_url }}" width="{{ photo.thumbnail_width }}" height="{{ photo.thumbnail_height }}" alt="{{ alt_text | escape }}" loading="eager" decoding="async">
                 </span>
               </a>
               <figcaption>{{ caption }}</figcaption>

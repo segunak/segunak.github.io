@@ -494,4 +494,4 @@ All this stuff is mine and available for use. Just [let me know](#get-in-touch) 
 
 {% include email-reveal.html %}
 
-You can also reach me through [my contact page](/contact/). For a more detailed record of what I have been up to, speaking and otherwise, browse my [highlights](/highlights/).
+You can also reach me through [my contact page](/contact/) or find me on [Sessionize](https://sessionize.com/segunakinyemi/). For a more detailed record of what I have been up to, speaking and otherwise, browse my [highlights](/highlights/).

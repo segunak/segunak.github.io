@@ -1,0 +1,7 @@
+---
+layout: null
+permalink: /robots.txt
+sitemap: false
+---
+Sitemap: {{ '/sitemap.xml' | absolute_url }}
+Sitemap: {{ '/speaking-images.xml' | absolute_url }}

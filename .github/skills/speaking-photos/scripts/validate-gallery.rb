@@ -11,7 +11,7 @@ ORIGINAL_ROOT = File.join(ROOT, 'docs/assets/images/me')
 MONTH_PATTERN = /\A(?:0[1-9]|1[0-2])-(?:19|20)\d{2}\z/
 SLUG_PATTERN = /\A[a-z0-9]+(?:-[a-z0-9]+)*\z/
 MONTH_NAME_PATTERN = /(?:January|February|March|April|May|June|July|August|September|October|November|December) \d{4}\z/
-PHOTO_KEYS = %w[file month caption featured credit credit_url].freeze
+PHOTO_KEYS = %w[file month caption alt featured credit credit_url].freeze
 HEADSHOT_STEM = 'SegunAkinyemiHeadshot'
 SUPPORTED_EXTENSIONS = %w[.jpg .jpeg .png .webp].freeze
 
@@ -86,6 +86,7 @@ settings.each do |setting|
   file = setting['file']
   month = setting['month']
   caption = setting['caption']
+  alt_text = setting['alt']
 
   if !file.is_a?(String) || file.empty?
     errors << 'every photo entry requires `file`'
@@ -97,6 +98,9 @@ settings.each do |setting|
   errors << "#{file}: unsupported keys: #{unsupported_keys.join(', ')}" unless unsupported_keys.empty?
   errors << "#{file}: omit `featured` unless it is true" if setting.key?('featured') && setting['featured'] != true
   errors << "#{file}: `caption` is required" unless caption.is_a?(String) && !caption.empty?
+  if setting.key?('alt') && (!alt_text.is_a?(String) || alt_text.strip.empty?)
+    errors << "#{file}: `alt` must be a nonblank string when provided"
+  end
   errors << "#{file}: caption date must come from `month`" if caption.to_s.match?(MONTH_NAME_PATTERN)
   errors << "#{file}: `month` must use MM-YYYY" if month && (!month.is_a?(String) || !month.match?(MONTH_PATTERN))
   errors << "#{file}: not found in speaking photo manifest" unless manifest_by_file.key?(file)

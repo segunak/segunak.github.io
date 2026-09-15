@@ -1,7 +1,7 @@
 ---
 name: 'Speaking Page'
-description: 'Use when adding future videos, talks, workshops, features, photos, or PowerPoint deck embeds to the Speaking page'
-applyTo: 'docs/_pages/speaking.md,docs/_data/features.yml,docs/assets/js/speaking-talks.js'
+description: 'Use when adding future videos, talks, workshops, features, photos, or PowerPoint deck embeds to the Speaking page, or maintaining gallery alt text and image sitemaps'
+applyTo: 'docs/_pages/speaking.md,docs/_data/features.yml,docs/assets/js/speaking-talks.js,docs/_includes/speaking-gallery.html,docs/speaking-images.xml,docs/robots.txt'
 ---
 
 # Speaking Page Maintenance
@@ -27,9 +27,9 @@ Preserve the existing page structure and components. For routine additions, clon
 
 ### PowerPoint Deck Embeds
 
-- When a public deck exists, embed 1 representative version after the complete description and before `**Presented At:**`. Keep alternate versions as direct links under `**Resources:**`.
-- Generate the embed URL in PowerPoint for the web through **File**, **Share**, and **Embed this Presentation**. Use the generated `em=2` URL. Do not place an ordinary OneDrive `e=` sharing URL in an iframe.
-- Copy only the generated iframe URL into `data-speaking-talk-slides-src`. Do not add `src` in the source card. `speaking-talks.js` adds `src` after the matching dialog opens, shows an accessible loading status, and replaces it after 12 seconds with guidance to use the PowerPoint link under `**Resources:**`. Removing the dialog contents unloads the viewer when it closes.
+- When the user supplies a PowerPoint embed URL or iframe, embed 1 representative version after the complete description and before `**Presented At:**`. Keep alternate versions as direct links under `**Resources:**`.
+- Require PowerPoint URLs from the user. Never generate, derive, or guess them. If a required URL is missing, ask the user to provide it. Do not place an ordinary OneDrive `e=` sharing URL in an iframe.
+- Copy only the user-supplied embed URL into `data-speaking-talk-slides-src`. If the user supplies an iframe, extract its URL. Do not add `src` in the source card. `speaking-talks.js` adds `src` after the matching dialog opens, shows an accessible loading status, and replaces it after 12 seconds with guidance to use the PowerPoint link under `**Resources:**`. Removing the dialog contents unloads the viewer when it closes.
 - Use the existing responsive wrapper and attributes. Replace only the URL and descriptive title.
 
 ```html
@@ -43,7 +43,7 @@ Preserve the existing page structure and components. For routine additions, clon
 
 - Keep the deck-specific styles in the existing `<style>` block in `speaking.md`. Preserve the frame's `476 / 288` aspect ratio, loading spinner, reduced-motion behavior, full-width iframe, border, and overflow rules. Do not move these styles into the sitewide `_styleoverrides.scss` file. Do not copy PowerPoint's fixed `width` or `height` attributes.
 - Keep the direct OneDrive PowerPoint link under `**Resources:**`. The embed is the inline viewer. The direct link is the open or download path.
-- Verify a new embed in a signed-out browser. Confirm that it loads without a Microsoft account, works at mobile width, exposes its viewer controls, and updates when the OneDrive deck changes.
+- Make code changes only. The user handles all PowerPoint embed validation. Never open, fetch, render, or test an embed to verify its access, loading, controls, layout, or updates.
 
 ## Features, Mentions, & Testimonials
 
@@ -58,4 +58,4 @@ Preserve the existing page structure and components. For routine additions, clon
 
 ## Photos
 
-- Follow `.github/skills/speaking-photos/SKILL.md` for every gallery photo addition, removal, featured-state change, caption, credit, or generated-asset task.
+- Follow `.github/skills/speaking-photos/SKILL.md` for every gallery photo addition, removal, featured-state change, caption, alt text, credit, generated-asset, or image-sitemap task.
