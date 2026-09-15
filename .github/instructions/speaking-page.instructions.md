@@ -16,6 +16,7 @@ Preserve the existing page structure and components. For routine additions, clon
 
 ## Talks & Workshops
 
+- Add every new talk or workshop at the beginning of `.speaking-talks-grid`, before all existing `.talk-card` entries. Keep the existing entries in their current order.
 - Copy an existing `.talk-card` and preserve this order: `.talk-card__title`, optional italic subtitle, `**Best For:**`, `**Format:**`, description, optional slides embed, `**Presented At:**`, and `**Resources:**`. Keep the title as a styled non-heading element so it does not enter the page TOC. Omit the subtitle or slides embed when none exists.
 - Give every `.talk-card` a unique, permanent, lowercase kebab-case `id`. Treat `/speaking/#<id>` as a public permalink, and never change an existing ID when a talk title changes.
 - Preserve progressive enhancement for talk permalinks. The source card owns the ID, the dialog clones only its contents, recognized fragments open the matching dialog, and unrelated fragments remain untouched.

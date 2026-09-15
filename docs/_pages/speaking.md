@@ -252,6 +252,22 @@ Here are some of the talks and workshops I've developed. I try to keep this sect
 
 <div class="speaking-talks-grid" markdown="1">
 
+<div class="talk-card" id="the-children-yearn-for-the-mines" markdown="1">
+
+<div class="talk-card__title">The Children Yearn For the Mines: Finding Craftsmanship in AI-Assisted Software Engineering</div>
+
+**Best For:** Software developers and other technical individuals who build stuff with AI agents
+
+**Format:** 20-30 minute talk
+
+For many of us software developers, writing code was how we understood a system, shaped it, and found joy in our work. As AI writes more of the code, some feel more creative than ever, while others feel they've lost the very thing they entered the profession to do.
+
+The ["children yearn for the mines"](https://knowyourmeme.com/memes/the-children-yearn-for-the-mines) meme jokes that we got kids out of dangerous mines, only for them to happily pick up virtual pickaxes in [Minecraft](https://www.bbc.com/future/article/20250328-the-psychology-behind-why-your-childs-hooked-on-minecraft). Minecraft lets kids express their creativity and figure things out as they build a world of their own. So when AI writes the code, how do we build that same kind of connection to the systems we're creating?
+
+In this talk, we'll explore ways to maintain cognitive ownership of systems built with agents, drawing on examples such as [Matt Pocock's grilling skill](https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md) and [Geoffrey Litt's explain-diff](https://gist.github.com/geoffreylitt/a29df1b5f9865506e8952488eac3d524). We'll also use [Andrej Karpathy's distinction between loving coding and loving building](https://x.com/karpathy/status/2015883857489522876/) to examine why some of us enjoy this shift while others feel reduced to "looks good to me" merchants. You'll leave with resources for understanding AI-generated code and retaining technical ownership of the systems you're building, alongside the reassurance that you're not alone in seeking a way back to craftsmanship. A way back to the mines.
+
+</div>
+
 <div class="talk-card" id="agentic-ai" markdown="1">
 
 <div class="talk-card__title">Agentic AI: From Acronyms to Applications</div>
