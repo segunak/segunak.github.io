@@ -1,7 +1,7 @@
 ---
 title: "While You Were Sleeping (1995) Is The Most Ridiculous Rom-Com I've Ever Seen. I Loved It"
 excerpt: "Sandra Bullock turns an absurd case of mistaken identity into a warm story about loneliness, family, and finding love where least expected. It makes no sense. I loved it."
-last_modified_at: 2026-08-13T20:14:57
+last_modified_at: 2026-10-05T09:08:57
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -77,7 +77,7 @@ Because I'm guilty of the same. My passport is equally as pathetic. And like Luc
 
 The only friends we see in Lucy's life are people she works with in some capacity. Outside of work, she has her creepy neighbor Joe Fusco Jr. ([Michael Rispoli](https://en.wikipedia.org/wiki/Michael_Rispoli)), her landlord, and her cat.
 
-The film never hides Lucy's loneliness, but [Sandra Bullock's](https://en.wikipedia.org/wiki/Sandra_Bullock) charm throughout makes it easy to overlook. Lucy is funny, warm, and endearing, so her isolation can register as cute rom-com quirkiness rather than something genuinely painful.
+The movie never tries to hide Lucy's loneliness, but [Sandra Bullock's](https://en.wikipedia.org/wiki/Sandra_Bullock) charm makes it easy to forget. She's funny, kind, warm, down-to-earth, endearing even, which can make her isolation come across as cute rom-com quirkiness rather than pain.
 
 Her mother died when she was young. Her father died about a year before the movie begins. As far as the film shows us, she has no siblings, no living family, and no close friends. Her boss asks her to work on Christmas specifically because she's the only employee without family plans (been there myself, it sucks).
 
