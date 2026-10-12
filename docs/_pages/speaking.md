@@ -395,7 +395,7 @@ AI can generate an image in seconds, but creativity still belongs to the human b
   </div>
 </div>
 
-**Presented At:** Numerous [Discovery Days](https://aka.ms/discovery-day/flyer) at Microsoft Charlotte · [Charlotte-Mecklenburg Schools Bases Loaded 2025](https://www.linkedin.com/posts/activity-7366135290366705665-sEnI) · [Charlotte-Mecklenburg Schools Bases Loaded 2026](https://www.gofevo.com/event/BacktoSchool2026) · [Black at Microsoft Minority Student Day](https://www.linkedin.com/posts/microsoft_600-students-from-28-schools-across-north-ugcPost-7196494793907048449-6Oad) · [NSBE Charlotte STEM Fair](https://www.linkedin.com/posts/sblackmon_microsoftcharlotte-stemeducation-communityimpact-ugcPost-7312451070532747265-FzZE)
+**Presented At:** Numerous [Discovery Days](https://segunakinyemi.com/stem-education/discovery-day/) at Microsoft Charlotte · [Charlotte-Mecklenburg Schools Bases Loaded 2025](https://www.linkedin.com/posts/activity-7366135290366705665-sEnI) · [Charlotte-Mecklenburg Schools Bases Loaded 2026](https://www.gofevo.com/event/BacktoSchool2026) · [Black at Microsoft Minority Student Day](https://www.linkedin.com/posts/microsoft_600-students-from-28-schools-across-north-ugcPost-7196494793907048449-6Oad) · [NSBE Charlotte STEM Fair](https://www.linkedin.com/posts/sblackmon_microsoftcharlotte-stemeducation-communityimpact-ugcPost-7312451070532747265-FzZE)
 
 **Resources:** [Companion Article](/blog/stem-workshop-precision-meets-creativity-with-microsoft-designer/) · [Workshop Website](https://aka.ms/msdw) · [Presentation Deck](https://1drv.ms/p/c/750d396c5cadcebd/IQCE_slIMswMRpeAew1t9TPuAZjbbHKSUMkrkhT3vUOnWes?e=hnJb5H)
 

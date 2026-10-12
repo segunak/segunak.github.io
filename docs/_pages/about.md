@@ -34,7 +34,7 @@ Me, abridged. Check out my [speaking page](/speaking/#long-bio) for a longer ver
 Here's some of what fills my days [as the world spins madly on](https://www.youtube.com/watch?v=L4sa2HoXpsE).
 
 - [Writing](/blog), [speaking](/speaking), and teaching about [AI-assisted software engineering](/blog/coding-is-dead-software-engineering-isnt/), with a focus on keeping humans in the loop.
-- Running [Discovery Days](https://aka.ms/discovery-day/flyer), a field trip program connecting local students with STEM opportunities.
+- Running [Discovery Days](https://segunakinyemi.com/stem-education/discovery-day/), a field trip program connecting local students with STEM opportunities.
 - Building [Charlotte Third Places](https://www.charlottethirdplaces.com/), a guide to welcoming community spaces around Charlotte.
 - Volunteering with the [Carolina Youth Coalition](https://www.carolinayouth.org/), where I mentor students, help with college essays, and serve on their [Young Professionals Board](https://www.carolinayouth.org/yp).
 - Loving [Jesus](https://segunakinyemi.com/blog/jesus-christ-was-a-real-person/), [blogging](https://segunakinyemi.com/blog/), running, longboarding, watching anime, hunting down the [best cinnamon rolls](https://segunakinyemi.com/tags/#dough-diaries) around town, and [reading](https://segunakinyemi.com/library/) more science fiction, fantasy, young adult, classics, nonfiction, and Christian literature than I have time for.

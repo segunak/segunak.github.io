@@ -16,7 +16,7 @@ Welcome! This page highlights various [stuff and thangs](https://www.google.com/
 
 ## Ongoing Stuff
 
-- **[Discovery Days](https://www.linkedin.com/posts/activity-7264735736778690560-71lh):** A field trip program I founded in 2022 that brings local students to Microsoft Charlotte for hands-on STEM learning and career exploration, [learn more here](https://aka.ms/discovery-day/flyer).
+- **[Discovery Days](https://www.linkedin.com/posts/activity-7264735736778690560-71lh):** A field trip program I founded in 2022 that brings local students to Microsoft Charlotte for hands-on STEM learning and career exploration, [learn more here](https://segunakinyemi.com/stem-education/discovery-day/).
 
 - **[Charlotte Third Places](https://charlottethirdplaces.com/):** An open-source directory that helps Charlotte residents discover "third places", which are welcoming community spaces beyond home and work. The project began as a list on my phone while I explored the city and worked from different spots, and features personally curated listings with details like size, Wi-Fi availability, parking situations, fun facts, and most importantly, whether they have [cinnamon rolls](https://segunakinyemi.com/tags/#dough-diaries).
 
