@@ -10,17 +10,16 @@ toc_sticky: true
 toc_label: "On This Page"
 toc_icon: "microphone"
 header:
-  teaser: /assets/images/me/display/OnStageSpeaking-HandsSpread-MicrosoftCharlotteAISummit-2026.webp
-  og_image: /assets/images/me/display/OnStageSpeaking-HandsSpread-MicrosoftCharlotteAISummit-2026.webp
+  teaser: /assets/images/me/thumbs/OnStageSpeaking-HandsSpread-MicrosoftCharlotteAISummit-2026.webp
+  og_image: /assets/images/me/thumbs/OnStageSpeaking-HandsSpread-MicrosoftCharlotteAISummit-2026.webp
   local_video: /assets/videos/speaking-broll.mp4
   video_position: "center top"
   overlay_filter: 0.7
   show_profile: true
   cta_label: "Get In Touch"
   cta_url: "#get-in-touch"
-  video_fallback: /assets/images/me/display/OnStageSpeaking-HandsSpread-MicrosoftCharlotteAISummit-2026.webp
+  video_fallback: /assets/images/me/thumbs/OnStageSpeaking-HandsSpread-MicrosoftCharlotteAISummit-2026.webp
 speaking_gallery:
-  download_prefix: segun-akinyemi
   photos:
     - file: SEOCareerSummit-May2026-SpeakingShot-1.jpg
       month: "05-2026"
@@ -94,6 +93,9 @@ speaking_gallery:
     - file: BeingSwarmedByStudentsAndSweating-SEOTechDevCon2025.jpg
       month: "08-2025"
       caption: "Getting swarmed by students, and sweating, at SEO TechDevCon in NYC"
+    - file: CYC-July2025-DiscoveryDay-WithStudents.jpg
+      month: "07-2025"
+      caption: "Posing with students at Discovery Day with the Carolina Youth Coalition"
     - file: Smiling-2025-40-Under-40-Awards.jpg
       month: "05-2025"
       caption: "At the Charlotte Business Journal 40 Under 40 Awards"
@@ -459,28 +461,24 @@ All this stuff is mine and available for use. Just [let me know](#get-in-touch) 
 
 <!--
   Add originals to /assets/images/me/. List gallery photos with their month,
-  caption, featured status, and credits in speaking_gallery.photos
-  above. The Git hook generates the display/thumb WebPs and manifest.
+  caption, featured status, and credits in speaking_gallery.photos above.
+  The Git hook generates small WebP previews from this list.
 -->
 {% include speaking-gallery.html %}
 
 ### Headshot
 
-{% assign headshot = site.data.speaking_photos.photos | where: "stem", "SegunAkinyemiHeadshot" | first %}
-{% assign headshot_extension = headshot.file | split: "." | last | upcase %}
-
-{% if headshot %}
+{% assign headshot = "/assets/images/me/SegunAkinyemiHeadshot.jpg" | relative_url %}
 <figure class="headshot-figure">
-  <a class="headshot-figure__preview" href="{{ headshot.original | relative_url }}?preview=1" title="Segun Akinyemi" aria-label="Open Segun Akinyemi's headshot" data-speaking-headshot data-speaking-headshot-original="{{ headshot.original | relative_url }}" data-speaking-headshot-download="{{ headshot.file | escape }}">
-    <img class="headshot" src="{{ headshot.original | relative_url }}" width="{{ headshot.width }}" height="{{ headshot.height }}" alt="Segun Akinyemi" loading="lazy">
+  <a class="headshot-figure__preview" href="{{ headshot }}" title="Segun Akinyemi" aria-label="Open Segun Akinyemi's headshot" data-speaking-headshot data-speaking-headshot-original="{{ headshot }}">
+    <img class="headshot" src="{{ headshot }}" alt="Segun Akinyemi" loading="lazy">
   </a>
   <figcaption class="headshot-figure__details">
     <strong class="headshot-figure__name">Segun Akinyemi</strong>
-    <span class="headshot-figure__metadata">High-resolution {{ headshot_extension }} &middot; {{ headshot.width }} &times; {{ headshot.height }}</span>
-    <a class="btn btn--primary headshot-download" href="{{ headshot.original | relative_url }}" download="{{ headshot.file | escape }}"><i class="fas fa-download" aria-hidden="true"></i> Download</a>
+    <span class="headshot-figure__metadata">High-resolution JPG</span>
+    <a class="btn btn--primary headshot-download" href="{{ headshot }}" download="segun-akinyemi-headshot.jpg"><i class="fas fa-download" aria-hidden="true"></i> Download</a>
   </figcaption>
 </figure>
-{% endif %}
 
 ### Short Bio
 

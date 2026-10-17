@@ -1,58 +1,51 @@
-{% assign gallery_photos = site.data.speaking_photos.photos %}
 {% assign photo_settings = page.speaking_gallery.photos %}
-{% assign download_prefix = page.speaking_gallery.download_prefix | default: "segun-akinyemi" %}
 {% assign month_names = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
-{% assign gallery_count = 0 %}
-{% assign first_gallery_photo = nil %}
-
-{% for photo_setting in photo_settings %}
-  {% assign photo = gallery_photos | where: "file", photo_setting.file | first %}
-  {% if photo %}
-    {% assign gallery_count = gallery_count | plus: 1 %}
-    {% if first_gallery_photo == nil %}{% assign first_gallery_photo = photo %}{% endif %}
-  {% endif %}
-{% endfor %}
+{% assign gallery_count = photo_settings.size %}
+{% assign first_gallery_photo = photo_settings | first %}
 
 <div class="speaking-gallery" data-speaking-gallery>
   <div class="speaking-gallery__grid">
     {% assign featured_count = 0 %}
     {% for photo_setting in photo_settings %}
       {% if photo_setting.featured == true and featured_count < 6 %}
-        {% assign photo = gallery_photos | where: "file", photo_setting.file | first %}
-        {% if photo %}
-          {% assign caption = photo_setting.caption | default: photo.default_caption %}
-          {% if photo_setting.month %}
-            {% assign month_parts = photo_setting.month | split: "-" %}
-            {% assign month_index = month_parts[0] | minus: 1 %}
-            {% assign formatted_month = month_names[month_index] | append: " " | append: month_parts[1] %}
-            {% assign caption = caption | append: ", " | append: formatted_month %}
-          {% endif %}
-          {% assign default_alt = site.author.name | append: ". " | append: caption %}
-          {% assign alt_text = photo_setting.alt | default: default_alt %}
-          {% assign featured_count = featured_count | plus: 1 %}
-          <figure class="speaking-gallery__photo">
-            <a class="speaking-gallery__trigger" href="{{ photo.display | relative_url }}" data-speaking-gallery-trigger data-speaking-gallery-file="{{ photo.file | escape }}" aria-label="Open {{ caption | escape }} in the photo gallery">
-              <span class="speaking-gallery__media">
-                <img src="{{ photo.thumbnail | relative_url }}" width="{{ photo.thumbnail_width }}" height="{{ photo.thumbnail_height }}" alt="{{ alt_text | escape }}" title="{{ caption | escape }}" loading="eager" decoding="async">
-              </span>
-            </a>
-            <figcaption>
-              {{ caption }}
-              {% if photo_setting.credit %}
-                <span class="speaking-gallery__credit">
-                  Photo: {% if photo_setting.credit_url %}<a href="{{ photo_setting.credit_url }}">{{ photo_setting.credit }}</a>{% else %}{{ photo_setting.credit }}{% endif %}
-                </span>
-              {% endif %}
-            </figcaption>
-          </figure>
+        {% assign extension = photo_setting.file | split: "." | last | prepend: "." %}
+        {% assign stem_length = photo_setting.file | size | minus: extension.size %}
+        {% assign preview_name = photo_setting.file | slice: 0, stem_length | append: ".webp" %}
+        {% assign preview_url = "/assets/images/me/thumbs/" | append: preview_name | relative_url %}
+        {% assign original_url = "/assets/images/me/" | append: photo_setting.file | relative_url %}
+        {% assign caption = photo_setting.caption %}
+        {% if photo_setting.month %}
+          {% assign month_parts = photo_setting.month | split: "-" %}
+          {% assign month_index = month_parts[0] | minus: 1 %}
+          {% assign formatted_month = month_names[month_index] | append: " " | append: month_parts[1] %}
+          {% assign caption = caption | append: ", " | append: formatted_month %}
         {% endif %}
+        {% assign default_alt = site.author.name | append: ". " | append: caption %}
+        {% assign alt_text = photo_setting.alt | default: default_alt %}
+        {% assign featured_count = featured_count | plus: 1 %}
+        <figure class="speaking-gallery__photo">
+          <a class="speaking-gallery__trigger" href="{{ original_url }}" data-speaking-gallery-trigger data-speaking-gallery-file="{{ photo_setting.file | escape }}" aria-label="Open {{ caption | escape }} in the photo gallery">
+            <span class="speaking-gallery__media">
+              <img src="{{ preview_url }}" alt="{{ alt_text | escape }}" title="{{ caption | escape }}" loading="eager" decoding="async">
+            </span>
+          </a>
+          <figcaption>
+            {{ caption }}
+            {% if photo_setting.credit %}
+              <span class="speaking-gallery__credit">
+                Photo: {% if photo_setting.credit_url %}<a href="{{ photo_setting.credit_url }}">{{ photo_setting.credit }}</a>{% else %}{{ photo_setting.credit }}{% endif %}
+              </span>
+            {% endif %}
+          </figcaption>
+        </figure>
       {% endif %}
     {% endfor %}
   </div>
 
   {% if first_gallery_photo %}
+    {% assign first_original_url = "/assets/images/me/" | append: first_gallery_photo.file | relative_url %}
     <p class="speaking-gallery__actions">
-      <a class="btn btn--primary" href="{{ first_gallery_photo.display | relative_url }}" data-speaking-gallery-open aria-haspopup="dialog" aria-controls="speaking-gallery-all">
+      <a class="btn btn--primary" href="{{ first_original_url }}" data-speaking-gallery-open aria-haspopup="dialog" aria-controls="speaking-gallery-all">
         <i class="fas fa-images" aria-hidden="true"></i>
         View All
       </a>
@@ -73,38 +66,37 @@
 
       <div class="speaking-gallery__all-grid">
         {% for photo_setting in photo_settings %}
-          {% assign photo = gallery_photos | where: "file", photo_setting.file | first %}
-          {% if photo %}
-            {% assign caption = photo_setting.caption | default: photo.default_caption %}
-            {% if photo_setting.month %}
-              {% assign month_parts = photo_setting.month | split: "-" %}
-              {% assign month_index = month_parts[0] | minus: 1 %}
-              {% assign formatted_month = month_names[month_index] | append: " " | append: month_parts[1] %}
-              {% assign caption = caption | append: ", " | append: formatted_month %}
-            {% endif %}
-            {% assign default_alt = site.author.name | append: ". " | append: caption %}
-            {% assign alt_text = photo_setting.alt | default: default_alt %}
-            {% assign extension = photo.file | split: "." | last | downcase %}
-            {% assign download_hash = photo.source_sha256 | slice: 0, 12 %}
-            {% capture download_name %}{{ download_prefix }}-{{ download_hash }}.{{ extension }}{% endcapture %}
-            <figure class="speaking-gallery__all-photo">
-              <a href="{{ photo.display | relative_url }}"
-                data-speaking-gallery-item
-                data-speaking-gallery-file="{{ photo.file | escape }}"
-                data-speaking-gallery-caption="{{ caption | escape }}"
-                data-speaking-gallery-month="{{ photo_setting.month | escape }}"
-                data-speaking-gallery-download="{{ download_name | strip | escape }}"
-                data-speaking-gallery-original="{{ photo.original | relative_url }}"
-                {% if photo_setting.credit %}data-speaking-gallery-credit="{{ photo_setting.credit | escape }}"{% endif %}
-                {% if photo_setting.credit_url %}data-speaking-gallery-credit-url="{{ photo_setting.credit_url | escape }}"{% endif %}
-                aria-label="View {{ caption | escape }} larger">
-                <span class="speaking-gallery__all-media">
-                  <img src="{{ photo.thumbnail | relative_url }}" width="{{ photo.thumbnail_width }}" height="{{ photo.thumbnail_height }}" alt="{{ alt_text | escape }}" loading="eager" decoding="async">
-                </span>
-              </a>
-              <figcaption>{{ caption }}</figcaption>
-            </figure>
+          {% assign extension = photo_setting.file | split: "." | last | prepend: "." %}
+          {% assign stem_length = photo_setting.file | size | minus: extension.size %}
+          {% assign preview_name = photo_setting.file | slice: 0, stem_length | append: ".webp" %}
+          {% assign preview_url = "/assets/images/me/thumbs/" | append: preview_name | relative_url %}
+          {% assign original_url = "/assets/images/me/" | append: photo_setting.file | relative_url %}
+          {% assign caption = photo_setting.caption %}
+          {% if photo_setting.month %}
+            {% assign month_parts = photo_setting.month | split: "-" %}
+            {% assign month_index = month_parts[0] | minus: 1 %}
+            {% assign formatted_month = month_names[month_index] | append: " " | append: month_parts[1] %}
+            {% assign caption = caption | append: ", " | append: formatted_month %}
           {% endif %}
+          {% assign default_alt = site.author.name | append: ". " | append: caption %}
+          {% assign alt_text = photo_setting.alt | default: default_alt %}
+          <figure class="speaking-gallery__all-photo">
+            <a href="{{ original_url }}"
+              data-speaking-gallery-item
+              data-speaking-gallery-file="{{ photo_setting.file | escape }}"
+              data-speaking-gallery-caption="{{ caption | escape }}"
+              data-speaking-gallery-month="{{ photo_setting.month | escape }}"
+              data-speaking-gallery-original="{{ original_url }}"
+              data-speaking-gallery-preview="{{ preview_url | escape }}"
+              {% if photo_setting.credit %}data-speaking-gallery-credit="{{ photo_setting.credit | escape }}"{% endif %}
+              {% if photo_setting.credit_url %}data-speaking-gallery-credit-url="{{ photo_setting.credit_url | escape }}"{% endif %}
+              aria-label="View {{ caption | escape }} larger">
+              <span class="speaking-gallery__all-media">
+                <img data-speaking-gallery-preview="{{ preview_url | escape }}" alt="{{ alt_text | escape }}" loading="lazy" decoding="async">
+              </span>
+            </a>
+            <figcaption>{{ caption }}</figcaption>
+          </figure>
         {% endfor %}
       </div>
 

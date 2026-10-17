@@ -1,6 +1,15 @@
 (function () {
   "use strict";
 
+  function createDownloadName(originalUrl) {
+    var extension = new URL(originalUrl, document.baseURI).pathname.split(".").pop().toLowerCase();
+    var identifier = Array.from(window.crypto.getRandomValues(new Uint8Array(6)), function (byte) {
+      return byte.toString(16).padStart(2, "0");
+    }).join("");
+
+    return "segun-akinyemi-" + identifier + "." + extension;
+  }
+
   function buildTitle(itemElement) {
     var title = document.createElement("span");
     title.className = "speaking-gallery__lightbox-title";
@@ -50,6 +59,12 @@
     var openAll = gallery && gallery.querySelector("[data-speaking-gallery-open]");
     var closeDialogs = gallery && gallery.querySelectorAll("[data-speaking-gallery-close]");
     var headshotTrigger = document.querySelector("[data-speaking-headshot]");
+    var headshotDownload = document.querySelector(".headshot-download");
+    var headshotDownloadName = headshotTrigger && createDownloadName(headshotTrigger.href);
+
+    if (headshotDownload && headshotDownloadName) {
+      headshotDownload.download = headshotDownloadName;
+    }
 
     if (
       !gallery ||
@@ -103,9 +118,19 @@
 
     gallery.dataset.speakingGalleryReady = "true";
 
+    function loadAllPreviews() {
+      itemElements.forEach(function (itemElement) {
+        var preview = itemElement.querySelector("img[data-speaking-gallery-preview]");
+
+        if (preview && !preview.hasAttribute("src")) {
+          preview.src = preview.dataset.speakingGalleryPreview;
+        }
+      });
+    }
+
     var allItems = itemElements.map(function (itemElement) {
       return {
-        download_download: itemElement.dataset.speakingGalleryDownload,
+        download_download: createDownloadName(itemElement.href),
         download_href: itemElement.dataset.speakingGalleryOriginal,
         download_title: "Download original photo",
         "download_aria-label":
@@ -155,7 +180,7 @@
           gallery: {
             enabled: true,
             navigateByImgClick: true,
-            preload: [0, 1],
+            preload: [0, 0],
           },
           image: {
             markup:
@@ -234,7 +259,7 @@
         openGallery(
           [
             {
-              download_download: headshotTrigger.dataset.speakingHeadshotDownload,
+              download_download: headshotDownloadName,
               download_href: original,
               download_title: "Download headshot",
               "download_aria-label": "Download Segun Akinyemi headshot",
@@ -260,6 +285,7 @@
     if (openAll && typeof dialog.showModal === "function") {
       openAll.addEventListener("click", function (event) {
         event.preventDefault();
+        loadAllPreviews();
         document.documentElement.classList.add("speaking-gallery-open");
         dialog.showModal();
       });

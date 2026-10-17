@@ -1,7 +1,7 @@
 ---
 title: "The Charlotte Observer Wrote About Charlotte Third Places"
 excerpt: "My passion project got some local press, and I'm pretty hyped about it!"
-last_modified_at: 2026-08-13T20:14:57
+last_modified_at: 2026-10-17T18:34:04
 pinned: true
 classes: wide
 header:
@@ -12,7 +12,6 @@ tags:
   - miscellaneous
 link: https://www.charlotteobserver.com/charlottefive/c5-things-to-do/article313920154.html?giftCode=e0835193f58a4a8563465be207634851564120a35a862bb4284878d1bc96abd6
 ---
-
 
 <style>
   @media (min-width: 768px) {

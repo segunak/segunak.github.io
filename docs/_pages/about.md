@@ -8,8 +8,8 @@ toc_label: "On This Page"
 toc_icon: "user"
 permalink: /about/
 header:
-  teaser: /assets/images/me/display/CharlotteObserverFeatureArticle-CommonMarketOnLaptop-2025.webp
-  og_image: /assets/images/me/display/CharlotteObserverFeatureArticle-CommonMarketOnLaptop-2025.webp
+  teaser: /assets/images/me/thumbs/CharlotteObserverFeatureArticle-CommonMarketOnLaptop-2025.webp
+  og_image: /assets/images/me/thumbs/CharlotteObserverFeatureArticle-CommonMarketOnLaptop-2025.webp
 ---
 
 <script src="/assets/js/dynamic-link-targeting.js"></script>
