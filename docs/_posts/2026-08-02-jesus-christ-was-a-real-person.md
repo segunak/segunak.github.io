@@ -1,7 +1,7 @@
 ---
 title: "Jesus Christ Was a Real Person"
 excerpt: "Religion aside, the existence of Jesus Christ is a historical fact, though awareness of it may be fading with each new generation."
-last_modified_at: 2026-10-18T09:17:47
+last_modified_at: 2026-10-18T09:29:16
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -137,7 +137,7 @@ Accepting that simple historical fact opens the door to much bigger questions ab
 
 As for whether I believe the [claims Jesus made about himself](https://www.biblegateway.com/passage/?search=John%2014%3A6), [I do](https://www.biblegateway.com/passage/?search=John%2020%3A28-29). I am [proudly, unambiguously, and devoutly](https://www.biblegateway.com/passage/?search=Luke%2012%3A%208-9&version=NKJV) a [Christian](https://www.biblegateway.com/passage/?search=Romans%2010%3A9).
 
-But *Christian* is an identity nearly 2,000 years old. To be a *Christian* had clear meaning when it [emerged during the Roman Empire](https://en.wikipedia.org/wiki/Christianity_as_the_Roman_state_religion), *well before the United States existed*, and continues to have meaning (albeit, [maybe not so clear](https://en.wikipedia.org/wiki/Cultural_Christians)) for billions of people [worldwide](https://en.wikipedia.org/wiki/Christianity_by_country). To reduce an ancient global identity to one American politician or political movement is [obscenely arrogant](ttps://en.wikipedia.org/wiki/Americentrism). Christianity has never belonged to any one country, race, politician, or political party.
+But *Christian* is an identity nearly 2,000 years old. To be a *Christian* had clear meaning when it [emerged during the Roman Empire](https://en.wikipedia.org/wiki/Christianity_as_the_Roman_state_religion), *well before the United States existed*, and continues to have meaning (albeit, [maybe not so clear](https://en.wikipedia.org/wiki/Cultural_Christians)) for billions of people [worldwide](https://en.wikipedia.org/wiki/Christianity_by_country). To reduce an ancient global identity to one American politician or political movement is [obscenely arrogant](https://en.wikipedia.org/wiki/Americentrism). Christianity has never belonged to any one country, race, politician, or political party.
 
 Its meaning comes from Christ himself, a real person whose family [fled a murderous ruler and took refuge in Egypt](https://www.biblegateway.com/passage/?search=Matthew%202%3A13-15) ([hey Siri, what's a refugee?](https://www.unrefugees.org/refugee-facts/what-is-a-refugee/)), who [experienced homelessness](https://www.biblegateway.com/passage/?search=Matthew%208%3A19-20&version=NIV), and who told his followers to [love their enemies](https://www.biblegateway.com/passage/?search=Matthew%205%3A44), [welcome strangers](https://www.biblegateway.com/passage/?search=Matthew%2025%3A35-40), and show their love for him [through their actions](https://www.biblegateway.com/passage/?search=John%2014%3A15&version=NIV), being [rather blunt about that last part](https://www.biblegateway.com/passage/?search=Matthew%207%3A21-23&version=NIV), even [with his own family](https://www.biblegateway.com/passage/?search=Matthew%2012%3A46-50&version=NIV).
 
