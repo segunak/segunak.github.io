@@ -1,7 +1,7 @@
 ---
 title: "Jesus Christ Was a Real Person"
 excerpt: "Religion aside, the existence of Jesus Christ is a historical fact, though awareness of it may be fading with each new generation."
-last_modified_at: 2026-10-18T09:29:16
+last_modified_at: 2026-10-19T16:33:34
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -70,7 +70,7 @@ In response to those numbers, I have only this:
 **An Aside:** This is a [deep cut](https://www.merriam-webster.com/dictionary/deep%20cut) meme. [Click here to learn its origins](https://knowyourmeme.com/memes/my-disappointment-is-immeasurable-and-my-day-is-ruined). If you recognized it without help, I'm proud of you. You're my kind of person. [We can be friends](https://segunakinyemi.com/contact/).
 {: .notice--info}
 
-That level of uncertainty is striking given the [broad historical consensus that Jesus was real](https://en.wikipedia.org/wiki/Historicity_of_Jesus).
+Disappointing indeed, since we know, independent of the Bible and religion, [that Jesus was real](https://en.wikipedia.org/wiki/Historicity_of_Jesus).
 
 ## McKenna Grace, Paul Rudd, and Finn Wolfhard
 
@@ -89,7 +89,7 @@ While promoting [*Ghostbusters: Frozen Empire*](https://en.wikipedia.org/wiki/Gh
 
 Rudd responded, "Laugh all you want", then stated, "He existed. We know". He continued, "So wouldn't you want to spend some time with him and go, 'Hey Jesus, what's the deal?'" After he explained himself, McKenna and Finn conceded that his response was actually a great answer. Rudd wasn't making a religious statement. [He's Jewish but doesn't practice Judaism and has publicly said he isn't "particularly religious"](https://en.wikipedia.org/wiki/Paul_Rudd#Personal_life). Instead, he grounded his answer in the fact that Jesus was a real person and therefore **_suitably germane_** (*been looking for an excuse to use that fancy phrase*) to the question.
 
-Now to be fair, I can't know why McKenna and Finn laughed, and the clip doesn't prove that either thought Jesus was fictional. Still, their laughter came across as mocking, and Rudd immediately felt the need to clarify that Jesus existed. That made me wonder whether part of this confusion is generational.
+Now to be fair, I can't know why McKenna and Finn laughed, and the clip doesn't prove that either thought Jesus was fictional. But their laughter came across as mocking, so much so that Rudd felt the need to explain the historicity of Jesus. Which makes me wonder, is part of this confusion generational?
 
 ## Across Generations
 
@@ -97,9 +97,9 @@ Rudd, born in 1969, is [Gen X](https://en.wikipedia.org/wiki/Generation_X). McKe
 
 My suspicion that younger people are less likely to know Jesus was a real person isn't based on this clip alone. [A 2021 Australian national survey](https://www.ncls.org.au/articles/was-jesus-real-did-he-rise-from-the-dead) found that only 4 in 10 adults ages 18 to 35 regarded Jesus as a real historical person, with that number rising among older age groups.
 
-How younger people get their information may also matter. [The Pew Research Center found](https://www.pewresearch.org/journalism/2024/11/18/americas-news-influencers/) that 37% of adults under 30 regularly get news from social media influencers, and 77% of the influencers studied had no affiliation or background with a news organization.
+Generational differences in news sources may matter here. [The Pew Research Center found](https://www.pewresearch.org/journalism/2024/11/18/americas-news-influencers/) that 37% of adults under 30 regularly get news from social media influencers, and 77% of the influencers studied had no affiliation or background with a news organization.
 
-None of this proves that social media causes this generational difference or explains why McKenna and Finn laughed. Still, it makes me wonder what happens to basic historical literacy when we increasingly get our knowledge from algorithmically curated feeds full of influencers.
+Now, none of this proves social media is the root <s>of all evil</s> of these generational differences, or why McKenna and Finn laughed. But it does make me wonder what social media has done to basic historical literacy. Relying on algorithmically curated feeds for our historical facts...not good.
 
 We can't have meaningful conversations about important topics without first agreeing on the basic facts. Historical truth exists outside any one of us. It simply is what it is. It's stuff that's already happened.
 
@@ -123,7 +123,7 @@ Spelled out in its entirety, it would more accurately be something like, "I beli
   </div>
 </div>
 
-So instead, people say, "I believe in Jesus". Somewhere along the way, that shorthand picked up a meaning it was never meant to carry. To say "I believe in Jesus" is not to say "I believe Jesus existed", because you don't get a say in that. None of us do.
+So instead, people say, "I believe in Jesus". Which at some point, picked up a meaning it really wasn't meant to have. To say "I believe in Jesus" is not to say "I believe Jesus existed", because you don't get a say in that. None of us do.
 
 I don't get to choose whether [Marcus Aurelius](https://en.wikipedia.org/wiki/Marcus_Aurelius), [Margaret Thatcher](https://en.wikipedia.org/wiki/Margaret_Thatcher), [Mansa Musa](https://en.wikipedia.org/wiki/Mansa_Musa), or [Mary Slessor](https://en.wikipedia.org/wiki/Mary_Slessor) (🙌🏾 ❤️) existed. They did. It just is what it is, we don't get to choose. Likewise, the existence of Jesus Christ isn't a matter of personal belief.
 
@@ -133,7 +133,7 @@ What we each get to decide is whether we believe [the claims Jesus made about hi
 
 This is one of those topics where what I have to say doesn't really matter. Some things just are what they are. The sun is hot, France is a country in Europe, [Olusegun Obasanjo](https://en.wikipedia.org/wiki/Olusegun_Obasanjo) (what a great name 😏) was the 12th president of Nigeria, the [mitochondria](https://en.wikipedia.org/wiki/Mitochondria) is the powerhouse of the cell, and *Jesus Christ*, or *Jesus of Nazareth* if you prefer, was a real person.
 
-Accepting that simple historical fact opens the door to much bigger questions about who he was. His teachings left such a mark on the world that he's routinely considered one of the most influential people to have ever lived.
+Knowing that historical fact lets us freely discuss the much larger questions surrounding Jesus, who [claimed to be God](https://www.biblegateway.com/passage/?search=John%2010%3A30-33&version=NIV) and is said to have [risen from the dead](https://www.biblegateway.com/passage/?search=Matthew%2028%3A5-6&version=NIV). People have been discussing such matters for centuries, including many a [grand council](https://en.wikipedia.org/wiki/First_seven_ecumenical_councils) to try and hash out the details.
 
 As for whether I believe the [claims Jesus made about himself](https://www.biblegateway.com/passage/?search=John%2014%3A6), [I do](https://www.biblegateway.com/passage/?search=John%2020%3A28-29). I am [proudly, unambiguously, and devoutly](https://www.biblegateway.com/passage/?search=Luke%2012%3A%208-9&version=NKJV) a [Christian](https://www.biblegateway.com/passage/?search=Romans%2010%3A9).
 

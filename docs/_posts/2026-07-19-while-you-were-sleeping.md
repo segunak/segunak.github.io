@@ -1,7 +1,7 @@
 ---
 title: "While You Were Sleeping (1995) Is The Most Ridiculous Rom-Com I've Ever Seen. I Loved It"
 excerpt: "Sandra Bullock turns an absurd case of mistaken identity into a warm story about loneliness, family, and finding love where least expected. It makes no sense. I loved it."
-last_modified_at: 2026-10-05T09:08:57
+last_modified_at: 2026-10-19T16:33:34
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -49,7 +49,11 @@ In Gen Z lingo, which I can only barely claim, having been born in [literally th
 **An Aside:** If you're like me, floating culturally between the generational boundary of Gen Z and Millennial, there's a digital place for you. Join us over at [r/OlderGenZ](https://www.reddit.com/r/OlderGenZ/).
 {: .notice--primary}
 
-I only learned while writing this post that there's a word for what Lucy experiences. [Limerence](https://en.wikipedia.org/wiki/Limerence). It's an intense romantic fixation on someone marked by intrusive thoughts, idealization, and a longing for the other person to feel the same way. In Lucy's case, it's fueled less by who Peter actually is than by the version of him she's built in her head. Like [Joseph Gordon Levitt's](https://en.wikipedia.org/wiki/Joseph_Gordon-Levitt) character in [500 Days of Summer](https://en.wikipedia.org/wiki/500_Days_of_Summer).
+I only learned while writing this post that there's a word for what Lucy experiences. [Limerence](https://en.wikipedia.org/wiki/Limerence), which is defined as:
+
+> An intense romantic fixation on someone marked by intrusive thoughts, idealization, and a longing for the other person to feel the same way.
+
+For Lucy that feeling is less about who Peter is as a person and more about the version of him she's built in her head. Like [Joseph Gordon Levitt's](https://en.wikipedia.org/wiki/Joseph_Gordon-Levitt) character in [500 Days of Summer](https://en.wikipedia.org/wiki/500_Days_of_Summer).
 
 That limerence might've remained nothing more than a [crush](https://www.youtube.com/watch?v=6J1-eYBbspA) if Peter hadn't been pushed onto the train tracks. Lucy saves him, and a chain of hospital misunderstandings that one honest sentence from her could've cleared up leaves his family believing she's his fiancee while he's in a coma. It's the aptly named [Poor Communication Kills](https://tvtropes.org/pmwiki/pmwiki.php/Main/PoorCommunicationKills) trope in action.
 
@@ -73,7 +77,7 @@ Which, upon viewing, left me feeling like:
   </div>
 </div>
 
-Because I'm guilty of the same. My passport is equally as pathetic. And like Lucy, I can always produce a perfectly reasonable explanation for why I still haven't visited *that one place* I've always wanted to see. There's always something. At a certain point though, a collection of reasonable explanations starts to look a lot like a life on pause.
+Because I'm guilty of the same. My passport is equally as pathetic. And just like Lucy, I've always got an explanation for why I've yet to visit *that one place* I've always wanted to. Always ready with an excuse. But at a certain point, a pile of reasonable explanations looks like little more than a life on pause.
 
 The only friends we see in Lucy's life are people she works with in some capacity. Outside of work, she has her creepy neighbor Joe Fusco Jr. ([Michael Rispoli](https://en.wikipedia.org/wiki/Michael_Rispoli)), her landlord, and her cat.
 
@@ -81,9 +85,9 @@ The movie never tries to hide Lucy's loneliness, but [Sandra Bullock's](https://
 
 Her mother died when she was young. Her father died about a year before the movie begins. As far as the film shows us, she has no siblings, no living family, and no close friends. Her boss asks her to work on Christmas specifically because she's the only employee without family plans (been there myself, it sucks).
 
-How seriously that loneliness lands may depend on how much experience you've had with it yourself. I've spent holidays alone on account of being too broke to travel, and it can be deeply isolating. Calls help. FaceTime helps. But when you're alone during a holiday, a screen isn't the same as having another person in the room. There's no replacement for being physically present with people.
+How that depiction of loneliness lands will depend on how much experience you've had with it yourself. I've spent some holidays alone on account of being too broke to travel, which was deeply isolating. Calls and FaceTime and social media (to a certain extent) helped, but no amount of screen time can replace having another person in the room. There's no replacement for being physically present with people.
 
-My girl was lonely. [She's just like me fr](https://knowyourmeme.com/memes/he-just-like-me-fr).
+So, I get Lucy. My girl was lonely. [She's just like me fr](https://knowyourmeme.com/memes/he-just-like-me-fr).
 
 ## Falling In Love With Family
 
@@ -93,9 +97,9 @@ She goes from having nobody to having an entire family overnight. Literally. She
 
 The real love story in [*While You Were Sleeping*](https://en.wikipedia.org/wiki/While_You_Were_Sleeping_(film)) isn't only between Lucy and Jack Callaghan. It's between Lucy and the entire Callaghan family.
 
-The Callaghans fully embrace Lucy, and before long, she feels like family. Peter's godfather discovers that Lucy and Peter were never engaged. But he keeps her secret anyway because the lie gives the Callaghans hope that Peter has something worth waking up for. Meanwhile, Lucy fits so naturally into their lives that she already feels less like a stranger and more like a daughter. They need her, and she needs them.
+The Callaghans fully embrace Lucy, and before long, she feels like family. Peter's godfather discovers that Lucy and Peter were never engaged. But he keeps her secret anyway because the lie gives the Callaghans hope that Peter has something worth waking up for. Lucy's a natural fit, already feeling less like a stranger and more like a daughter. They need her, and she needs them.
 
-Peter might be the reason she enters their lives, but the family is the reason she stays.
+Crushing on Peter might be the reason she enters their lives, but the whole family is the reason she stays.
 
 **An Aside:** The family dynamic here reminds me of [the Crawleys](https://downtonabbey.fandom.com/wiki/Crawley_family) from [*Downton Abbey*](https://en.wikipedia.org/wiki/Downton_Abbey). As a proud
 [Anglophile](https://en.wikipedia.org/wiki/Anglophile), I've seen every episode and all the movies. I love [*Downton Abbey*](https://en.wikipedia.org/wiki/Downton_Abbey), and [*Peaky Blinders*](https://en.wikipedia.org/wiki/Peaky_Blinders_(TV_series)), and [*The Crown*](https://en.wikipedia.org/wiki/The_Crown_(TV_series)), and just about any British culture centric show or movie out there. Except [Bridgerton](https://en.wikipedia.org/wiki/Bridgerton), I could never get into it.
@@ -125,7 +129,9 @@ But if you never say anything, you'll never know if they feel the same. [Shooter
 
 Seen through the rhythms of a daily commute, Lucy's crush on Peter doesn't feel all that strange to me. He's a recurring character in the quiet story that is her daily life.
 
-The creepy part is everything that happens after Peter falls onto the tracks. Lucy never takes her shot. The accident takes it for her, pulling her into his life before she's ready. She doesn't scheme her way in so much as go along with each misunderstanding, staying passive when the situation desperately calls for honesty and assertiveness. She falls into Peter's life both literally and figuratively.
+The creepy part is everything that happens after Peter falls onto the tracks. You miss 100% of the shots you don't take, but Lucy never takes her shot. A convenient accident takes it for her, and while she doesn't exactly scheme her way into his life, she goes along with each misunderstanding, remaining passive in a situation that *desperately* calls for assertiveness.
+
+She falls into Peter's life both literally and figuratively.
 
 As the film goes on though, the real romantic story reveals itself, and it isn't with the man on the tracks. Lucy slowly falls for Peter's brother, Jack ([Bill Pullman](https://en.wikipedia.org/wiki/Bill_Pullman)), who actually spends time with her and gets to know her. So, a love triangle. Standard rom-com stuff.
 

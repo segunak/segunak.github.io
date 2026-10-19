@@ -1,7 +1,7 @@
 ---
 title: "Supergirl Isn't That Bad"
 excerpt: "It's mid, but given how good Superman was, mid hits a little harder than it otherwise would."
-last_modified_at: 2026-08-13T20:14:57
+last_modified_at: 2026-10-19T16:33:34
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -130,7 +130,8 @@ A trilogy is not a franchise (and [College Park is not Atlanta](https://www.goog
 So yeah. MCU. Greatest film franchise ever. Argue with yourself.
 </div>
 
-My point is, early stumbles don't have to define an entire universe. If the MCU could survive *The Incredible Hulk* being bad, the DCU can survive *Supergirl* being mid.
+
+My point is, if the MCU could survive *The Incredible Hulk* being bad, the DCU can survive *Supergirl* being mid. A rough start doesn't have to kill the whole journey.
 
 ## What's Wrong With Supergirl
 
@@ -142,11 +143,15 @@ Does that make sense? I doubt it, so let me expand a bit.
 
 Coming after *Superman*, which was genuinely great, *Supergirl* feels like a side hug from your crush. It's not *that* bad. Things might still develop. It just isn't *that* good.
 
-Without spoiling anything, [Milly Alcock](https://en.wikipedia.org/wiki/Milly_Alcock) is fantastic in the role. She's the right person to play Supergirl. The problem is the movie around her.
+Without spoiling anything, [Milly Alcock](https://en.wikipedia.org/wiki/Milly_Alcock) is fantastic in the role. She's the right person to play Supergirl, the problem is the movie around her.
 
-The story kind of wanders from scene to scene without giving you much to hold onto beyond a middling interest in seeing Supergirl in action. I mean, watching superpowered people fly around and punch things is always fun, at least to me. But the story itself feels predictable from the jump, which would be fine if the journey were stronger.
+The plot kind of meanders from scene to scene with minimal intrigue beyond the fights. I mean, watching superpowered people fly around and punch things is always fun, at least to me. But the story feels predictable, which isn't uncommon in modern movies, and would be fine if:
 
-We all know the good guys are going to win. It's a superhero movie. The destination is not the problem. The problem is that the journey doesn't give us enough emotional investment in the characters, a world beautiful enough to get lost in, or dialogue engaging enough to make things feel fresh. It's all pretty meh.
+- The supporting cast was better
+- The cinematography, universe, and CGI was beautiful and filled with life (think James Cameron's Avatar films) rather than bland and muted
+- The dialogue was stand out
+
+But we don't get any of that, so the whole film is pretty meh.
 
 The villain doesn't help. He's milquetoast, and the only strong thought I had about him was logistical in nature. Specifically, how is this guy eating punches from a [Vitamin D doused Supergirl](https://www.google.com/search?q=kryptonians+and+vitamin+d&sca_esv=84ffccbe4f1301cb&rlz=1C1HKFL_enUS1218US1218&sxsrf=APpeQntzxmy76l5OsWF5mJgYrlnISk44XQ%3A1782929908013&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5bBLHMJ0vMQmTbuI72DM7jmSm18uaHUIcIw77cYBDAp2S_EK0zZU1C-EyNUuO0jdFw__dW4l75s_oWTPlu_0Mf3G2aEXAkSmrl7q5TsOGZl0c9WQ-XmVrvTfkbWIyND0Ir4R4Ib1EDR8F8APKFiWJiOh-HA5ULCvxc2kwKNYZjePoMXvhA&aep=1&ntc=1&sa=X&ved=2ahUKEwjqgM6-i7KVAxWBKtAFHadUHmoQ2J8OegQIExAD&biw=1536&bih=791.2000122070312&dpr=1.25&sourceid=chrome&ccb=1&cs=0&hl=en-US&mstk=AUtExfDkkRvdyasWdweHFp21XQwgUpsCnL29wRkhqKRsZxpGiN28xR_s-VNJLWC9qOQ7T9GsjjAaCIcQBJJv2GNVK4MbgWoquV2a4Fck9QOJmnDgKo1Ghwda3_Z-utNVKsBn3dtpRJp16vdcAWo6QjFFzLRoaKiwheOyc9Q&csuir=1)? If he can go toe to toe with a full powered Kryptonian, why is he this bland? Like flesh him out a bit, someone so strong deserves more back story.
 
@@ -160,9 +165,9 @@ It's not all bad though, there's still plenty in the film that works. The scenes
 
 If you were thinking about seeing the film, I hope this article hasn't discouraged you. It really isn't a bad movie. If you paid to see any of the other films I mentioned in this post, you should absolutely go see *Supergirl*. You wasted your money on those. You won't be wasting your money here. Not entirely at least.
 
-In fact, I think most fans who don't overanalyze things and aren't very online will find the movie entertaining enough to be worth their time. If you watch it without immediately running to read everyone else's opinions, I think you'll walk out like, "that was alright", and then probably forget about it in a week because it doesn't give you a ton to meditate on afterward.
+In fact, I think most fans who don't overanalyze things and aren't very online will find the movie entertaining enough to be worth their time. If you catch it it on streaming without having heard anyone else's opinion, I think you'll be like "that was alright" and then probably forget about it tomorrow.
 
-Which is fine. Not every movie needs to rearrange your soul. Sometimes "good enough" is good enough.
+Which is totally fine. Not every film needs to be riveting. Sometimes "good enough" is good enough.
 
 ## Let Them Cook
 
@@ -170,8 +175,8 @@ All that said, I stand by the very simple premise of this article.
 
 *Supergirl* isn't *that* bad.
 
-To bring it back to the MCU comparison from earlier, imagine if [Kevin Feige](https://en.wikipedia.org/wiki/Kevin_Feige) had been fired after *The Incredible Hulk* came out and stumbled. We would've missed out on a generational run because people panicked too early.
+To bring it back to the MCU comparison from earlier, imagine if [Kevin Feige](https://en.wikipedia.org/wiki/Kevin_Feige) had been fired after *The Incredible Hulk* came out and stumbled. Premature panic would've robbed the world of generational cinematic greatness.
 
-Firing [James Gunn](https://en.wikipedia.org/wiki/James_Gunn) and [Peter Safran](https://en.wikipedia.org/wiki/Peter_Safran) over *Supergirl* would be an overreaction. The movie is mid. That's not the same thing as catastrophic.
+Firing [James Gunn](https://en.wikipedia.org/wiki/James_Gunn) and [Peter Safran](https://en.wikipedia.org/wiki/Peter_Safran) over *Supergirl* would be premature panic. The movie is mid, not catastrophically bad.  
 
 Calm down. Let them cook.
