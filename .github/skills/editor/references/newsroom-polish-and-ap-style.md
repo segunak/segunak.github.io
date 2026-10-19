@@ -23,7 +23,7 @@ This reference is for prose mechanics only. Use it to improve consistency, clari
 Use these as a copy editing checklist:
 
 1. **Consistency:** Keep names, titles, product names, dates, headings, terms, and formatting consistent across the piece.
-2. **Clarity:** Prefer wording that lets the intended reader understand the point on first pass.
+2. **Clarity:** Fix grammar, punctuation, or word-order tangles using the author's existing words so the intended reader understands the point on first pass. If a sentence requires new phrasing to be clear, flag it for the author rather than paraphrasing it.
 3. **Accuracy:** Flag unsupported claims, dates, names, numbers, quotations, or technical statements that need verification.
 4. **Brevity:** Cut throat clearing, repeated setup, and details that do not serve the audience of one.
 5. **Attribution:** Make it clear where claims, quotes, and external ideas come from.
