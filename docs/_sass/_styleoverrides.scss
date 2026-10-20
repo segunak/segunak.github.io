@@ -646,7 +646,7 @@ details p:last-of-type {
 
 @include breakpoint($large) {
   body.layout--wide-toc-sticky #main {
-    width: 100%;
+    width: calc(100vw - 180px);
   }
 
   .layout--wide-toc-sticky .page {
@@ -2556,4 +2556,3 @@ body.speaking-gallery-lightbox-open {
   font-size: 0.8em;
   font-weight: 700;
 }
-
