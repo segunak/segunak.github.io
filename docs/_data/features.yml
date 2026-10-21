@@ -86,19 +86,26 @@
   featured: true
   url: https://www.linkedin.com/posts/annie251_segun-akinyemi-a-senior-microsoft-employee-activity-7361062461082353664-VeSH
 
-- type: testimonial
-  url: https://www.linkedin.com/posts/angelinamikhail_microsoftlearn-unccharlotte-marketing-ugcPost-7514047961115381761-sLpF/
-  quote: >-
-    Segun Akinyemi delivered an engaging, interactive presentation that challenged some of my assumptions about AI, particularly its environmental impact and its role in the future of work. I was especially interested in learning how AI can advance existing industries and create new possibilities rather than simply replace the roles within them.
-  context: 'Microsoft Charlotte Discovery Day with UNC Charlotte October 2026'
+- type: embed
+  url: https://www.linkedin.com/posts/carolina-youth-coalition_cyc-everydreamneedsateam-activity-7516875858159124480-sEXs
 
 - type: embed
   url: https://www.linkedin.com/posts/microsoft_exploring-how-ai-is-shaping-industries-can-share-activity-7463574391981912069-z4n3
   note: An effort I led to record content for [UNC Charlotte's AI-Assisted Software Engineering](https://online.charlotte.edu/unc-charlotte-launches-two-new-online-bachelors-degree-programs-for-fall-2026/) degree program.
 
+- type: testimonial
+  url: https://www.linkedin.com/posts/angelinamikhail_microsoftlearn-unccharlotte-marketing-ugcPost-7514047961115381761-sLpF/
+  quote: >-
+    Segun Akinyemi delivered an engaging, interactive presentation that challenged some of my assumptions about AI, particularly its environmental impact and its role in the future of work. I was especially interested in learning how AI can advance existing industries and create new possibilities rather than simply replace the roles within them.
+  context: 'Attendee of Microsoft Charlotte Discovery Day with UNC Charlotte October 2026'
+
 - type: embed
   url: https://www.linkedin.com/posts/microsoft_microsoft-team-members-in-charlotte-volunteered-activity-7429525031459704833-HIuq
   note: Delivering my [AI Technical Interview Workshop](https://segunakinyemi.com/ai-interview-workshop/) at [UNC Charlotte](https://www.charlotte.edu/).
+
+- type: embed
+  url: https://www.linkedin.com/posts/microsoft_microsoft50-activity-7313183997474283520-_v2i
+  note: Microsoft's 50th Anniversary Celebration video of the Charlotte campus, which I'm in a lot.
 
 - type: testimonial
   url: https://www.linkedin.com/posts/richelldelacruz_togetherwewin-seocareer-futureintech-activity-7466564386992861184-YTh0
@@ -111,6 +118,12 @@
   quote: >-
     There will always be a need for great software engineers who are committed to learning and solving meaningful problems from [Segun Akinyemi](https://www.linkedin.com/in/segunakinyemi/) (My fav panel + [Amazinggg website btw…🔥](https://segunakinyemi.com/stem-education/ai-resources/))
   context: 'SEO [TechDevCon 2026](https://www.linkedin.com/posts/techdevcon-techdevcon2027-ugcPost-7491172550232793089-Hbnt/) Attendee'
+
+- type: embed
+  url: https://www.linkedin.com/posts/seousa_seotechdeveloper-activity-7457459247757541377-xRAg
+
+- type: embed
+  url: https://www.linkedin.com/posts/jadoraross_one-of-my-favorite-activities-is-to-lead-activity-7273047155014086657-jPcS
 
 - type: testimonial
   url: https://www.linkedin.com/posts/diego-purr-agua_seo-seotechdeveloper-activity-7490163581619994624-GQTX
@@ -128,8 +141,12 @@
   action_label: Read Article
 
 - type: embed
-  url: https://www.linkedin.com/posts/microsoft_microsoft50-activity-7313183997474283520-_v2i
-  note: Microsoft's 50th Anniversary Celebration video of the Charlotte campus, which I'm in a lot.
+  url: https://www.linkedin.com/posts/pmicarolina_last-night-we-had-an-amazing-kick-off-event-activity-7285305266454056960-F1J-
+  note: A [PMI Carolinas](https://pmicarolina.org/) event where I delivered my [How to Train Your AI](https://segunakinyemi.com/blog/stem-workshop-how-to-train-your-ai/) AI literacy workshop.
+
+- type: embed
+  url: https://www.linkedin.com/posts/microsoft_what-happens-when-40-high-school-students-activity-7297978253225381888-GP3S
+  note: A [Discovery Day](https://segunakinyemi.com/stem-education/discovery-day/) edition where I delivered a hands-on version of my [How to Train Your AI](https://segunakinyemi.com/blog/stem-workshop-how-to-train-your-ai/) workshop.
 
 - type: testimonial
   url: https://www.linkedin.com/posts/tylerle-uf_thrilled-to-be-in-new-york-city-for-the-seo-activity-7490062677780758528-YGFH
@@ -144,10 +161,11 @@
   context: 'SEO [TechDevCon 2026](https://www.linkedin.com/posts/techdevcon-techdevcon2027-ugcPost-7491172550232793089-Hbnt/) Attendee'
 
 - type: embed
-  url: https://www.linkedin.com/posts/seousa_seotechdeveloper-activity-7457459247757541377-xRAg
+  url: https://www.linkedin.com/posts/petoi_petoi-bittle-roboticseducation-activity-7358251691764338690-B0Cj
 
 - type: embed
-  url: https://www.linkedin.com/posts/jadoraross_one-of-my-favorite-activities-is-to-lead-activity-7273047155014086657-jPcS
+  url: https://www.linkedin.com/posts/microsoft_50-students-2-nonprofits-1-hands-on-ai-activity-7361018635915579392-xO6j
+  note: Delivering my [AI Engineering With the Petoi 'Bittle X'](https://segunakinyemi.com/blog/ai-engineering-petoi-bittle/) workshop to high school students at a [Discovery Day](https://segunakinyemi.com/stem-education/discovery-day/) event.
 
 - type: feature
   url: https://www.petoi.com/blogs/blog/bittle-python-robotics-curriculum
@@ -157,14 +175,6 @@
   image: /assets/images/misc/petoi.jpg
   image_alt: Two Petoi Bittle robot dogs under pink and blue lighting
   action_label: Read Article
-
-- type: embed
-  url: https://www.linkedin.com/posts/pmicarolina_last-night-we-had-an-amazing-kick-off-event-activity-7285305266454056960-F1J-
-  note: A [PMI Carolinas](https://pmicarolina.org/) event where I delivered my [How to Train Your AI](https://segunakinyemi.com/blog/stem-workshop-how-to-train-your-ai/) AI literacy workshop.
-
-- type: embed
-  url: https://www.linkedin.com/posts/microsoft_what-happens-when-40-high-school-students-activity-7297978253225381888-GP3S
-  note: A [Discovery Day](https://segunakinyemi.com/stem-education/discovery-day/) edition where I delivered a hands-on version of my [How to Train Your AI](https://segunakinyemi.com/blog/stem-workshop-how-to-train-your-ai/) workshop.
 
 - type: feature
   url: https://www.wcnc.com/video/news/local/microsoft-hosts-students-for-discovery-day/275-15fcdc4a-f87d-46bf-ae28-d0e4c6050c3d
@@ -177,23 +187,16 @@
   action_label: Watch on WCNC
 
 - type: embed
-  url: https://www.linkedin.com/posts/petoi_petoi-bittle-roboticseducation-activity-7358251691764338690-B0Cj
+  url: https://www.linkedin.com/posts/carolina-youth-coalition_everydreamneedsateam-activity-7361056398471749632-yfcK
 
 - type: embed
-  url: https://www.linkedin.com/posts/microsoft_50-students-2-nonprofits-1-hands-on-ai-activity-7361018635915579392-xO6j
-  note: Delivering my [AI Engineering With the Petoi 'Bittle X'](https://segunakinyemi.com/blog/ai-engineering-petoi-bittle/) workshop to high school students at a [Discovery Day](https://segunakinyemi.com/stem-education/discovery-day/) event.
+  url: https://www.linkedin.com/posts/curtis-york-jr-885570b7_carolinaspmi-activity-7385341607245611010-TStX
 
 - type: testimonial
   url: https://www.linkedin.com/posts/pujitha-attuluri-738830158_wids-ai-responsibleai-activity-7441979112287666176-j7cg
   quote: >-
     The hands-on session on Agentic AI by [Segun Akinyemi](https://www.linkedin.com/in/segunakinyemi/) was particularly insightful. It was interesting to see how agent-based systems are orchestrated in practice, from real-time decision-making and API interactions to configuring tool usage and instruction layers for more controlled, context-aware behavior.
   context: 'UNC Charlotte [Women in Data Science Conference 2026](https://www.linkedin.com/posts/our-2026-women-in-data-science-conference-ugcPost-7442604064489668608-iUQ9/) Attendee'
-
-- type: embed
-  url: https://www.linkedin.com/posts/carolina-youth-coalition_everydreamneedsateam-activity-7361056398471749632-yfcK
-
-- type: embed
-  url: https://www.linkedin.com/posts/curtis-york-jr-885570b7_carolinaspmi-activity-7385341607245611010-TStX
 
 - type: testimonial
   url: https://www.linkedin.com/posts/mutiyat-data-scientist_womenindatascience-wids-datascience-activity-7442210236230389760-V_J6
