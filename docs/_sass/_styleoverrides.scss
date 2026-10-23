@@ -2245,7 +2245,7 @@ body.speaking-gallery-lightbox-open {
 .speaking-feature--embed {
   display: flex;
   flex-direction: column;
-  padding: 1.7rem;
+  padding: 1.7rem 0.8rem;
   border: 1px solid $border-color;
   border-top: 4px solid $primary-color;
   border-radius: 8px;
@@ -2272,6 +2272,10 @@ body.speaking-gallery-lightbox-open {
       flex: 1 1 auto;
       height: auto;
       min-height: var(--linkedin-embed-height, 560px);
+    }
+
+    .linkedin-embed[data-linkedin-state] iframe {
+      height: 100%;
     }
   }
 
