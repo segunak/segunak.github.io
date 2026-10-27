@@ -211,7 +211,7 @@ speaking_gallery:
   }
 </style>
 
-<script src="/assets/js/dynamic-link-targeting.js"></script>
+<script src="/assets/js/dynamic-link-targeting.js" data-link-targeting="all"></script>
 <script src="/assets/js/speaking-features.js" defer></script>
 <script src="/assets/js/speaking-gallery.js" defer></script>
 <script src="/assets/js/speaking-playlist.js" defer></script>

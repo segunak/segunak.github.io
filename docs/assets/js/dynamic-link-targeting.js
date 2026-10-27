@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
+    const includeInternalLinks = document.querySelector('script[data-link-targeting="all"]') !== null;
+
     // Function to determine if the device is likely a mobile
     const isMobileDevice = () => {
         // Set the breakpoint for mobile vs tablet/desktop
@@ -15,38 +17,38 @@ document.addEventListener('DOMContentLoaded', function () {
         return isMobile;
     };
 
-    const updateLinkTargets = () => {
-        // Retrieve all 'a' elements (links) in the document
-        const links = document.getElementsByTagName('a');
+    const updateLinkTarget = link => {
+        if (link.closest('.visible-links, .hidden-links') || !link.hasAttribute('href') ||
+            link.hasAttribute('download') || !['http:', 'https:'].includes(link.protocol)) {
+            return;
+        }
+        if (link.target === '_blank' && !link.hasAttribute('data-dynamic-link-target')) {
+            return;
+        }
 
-        // Iterate over each link to determine the correct target attribute
-        [...links].forEach(link => {
-            // Check if the link belongs to the masthead menu and skip updating it
-            if (link.closest('.visible-links')) {
-                return;
-            }
-            // Check if the link's target is explicitly set to '_blank' and skip updating it. Allow override if I really want a new tab opened.
-            else if (link.target === '_blank') {
-                return;
-            }
-            // Check if the link is internal by comparing the link's host with the current window's host
-            else if (link.hostname === window.location.hostname) {
-                // If the link is internal, open it in the same tab
-                link.target = '_self';
-            }
-            else {
-                // Determine the appropriate target attribute value based on whether the device is mobile
-                // Use '_self' to open links in the same tab for mobile devices and '_blank' to open links in a new tab for non-mobile devices
-                const targetAttribute = isMobileDevice() ? '_self' : '_blank';
-                link.target = targetAttribute;
-            }
-        });
+        const samePage = link.origin === window.location.origin &&
+            link.pathname === window.location.pathname && link.search === window.location.search;
+        link.target = samePage || (!includeInternalLinks && link.hostname === window.location.hostname) ||
+            isMobileDevice() ? '_self' : '_blank';
+        // Keep automatically assigned targets recognizable when dialogs clone links.
+        link.setAttribute('data-dynamic-link-target', '');
+        if (link.target === '_blank') {
+            link.relList.add('noopener');
+        }
     };
 
-    // Call the function to initially set the target attributes for all links
+    const updateLinkTargets = () => {
+        [...document.getElementsByTagName('a')].forEach(updateLinkTarget);
+    };
+
     updateLinkTargets();
 
-    // Add an event listener to the window to handle resizing
-    // This ensures that link targets are updated if the window size changes, which might change the device classification (e.g., from portrait to landscape)
     window.addEventListener('resize', updateLinkTargets);
+
+    document.addEventListener('click', function (event) {
+        const link = event.target.closest('a[href]');
+        if (link) {
+            updateLinkTarget(link);
+        }
+    }, true);
 });

@@ -8,6 +8,8 @@ applyTo: 'docs/_pages/speaking.md,docs/_data/features.yml,docs/assets/js/speakin
 
 Preserve the existing page structure and components. For routine additions, clone the nearest matching entry instead of redesigning or refactoring the page.
 
+Use the shared `dynamic-link-targeting.js` policy for page content and dialog links, including same-site resources. Open them in a new tab on desktop and the same tab on mobile. Preserve same-page anchors, downloads, masthead navigation, and explicitly authored new-tab targets.
+
 ## Videos
 
 - Treat the curated YouTube playlist as the source of truth. Add, remove, and reorder recordings in YouTube instead of creating individual page entries.
