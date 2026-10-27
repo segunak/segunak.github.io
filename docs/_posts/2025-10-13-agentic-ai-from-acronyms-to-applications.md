@@ -173,7 +173,7 @@ Now, given the sheer amount of confusion still out there, let's be crystal clear
 * A [GitHub Actions](https://github.com/features/actions) workflow is not an Agent.
 * An [Excel macro](https://www.google.com/search?q=what+is+an+excel+macro) is definitely not an Agent.
 
-And for good measure, [College Park is not Atlanta](https://www.google.com/search?q=College+Park+is+not+Atlanta+Omeretta). [Sorry, not sorry](https://www.youtube.com/watch?v=6IvchaA0B3Y).
+And for good measure, [College Park is not Atlanta](https://www.google.com/search?q=Explain+the+Omeretta+the+Great+Sorry+Not+Sorry+song+lyrics+controversy+regarding+gatekeeping+Atlanta&udm=50). [Sorry, not sorry](https://www.youtube.com/watch?v=6IvchaA0B3Y).
 
 <div class="meme-container">
   <div class="meme-wrapper">
