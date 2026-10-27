@@ -1,6 +1,6 @@
 ---
 name: 'Speaking Page'
-description: 'Use when adding future videos, talks, workshops, features, photos, or PowerPoint deck embeds to the Speaking page, or maintaining gallery alt text and image sitemaps'
+description: 'Use when adding future videos, talks, workshops, features, photos, or slide deck embeds to the Speaking page, or maintaining gallery alt text and image sitemaps'
 applyTo: 'docs/_pages/speaking.md,docs/_data/features.yml,docs/assets/js/speaking-talks.js,docs/_includes/speaking-gallery.html,docs/speaking-images.xml,docs/robots.txt'
 ---
 
@@ -25,25 +25,25 @@ Preserve the existing page structure and components. For routine additions, clon
 - Keep the first description paragraph compelling and understandable on its own because it remains visible in the collapsed card.
 - Link directly to useful recordings, articles, decks, workshops, and repositories.
 
-### PowerPoint Deck Embeds
+### Slide Deck Links And Embeds
 
-- When the user supplies a PowerPoint embed URL or iframe, embed 1 representative version after the complete description and before `**Presented At:**`. Keep alternate versions as direct links under `**Resources:**`.
-- Require PowerPoint URLs from the user. Never generate, derive, or guess them. If a required URL is missing, ask the user to provide it. Do not place an ordinary OneDrive `e=` sharing URL in an iframe.
-- Copy only the user-supplied embed URL into `data-speaking-talk-slides-src`. If the user supplies an iframe, extract its URL. Do not add `src` in the source card. `speaking-talks.js` adds `src` after the matching dialog opens, shows an accessible loading status, and replaces it after 12 seconds with guidance to use the PowerPoint link under `**Resources:**`. Removing the dialog contents unloads the viewer when it closes.
+- Use the published `https://segunakinyemi.com/slides/<deck-name>/` URL for both the inline viewer and the direct resource link. Get the exact deck name from the slides repository's `decks.yml` or generated index; do not guess slugs or create OneDrive sharing/embed URLs.
+- Embed 1 representative version after the complete description and before `**Presented At:**`. Keep alternate versions as direct links under `**Resources:**`.
+- Put the published slide URL into `data-speaking-talk-slides-src`. Do not add `src` in the source card. `speaking-talks.js` adds `src` after the matching dialog opens, shows an accessible loading status, and replaces it with guidance to use the presentation link under `**Resources:**`. Removing the dialog contents unloads the viewer when it closes.
 - Use the existing responsive wrapper and attributes. Replace only the URL and descriptive title.
 
 ```html
 <div class="speaking-talk-dialog__slides">
 	<div class="speaking-talk-dialog__section-heading">Slides</div>
 	<div class="speaking-talk-dialog__slides-frame">
-		<iframe data-speaking-talk-slides-iframe data-speaking-talk-slides-src="POWERPOINT_EMBED_URL" title="TALK_TITLE slides" loading="lazy" allowfullscreen></iframe>
+		<iframe data-speaking-talk-slides-iframe data-speaking-talk-slides-src="https://segunakinyemi.com/slides/DECK_NAME/" title="TALK_TITLE slides" loading="lazy" allowfullscreen></iframe>
 	</div>
 </div>
 ```
 
-- Keep the deck-specific styles in the existing `<style>` block in `speaking.md`. Preserve the frame's `476 / 288` aspect ratio, loading spinner, reduced-motion behavior, full-width iframe, border, and overflow rules. Do not move these styles into the sitewide `_styleoverrides.scss` file. Do not copy PowerPoint's fixed `width` or `height` attributes.
-- Keep the direct OneDrive PowerPoint link under `**Resources:**`. The embed is the inline viewer. The direct link is the open or download path.
-- Make code changes only. The user handles all PowerPoint embed validation. Never open, fetch, render, or test an embed to verify its access, loading, controls, layout, or updates.
+- Keep the deck-specific styles in the existing `<style>` block in `speaking.md`. Preserve the frame's aspect ratio, loading spinner, reduced-motion behavior, full-width iframe, border, and overflow rules. Do not move these styles into the sitewide `_styleoverrides.scss` file or add fixed `width` or `height` attributes.
+- Keep a direct published slide link under `**Resources:**` so visitors can open the presentation separately and use its PDF and PowerPoint downloads. OneDrive is the publisher's source, not a public viewing endpoint.
+- Make code changes only. The user handles all slide embed validation. Never open, fetch, render, or test an embed to verify its access, loading, controls, layout, or updates.
 
 ## Features, Mentions, & Testimonials
 

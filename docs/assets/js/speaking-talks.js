@@ -77,7 +77,7 @@
         var timer = window.setTimeout(function () {
           spinner.hidden = true;
           statusText.textContent =
-            "Slides are taking longer than expected. Use the PowerPoint link under Resources.";
+            "Slides are taking longer than expected. Use the presentation link under Resources.";
         }, 12000);
         slideLoadTimers.push(timer);
 

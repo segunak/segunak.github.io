@@ -147,7 +147,7 @@ speaking_gallery:
   .speaking-talk-dialog__slides-frame {
     position: relative;
     width: 100%;
-    aspect-ratio: 476 / 288;
+    aspect-ratio: 16 / 9;
     overflow: hidden;
     border: 1px solid rgba(128, 128, 128, 0.45);
     border-radius: 6px;
@@ -271,13 +271,13 @@ By the end, you'll understand your options for durable context, including custom
 <div class="speaking-talk-dialog__slides">
   <div class="speaking-talk-dialog__section-heading">Slides</div>
   <div class="speaking-talk-dialog__slides-frame">
-    <iframe data-speaking-talk-slides-iframe data-speaking-talk-slides-src="https://1drv.ms/p/c/750d396c5cadcebd/IQSrLjBdAjgvRK5TwTMUxsnEAYS5RHVdSFE-TtP_vsatLr4?em=2&amp;wdAr=1.7777777777777777" title="Context Engineering Is Software Engineering slides" loading="lazy" allowfullscreen></iframe>
+    <iframe data-speaking-talk-slides-iframe data-speaking-talk-slides-src="https://segunakinyemi.com/slides/context-engineering-is-software-engineering/" title="Context Engineering Is Software Engineering slides" loading="lazy" allowfullscreen></iframe>
   </div>
 </div>
 
 <!-- **Presented At:** TBD fill out when presented -->
 
-**Resources:** [Presentation Deck](https://1drv.ms/p/c/750d396c5cadcebd/IQCrLjBdAjgvRK5TwTMUxsnEASwzh10F58RkqePiZ-Iz__M?e=SDklnV)
+**Resources:** [Presentation Deck](https://segunakinyemi.com/slides/context-engineering-is-software-engineering/)
 
 </div>
 
@@ -316,13 +316,13 @@ By the end, participants understand LLMs, RAG, MCP, RLHF, context, and context w
 <div class="speaking-talk-dialog__slides">
   <div class="speaking-talk-dialog__section-heading">Slides</div>
   <div class="speaking-talk-dialog__slides-frame">
-    <iframe data-speaking-talk-slides-iframe data-speaking-talk-slides-src="https://1drv.ms/p/c/750d396c5cadcebd/IQRlE2SKOUcxRpnB-VjuWGfkAVdQ_6onqJLYpMVWuHyH5nw?em=2&amp;wdAr=1.7777777777777777" title="Agentic AI: From Acronyms to Applications slides" loading="lazy" allowfullscreen></iframe>
+    <iframe data-speaking-talk-slides-iframe data-speaking-talk-slides-src="https://segunakinyemi.com/slides/agentic-ai-technical-audience/" title="Agentic AI: From Acronyms to Applications slides" loading="lazy" allowfullscreen></iframe>
   </div>
 </div>
 
 **Presented At:** [SEO Career Summit 2026](https://youtu.be/o9cHtYimL0c) · [SEO TechDevCon 2026](https://www.linkedin.com/posts/techdevcon-techdevcon2027-ugcPost-7491172550232793089-Hbnt/) · [UNC Charlotte Women in Data Science Conference 2026](https://www.linkedin.com/posts/pujitha-attuluri-738830158_wids-ai-responsibleai-activity-7441979112287666176-j7cg) · [PMI Carolinas Professional Development Day 2025](https://www.linkedin.com/posts/curtis-york-jr-mba-pmp-pmi-cp-885570b7_carolinaspmi-ugcPost-7385341606171889664-ZFM3) · Numerous [Discovery Days](http://aka.ms/discovery-day/flyer) at Microsoft Charlotte
 
-**Resources:** [Companion Article](/blog/agentic-ai-from-acronyms-to-applications/) · [Hands On Workshop](https://aka.ms/aaw) · [General Audience Gamified Deck](https://1drv.ms/p/c/750d396c5cadcebd/IQBwmTDFyBOlSYkFAeQFiGGkAdYyTeO4M7Akp8HAZ3HlG_Y?e=jJ4bNe) · [Technical Audience Gamified Deck](https://1drv.ms/p/c/750d396c5cadcebd/IQBlE2SKOUcxRpnB-VjuWGfkAW0IWFjp7-B1Qc78JqxnFjw?e=zb8Xm2) · [Hands On Workshop Deck](https://1drv.ms/p/c/750d396c5cadcebd/IQBTr0Er7OGZSYPxsMfkgORjAQp5HuUoO7BFG4Yl_PEZX5A)
+**Resources:** [Companion Article](/blog/agentic-ai-from-acronyms-to-applications/) · [Hands On Workshop](https://aka.ms/aaw) · [General Audience Gamified Deck](https://segunakinyemi.com/slides/agentic-ai-general-audience/) · [Technical Audience Gamified Deck](https://segunakinyemi.com/slides/agentic-ai-technical-audience/) · [Hands On Workshop Deck](https://segunakinyemi.com/slides/agentic-ai-hands-on-workshop/)
 
 </div>
 
@@ -345,13 +345,13 @@ By the end, they'll understand how examples become patterns, how patterns become
 <div class="speaking-talk-dialog__slides">
   <div class="speaking-talk-dialog__section-heading">Slides</div>
   <div class="speaking-talk-dialog__slides-frame">
-    <iframe data-speaking-talk-slides-iframe data-speaking-talk-slides-src="https://1drv.ms/p/c/750d396c5cadcebd/IQShwvRnbTzxSLUzum-NV0vQAartnDl4cQJ42eL2ccVtiwk?em=2&amp;wdAr=1.7777777777777777" title="How to Train Your AI: Demystifying ChatGPT With Machine Learning Basics slides" loading="lazy" allowfullscreen></iframe>
+    <iframe data-speaking-talk-slides-iframe data-speaking-talk-slides-src="https://segunakinyemi.com/slides/how-to-train-your-ai-language-activity/" title="How to Train Your AI: Demystifying ChatGPT With Machine Learning Basics slides" loading="lazy" allowfullscreen></iframe>
   </div>
 </div>
 
 **Presented At:** Numerous [Discovery Days](https://www.linkedin.com/posts/microsoft_what-happens-when-40-high-school-students-activity-7297978253225381888-GP3S) at Microsoft Charlotte, including [this one with Carolina Youth Coalition](https://www.linkedin.com/posts/microsoft_50-students-2-nonprofits-1-hands-on-ai-activity-7361018635915579392-xO6j) · [PMI Carolinas 2025 Kickoff](https://www.linkedin.com/posts/pmicarolina_last-night-we-had-an-amazing-kick-off-event-ugcPost-7285305265048989696-ej4O) · [Demystifying AI With Techsgiving](https://www.linkedin.com/posts/techsgiving_techsgiving-demystifyingai-microsoft-activity-7328910035625873410-K390)
 
-**Resources:** [Companion Article](/blog/stem-workshop-how-to-train-your-ai/) · [Language Activity Deck](https://1drv.ms/p/c/750d396c5cadcebd/IQChwvRnbTzxSLUzum-NV0vQAb45buFpFfHNndlmBYbNmdU?e=kyNgp5) · [Coding Activity Deck](https://1drv.ms/p/c/750d396c5cadcebd/IQC10Ps2jcCrR4jWYJmitxuqARgfA1jpLbwi8_a5uBSZCW8?e=8BJhNW) · [Facilitation Guide](https://github.com/segunak/stem-education/blob/master/workshops/How-To-Train-Your-AI/how-to-train-your-ai.md) · Inspired by [Parand Tony Dugar's](https://www.linkedin.com/in/parand/) articles on [AI](https://www.parand.com/a-completely-non-technical-explanation-of-ai.html), [ChatGPT](https://www.parand.com/a-non-technical-explanation-of-chatgpt.html), and [Deep Learning](https://www.parand.com/a-non-technical-explanation-of-chatgpt-deep-learning.html)
+**Resources:** [Companion Article](/blog/stem-workshop-how-to-train-your-ai/) · [Language Activity Deck](https://segunakinyemi.com/slides/how-to-train-your-ai-language-activity/) · [Coding Activity Deck](https://segunakinyemi.com/slides/how-to-train-your-ai-coding-activity/) · [Facilitation Guide](https://github.com/segunak/stem-education/blob/master/workshops/How-To-Train-Your-AI/how-to-train-your-ai.md) · Inspired by [Parand Tony Dugar's](https://www.linkedin.com/in/parand/) articles on [AI](https://www.parand.com/a-completely-non-technical-explanation-of-ai.html), [ChatGPT](https://www.parand.com/a-non-technical-explanation-of-chatgpt.html), and [Deep Learning](https://www.parand.com/a-non-technical-explanation-of-chatgpt-deep-learning.html)
 
 </div>
 
@@ -372,13 +372,13 @@ In this workshop, students tackle 5 increasingly realistic challenges with a cus
 <div class="speaking-talk-dialog__slides">
   <div class="speaking-talk-dialog__section-heading">Slides</div>
   <div class="speaking-talk-dialog__slides-frame">
-    <iframe data-speaking-talk-slides-iframe data-speaking-talk-slides-src="https://1drv.ms/p/c/750d396c5cadcebd/IQRsRMeY3HSzRIBxRgHkaxD1AQ6BaZyC_ulybkKvtVR_jAI?em=2&amp;wdAr=1.7777777777777777" title="AI Technical Interview Workshop slides" loading="lazy" allowfullscreen></iframe>
+    <iframe data-speaking-talk-slides-iframe data-speaking-talk-slides-src="https://segunakinyemi.com/slides/ai-technical-interview-workshop/" title="AI Technical Interview Workshop slides" loading="lazy" allowfullscreen></iframe>
   </div>
 </div>
 
 **Presented At:** [UNC Charlotte Industry Day](https://www.linkedin.com/posts/microsoft_microsoft-team-members-in-charlotte-volunteered-activity-7429525031459704833-HIuq) · [Microsoft Charlotte AI Engineering Summit With Central Piedmont Community College](https://www.linkedin.com/posts/microsoft_learning-together-is-one-of-the-fastest-ways-activity-7457051408404467712-iLMn)
 
-**Resources:** [Workshop Website](https://segunakinyemi.com/ai-interview-workshop/) · [How This Workshop Was Built](https://segunakinyemi.com/ai-interview-workshop/how-this-was-built/) · [GitHub Repository](https://github.com/segunak/ai-interview-workshop) · [Companion Article](/blog/coding-is-dead-software-engineering-isnt/) · [Presentation Deck](https://1drv.ms/p/c/750d396c5cadcebd/IQBsRMeY3HSzRIBxRgHkaxD1AWZG14z_B3al7wfnPaezf4g?e=hmihna)
+**Resources:** [Workshop Website](https://segunakinyemi.com/ai-interview-workshop/) · [How This Workshop Was Built](https://segunakinyemi.com/ai-interview-workshop/how-this-was-built/) · [GitHub Repository](https://github.com/segunak/ai-interview-workshop) · [Companion Article](/blog/coding-is-dead-software-engineering-isnt/) · [Presentation Deck](https://segunakinyemi.com/slides/ai-technical-interview-workshop/)
 
 </div>
 
@@ -397,13 +397,13 @@ Participants meet [AI Engineering](https://www.latent.space/p/ai-engineer), an e
 <div class="speaking-talk-dialog__slides">
   <div class="speaking-talk-dialog__section-heading">Slides</div>
   <div class="speaking-talk-dialog__slides-frame">
-    <iframe data-speaking-talk-slides-iframe data-speaking-talk-slides-src="https://1drv.ms/p/c/750d396c5cadcebd/IQSqQjBk4wTsTrhznzu2Wz1SAQIrlVRIQdtu8DROGmgVxas?em=2&amp;wdAr=1.7777777777777777" title="We're Not Cooked: Your Tech Career Survival Guide in the Age of AI slides" loading="lazy" allowfullscreen></iframe>
+    <iframe data-speaking-talk-slides-iframe data-speaking-talk-slides-src="https://segunakinyemi.com/slides/were-not-cooked/" title="We're Not Cooked: Your Tech Career Survival Guide in the Age of AI slides" loading="lazy" allowfullscreen></iframe>
   </div>
 </div>
 
 **Presented At:** [SEO TechDevCon 2025](https://www.linkedin.com/posts/seousa_techdevcon-seocommunity-techdevcon2026-activity-7361426367948775426-4OVS) · [NC A&T and Winston-Salem State University College Discovery Days](https://www.linkedin.com/posts/activity-7447388584438939648-t0A8)
 
-**Resources:** [Companion Article](/blog/seo-techdevcon-2025/) · [AI & Your Tech Career](https://aka.ms/nocap) · [Presentation Deck](https://1drv.ms/p/c/750d396c5cadcebd/IQCqQjBk4wTsTrhznzu2Wz1SAbdy-tWOKysHOteTwUZyfmA?e=hyQsVw) · [The Rise of the AI Engineer](https://www.latent.space/p/ai-engineer) · [The Concerns That Inspired the Talk](https://segunakinyemi.com/blog/github-copilot-agent-mode/)
+**Resources:** [Companion Article](/blog/seo-techdevcon-2025/) · [AI & Your Tech Career](https://aka.ms/nocap) · [Presentation Deck](https://segunakinyemi.com/slides/were-not-cooked/) · [The Rise of the AI Engineer](https://www.latent.space/p/ai-engineer) · [The Concerns That Inspired the Talk](https://segunakinyemi.com/blog/github-copilot-agent-mode/)
 
 </div>
 
@@ -420,13 +420,13 @@ AI can generate an image in seconds, but creativity still belongs to the human b
 <div class="speaking-talk-dialog__slides">
   <div class="speaking-talk-dialog__section-heading">Slides</div>
   <div class="speaking-talk-dialog__slides-frame">
-    <iframe data-speaking-talk-slides-iframe data-speaking-talk-slides-src="https://1drv.ms/p/c/750d396c5cadcebd/IQSE_slIMswMRpeAew1t9TPuAT5j7dSZKqCW1_ZvS4jDk_E?em=2&amp;wdAr=1.7777777777777777" title="Precision Meets Creativity with Microsoft Designer slides" loading="lazy" allowfullscreen></iframe>
+    <iframe data-speaking-talk-slides-iframe data-speaking-talk-slides-src="https://segunakinyemi.com/slides/precision-meets-creativity-with-microsoft-designer/" title="Precision Meets Creativity with Microsoft Designer slides" loading="lazy" allowfullscreen></iframe>
   </div>
 </div>
 
 **Presented At:** Numerous [Discovery Days](https://segunakinyemi.com/stem-education/discovery-day/) at Microsoft Charlotte · [Charlotte-Mecklenburg Schools Bases Loaded 2025](https://www.linkedin.com/posts/activity-7366135290366705665-sEnI) · [Charlotte-Mecklenburg Schools Bases Loaded 2026](https://www.gofevo.com/event/BacktoSchool2026) · [Black at Microsoft Minority Student Day](https://www.linkedin.com/posts/microsoft_600-students-from-28-schools-across-north-ugcPost-7196494793907048449-6Oad) · [NSBE Charlotte STEM Fair](https://www.linkedin.com/posts/sblackmon_microsoftcharlotte-stemeducation-communityimpact-ugcPost-7312451070532747265-FzZE)
 
-**Resources:** [Companion Article](/blog/stem-workshop-precision-meets-creativity-with-microsoft-designer/) · [Workshop Website](https://aka.ms/msdw) · [Presentation Deck](https://1drv.ms/p/c/750d396c5cadcebd/IQCE_slIMswMRpeAew1t9TPuAZjbbHKSUMkrkhT3vUOnWes?e=hnJb5H)
+**Resources:** [Companion Article](/blog/stem-workshop-precision-meets-creativity-with-microsoft-designer/) · [Workshop Website](https://aka.ms/msdw) · [Presentation Deck](https://segunakinyemi.com/slides/precision-meets-creativity-with-microsoft-designer/)
 
 </div>
 
