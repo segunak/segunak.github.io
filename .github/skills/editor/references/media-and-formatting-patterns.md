@@ -136,9 +136,23 @@ Short reference videos often use:
 
 Spoiler sensitive entertainment posts sometimes use image preview links instead of embedded video.
 
-## Office Embeds
+## Slide Deck Embeds
 
-Workshop resources often use OneDrive or Office embeds like this:
+Use the published `https://segunakinyemi.com/slides/<deck-name>/` URL for PowerPoint links and embeds. Read the exact deck name from the slides repository's `decks.yml` or generated index instead of guessing it. Keep the original link text, and preserve non-slide resources.
+
+```html
+<iframe
+    src="https://segunakinyemi.com/slides/DECK_NAME/"
+    title="TALK_TITLE slides"
+    style="width: 100%; aspect-ratio: 16 / 9; height: auto; border: 0;"
+    loading="lazy"
+    allowfullscreen>
+</iframe>
+```
+
+## Other Office Embeds
+
+For documents other than slide decks, preserve the existing OneDrive or Office embed unless a replacement is provided:
 
 ```html
 <iframe src="https://1drv.ms/..." width="100%" height="500px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> document, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>

@@ -1,7 +1,7 @@
 ---
 title: "What Is AI Engineering?"
 excerpt: "AI Engineering is a term that's demonstrated staying power in the fast moving hype-filled world of AI. Here's what it is, and what it isn't."
-last_modified_at:
+last_modified_at: 2026-10-27T20:02:41
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -27,13 +27,15 @@ tags:
   }
 </style>
 
-AI Engineering is a term that's demonstrated staying power in the fast moving hype-filled world of AI in software engineering. Seeing as our [attention spans are collectively cooked](https://time.com/3858309/attention-spans-goldfish/) by social media these days, I won't linger. Here it is.
+## It's Legit
+
+AI Engineering is a term that's demonstrated staying power in the fast moving hype-filled world of AI. Seeing as our [attention spans are collectively cooked](https://time.com/3858309/attention-spans-goldfish/) by social media these days, I won't linger. Here it is.
 
 > **AI Engineering** is the discipline of building reliable software on top of AI models.
 
 Credit where credit is due, this definition is inspired by [AI Engineer](https://ai.engineer/what-is-an-ai-engineer) and [Chip Huyen's *AI Engineering*](https://www.oreilly.com/library/view/ai-engineering/9781098166298/) book. I'm sure you can find other definitions online that differ, but this one is short, sweet, and easy to understand, so I'm sticking with it.
 
-**An Aside:** To nitpick, you might think to replace "AI models" with "[LLMs (Large Language Models)](https://en.wikipedia.org/wiki/Large_language_model)", but that would rule out [SLMs (Small Language Models)](https://en.wikipedia.org/wiki/Small_language_model), [World Models](https://en.wikipedia.org/wiki/World_model_(artificial_intelligence)), and [Decision Models](https://www.forbes.com/sites/ronschmelzer/2026/10/12/decisions-decisions-a-guide-to-the-new-wave-of-ai-decision-models-besides-jev/), which are all rising in popularity and used to build software. So, yeah, AI models it is.
+**An Aside:** To nitpick, you might think to replace _AI models_ with _[LLMs (Large Language Models)](https://en.wikipedia.org/wiki/Large_language_model)_, but that would rule out [SLMs (Small Language Models)](https://en.wikipedia.org/wiki/Small_language_model), [World Models](https://en.wikipedia.org/wiki/World_model_(artificial_intelligence)), and [Decision Models](https://www.forbes.com/sites/ronschmelzer/2026/10/12/decisions-decisions-a-guide-to-the-new-wave-of-ai-decision-models-besides-jev/), which are all rising in popularity and used to build software. So, yeah, AI models it is.
 {: .notice--info}
 
 ## Isn't That Just Software Engineering?
@@ -88,7 +90,7 @@ With all this in mind, it makes sense that we decided to give a distinct name to
 
 If you're thinking "oh well, since AI models can write code, it must be easy getting them to play nice with other software"...[look at Copilot](https://futurism.com/artificial-intelligence/microsoft-screwed-up-windows-11-copilot). Really. [Look at Copilot](https://finance.biggo.com/news/202608132021_Microsoft-unifies-Copilot-apps). It's not easy, **at all!**
 
-Making AI models behave consistently for consumers is already kind of hard, but a bunch of companies have figured it out. [OpenClaw](https://openclaw.ai/), [Meta Muse](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/), [OpenAI Dots](https://openai.com/index/introducing-dots/), and [Claude Duet](https://claude.com/product/claude-duet) are the personal assistants that take over your device and _do life for you 😟_. But it's even harder when it's more than one person's life. Making AI models behave consistently (dare I say...deterministically?) is **hard**. Really hard.
+Making AI models behave consistently for consumers is already kind of hard, but a bunch of companies have figured it out. [OpenClaw](https://openclaw.ai/), [Meta Muse](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/), [OpenAI Dots](https://openai.com/index/introducing-dots/), and [Claude Duet](https://claude.com/product/claude-duet) are the personal assistants that take over your device and _do life for you 😟_. But it's even harder when it's more than one person's life. Making AI models behave consistently (dare I say...deterministically?) for enterprise level use cases is **hard**. Really hard.
 
 So much so that [Microsoft](https://apply.careers.microsoft.com/careers?query=AI+Engineer&location=United+States), [Google](https://www.google.com/about/careers/applications/jobs/results?q=%22AI+Engineer%22), [Amazon](https://www.amazon.jobs/en/search?base_query=%22AI+Engineer%22), [Meta](https://www.metacareers.com/jobsearch?q=%22AI%20Engineer%22), and other tech companies have started embracing the job title **AI Engineer**.
 
@@ -117,7 +119,7 @@ And for good measure, [College Park is not Atlanta](https://www.google.com/searc
   </div>
 </div>
 
-Training models from scratch is Machine Learning. The people who do that usually have PhDs and are really good at math. AI Engineers are akin to Software Engineers, and at most companies, they still have the job title Software Engineer. They were tasked with "hey, add a chatbot to our website" at some point, and at that moment, they became an AI Engineer in everything but name.
+Training models from scratch is Machine Learning. The people who do that usually have PhDs and are really good at math. AI Engineers are akin to Software Engineers, and at most companies, they still have the job title Software Engineer. They were tasked with "hey, add AI to our product" at some point, and at that moment, they became an AI Engineer in everything but name.
 
 Typing clever prompts into a chat box and hoping for the best is the now dead field of Prompt Engineering, superseded by Context Engineering.
 

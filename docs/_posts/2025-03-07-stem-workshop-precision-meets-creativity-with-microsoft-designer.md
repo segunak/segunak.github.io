@@ -1,7 +1,7 @@
 ---
 title: "Prompt Engineering: Precision Meets Creativity with Microsoft Designer"
 excerpt: "Explore how specificity, clarity, and creativity in writing shape Generative AI results with this Microsoft Designer workshop."
-last_modified_at: 2026-08-20T20:56:16
+last_modified_at: 2026-10-27T20:02:41
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -47,7 +47,7 @@ The hands-on portion of this workshop uses [Microsoft Designer](https://designer
 
 This 1-hour workshop introduces Prompt Engineering by showing how **specificity, clarity, and creativity** shape AI outputs.
 
-It consists of two complementary resources: the [presentation deck](https://1drv.ms/p/c/750d396c5cadcebd/IQSE_slIMswMRpeAew1t9TPuAT5j7dSZKqCW1_ZvS4jDk_E) provides educational content with interactive guessing activities where students match AI images to prompts, while the website at [aka.ms/msdw](https://aka.ms/msdw) offers hands-on prompt engineering exercises. They're designed to work together, but each can be used independently. Use the presentation for learning concepts and the website for practice.
+It consists of two complementary resources: the [presentation deck](https://segunakinyemi.com/slides/precision-meets-creativity-with-microsoft-designer/) provides educational content with interactive guessing activities where students match AI images to prompts, while the website at [aka.ms/msdw](https://aka.ms/msdw) offers hands-on prompt engineering exercises. They're designed to work together, but each can be used independently. Use the presentation for learning concepts and the website for practice.
 
 The workshop's structure is below:
 
@@ -97,13 +97,14 @@ You don't need technical expertise to deliver this workshop, just familiarity wi
 
 ## Workshop Presentation
 
-This slide deck includes interactive elements where students guess which prompts created specific images, plus educational definitions and guidance. It's designed to work with the website but can stand alone. **Click the "Open in New Window" button** in the bottom right to access the presenter notes and download the presentation.
+This slide deck includes interactive elements where students guess which prompts created specific images, plus educational definitions and guidance. It's designed to work with the website but can stand alone.
 
 <iframe
-    src="https://1drv.ms/p/c/750d396c5cadcebd/IQCE_slIMswMRpeAew1t9TPuAZjbbHKSUMkrkhT3vUOnWes?e=hnJb5H&amp;wdAr=1.7777777777777777"
-    width="100%"
-    height="500px"
-    frameborder="0">
+    src="https://segunakinyemi.com/slides/precision-meets-creativity-with-microsoft-designer/"
+    title="Precision Meets Creativity with Microsoft Designer slides"
+    style="width: 100%; aspect-ratio: 16 / 9; height: auto; border: 0;"
+    loading="lazy"
+    allowfullscreen>
 </iframe>
 
 ## Additional Resources

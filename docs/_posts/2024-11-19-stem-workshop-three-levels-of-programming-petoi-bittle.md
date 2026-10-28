@@ -1,7 +1,7 @@
 ---
 title: "Three Levels of Programming With the Petoi 'Bittle X' Robot Dog"
 excerpt: "Learn how to engage students in a journey through three levels of computer programming using the highly capable Petoi 'Bittle X' Robot Dog."
-last_modified_at: 2026-08-13T20:14:57
+last_modified_at: 2026-10-27T20:02:41
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -137,8 +137,9 @@ A full facilitation guide for this workshop can be found below. The latest versi
 Also, here's a presentation for use in delivering this workshop. If you download a copy, check the notes section, as it has guidance on key points to hit and concepts to share with students.
 
 <iframe
-  src="https://1drv.ms/p/c/750d396c5cadcebd/IQQ67fSnJoHfQ7oYwxikid2QAUTnKamyjaM4qThDrbKBKIU?em=2&amp;wdAr=1.7777777777777777"
-  width="100%"
-  height="500px"
-  frameborder="0">
+    src="https://segunakinyemi.com/slides/three-levels-of-programming/"
+    title="Three Levels of Programming with the Petoi Bittle Robot Dog slides"
+    style="width: 100%; aspect-ratio: 16 / 9; height: auto; border: 0;"
+    loading="lazy"
+    allowfullscreen>
 </iframe>

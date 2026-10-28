@@ -1,7 +1,7 @@
 ---
 title: "We're Not Cooked: Your Tech Career Survival Guide in the Age of AI Engineering"
 excerpt: "From SEO TechDevCon 2025 attendees to anyone curious, AI Engineering is why we still need technical people. Here's your guide to what it is, where to learn, who to follow, and how to thrive."
-last_modified_at: 2026-08-13T20:14:57
+last_modified_at: 2026-10-27T20:02:41
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -66,7 +66,7 @@ During the workshop, I promised resources and answers. Here's where to find them
 
 **Key Links:**
 
-* [Workshop Slides](https://1drv.ms/p/c/750d396c5cadcebd/Eb4rAvNHj1xEp8zKzc--lW8BEK3iE3GLOcvLAErWbZY0Jg?e=RdR2yy)
+* [Workshop Slides](https://segunakinyemi.com/slides/were-not-cooked/)
 * [AI Engineering GitHub List](https://github.com/stars/segunak/lists/ai-engineering)
 * [Free GitHub Copilot for Students](https://github.com/education/students)
 * [Unlisted Microsoft Recruiters Group for Students](https://www.linkedin.com/groups/14490227/)

@@ -1,7 +1,7 @@
 ---
 title: "How To Train Your AI: Demystifying ChatGPT With Machine Learning, Neural Networks, and Deep Learning Basics"
 excerpt: "Demystify the concepts behind tools like ChatGPT with an approachable introduction to Machine Learning, Neural Networks, and Deep Learning."
-last_modified_at: 2026-08-20T20:56:16
+last_modified_at: 2026-10-27T20:02:41
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -112,10 +112,11 @@ You can find the facilitation guide for this workshop below, with the latest ver
 The **Coding Activity** version of this workshop is below. It features a live AI training exercise using [Visual Studio Code for Education](https://vscodeedu.com/) requiring laptops for participants. If you download a copy, be sure to review the notes section for key discussion points and essential concepts to share with participants.
 
 <iframe
-  src="https://1drv.ms/p/c/750d396c5cadcebd/IQC10Ps2jcCrR4jWYJmitxuqARgfA1jpLbwi8_a5uBSZCW8?e=8BJhNW&amp;wdAr=1.7777777777777777"
-  width="100%"
-  height="500px"
-  frameborder="0">
+    src="https://segunakinyemi.com/slides/how-to-train-your-ai-coding-activity/"
+    title="How To Train Your AI coding activity slides"
+    style="width: 100%; aspect-ratio: 16 / 9; height: auto; border: 0;"
+    loading="lazy"
+    allowfullscreen>
 </iframe>
 
 ### Language Activity Version
@@ -123,10 +124,11 @@ The **Coding Activity** version of this workshop is below. It features a live AI
 The **Language Activity** version of this workshop, designed for participants with varying levels of technical expertise, is linked below. It remains interactive but uses a group-based approach where participants are shown images of different languages with non-English characters and learn to recognize patterns over time, demonstrating how AI models learn to distinguish patterns. Participants will only need pen and paper.
 
 <iframe
-  src="https://1drv.ms/p/c/750d396c5cadcebd/IQChwvRnbTzxSLUzum-NV0vQAb45buFpFfHNndlmBYbNmdU?e=kyNgp5&amp;wdAr=1.7777777777777777"
-  width="100%"
-  height="500px"
-  frameborder="0">
+    src="https://segunakinyemi.com/slides/how-to-train-your-ai-language-activity/"
+    title="How To Train Your AI language activity slides"
+    style="width: 100%; aspect-ratio: 16 / 9; height: auto; border: 0;"
+    loading="lazy"
+    allowfullscreen>
 </iframe>
 
 ## Final Thoughts

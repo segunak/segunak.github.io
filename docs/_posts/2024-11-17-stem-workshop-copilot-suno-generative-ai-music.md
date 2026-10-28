@@ -1,7 +1,7 @@
 ---
 title: "Exploring Responsible Generative AI Through Music With Microsoft Copilot and Suno"
 excerpt: "Discover how to use Microsoft Copilot and Suno's Generative AI to engage students in hands-on STEM learning and Responsible AI practices through an interactive music creation workshop."
-last_modified_at: 2026-08-13T20:14:57
+last_modified_at: 2026-10-27T20:02:41
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -80,10 +80,12 @@ Here's an overview of the workshop. It was first delivered to 400 students, orga
 
 ## Facilitation Resources
 
-If you're looking for more tangible resources for running this workshop, look no further. A full facilitator's guide and accompanying presentation can be found below. If you're interested in running this workshop yourself, these resources should get you started!
+If you're interested in running this workshop yourself, here's the slide deck.
 
-<iframe src="https://1drv.ms/w/c/750d396c5cadcebd/IQT94XikKGuQRpPh1KoLzHp0ASs4NmV0vnsS3dj935_Huy0?em=2&amp;wdEmbedCode=0" width="100%" height="500px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> document, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
-
----
-
-<iframe src="https://1drv.ms/p/c/750d396c5cadcebd/IQRspUxu3WgnQKDoq7IzD2zZAeIAZHQTr8aLI0PHFmWRQ2E?em=2&amp;wdAr=1.7777777777777777" width="100%" height="500px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+<iframe
+    src="https://segunakinyemi.com/slides/responsible-ai-and-music-workshop/"
+    title="Responsible AI and Music Workshop slides"
+    style="width: 100%; aspect-ratio: 16 / 9; height: auto; border: 0;"
+    loading="lazy"
+    allowfullscreen>
+</iframe>
