@@ -258,7 +258,7 @@ Here are some of the talks and workshops I've developed. I try to keep this sect
 
 <div class="talk-card__title">Context Engineering Is Software Engineering</div>
 
-**Best For:** Software engineers, technical PMs, and anyone else using AI coding tools, especially those working with token limits or company-chosen tools and models
+**Best For:** Software Engineers and anyone building with AI coding tools
 
 **Format:** 45-60 minute talk
 
@@ -285,11 +285,11 @@ By the end, you'll understand your options for durable context, including custom
 
 <div class="talk-card__title">The Children Yearn For the Mines: Finding Craftsmanship in AI-Assisted Software Engineering</div>
 
-**Best For:** Software engineers and other technical individuals who build stuff with AI agents
+**Best For:** Software Engineers and anyone building with AI coding tools
 
 **Format:** 30-45 minute talk
 
-For many of us software engineers, writing code was how we understood a system, shaped it, and found joy in our work. As AI writes more of the code, some of us feel more creative than ever, while others feel we've lost the very thing we entered the profession to do.
+For many of us Software Engineers, writing code was how we understood a system, shaped it, and found joy in our work. As AI writes more of the code, some of us feel more creative than ever, while others feel we've lost the very thing we entered the profession to do.
 
 The ["children yearn for the mines" meme](https://knowyourmeme.com/memes/the-children-yearn-for-the-mines) jokes that [child labor laws](https://en.wikipedia.org/wiki/Child_labor_in_the_United_States) got kids out of dangerous physical mines, only for them to happily pick up virtual pickaxes in [Minecraft](https://www.bbc.com/future/article/20250328-the-psychology-behind-why-your-childs-hooked-on-minecraft). The game can auto-generate a world for them, but the fun is in building it themselves and expressing their creativity. So when AI generates the code, how do we keep that same connection to the systems we're creating?
 
@@ -301,9 +301,9 @@ In this talk, we'll explore ways to maintain cognitive ownership of systems buil
 
 <div class="talk-card__title">Agentic AI: From Acronyms to Applications</div>
 
-**Best For:** College students and working professionals, with versions tailored for general and technical audiences
+**Best For:** College students and/or working professionals, with versions for technical and nontechnical audiences
 
-**Format:** 45-60 minute talk or workshop
+**Format:** 45-60 minute talk (no laptops) or workshop (laptops preferred)
 
 With the rise of Agentic AI, [Uncle Ben's](https://en.wikipedia.org/wiki/Uncle_Ben) "with great power comes great responsibility" warning has never felt more relevant. AI agents can gather information, use tools, make decisions, and take action with limited human direction. Everybody's talking about them, but ask 10 people what an agent is and you'll get [10 different answers](https://simonwillison.net/2025/Sep/18/agents/).
 
@@ -330,9 +330,9 @@ By the end, participants understand LLMs, RAG, MCP, RLHF, context, and context w
 
 <div class="talk-card__title">How to Train Your AI: Demystifying ChatGPT With Machine Learning Basics</div>
 
-**Best For:** Middle school, high school, and college students, as well as working professionals, with versions tailored for technical and nontechnical audiences
+**Best For:** Students from middle school through college and working professionals, with versions for technical and nontechnical audiences
 
-**Format:** 45-60 minute talk or workshop
+**Format:** 45-60 minute talk (no laptops) or workshop (laptops required)
 
 ChatGPT can feel like magic, but underneath it all, it's making **highly educated** guesses based on patterns. This AI Literacy workshop takes an intentionally oversimplified dive into machine learning, neural networks, and deep learning by turning participants into the computers.
 
@@ -359,9 +359,9 @@ By the end, they'll understand how examples become patterns, how patterns become
 
 <div class="talk-card__title">AI Technical Interview Workshop</div>
 
-**Best For:** College students studying computer science or related fields
+**Best For:** College students studying computer science or related majors
 
-**Format:** 60 minute workshop
+**Format:** 60 minute workshop (laptops required)
 
 AI-assisted coding is everywhere now. Companies like [Canva](https://www.canva.dev/blog/engineering/yes-you-can-use-ai-in-our-interviews/) and [Meta](https://www.wired.com/story/meta-ai-job-interview-coding/) even let candidates use AI coding tools in technical interviews. So if candidates can use AI to write the code, what are interviewers actually evaluating? What does software engineering require beyond writing code, and how do you prove you can do the job?
 
@@ -386,11 +386,11 @@ In this workshop, students tackle 5 increasingly realistic challenges with a cus
 
 <div class="talk-card__title">We're Not Cooked: Your Tech Career Survival Guide in the Age of AI</div>
 
-**Best For:** College students studying computer science or related fields
+**Best For:** College students studying computer science or related majors
 
 **Format:** 45-60 minute talk
 
-AI-assisted coding is everywhere now. Does that mean it's over for software engineers? [Not at all](https://segunakinyemi.com/blog/coding-is-dead-software-engineering-isnt/)! After a quick history of AI, participants work through a live [next token prediction exercise](https://academy.claude.com/courses/ai-capabilities-and-limitations/next-token-prediction) to see how LLMs work under the hood. From there, we examine the increasingly popular argument that [writing code was never the real bottleneck in software engineering](https://www.google.com/search?q=code+was+never+the+bottleneck).
+AI-assisted coding is everywhere now. Does that mean it's over for Software Engineers? [Not at all](https://segunakinyemi.com/blog/coding-is-dead-software-engineering-isnt/)! After a quick history of AI, participants work through a live [next token prediction exercise](https://academy.claude.com/courses/ai-capabilities-and-limitations/next-token-prediction) to see how LLMs work under the hood. From there, we examine the increasingly popular argument that [writing code was never the real bottleneck in software engineering](https://www.google.com/search?q=code+was+never+the+bottleneck).
 
 Participants meet [AI Engineering](https://www.latent.space/p/ai-engineer), an evolution of software engineering that connects AI models to real systems, data, and tools. They learn how it differs from Machine Learning and which technical skills still matter when developers use AI to write code. We also follow the money through GPUs, data centers, and layoffs, cutting through [AI washing](https://www.fastcompany.com/91495694/even-sam-altman-thinks-ceos-are-blaming-ai-for-layoffs) to separate job replacement from corporate cost cutting. By the end, they'll understand that [AI accelerates the work, but engineers still own the result](https://www.linkedin.com/pulse/ai-made-us-faster-problem-david-fowler-mgnzc/).
 
@@ -411,9 +411,9 @@ Participants meet [AI Engineering](https://www.latent.space/p/ai-engineer), an e
 
 <div class="talk-card__title">Precision Meets Creativity with Microsoft Designer</div>
 
-**Best For:** Middle school and high school students of all backgrounds
+**Best For:** Middle and high school students of all backgrounds
 
-**Format:** 60 minute workshop
+**Format:** 60 minute workshop (laptops required)
 
 AI can generate an image in seconds, but creativity still belongs to the human behind the prompt. Students start by matching an AI generated image to 2 possible prompts, 1 weak and 1 detailed. The choices start close enough to make the game challenging, but soon reveal how specificity, clarity, and creativity shape the result. Students then put that lesson into practice using structured, fill in the blank prompts to create their own image with [Microsoft Designer](https://designer.microsoft.com/). They leave with an image they conceived and directed, using AI as a tool to bring their idea to life, and a clear understanding that AI supports human creativity rather than replacing it.
 
@@ -436,7 +436,7 @@ AI can generate an image in seconds, but creativity still belongs to the human b
 
 **Best For:** High school and college students interested in AI, programming, or robotics
 
-**Format:** 60 minute workshop
+**Format:** 60 minute workshop (laptops required)
 
 AI models can be brilliant, but they need specific context to be useful. Students start with an AI chat interface that only knows how to send 3 basic commands to a [Petoi 'Bittle X' Robot Dog](https://www.petoi.com/products/petoi-robot-dog-bittle-x-voice-controlled). Their job as [AI Engineers](https://www.latent.space/p/ai-engineer) is to teach it what else the robot can do.
 
