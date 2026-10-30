@@ -260,7 +260,7 @@ Here are some of the talks and workshops I've developed. I try to keep this sect
 
 **Best For:** Software engineers, technical PMs, and anyone else using AI coding tools, especially those working with token limits or company-chosen tools and models
 
-**Format:** 60 minute talk
+**Format:** 45-60 minute talk
 
 Codex or Claude Code. Cursor or GitHub Copilot. Terminal or IDE. If you're wondering which of these gives you the best outputs in AI-assisted coding, the answer is all of them, or none of them. Maybe you fancy Google's Antigravity instead, or the desktop app versions of any of the above. It hardly matters which you use, because your coding agent is only as good as the context you engineer around it.
 
@@ -285,9 +285,9 @@ By the end, you'll understand your options for durable context, including custom
 
 <div class="talk-card__title">The Children Yearn For the Mines: Finding Craftsmanship in AI-Assisted Software Engineering</div>
 
-**Best For:** Software developers and other technical individuals who build stuff with AI agents
+**Best For:** Software engineers and other technical individuals who build stuff with AI agents
 
-**Format:** 30 minute talk
+**Format:** 30-45 minute talk
 
 For many of us software engineers, writing code was how we understood a system, shaped it, and found joy in our work. As AI writes more of the code, some of us feel more creative than ever, while others feel we've lost the very thing we entered the profession to do.
 
@@ -303,7 +303,7 @@ In this talk, we'll explore ways to maintain cognitive ownership of systems buil
 
 **Best For:** College students and working professionals, with versions tailored for general and technical audiences
 
-**Format:** 60 minute talk or workshop
+**Format:** 45-60 minute talk or workshop
 
 With the rise of Agentic AI, [Uncle Ben's](https://en.wikipedia.org/wiki/Uncle_Ben) "with great power comes great responsibility" warning has never felt more relevant. AI agents can gather information, use tools, make decisions, and take action with limited human direction. Everybody's talking about them, but ask 10 people what an agent is and you'll get [10 different answers](https://simonwillison.net/2025/Sep/18/agents/).
 
@@ -332,7 +332,7 @@ By the end, participants understand LLMs, RAG, MCP, RLHF, context, and context w
 
 **Best For:** Middle school, high school, and college students, as well as working professionals, with versions tailored for technical and nontechnical audiences
 
-**Format:** 60 minute talk or workshop
+**Format:** 45-60 minute talk or workshop
 
 ChatGPT can feel like magic, but underneath it all, it's making **highly educated** guesses based on patterns. This AI Literacy workshop takes an intentionally oversimplified dive into machine learning, neural networks, and deep learning by turning participants into the computers.
 
@@ -388,7 +388,7 @@ In this workshop, students tackle 5 increasingly realistic challenges with a cus
 
 **Best For:** College students studying computer science or related fields
 
-**Format:** 60 minute talk
+**Format:** 45-60 minute talk
 
 AI-assisted coding is everywhere now. Does that mean it's over for software engineers? [Not at all](https://segunakinyemi.com/blog/coding-is-dead-software-engineering-isnt/)! After a quick history of AI, participants work through a live [next token prediction exercise](https://academy.claude.com/courses/ai-capabilities-and-limitations/next-token-prediction) to see how LLMs work under the hood. From there, we examine the increasingly popular argument that [writing code was never the real bottleneck in software engineering](https://www.google.com/search?q=code+was+never+the+bottleneck).
 
