@@ -6,6 +6,32 @@
     return strong && strong.textContent.trim() === label;
   }
 
+  document.addEventListener("click", function (event) {
+    var button = event.target.closest(".speaking-talk-dialog__slides [data-copy-url]");
+    if (!button) {
+      return;
+    }
+
+    var status = button.nextElementSibling;
+    var label = button.querySelector("span");
+    var icon = button.querySelector("i");
+    var copyPromise = navigator.clipboard
+      ? navigator.clipboard.writeText(button.previousElementSibling.href)
+      : Promise.reject(new Error("Clipboard unavailable"));
+
+    copyPromise
+      .then(function () {
+        label.textContent = "Copied";
+        icon.className = "fas fa-check";
+        status.textContent = "Slide URL copied";
+      })
+      .catch(function () {
+        label.textContent = "Copy Failed";
+        icon.className = "fas fa-exclamation-triangle";
+        status.textContent = "Copy failed. Select the URL to copy it.";
+      });
+  });
+
   function initializeTalkCards() {
     var cards = document.querySelectorAll(".talk-card");
     var dialog = document.querySelector("[data-speaking-talk-dialog]");

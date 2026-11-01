@@ -1,7 +1,7 @@
 ---
 title: "A Curated List of AI Resources for Educators"
 excerpt: "A collection of practical, mostly free resources to help educators integrate AI into the classroom, enhance student learning, and stay ahead in an AI-driven world."
-last_modified_at: 2026-08-13T20:14:57
+last_modified_at: 2026-11-01T13:27:01
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -34,11 +34,17 @@ tags:
 
 ## Some Background
 
-Let me start off by saying I'm not an educator, at least not in the formal, "this is my actual day job" sense of the term. I'm a Software Engineer at a [company you've likely heard of](https://en.wikipedia.org/wiki/Microsoft), but I've been fortunate that my role often lets me step into an educator's shoes. I've developed and delivered [STEM workshops](https://segunakinyemi.com/tags/#stem-education), [organized events](https://www.linkedin.com/posts/microsoft_600-students-from-28-schools-across-north-ugcPost-7196494793907048449-6Oad), [collaborated with nonprofits](https://www.microsoft.com/insidetrack/blog/simplifying-nonprofit-volunteering-at-microsoft-with-power-automate/), presented to groups of [professionals looking to grow their skills](https://www.linkedin.com/posts/pmicarolina_last-night-we-had-an-amazing-kick-off-event-ugcPost-7285305265048989696-ej4O), and worked directly with [students exploring tech and software engineering concepts](https://www.linkedin.com/posts/activity-7264735736778690560-71lh/).
+Let me start off by saying I'm not formal educator, not in the "this is my actual day job" sense of the term. I'm a Software Engineer at a [company you've likely heard of](https://en.wikipedia.org/wiki/Microsoft), but I've been fortunate that my role often lets me step into an educator's shoes.
 
-These experiences have deepened my appreciation for teaching ([it's hard](https://www.goodreads.com/quotes/9257066-if-you-want-to-learn-something-read-about-it-if)), and more importantly, for the power education has to change lives. Not just as a cheesy ideal, but as a reality I've lived. It matters a great deal to me that students, especially those coming from socioeconomically challenged households (as I did ✋🏾), have opportunities to explore tech as a path out of hardship. And in that journey, there's perhaps no greater influence than educators. They're on the frontline connecting students to subjects that can lead to life-changing careers.
+I've developed and delivered [STEM workshops](https://segunakinyemi.com/tags/#stem-education), [organized events](https://www.linkedin.com/posts/microsoft_600-students-from-28-schools-across-north-ugcPost-7196494793907048449-6Oad), [collaborated with nonprofits](https://www.microsoft.com/insidetrack/blog/simplifying-nonprofit-volunteering-at-microsoft-with-power-automate/), presented to groups of [professionals looking to grow their skills](https://www.linkedin.com/posts/pmicarolina_last-night-we-had-an-amazing-kick-off-event-ugcPost-7285305265048989696-ej4O), and worked directly with [students exploring tech and software engineering](https://segunakinyemi.com/speaking/#features-mentions--testimonials).
 
-Right now, educators face a new challenge in AI. There's understandably a lot of anxiety surrounding it, but blanket bans don't really work, students always find ways around them. The moment they leave class, they'll be using AI. I recently came across a quote that captures this reality perfectly:
+These experiences have deepened my appreciation for teaching ([it's hard](https://www.goodreads.com/quotes/9257066-if-you-want-to-learn-something-read-about-it-if)), and more importantly, for the power education has to change lives. Not just as an ideal, but as something I've lived.
+
+It matters a great deal to me that students, especially those from poor households (which was me in college), have opportunities to explore tech as a path out of hardship. And in that journey, there's perhaps no greater influence than educators. They're on the frontline connecting students to subjects that can lead to life-changing careers.
+
+Right now, educators face a new challenge in AI. There's understandably a lot of anxiety surrounding it, but blanket bans don't really work, students always find ways around them. The moment they leave class, they'll be using AI.
+
+I recently came across a quote that captures this reality perfectly:
 
 > Once we acknowledge that Generative AI is here to stay and most people will use it in their jobs in one way or another (including higher education STEM instructors!), it seems clear that we must teach students how to use it. At some point in their education, students learned to print, and some learned cursive writing. They learned to type, use a word processor, and use a calculator properly. Similarly, a tool as impactful as ChatGPT should be included in formal, potentially discipline-specific instruction.
 >

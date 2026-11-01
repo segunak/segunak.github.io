@@ -31,16 +31,28 @@ Use the shared `dynamic-link-targeting.js` policy for page content and dialog li
 
 - Use the published `https://segunakinyemi.com/slides/<deck-name>/` URL for both the inline viewer and the direct resource link. Get the exact deck name from the slides repository's `decks.yml` or generated index; do not guess slugs or create OneDrive sharing/embed URLs.
 - Embed 1 representative version after the complete description and before `**Presented At:**`. Keep alternate versions as direct links under `**Resources:**`.
-- Put the published slide URL into `data-speaking-talk-slides-src`. Do not add `src` in the source card. `speaking-talks.js` adds `src` after the matching dialog opens, shows an accessible loading status, and replaces it with guidance to use the presentation link under `**Resources:**`. Removing the dialog contents unloads the viewer when it closes.
+- Define `slides_url` once per card with a Liquid assignment. Reuse it for the visible link, iframe data attribute, and matching `**Resources:**` link.
+- Put the copy row below the Slides heading and above the iframe. Reuse the existing `speaking-email` styles. Keep the link, `data-copy-url` button, and status element as adjacent siblings in that order because the copy handler reads the neighboring elements.
+- Use `{{ slides_url | escape }}` in `data-speaking-talk-slides-src`. Do not add `src` in the source card. `speaking-talks.js` adds `src` after the matching dialog opens, shows an accessible loading status, and replaces it with guidance to use the presentation link under `**Resources:**`. Removing the dialog contents unloads the viewer when it closes.
 - Use the existing responsive wrapper and attributes. Replace only the URL and descriptive title.
 
-```html
+```liquid
+{% assign slides_url = "https://segunakinyemi.com/slides/DECK_NAME/" %}
 <div class="speaking-talk-dialog__slides">
 	<div class="speaking-talk-dialog__section-heading">Slides</div>
+	<div class="speaking-email speaking-talk-dialog__slides-url">
+		<div class="speaking-email__details">
+			<a class="speaking-email__address" href="{{ slides_url | escape }}">{{ slides_url | escape }}</a>
+			<button type="button" class="btn btn--primary speaking-email__copy" data-copy-url aria-label="Copy slide URL" title="Copy slide URL"><i class="fas fa-copy" aria-hidden="true"></i><span class="speaking-email__button-label">Copy</span></button>
+			<span class="speaking-email__status" role="status" aria-live="polite"></span>
+		</div>
+	</div>
 	<div class="speaking-talk-dialog__slides-frame">
-		<iframe data-speaking-talk-slides-iframe data-speaking-talk-slides-src="https://segunakinyemi.com/slides/DECK_NAME/" title="TALK_TITLE slides" loading="lazy" allowfullscreen></iframe>
+		<iframe data-speaking-talk-slides-iframe data-speaking-talk-slides-src="{{ slides_url | escape }}" title="TALK_TITLE slides" loading="lazy" allowfullscreen></iframe>
 	</div>
 </div>
+
+**Resources:** [Presentation Deck]({{ slides_url }})
 ```
 
 - Keep the deck-specific styles in the existing `<style>` block in `speaking.md`. Preserve the frame's aspect ratio, loading spinner, reduced-motion behavior, full-width iframe, border, and overflow rules. Do not move these styles into the sitewide `_styleoverrides.scss` file or add fixed `width` or `height` attributes.
