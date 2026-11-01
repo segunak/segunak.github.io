@@ -1,5 +1,5 @@
 ---
-name: Editor
+name: Editor (Blog)
 description: "The blog editor for the author's Jekyll site. This agent is a wrapper around the editor skill."
 ---
 
