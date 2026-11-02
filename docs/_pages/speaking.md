@@ -322,11 +322,30 @@ By the end, you'll understand your options for durable context, including custom
 
 **Format:** 30-45 minute talk
 
-For many of us Software Engineers, writing code was how we understood a system, shaped it, and found joy in our work. As AI writes more of the code, some of us feel more creative than ever, while others feel we've lost the very thing we entered the profession to do.
+For many of us Software Engineers, writing code was how we understood a system, shaped it, and found joy in our work. As AI writes more of the code, [some of us feel more creative than ever, while others feel we've lost the very thing we entered the profession to do](https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html?unlocked_article_code=1.NVE.uWGy.lcfM7YohvREI&smid=url-share).
 
 The ["children yearn for the mines" meme](https://knowyourmeme.com/memes/the-children-yearn-for-the-mines) jokes that [child labor laws](https://en.wikipedia.org/wiki/Child_labor_in_the_United_States) got kids out of dangerous physical mines, only for them to happily pick up virtual pickaxes in [Minecraft](https://www.bbc.com/future/article/20250328-the-psychology-behind-why-your-childs-hooked-on-minecraft). The game can auto-generate a world for them, but the fun is in building it themselves and expressing their creativity. So when AI generates the code, how do we keep that same connection to the systems we're creating?
 
 In this talk, we'll explore ways to maintain cognitive ownership of systems built with agents, using examples like [Simon Willison's Agentic Engineering Patterns](https://simonwillison.net/guides/agentic-engineering-patterns/), [Addy Osmani's agent skills](https://github.com/addyosmani/agent-skills), and [GitHub's Awesome Copilot](https://github.com/github/awesome-copilot), where developers build and [test context like code](https://github.com/github/awesome-copilot/actions/workflows/skill-quality-report.yml). We'll also use [Andrej Karpathy's distinction between loving coding and building](https://x.com/karpathy/status/2015883857489522876/) to examine why some enjoy this shift while others feel reduced to "looks good to me" merchants. You'll leave with resources for understanding AI-generated code and reassurance that you're not alone in seeking a way back to craftsmanship. A way back to the mines.
+
+{% assign slides_url = "https://segunakinyemi.com/slides/the-children-yearn-for-the-mines/" %}
+<div class="speaking-talk-dialog__slides">
+  <div class="speaking-talk-dialog__section-heading">Slides</div>
+  <div class="speaking-email speaking-talk-dialog__slides-url">
+    <div class="speaking-email__details">
+      <a class="speaking-email__address" href="{{ slides_url | escape }}">{{ slides_url | escape }}</a>
+      <button type="button" class="btn btn--primary speaking-email__copy" data-copy-url aria-label="Copy slide URL" title="Copy slide URL"><i class="fas fa-copy" aria-hidden="true"></i><span class="speaking-email__button-label">Copy</span></button>
+      <span class="speaking-email__status" role="status" aria-live="polite"></span>
+    </div>
+  </div>
+  <div class="speaking-talk-dialog__slides-frame">
+    <iframe data-speaking-talk-slides-iframe data-speaking-talk-slides-src="{{ slides_url | escape }}" title="The Children Yearn For the Mines: Finding Craftsmanship in AI-Assisted Software Engineering slides" loading="lazy" allowfullscreen></iframe>
+  </div>
+</div>
+
+<!-- **Presented At:** TBD fill out when presented -->
+
+**Resources:** [Presentation Deck]({{ slides_url }})
 
 </div>
 
