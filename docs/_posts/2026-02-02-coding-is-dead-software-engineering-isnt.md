@@ -1,7 +1,7 @@
 ---
 title: "Times Are Changing: Coding Is Dead, Software Engineering Isn't"
 excerpt: "Coding, as we've known it, is dead. Companies like Canva and Meta are already letting candidates use AI in technical interviews. But the real job has always been more than writing code. Long live software engineering."
-last_modified_at: 2026-10-27T20:02:41
+last_modified_at: 2026-11-06T14:07:51
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -30,7 +30,7 @@ tags:
 **Note:** This article was originally written for a [workshop I created](https://segunakinyemi.com/ai-interview-workshop/) for computer science students, inspired by [Canva](https://www.canva.dev/blog/engineering/yes-you-can-use-ai-in-our-interviews/) and [Meta](https://www.wired.com/story/meta-ai-job-interview-coding/) allowing candidates to use AI in coding interviews. I've adapted it here for a general audience. Check out the [Workshop Website](https://segunakinyemi.com/ai-interview-workshop/), [GitHub](https://github.com/segunak/ai-interview-workshop), and [Slide Deck](https://segunakinyemi.com/slides/ai-technical-interview-workshop/).
 {: .notice--primary}
 
-**New:** I built [AI & Your Tech Career](https://segunakinyemi.com/stem-education/ai-resources/) as a continuously updated resource site with practical answers, skills to learn, free courses, tools, and more. If this article got you thinking, that site is where to go next. Visit [aka.ms/nocap](https://aka.ms/nocap).
+**Another Note:** I built [AI & Your Tech Career](https://segunakinyemi.com/stem-education/ai-resources/) as a continuously updated resource site with practical answers, skills to learn, free courses, tools, and more. If this article got you thinking, that site is where to go next. Visit [aka.ms/nocap](https://aka.ms/nocap). Also the article [Why AI Hasn't Replaced Software Engineers, and Won't](https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers) makes the same points I make here and is excellent so check it out too.
 {: .notice--primary}
 
 ## Times Are Changing

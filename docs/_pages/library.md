@@ -394,9 +394,19 @@ If you want a quick pull from my stash of favorite quotes, use the button below.
 > <cite>[William James](https://www.goodreads.com/quotes/120416-the-greatest-weapon-against-stress-is-our-ability-to-choose)</cite>
 
 
+> Old things have passed away, all things have become new, as far as the east is from the west, so far have I separated your sin from you.
+>
+> <cite>My own personal combination of [2 Corinthians 5:17](https://www.biblegateway.com/passage/?search=2%20Corinthians%205%3A17&version=NKJV) and [Psalm 103:12](https://www.biblegateway.com/passage/?search=Psalm%20103%3A12&version=NIV)</cite>
+
+
 > For my thoughts are not your thoughts, neither are your ways my ways, declares the Lord. As the heavens are higher than the earth, so are my ways higher than your ways and my thoughts than your thoughts.
 >
 > [Isaiah 55:8-9](https://www.biblegateway.com/passage/?search=Isaiah%2055%3A8-9&version=NIV)
+
+
+> If you're going through hell, keep going.
+>
+> <cite> [Unknown](https://quoteinvestigator.com/2014/09/14/keep-going/), but often [falsely attributed to Winston Churchill](https://winstonchurchill.org/resources/quotes/quotes-falsely-attributed/)</cite>
 
 
 > For what is highly esteemed among men is an abomination in the sight of God.

@@ -1,7 +1,7 @@
 ---
 title: "A Curated List of AI Resources for Educators"
 excerpt: "A collection of practical, mostly free resources to help educators integrate AI into the classroom, enhance student learning, and stay ahead in an AI-driven world."
-last_modified_at: 2026-11-01T13:27:01
+last_modified_at: 2026-11-06T14:07:51
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -32,9 +32,12 @@ tags:
   }
 </style>
 
+**If you're an educator, a computer science student, or anyone interested in tech careers and worried about AI's impact**, I built [AI & Your Tech Career](https://segunakinyemi.com/stem-education/ai-resources/) for you. It covers the biggest questions, plus skills to learn, tools to use, free courses, great readings, and student perks. Check it out at [aka.ms/nocap](https://aka.ms/nocap).
+{: .notice--info}
+
 ## Some Background
 
-Let me start off by saying I'm not formal educator, not in the "this is my actual day job" sense of the term. I'm a Software Engineer at a [company you've likely heard of](https://en.wikipedia.org/wiki/Microsoft), but I've been fortunate that my role often lets me step into an educator's shoes.
+Let me start off by saying I'm not a formal educator, not in the "this is my actual day job" sense of the term. I'm a Software Engineer at a [company you've likely heard of](https://en.wikipedia.org/wiki/Microsoft), but I've been fortunate that my role often lets me step into an educator's shoes.
 
 I've developed and delivered [STEM workshops](https://segunakinyemi.com/tags/#stem-education), [organized events](https://www.linkedin.com/posts/microsoft_600-students-from-28-schools-across-north-ugcPost-7196494793907048449-6Oad), [collaborated with nonprofits](https://www.microsoft.com/insidetrack/blog/simplifying-nonprofit-volunteering-at-microsoft-with-power-automate/), presented to groups of [professionals looking to grow their skills](https://www.linkedin.com/posts/pmicarolina_last-night-we-had-an-amazing-kick-off-event-ugcPost-7285305265048989696-ej4O), and worked directly with [students exploring tech and software engineering](https://segunakinyemi.com/speaking/#features-mentions--testimonials).
 
@@ -72,7 +75,7 @@ A video lecture from [MIT Sloan](https://mitsloan.mit.edu/), led by [Professor R
 
 > **Google:** [AI in Education Hub](https://edu.google.com/intl/ALL_us/ai/education/)
 >
-Google's hub of AI resources, specifically designed for educators. It offers straightforward guidance for integrating AI into teaching, classroom management, and curriculum design. **If your school uses Google Classroom and Chromebooks**, this is a great place to browse to see what might already be available to you.
+Google's hub of AI resources, specifically designed for educators. **If your school uses Google Classroom and Chromebooks**, this is a great place to browse to see what might already be available to you.
 >
 > **Free or Paid:** Freemium _(some features or tools require payment)_.
 {: .notice--primary}
@@ -93,64 +96,74 @@ Microsoft's hub featuring resources, news, and practical advice specifically tai
 
 > **Segun Akinyemi (Me):** [From Padawan to Jedi Master to Whatever Yoda Was: A Curated List of AI Learning Resources](https://segunakinyemi.com/blog/ai-learning-resources/)
 >
-My personal list of AI learning resources for anyone looking to level up their AI understanding, from beginner to advanced. Not specifically education-focused, but valuable if you're an educator wanting to deepen your general AI knowledge beyond classroom applications.
+My personal list of AI learning resources for anyone looking to level up their AI understanding. Not specifically education-focused, but valuable if you're an educator wanting to deepen your general AI knowledge.
 >
 > **Free or Paid:** Free.
 {: .notice--primary}
+
+> **Anthropic:** [AI Fluency for Educators](https://academy.claude.com/courses/ai-fluency-for-educators)
+>
+Free, non-technical course from Anthropic on how to work with AI without outsourcing your thinking. It focuses on judgment and verifying what AI gives you, and the lessons apply to any chatbot, not just Claude.
+>
+> **Free or Paid:** Free.
+{: .notice--primary}
+
+> **3Blue1Brown:** [Large Language Models Explained Briefly](https://www.youtube.com/watch?v=LPZh9BOjkQs)
+>
+Short visual video from [3Blue1Brown](https://www.youtube.com/c/3blue1brown) that explains how these models [predict the next token (word) in a sequence](https://www.youtube.com/watch?v=LPZh9BOjkQs) and how they get trained. No math or tech background needed.
+>
+> **Free or Paid:** Free.
+{: .notice--primary}
+
+**An Aside:** Quick shoutout to a teacher, Maggie Bartlett, and her student Sarah, who emailed me saying Sarah found [BlueConic - AI: A Student's Guide](https://www.blueconic.com/resources/ai-a-students-guide) useful for explaining how a clearer prompt gets a better answer and why AI can give wrong or outdated information.
+{: .notice--warning}
 
 ## Classroom Tools
 
-Here are some tools for bringing AI into the classroom setting.
+Tools for bringing AI into the classroom setting.
 
-> **Google:** [NotebookLM](https://notebooklm.google/)
+> **Canva:** [Canva for Education](https://www.canva.com/education/)
 >
-A personal AI research assistant that answers questions directly from your uploaded documents. It's an incredibly efficient way for students and teachers to enhance their research and study processes. Let me just say, if I had this during college, the time I would've saved...it might've been enough for me to finally start [One Piece](https://www.google.com/search?q=how+many+episodes+is+the+anime+One+Piece&oq=how+many+episodes+is+the+anime+One+Piece).
+Easy-to-use design tool with built-in AI features for creating slides, graphics, and creative classroom projects. Unlike most freemium tools, all premium features are unlocked for free for verified K-12 teachers and their students.
 >
-> **Free or Paid:** Free (limited beta).
+> **Free or Paid:** Free _(for verified K-12 educators and students, Freemium for everyone else)_.
 {: .notice--primary}
 
-> **Microsoft:** [Visual Studio Code for Education](https://visualstudio.microsoft.com/vscode-edu/)
+> **Minecraft Education:** [AI Foundations](https://education.minecraft.net/en-us/discover/ai) & [Computer Science](https://education.minecraft.net/en-us/resources/computer-science)
 >
-Brings a real-world coding environment into the classroom via a web browser, perfect for Chromebook-centric schools or any tech teacher who doesn't want to deal with environment setup and virtual machines. I frequently use this platform in my own [workshops](https://segunakinyemi.com/tags/#stem-education). Best suited for computer science teachers and technical educators.
+Free, game-based lessons that teach students how to spot AI misinformation and learn computer science basics. When you have a room of students not all interested in working in tech, this sort of education is key. It's the new "tech savvy", being "AI savvy".
+>
+> **Free or Paid:** Freemium _(lesson plans and Hour of Code/AI demo lessons are free, while full access to Minecraft Education requires an eligible Microsoft 365 Education account or paid license)_.
+{: .notice--primary}
+
+> **Code.org:** [AI Foundations](https://code.org/en-US/curriculum/artificial-intelligence-foundations)
+>
+Free, ready-to-run high school curriculum that teaches core computer science and AI concepts in the browser, with no prior coding experience needed.
 >
 > **Free or Paid:** Free.
 {: .notice--primary}
 
-> **Microsoft:** [Microsoft Designer](https://designer.microsoft.com/)
+> **[Khanmigo](https://www.khanmigo.ai/), [MagicSchool AI](https://www.magicschool.ai/), & [Brisk Teaching](https://www.briskteaching.com/)**
 >
-Creates high-quality images from simple text prompts. Think Canva, but driven mostly by AI, and with a more generous free tier. Great for creative classroom projects that emphasize idea generation over technical skills. I created a workshop on Prompt Engineering fundamentals that features it, check it out [here](https://segunakinyemi.com/blog/stem-workshop-precision-meets-creativity-with-microsoft-designer/).
+Three of the most popular AI assistants built for teachers to help with lesson plans, rubrics, grading, and tutoring students without just handing them the answer. Check what your school district might already have access to before signing up on your own. If I were a betting man, I'd bet on [Khanmigo](https://www.khanmigo.ai/) in terms of which of these will have staying power because [Khan Academy](https://www.khanacademy.org/) is already a well-established name in education.
 >
-> **Free or Paid:** Freemium _(some features or tools require payment)_.
-{: .notice--primary}
-
-> **Google:** [Socratic](https://socratic.org/)
->
-An AI-powered homework helper app that provides clear explanations and step-by-step solutions across multiple subjects. Highly useful as a student learning aid, it's a tool worth openly encouraging in classrooms.
->
-> **Free or Paid:** Free
-{: .notice--primary}
-
-> **Khan Academy:** [Khanmigo](https://www.khanmigo.ai/)
->
-Another excellent AI-powered assistant designed to support educators with personalized instruction and classroom management. For more details, check out Microsoft's [introductory blog post](https://www.microsoft.com/en-us/education/blog/2024/08/khanmigo-for-teachers-your-free-ai-powered-teaching-tool/) about Khanmigo. The platform is powered by Microsoft's Azure cloud platform.
->
-> **Free or Paid:** Freemium _(some features or tools require payment)_.
+> **Free or Paid:** Freemium _(all three have free tiers for teachers, but for your students to use them or to unlock everything, you'll have to check if your school district covers it)_.
 {: .notice--primary}
 
 ## Privacy First Tools
 
 These tools are built with privacy at their core, offering educators AI-powered solutions without compromising on data security.
 
-> **Mintplex Labs:** [AnythingLLM](https://anythingllm.com/)
+> **[LM Studio](https://lmstudio.ai/)**
 >
-A free, ChatGPT-like tool running entirely offline on your computer. Just upload documents (lesson plans, student essays, policies), and it quickly learns your materials, becoming your personal teaching assistant. Unlike ChatGPT, which is trained on a broad dataset, this tool specializes in the documents you provide. I use AnythingLLM myself to privately query sensitive documents without risking them being used by cloud providers for AI model training. Check out their [Getting Started Guide](https://docs.useanything.com/introduction).
+Free local AI app that runs fully offline on your computer. You can drop in your own documents (lesson plans, student essays, policies) and chat with them privately without sending data to cloud providers.
 >
 > **Free or Paid:** Free.
 {: .notice--primary}
 
-> **LM Studio:** [Local AI Assistant](https://lmstudio.ai/)
+> **[Unsloth](https://unsloth.ai/)**
 >
-Another free local AI app that runs fully offline. Like AnythingLLM, you provide your materials and it learns them, enabling private interactions. LM Studio, however, is better suited for computer science educators or those with technical experience who prefer deeper customization and control.
+Basically the same thing as LM Studio but a different user interface, slightly different features, but same "download this one thing and now you can do private local-first AI on your laptop" idea. Unsloth's desktop app lets you run and fine-tune models privately on your own documents, with nothing being sent to the cloud for training some company's models, all without needing to write any code.
 >
 > **Free or Paid:** Free.
 {: .notice--primary}
@@ -159,37 +172,37 @@ Another free local AI app that runs fully offline. Like AnythingLLM, you provide
 
 This section offers practical strategies, classroom assignments, and professional development resources to help educators integrate AI into their teaching.
 
-> **University of Central Florida:** [ChatGPT Assignments for Your Classroom](https://stars.library.ucf.edu/cgi/viewcontent.cgi?article=1097&context=oer)
+> **TeachAI:** [TeachAI Toolkit](https://www.teachai.org/toolkit) & **Stanford:** [CRAFT](https://ed.stanford.edu/node/21842)
 >
-A free e-book offering over 60 AI-based assignment ideas using ChatGPT or similar tools. I often use it for inspiration when creating my own [workshops](https://segunakinyemi.com/tags/#stem-education).
+Practical guidance and free, ready-to-teach classroom lessons from TeachAI and Stanford that help schools set AI policies and teach AI literacy across both STEM and humanities.
 >
 > **Free or Paid:** Free.
 {: .notice--primary}
 
-> **Microsoft:** [Microsoft Education AI Toolkit](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-product-and-services/microsoft-education/downloadables/Microsoft-Education-AI-Toolkit-EN-GB.pdf)
+> **Pamela Fox:** [The Impact of AI on Software Engineering Live Slides](https://pamelafox.github.io/my-py-talks/impact-of-ai-on-cs/) & [GitHub Repo & Demos](https://github.com/pamelafox/my-py-talks/tree/main/impact-of-ai-on-cs)
 >
-A comprehensive guide with strategies and recommendations for education leaders on implementing AI responsibly and effectively. It includes real-world case studies, technical insights, and practical steps for navigating AI in schools. It's a long read though. Microsoft has a whole corporate strategy called [Reimagine Education](https://www.microsoft.com/en-us/education/reimagine), positioning itself as the go-to partner helping educators and schools adapt to AI in education. And given that Microsoft not only has its own Copilot platform but is also the cloud and financial backer of **OpenAI's ChatGPT**, owns **GitHub** (leading the way for AI in software development), and owns **LinkedIn** (leading the way for AI in the business world), they're in a pretty strong position to shape how this all unfolds.
+Great presentation from [Pamela Fox](https://www.linkedin.com/in/pamela-s-fox), a former UC Berkeley CS teacher who now teaches software and AI engineering at Microsoft. She breaks down how software is now built on AI and by AI, and shows CS teachers how to shift class time from typing code to problem design, system design, and checking AI output (mapped to [CSTA K-12 Standards](https://csteachers.org/k12standards/interactive/)). Worth going through on your own time if you teach coding.
 >
 > **Free or Paid:** Free.
 {: .notice--primary}
 
 > **OpenAI:** [Teaching with AI](https://openai.com/index/teaching-with-ai/) & [ChatGPT for Education](https://openai.com/chatgpt/education/)
 >
-Resources from the creators of ChatGPT on responsibly integrating AI into education. Essential for educators concerned about academic integrity and effective AI use.
+Resources from the creators of ChatGPT on responsibly integrating AI into education. Seeing as they started what has become the challenge of the century for educators, it's only right they're providing some advice for how to navigate it.
 >
-> **Free or Paid:** Free.
+> **Free or Paid:** Free _(guides are free, and ChatGPT for Teachers is free for verified U.S. K-12 teachers through June 2027)_.
 {: .notice--primary}
 
 > **MIT Sloan:** [Generative AI for Teaching & Learning](https://mitsloanedtech.mit.edu/ai/)
 >
-A collection of resources from [MIT](https://mitsloanedtech.mit.edu/ai/) for using Generative AI to enhance teaching and learning. Worth exploring for idea generation and understanding the available options in AI education.
+A collection of resources from [MIT](https://mitsloanedtech.mit.edu/ai/) for using Generative AI to enhance education rather than destroy it. There's some really good resources in here, such as [their glossary](https://mitsloanedtech.mit.edu/ai/basics/glossary/).
 >
 > **Free or Paid:** Free.
 {: .notice--primary}
 
 > **Microsoft:** [AI for Education: Educator Center](https://learn.microsoft.com/en-us/training/educator-center/topics/ai-for-education)
 >
-Microsoft's hub for educators looking to bring AI into the classroom. Packed with training courses, guides, and professional development resources to help teachers make AI work for them.
+Microsoft's hub for educators looking to bring AI into the classroom. Packed with training courses, guides, and professional development resources. Good if your school already uses Microsoft stuff.
 >
 > **Free or Paid:** Free.
 {: .notice--primary}
@@ -198,40 +211,46 @@ Microsoft's hub for educators looking to bring AI into the classroom. Packed wit
 
 For a deeper dive into how AI is changing education, check out these detailed resources and expert insights.
 
-> **Jakub Hyzyk & Melanie Misanchuk:** [ChatGPT in STEM Teaching](https://ecampusontario.pressbooks.pub/llmtoolsforstemteachinginhighered/)
+> **Mark Russinovich & Scott Hanselman:** [Redefining the Software Engineering Profession for AI](https://cacm.acm.org/opinion/redefining-the-software-engineering-profession-for-ai/) & **Microsoft + Carnegie Mellon University:** [PRAISE Program](https://commandline.microsoft.com/praise-preceptor-ai-accelerated-software-engineering-cmu/)
 >
-A highly accessible guide for integrating Generative AI tools into STEM education, full of practical strategies and classroom activities suitable for higher education.
->
-> **Free or Paid:** Free.
-{: .notice--primary}
-
-> **Microsoft:** [AI in Education – Special Report](https://www.microsoft.com/en-us/education/msdownloads/AI-in-Education-A-Microsoft-Special-Report.pdf)
->
-A detailed, research-based report providing valuable insights, trends, and strategies on AI's role in education. If you're an academic type, you'll enjoy this. If you prefer a quicker overview, see: [Explore insights from the AI in Education Report](https://www.microsoft.com/en-us/education/blog/2024/04/explore-insights-from-the-ai-in-education-report/)
+Software engineering legends [Mark Russinovich](https://en.wikipedia.org/wiki/Mark_Russinovich) and [Scott Hanselman](https://www.google.com/search?q=Scott+Hanselman) explain why AI speeds up senior engineers ("AI boost") but trips up beginners ("AI drag") who don't yet have the judgment to catch AI mistakes. Paired with how Microsoft and Carnegie Mellon are teaming up to mentor and teach new developers in the age of AI (so if you're reading this please don't give up on a tech career [WE STILL NEED SOFTWARE ENGINEERS](https://segunakinyemi.com/blog/coding-is-dead-software-engineering-isnt/)).
 >
 > **Free or Paid:** Free.
 {: .notice--primary}
 
-> **Forbes:** [Is Coding Education As We Know It Dead?](https://www.forbes.com/sites/nishatalagala/2023/06/01/is-coding-educationas-we-know-itdead-how-large-language-models-are-changing-programmers/)
+> **The Atlantic (Lila Shroff):** [There's Never Been a Better Time to Study Computer Science](https://www.theatlantic.com/technology/2026/05/computer-science-major-coding-ai/687279/)
 >
-A compelling article about how AI is reshaping coding education and what it means for teachers. Valuable perspective for educators teaching tech-related subjects.
+Great piece on how colleges are adjusting computer science classes for AI, why we still need people who understand computer systems, and why some professors have moved intro exams back to paper so students actually learn the fundamentals.
 >
 > **Free or Paid:** Free.
 {: .notice--primary}
 
-> **Academia:** [Learning-by-Teaching with ChatGPT: The Effect of a Teachable ChatGPT Agent on Programming Education](https://arxiv.org/abs/2412.15226)
+> **ETH Zürich (CHI '26):** [Computer Science Achievement and Writing Skills Predict Vibe Coding Proficiency](https://arxiv.org/html/2603.14133v1) & **Anthropic Research:** [How AI Assistance Impacts the Formation of Coding Skills](https://www.anthropic.com/research/AI-assistance-coding-skills)
 >
-This study examines how using ChatGPT as a teachable agent can help students improve their coding skills by "teaching" the AI. The results show that this method enhances students' ability to write clear and logical code, boosts self-regulated learning, and increases confidence. However, it has little effect on debugging skills since ChatGPT usually generates correct code, limiting error-correction practice. An interesting perspective on how AI can change active learning in programming education.
->
-**Authors:** [Angxuan Chen](mailto:angxuan.chen@stu.pku.edu.cn) (Peking University), [Huixiao Le](mailto:interesting@pku.edu.cn) (Peking University), [Yuang Wei](mailto:philrain@foxmail.com) (East China Normal University), [Yan Zhang](mailto:yan-zhan23@mails.tsinghua.edu.cn) (Tsinghua University)
+Actual scientific studies show the fundamentals still matter. The first study proves that computer science knowledge and good writing skills predict who succeeds at vibe coding (which isn't what you're doing if you're putting in effort, you're doing [Agentic Engineering](https://simonwillison.net/guides/agentic-engineering-patterns/)). Anthropic's study shows that leaning on AI too early hurts how well you learn the material.
 >
 > **Free or Paid:** Free.
+{: .notice--primary}
+
+> **Stanford, Carnegie Mellon & Cornell:** [Stanford Course: The Modern Software Developer](https://themodernsoftware.dev), [Carnegie Mellon Course: Effective Coding with AI](https://www.cs.cmu.edu/~113/), & [Cornell Course: Software Engineering in the Era of AI](https://www.cs.cornell.edu/courses/cs6158/)
+>
+Public university syllabi, slides, and reading lists showing how top CS programs are teaching students to build software with AI coding tools.
+>
+> **Free or Paid:** Free _(public course websites, syllabi, slides, and reading lists are free online)_.
 {: .notice--primary}  
 
-## Parting Words  
+## Parting Words
 
-The conversation around AI in education is evolving rapidly, and resources like the ones shared here are only the beginning. The tools and strategies available today are designed to help, not replace, the role of educators in shaping the next generation. Navigating this shift requires adaptation, but the core mission of education remains the same: to equip students with the knowledge and skills they need to succeed.  
+There has never been a scarier time to be an educator. The way people talk about AI is rife with misconceptions, misunderstandings, and outright lies meant to scare, fearmonger, and overstate how good something is so OpenAI and Anthropic can get more investments. It's just a mess.
 
-For educators, accepting this reality means adjusting how they teach to ensure students are ready to succeed in a world that's fully embraced AI. Education's primary focus, its heartbeat, its guiding light, has always been preparing students to thrive, pursue their passions, and build better futures. If that requires educators to learn and understand new technology so they can bring that knowledge back to eager, curious minds, then so be it.
+The kind of frustration you see in [articles like this one](https://www.currentaffairs.org/news/ai-is-destroying-the-university-and-learning-itself) is widespread. But underneath it all, there's a fundamental truth to the kind of AI we have in the real world, rather than the kind we expected from science fiction and movies over the years. It isn't alive. It isn't like Skynet or JARVIS from Iron Man. It's not [Artificial General Intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence). And because of that, we still need human beings to be smart. To know stuff. To understand. And we need educators to help those humans get that way.
 
-This isn't the first time in human history we've faced such change, and it won't be the last. Remaining stagnant and resistant to change does a disservice to students. It deprives them of the chance to engage with tools and develop skills that could shape their futures. Teach them what will help them thrive when the safety and sense of "I have time" that comes with being in school is no longer there. Don't shut yourself off to AI just because it's uncomfortable, because in the end, it's not you who will be most affected. It's the students looking to you to guide them.  
+As some great person [we can't readily identify](https://quoteinvestigator.com/2014/09/14/keep-going/) once said:
+
+> If you're going through hell, keep going.
+
+If you're an educator reading this, don't give up. Human beings are frighteningly resilient. We're finding a way forward with AI and its role in education. As a software engineer who frequently does career days and workshops at universities, I can tell you students might be scared, but they're not disheartened. They still want a part of building stuff with computers, and there's still a place for them in a world where AI can generate text, images, videos, etc. So we need educators to keep heart as well.
+
+Education's primary focus, its heartbeat, its guiding light, has always been preparing students to thrive, pursue their passions, and build better futures. If that requires educators to learn and understand new technology so they can bring that knowledge back to eager, curious minds, then so be it.
+
+Teach students what will help them thrive when the sense of "I have time, I'm just in school right now" is no longer there. Don't shut yourself off to AI because it's uncomfortable. In the end, it's not you who will be most affected. It's the students looking to you to guide them.
