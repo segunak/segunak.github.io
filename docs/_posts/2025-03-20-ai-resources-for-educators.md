@@ -1,7 +1,7 @@
 ---
 title: "A Curated List of AI Resources for Educators"
 excerpt: "A collection of practical, mostly free resources to help educators integrate AI into the classroom, enhance student learning, and stay ahead in an AI-driven world."
-last_modified_at: 2026-11-06T14:17:19
+last_modified_at: 2026-11-06T16:44:36
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -114,9 +114,6 @@ Short visual video from [3Blue1Brown](https://www.youtube.com/c/3blue1brown) tha
 >
 > **Free or Paid:** Free.
 {: .notice--primary}
-
-**An Aside:** Quick shoutout to a teacher, Maggie Bartlett, and her student Sarah, who emailed sharing that Sarah found [BlueConic - AI: A Student's Guide](https://www.blueconic.com/resources/ai-a-students-guide) useful for explaining how a clearer prompt gets a better answer and why AI can give wrong or outdated information. Check it out!
-{: .notice--warning}
 
 ## Classroom Tools
 
