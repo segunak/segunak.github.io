@@ -392,7 +392,7 @@ By the end, you'll understand LLMs, RAG, MCP, RLHF, context, and context windows
 
 <div class="talk-card__title">How to Train Your AI: Demystifying ChatGPT With Machine Learning Basics</div>
 
-**Best For:** Technical and non-technical audiences, from middle school students to working professionals
+**Best For:** Technical and non-technical audiences, from high school students to working professionals
 
 **Format:** 45-60 minute talk (no laptops) or workshop (laptops required)
 
