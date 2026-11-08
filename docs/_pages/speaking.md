@@ -359,7 +359,7 @@ In this talk, we'll explore ways to maintain cognitive ownership of systems buil
 
 **Best For:** Technical and non-technical audiences, from college students to working professionals
 
-**Format:** 45-60 minute talk (no laptops) or workshop (laptops preferred)
+**Format:** 45-60 minute talk (no laptops) or workshop (laptops required)
 
 With the rise of Agentic AI, [Uncle Ben's](https://en.wikipedia.org/wiki/Uncle_Ben) "with great power comes great responsibility" warning has never felt more relevant. AI agents can gather information, use tools, make decisions, and take action with limited human direction. Everybody's talking about them, but ask 10 people what an agent is and you'll get [10 different answers](https://simonwillison.net/2025/Sep/18/agents/). So what actually makes a system agentic, how is it different from Generative AI, and where does human responsibility still lie?
 
