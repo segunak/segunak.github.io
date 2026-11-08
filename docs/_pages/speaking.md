@@ -287,7 +287,7 @@ Here are some of the talks and workshops I've developed. I try to keep this sect
 
 <div class="talk-card__title">Context Engineering Is Software Engineering</div>
 
-**Best For:** Software Engineers and anyone building with AI coding tools
+**Best For:** Software engineers and anyone building with AI coding tools
 
 **Format:** 45-60 minute talk
 
@@ -322,11 +322,11 @@ By the end, you'll understand your options for durable context, including custom
 
 <div class="talk-card__title">The Children Yearn For the Mines: Finding Craftsmanship in AI-Assisted Software Engineering</div>
 
-**Best For:** Software Engineers and anyone building with AI coding tools
+**Best For:** Software engineers and anyone building with AI coding tools
 
 **Format:** 45 minute talk
 
-For many of us Software Engineers, writing code was how we understood a system, shaped it, and found joy in our work. As AI writes more of the code, [some of us feel more creative than ever, while others feel we've lost the very thing we entered the profession to do](https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html?unlocked_article_code=1.NVE.uWGy.lcfM7YohvREI&smid=url-share).
+For many of us software engineers, writing code was how we understood a system, shaped it, and found joy in our work. As AI writes more of the code, [some of us feel more creative than ever, while others feel we've lost the very thing we entered the profession to do](https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html?unlocked_article_code=1.NVE.uWGy.lcfM7YohvREI&smid=url-share).
 
 The ["children yearn for the mines" meme](https://knowyourmeme.com/memes/the-children-yearn-for-the-mines) jokes that [child labor laws](https://en.wikipedia.org/wiki/Child_labor_in_the_United_States) got kids out of dangerous physical mines, only for them to happily pick up virtual pickaxes in [Minecraft](https://www.bbc.com/future/article/20250328-the-psychology-behind-why-your-childs-hooked-on-minecraft). The game can auto-generate a world for them, but the fun is in building it themselves and expressing their creativity. So when AI generates the code, how do we keep that same connection to the systems we're creating?
 
