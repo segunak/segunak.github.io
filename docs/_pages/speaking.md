@@ -150,6 +150,10 @@ speaking_gallery:
     margin: 0 0 0.85rem;
   }
 
+  .speaking-talk-dialog__slides-url .speaking-email__details {
+    grid-template-columns: minmax(0, 1fr) auto auto;
+  }
+
   .speaking-talk-dialog__slides-url .speaking-email__address {
     height: auto;
     min-height: var(--speaking-email-control-height);
@@ -165,7 +169,7 @@ speaking_gallery:
   @media (max-width: 600px) {
     .speaking-email.speaking-talk-dialog__slides-url {
       --speaking-email-control-height: 44px;
-      grid-template-columns: minmax(0, 1fr) 44px;
+      grid-template-columns: minmax(0, 1fr) 44px 44px;
     }
   }
 
@@ -353,17 +357,15 @@ In this talk, we'll explore ways to maintain cognitive ownership of systems buil
 
 <div class="talk-card__title">Agentic AI: From Acronyms to Applications</div>
 
-**Best For:** College students and/or working professionals, with versions for technical and nontechnical audiences
+**Best For:** Technical and non-technical audiences, from college students to working professionals
 
 **Format:** 45-60 minute talk (no laptops) or workshop (laptops preferred)
 
-With the rise of Agentic AI, [Uncle Ben's](https://en.wikipedia.org/wiki/Uncle_Ben) "with great power comes great responsibility" warning has never felt more relevant. AI agents can gather information, use tools, make decisions, and take action with limited human direction. Everybody's talking about them, but ask 10 people what an agent is and you'll get [10 different answers](https://simonwillison.net/2025/Sep/18/agents/).
+With the rise of Agentic AI, [Uncle Ben's](https://en.wikipedia.org/wiki/Uncle_Ben) "with great power comes great responsibility" warning has never felt more relevant. AI agents can gather information, use tools, make decisions, and take action with limited human direction. Everybody's talking about them, but ask 10 people what an agent is and you'll get [10 different answers](https://simonwillison.net/2025/Sep/18/agents/). So what actually makes a system agentic, how is it different from Generative AI, and where does human responsibility still lie?
 
-So, what makes a system agentic? What separates Agentic AI from Generative AI and ordinary automation? And where does human responsibility still lie?
+In this session, we'll cut through the hype by looking at how AI agents are being used in the real world, and what happens when they go wrong. Through interactive scenarios where an agent is given a goal, a prompt, and access to tools, we'll unpack why a seemingly good result still went sideways. Along the way, we'll talk candidly about AI costs, layoffs, hiring trends, and the future of work.
 
-Depending on the audience and format, participants either investigate AI agents through a game or build one themselves. Each game round reveals an agent's goal, prompt, and seemingly successful output, then challenges the room to uncover the failure, risk, or human effort behind it. General audiences get AI remixes of real business disasters, while technical audiences get cited engineering incidents. In the hands on version, participants interact with a working agent, write its instructions, choose its tools, and try to get it onto a shared live feed.
-
-By the end, participants understand LLMs, RAG, MCP, RLHF, context, and context windows through firsthand experience. They see what Agentic AI can do, where it falls short, and why the growing field of AI Engineering still needs humans in the loop.
+By the end, you'll understand LLMs, RAG, MCP, RLHF, context, and context windows through practical examples. You'll see what Agentic AI can do, where it falls short, and why the growing field of [AI Engineering](https://segunakinyemi.com/blog/what-is-ai-engineering/) still needs humans in the loop.
 
 {% assign slides_url = "https://segunakinyemi.com/slides/agentic-ai-technical-audience/" %}
 <div class="speaking-talk-dialog__slides">
@@ -390,17 +392,15 @@ By the end, participants understand LLMs, RAG, MCP, RLHF, context, and context w
 
 <div class="talk-card__title">How to Train Your AI: Demystifying ChatGPT With Machine Learning Basics</div>
 
-**Best For:** Students from middle school through college and working professionals, with versions for technical and nontechnical audiences
+**Best For:** Technical and non-technical audiences, from middle school students to working professionals
 
 **Format:** 45-60 minute talk (no laptops) or workshop (laptops required)
 
-ChatGPT can feel like magic, but underneath it all, it's making **highly educated** guesses based on patterns. This AI Literacy workshop takes an intentionally oversimplified dive into machine learning, neural networks, and deep learning by turning participants into the computers.
+ChatGPT can feel like magic, but underneath it all, it's making **highly educated** guesses based on patterns. This AI Literacy session takes an intentionally oversimplified dive into machine learning, neural networks, and deep learning by turning you into the computer.
 
-They start by writing traditional programming rules for [recognizing a cat](https://arxiv.org/abs/1112.6209), then watch those rules break on wolves, cartoon cats, and other edge cases. This leads into an approachable understanding of supervised learning, where computers learn patterns from labeled examples instead of relying on written rules.
+You'll write traditional programming rules for [recognizing a cat](https://arxiv.org/abs/1112.6209), learn to recognize an unfamiliar writing system from examples, and guess missing words in sentences. Along the way, you'll get an approachable understanding of [supervised learning](https://www.google.com/search?q=what+is+supervised+learning+explain+like+I%27m+five&udm=50), [self-supervised learning](https://www.google.com/search?q=what+is+self-supervised+learning+explain+like+I%27m+five&udm=50), and how [large language models (LLMs)](https://www.google.com/search?q=what+are+large+language+models+explain+like+I%27m+five&udm=50) learn by guessing, checking, and adjusting across enormous amounts of text.
 
-Next, they guess missing words in sentences. Familiar phrases are easy because they've seen them before, while random sentences are nearly impossible without context. That contrast leads into an understanding of self-supervised learning, where large language models (LLMs) learn language patterns by guessing, checking, and adjusting across enormous amounts of text. Depending on the version, they also learn to recognize an unfamiliar writing system from examples or train and tune a simplified LLM with code.
-
-By the end, they'll understand how examples become patterns, how patterns become predictions, and what makes training AI models so expensive. The result may seem intelligent, but it's fundamentally pattern recognition at scale, and still requires human guidance and oversight.
+By the end, you'll understand how examples become patterns, how patterns become predictions, and what makes training AI models so expensive. The result may seem intelligent, but it's fundamentally pattern recognition at scale and still requires humans in the loop.
 
 {% assign slides_url = "https://segunakinyemi.com/slides/how-to-train-your-ai-language-activity/" %}
 <div class="speaking-talk-dialog__slides">
@@ -431,11 +431,11 @@ By the end, they'll understand how examples become patterns, how patterns become
 
 **Format:** 60 minute workshop (laptops required)
 
-AI-assisted coding is everywhere now. Companies like [Canva](https://www.canva.dev/blog/engineering/yes-you-can-use-ai-in-our-interviews/) and [Meta](https://www.wired.com/story/meta-ai-job-interview-coding/) even let candidates use AI coding tools in technical interviews. So if candidates can use AI to write the code, what are interviewers actually evaluating? What does software engineering require beyond writing code, and how do you prove you can do the job?
+[AI-assisted software development](https://en.wikipedia.org/wiki/AI-assisted_software_development) is everywhere now. Companies like [Canva](https://www.canva.dev/blog/engineering/yes-you-can-use-ai-in-our-interviews/), [Meta](https://www.wired.com/story/meta-ai-job-interview-coding/), and [Google](https://www.businessinsider.com/google-interview-process-ai-gemini-coding-comprehension-software-engineer-2026-10) let candidates use AI in coding interviews, and teams at [Anthropic](https://felixrieseberg.com/hunger-beats-tenure-advice-for-junior-engineers/) are dropping data structures and algorithms questions altogether. So if AI writes the code, what are interviewers actually evaluating, and how do you prove you can do the job?
 
-In this workshop, students tackle 5 increasingly realistic challenges with a custom AI agent as their pair programmer. They start with familiar LeetCode problems, then move into incident log triage, API verification, and turning a script into a product anyone can use. Every challenge follows Plan, Prove, Explain. They can use AI for everything, but they must understand the output, explain their decisions, and prove the result works.
+In this workshop, you'll step into a realistic [AI-assisted interview environment](https://support.hackerrank.com/articles/5821380141-ai-assisted-interviews) where an AI agent has already written the code. Across a series of challenges, you're given code that compiles and looks right, but has a logical disconnect between the problem requirements and what the agent actually built. You can use a built-in AI assistant to ask questions and make changes, with every prompt and response visible to the interviewer.
 
-[AI can write code, but it can't do your job](https://terriblesoftware.org/2025/12/11/ai-can-write-your-code-it-cant-do-your-job/). [Your job is to deliver code you have proven to work](https://simonwillison.net/2025/Dec/18/code-proven-to-work/).
+To succeed, you have to read the requirements, understand what the code is doing, spot where the agent's logic went wrong, and guide the AI to fix it. [AI can write code, but it can't do your job](https://terriblesoftware.org/2025/12/11/ai-can-write-your-code-it-cant-do-your-job/). [Your job is to deliver code you have proven to work](https://simonwillison.net/2025/Dec/18/code-proven-to-work/).
 
 {% assign slides_url = "https://segunakinyemi.com/slides/ai-technical-interview-workshop/" %}
 <div class="speaking-talk-dialog__slides">
@@ -466,9 +466,11 @@ In this workshop, students tackle 5 increasingly realistic challenges with a cus
 
 **Format:** 45-60 minute talk
 
-AI-assisted coding is everywhere now. Does that mean it's over for Software Engineers? [Not at all](https://segunakinyemi.com/blog/coding-is-dead-software-engineering-isnt/)! After a quick history of AI, participants work through a live [next token prediction exercise](https://academy.claude.com/courses/ai-capabilities-and-limitations/next-token-prediction) to see how LLMs work under the hood. From there, we examine the increasingly popular argument that [writing code was never the real bottleneck in software engineering](https://www.google.com/search?q=code+was+never+the+bottleneck).
+There's never been a scarier time to be a computer science student, with tech CEOs fearmongering that [AI will replace all white-collar jobs](https://fortune.com/2026/02/13/when-will-ai-kill-white-collar-office-jobs-18-months-microsoft-mustafa-suleyman/) or that [software engineers will be replaced in months](https://www.entrepreneur.com/business-news/ai-ceo-says-software-engineers-could-be-replaced-in-months/502087), even as their own companies [aggressively hire them](https://www.anthropic.com/careers/jobs) and [walk back their job apocalypse prophecies](https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/). So how do you get a tech job now that AI can write code, and is a [computer science degree still worth it](https://www.theatlantic.com/technology/2026/05/computer-science-major-coding-ai/687279/)? I mean...[chat, are we cooked](https://www.yahoo.com/entertainment/articles/chat-cooked-guide-internet-slang-090000553.html)? [Not at all](https://segunakinyemi.com/blog/coding-is-dead-software-engineering-isnt/)!
 
-Participants meet [AI Engineering](https://www.latent.space/p/ai-engineer), an evolution of software engineering that connects AI models to real systems, data, and tools. They learn how it differs from Machine Learning and which technical skills still matter when developers use AI to write code. We also follow the money through GPUs, data centers, and layoffs, cutting through [AI washing](https://www.fastcompany.com/91495694/even-sam-altman-thinks-ceos-are-blaming-ai-for-layoffs) to separate job replacement from corporate cost cutting. By the end, they'll understand that [AI accelerates the work, but engineers still own the result](https://www.linkedin.com/pulse/ai-made-us-faster-problem-david-fowler-mgnzc/).
+In this talk, we'll start with a quick history of AI and a live [next-token prediction exercise](https://academy.claude.com/courses/ai-capabilities-and-limitations/next-token-prediction) to see how LLMs work under the hood. From there, we'll examine why [writing code was never the real bottleneck in software engineering](https://www.google.com/search?q=code+was+never+the+bottleneck), and follow the money through GPUs, [data centers](https://www.cbsnews.com/projects/2026/how-much-water-ai-uses/), and layoffs. We'll cut through [AI washing](https://www.fastcompany.com/91495694/even-sam-altman-thinks-ceos-are-blaming-ai-for-layoffs) to see why companies are cutting costs to pay for [ridiculously expensive compute](https://www.forbes.com/sites/jemmagreen/2026/07/02/ai-costs-more-than-the-people-it-replaced/), and why some employers are already [rehiring the workers](https://www.cnbc.com/2026/07/01/employers-who-laid-off-workers-for-ai-are-reversing-their-decisions.html) they thought AI could replace.
+
+You'll also meet [AI Engineering](https://segunakinyemi.com/blog/what-is-ai-engineering/), the [fastest-growing job on LinkedIn](https://www.linkedin.com/pulse/linkedin-jobs-rise-2026-25-fastest-growing-roles-us-linkedin-news-dlb1c/), and see why it's much more accessible than Machine Learning. We'll cover the AI terms you should know, which [technical skills](https://segunakinyemi.com/stem-education/ai-resources/#learn-what) and [certifications](https://segunakinyemi.com/stem-education/ai-resources/#certs) still matter, how AI resume screeners and interviews work, and what a [resume that landed a Microsoft software engineering internship](https://segunakinyemi.com/stem-education/miscellaneous/example-resume.pdf) looks like. [Coding manually is dead](https://www.cnn.com/2026/04/08/tech/ai-software-developer-jobs), but the judgment, systems thinking, and accountability of software engineering are becoming [more valuable, not less](https://www.youtube.com/watch?v=lxDRDORvFdE). Times might be changing, but we aren't cooked. Far from it.
 
 {% assign slides_url = "https://segunakinyemi.com/slides/were-not-cooked/" %}
 <div class="speaking-talk-dialog__slides">
@@ -499,7 +501,7 @@ Participants meet [AI Engineering](https://www.latent.space/p/ai-engineer), an e
 
 **Format:** 60 minute workshop (laptops required)
 
-AI can generate an image in seconds, but creativity still belongs to the human behind the prompt. Students start by matching an AI generated image to 2 possible prompts, 1 weak and 1 detailed. The choices start close enough to make the game challenging, but soon reveal how specificity, clarity, and creativity shape the result. Students then put that lesson into practice using structured, fill in the blank prompts to create their own image with [Microsoft Designer](https://designer.microsoft.com/). They leave with an image they conceived and directed, using AI as a tool to bring their idea to life, and a clear understanding that AI supports human creativity rather than replacing it.
+AI can generate an image in seconds, but creativity still belongs to the human behind the prompt. In this workshop, you'll start by matching an AI-generated image to two possible prompts, one vague and one detailed, to see how specificity, clarity, and creativity shape the result. Then you'll use structured, fill-in-the-blank prompts to create your own visuals with [Microsoft Designer](https://designer.microsoft.com/), leaving with something you conceived and directed, and a clear understanding that AI supports human creativity rather than replacing it.
 
 {% assign slides_url = "https://segunakinyemi.com/slides/precision-meets-creativity-with-microsoft-designer/" %}
 <div class="speaking-talk-dialog__slides">
@@ -530,11 +532,11 @@ AI can generate an image in seconds, but creativity still belongs to the human b
 
 **Format:** 60 minute workshop (laptops required)
 
-AI models can be brilliant, but they need specific context to be useful. Students start with an AI chat interface that only knows how to send 3 basic commands to a [Petoi 'Bittle X' Robot Dog](https://www.petoi.com/products/petoi-robot-dog-bittle-x-voice-controlled). Their job as [AI Engineers](https://www.latent.space/p/ai-engineer) is to teach it what else the robot can do.
+AI models can be brilliant, but they need specific context to be useful. In this workshop, you'll start with an AI chat interface that only knows how to send three basic commands to a [Petoi 'Bittle X' Robot Dog](https://www.petoi.com/products/petoi-robot-dog-bittle-x-voice-controlled). Your job as an [AI Engineer](https://segunakinyemi.com/blog/what-is-ai-engineering/) is to teach it what else the robot can do.
 
-Using Python, VS Code, and GitHub Copilot, students read technical documentation, add robot commands, make the system show exactly what the AI sends to the hardware, combine simple commands into complex behaviors, and connect the model to live documentation through a simplified version of retrieval augmented generation (RAG).
+Using Python, VS Code, and GitHub Copilot, you'll read technical documentation, expose what the AI sends to the hardware, chain simple actions into complex behaviors, and connect the model to live documentation through a simplified version of retrieval-augmented generation (RAG).
 
-By the end, students have seen both sides of AI Engineering. Traditional code controls the robot directly, while context teaches AI how to control it.
+By the end, you'll have seen both sides of AI Engineering. Traditional code controls the robot directly, while context teaches AI how to control it.
 
 **Presented At:** [Charlotte-Mecklenburg Schools Bases Loaded 2025](https://www.linkedin.com/posts/activity-7366135290366705665-sEnI) · [Carolina Youth Coalition Discovery Day](https://www.linkedin.com/posts/carolina-youth-coalition_everydreamneedsateam-ugcPost-7360688772675432450-arpT/) with recaps from [Microsoft](https://www.linkedin.com/posts/microsoft_50-students-2-nonprofits-1-hands-on-ai-activity-7361018635915579392-xO6j/) and [Petoi](https://www.linkedin.com/posts/petoi_50-students-2-nonprofits-1-hands-on-ai-ugcPost-7361490922796171264-bQ1i/)
 

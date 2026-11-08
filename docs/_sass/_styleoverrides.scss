@@ -1032,6 +1032,7 @@ details p:last-of-type {
 }
 
 .speaking-talk-dialog {
+  --speaking-dialog-max-width: 860px;
 
   width: min(94vw, var(--speaking-dialog-max-width));
   max-width: none;

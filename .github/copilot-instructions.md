@@ -12,6 +12,10 @@ For any request involving writing, editing, polishing, revising, tightening, rev
 
 The editor skill is the sole authority for editorial workflow, authorship boundaries, voice preservation, house style, punctuation, output mode, front matter scope, media, validation, and corpus grounding.
 
+## Google AI Mode Links
+
+The user likes linking people to knowledge for them to learn more and read for themselves. For AI explanations or overviews, generate a link using `https://www.google.com/search?q={URL_ENCODED_QUERY}&udm=50`. The `q` parameter supplies the question; `udm=50` opens Google AI Mode instead of standard search, providing an AI-generated explanation. See [Google's AI Mode documentation](https://support.google.com/websearch/answer/16011537) and [Chromium source](https://chromium.googlesource.com/chromium/src/+/main/components/omnibox/common/omnibox_feature_configs.h).
+
 ## Local Git Hooks
 
 This repository uses a versioned Git hook in [.githooks](../.githooks/) to update `last_modified_at` for staged posts, generate Speaking page photo previews, and compile staged Agentic Workflow files before commits.

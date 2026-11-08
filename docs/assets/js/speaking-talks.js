@@ -6,18 +6,110 @@
     return strong && strong.textContent.trim() === label;
   }
 
+  function normalizeText(value) {
+    return value.replace(/\s+/g, " ").trim();
+  }
+
+  function getDescriptionParagraphs(article) {
+    return Array.prototype.filter.call(article.children, function (element) {
+      return (
+        element.tagName === "P" &&
+        !element.classList.contains("speaking-talk-dialog__subtitle") &&
+        !element.classList.contains("speaking-talk-dialog__references") &&
+        !hasLabel(element, "Best For:") &&
+        !hasLabel(element, "Format:") &&
+        !hasLabel(element, "Presented At:") &&
+        !hasLabel(element, "Resources:")
+      );
+    });
+  }
+
+  function copyDescription(container) {
+    var paragraphs = Array.prototype.slice.call(container.querySelectorAll("p"));
+    var plainText = paragraphs
+      .map(function (paragraph) {
+        return normalizeText(paragraph.textContent);
+      })
+      .filter(Boolean)
+      .join("\n\n");
+
+    var html = paragraphs
+      .map(function (paragraph) {
+        var clone = paragraph.cloneNode(true);
+        clone.querySelectorAll("a[href]").forEach(function (anchor) {
+          anchor.setAttribute("href", anchor.href);
+        });
+        return clone.outerHTML;
+      })
+      .join("");
+
+    if (
+      navigator.clipboard &&
+      typeof navigator.clipboard.write === "function" &&
+      typeof window.ClipboardItem === "function"
+    ) {
+      return navigator.clipboard.write([
+        new window.ClipboardItem({
+          "text/html": new Blob([html], { type: "text/html" }),
+          "text/plain": new Blob([plainText], { type: "text/plain" })
+        })
+      ]);
+    }
+
+    if (navigator.clipboard && typeof navigator.clipboard.writeText === "function") {
+      return navigator.clipboard.writeText(plainText);
+    }
+
+    return Promise.reject(new Error("Clipboard unavailable"));
+  }
+
   document.addEventListener("click", function (event) {
+    var openButton = event.target.closest(".speaking-talk-dialog__slides [data-open-url]");
+    if (openButton) {
+      var openDetails = openButton.closest(".speaking-email__details");
+      var openAddress = openDetails && openDetails.querySelector(".speaking-email__address");
+      if (openAddress && openAddress.href) {
+        window.open(openAddress.href, "_blank", "noopener,noreferrer");
+      }
+      return;
+    }
+
+    var descriptionButton = event.target.closest("[data-copy-description]");
+    if (descriptionButton) {
+      var card = descriptionButton.closest(".bio-card");
+      var content = card && card.querySelector(".bio-card__content");
+      var status = descriptionButton.nextElementSibling;
+      var label = descriptionButton.querySelector("span");
+      var icon = descriptionButton.querySelector("i");
+
+      copyDescription(content || document.createElement("div"))
+        .then(function () {
+          label.textContent = "Copied";
+          icon.className = "fas fa-check";
+          status.textContent = "Description copied";
+        })
+        .catch(function () {
+          label.textContent = "Copy Failed";
+          icon.className = "fas fa-exclamation-triangle";
+          status.textContent = "Copy failed. Select the description to copy it.";
+        });
+      return;
+    }
+
     var button = event.target.closest(".speaking-talk-dialog__slides [data-copy-url]");
     if (!button) {
       return;
     }
 
+    var details = button.closest(".speaking-email__details");
+    var address = details && details.querySelector(".speaking-email__address");
     var status = button.nextElementSibling;
     var label = button.querySelector("span");
     var icon = button.querySelector("i");
-    var copyPromise = navigator.clipboard
-      ? navigator.clipboard.writeText(button.previousElementSibling.href)
-      : Promise.reject(new Error("Clipboard unavailable"));
+    var copyPromise =
+      navigator.clipboard && address
+        ? navigator.clipboard.writeText(address.href)
+        : Promise.reject(new Error("Clipboard unavailable"));
 
     copyPromise
       .then(function () {
@@ -174,6 +266,45 @@
         descriptionHeading.className = "speaking-talk-dialog__section-heading";
         descriptionHeading.textContent = "Description";
         description.before(descriptionHeading);
+
+        var descriptionParagraphs = getDescriptionParagraphs(dialogCard);
+        var descriptionCard = document.createElement("div");
+        descriptionCard.className = "bio-card";
+
+        var descriptionContent = document.createElement("div");
+        descriptionContent.className = "bio-card__content";
+
+        descriptionHeading.after(descriptionCard);
+        descriptionParagraphs.forEach(function (paragraph) {
+          descriptionContent.appendChild(paragraph);
+        });
+
+        var descriptionActions = document.createElement("div");
+        descriptionActions.className = "bio-card__actions";
+
+        var copyButton = document.createElement("button");
+        copyButton.type = "button";
+        copyButton.className = "btn btn--primary bio-card__copy";
+        copyButton.setAttribute("data-copy-description", "");
+
+        var copyIcon = document.createElement("i");
+        copyIcon.className = "fas fa-copy";
+        copyIcon.setAttribute("aria-hidden", "true");
+
+        var copyLabel = document.createElement("span");
+        copyLabel.textContent = "Copy";
+
+        var copyStatus = document.createElement("span");
+        copyStatus.className = "bio-card__status";
+        copyStatus.setAttribute("role", "status");
+        copyStatus.setAttribute("aria-live", "polite");
+
+        copyButton.appendChild(copyIcon);
+        copyButton.appendChild(copyLabel);
+        descriptionActions.appendChild(copyButton);
+        descriptionActions.appendChild(copyStatus);
+        descriptionCard.appendChild(descriptionContent);
+        descriptionCard.appendChild(descriptionActions);
       }
 
       Array.prototype.slice.call(dialogCard.children).forEach(function (element) {
@@ -191,6 +322,36 @@
         )
         .forEach(function (label) {
           label.textContent = label.textContent.replace(/:\s*$/, "");
+        });
+
+      dialogCard
+        .querySelectorAll(".speaking-talk-dialog__slides-url .speaking-email__details")
+        .forEach(function (details) {
+          var address = details.querySelector(".speaking-email__address");
+          var copyBtn = details.querySelector("[data-copy-url]");
+
+          if (!address || !copyBtn || details.querySelector("[data-open-url]")) {
+            return;
+          }
+
+          var openButton = document.createElement("button");
+          openButton.type = "button";
+          openButton.className = "btn btn--primary speaking-email__copy";
+          openButton.setAttribute("data-open-url", "");
+          openButton.setAttribute("aria-label", "Open slides in new tab");
+          openButton.setAttribute("title", "Open slides in new tab");
+
+          var openIcon = document.createElement("i");
+          openIcon.className = "fas fa-external-link-alt";
+          openIcon.setAttribute("aria-hidden", "true");
+
+          var openLabel = document.createElement("span");
+          openLabel.className = "speaking-email__button-label";
+          openLabel.textContent = "Open";
+
+          openButton.appendChild(openIcon);
+          openButton.appendChild(openLabel);
+          copyBtn.before(openButton);
         });
 
       dialogCard.className = "speaking-talk-dialog__article";
