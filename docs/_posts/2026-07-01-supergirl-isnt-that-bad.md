@@ -1,7 +1,7 @@
 ---
 title: "Supergirl Isn't That Bad"
 excerpt: "It's mid, but given how good Superman was, mid hits a little harder than it otherwise would."
-last_modified_at: 2026-10-19T16:33:34
+last_modified_at: 2026-11-09T14:19:39
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -60,6 +60,9 @@ tags:
         }
     }
 </style>
+
+**Update:** They [fired James Gunn and Peter Safran](https://www.hollywoodreporter.com/movies/movie-news/dc-studios-shocker-james-gunn-peter-safran-stepping-1236750902/). Supergirl wasn't the final straw. The [Paramount takeover of Warner Bros](https://www.skydance.com/news/press/paramount-completes-acquisition-of-warner-bros-discovery-creating-a-new-global-entertainment-leader-skydance) was a major factor, but you've got to think Supergirl not being a hit played some sort of role. I'm sad. The DCU is dead. Long live the DCU.
+{: .notice--primary}
 
 ## The Headlines Are Doing A Lot
 
