@@ -644,6 +644,44 @@ details p:last-of-type {
   }
 }
 
+.wide-toc-sticky-layout__toc-footer {
+  margin-top: 0.5rem;
+}
+
+.wide-toc-sticky-layout__toc-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.45rem 0.75rem;
+  font-family: $sans-serif;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1.4;
+  color: $text-color !important;
+  text-decoration: none !important;
+  background: $background-color;
+  border: 1px solid $border-color;
+  border-left: 3px solid $primary-color;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125);
+  transition: color 0.15s ease, border-color 0.15s ease;
+
+  @include breakpoint($large) {
+    font-size: 0.6875em;
+  }
+
+  &:hover {
+    color: $primary-color !important;
+    border-color: $primary-color;
+  }
+
+  &:focus-visible {
+    outline: 3px solid $primary-color;
+    outline-offset: 2px;
+  }
+}
+
 @include breakpoint($large) {
   body.layout--wide-toc-sticky #main {
     width: calc(100vw - 180px);
