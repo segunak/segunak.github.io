@@ -5,7 +5,7 @@ toc: true
 toc_sticky: true
 toc_label: "On This Page"
 toc_icon: "robot"
-last_modified_at: 2026-11-06T14:07:51
+last_modified_at: 2026-11-10T16:43:04
 header:
   teaser: /assets/images/misc/aieducation.jpg
 categories:
@@ -171,7 +171,7 @@ Step-by-step lectures, videos, and hands-on exercises teaching the practical dev
 > **Free or Paid:** Free.
 {: .notice--primary}
 
-> **Anthropic:** [Claude Code in Action](https://academy.claude.com/courses/claude-code-in-action), **OpenAI:** [Codex 102](https://codex-102.vercel.app/preview), & **GitHub:** [Getting Started With GitHub Copilot](https://github.com/skills/getting-started-with-github-copilot)
+> **Anthropic:** [Claude Code in Action](https://academy.claude.com/courses/claude-code-in-action), **OpenAI:** [Codex 102](https://codex-102.vercel.app/preview), & **GitHub:** [GitHub Copilot Workshops](https://awesome-copilot.github.com/learning-hub/copilot-workshops/)
 >
 Free, hands-on courses anyone can take from start to finish to learn how to use three of the bigger AI coding harnesses. Also check out the public syllabi and slides from [Stanford's The Modern Software Developer](https://themodernsoftware.dev/), [Carnegie Mellon's Effective Coding with AI](https://www.cs.cmu.edu/~113/), and [Cornell's Software Engineering in the Era of AI](https://www.cs.cornell.edu/courses/cs6158/) to see what top universities are teaching in class.
 >

@@ -9,6 +9,10 @@ toc: true
 toc_sticky: true
 toc_label: "On This Page"
 toc_icon: "microphone"
+# Optional link card pinned beneath the sticky "On This Page" TOC box
+toc_footer_label: "All Slide Decks"
+toc_footer_url: "https://segunakinyemi.com/slides/"
+toc_footer_icon: "layer-group"
 header:
   teaser: /assets/images/me/thumbs/OnStageSpeaking-HandsSpread-MicrosoftCharlotteAISummit-2026.webp
   og_image: /assets/images/me/thumbs/OnStageSpeaking-HandsSpread-MicrosoftCharlotteAISummit-2026.webp
@@ -252,11 +256,9 @@ speaking_gallery:
 
 Welcome to my speaking page! When it comes to speaking publicly, I try to only talk about things I'm passionate about, and therefore know well, since it helps with eliminating anxiety.
 
-Once you get rolling on something you love, you forget all the many things that might've made you scared about presenting in the first place, and the [impostor syndrome](https://imwrightshardcode.com/2022/08/im-not-all-that/) rolls away. Well, sometimes at least.
+Once you get rolling on something you love, you forget all the many things that might've made you scared about presenting in the first place, and the [impostor syndrome](https://imwrightshardcode.com/2022/08/im-not-all-that/) rolls away. At least, sometimes it does.
 
-My talks tend to stay in the realm of technology, but I'm always open to speaking on anything within [my areas of interest](/tags/). Scroll through to watch some of my talks, browse my workshops, and see what I've been up to.
-
-If you'd like me to speak at your event, [get in touch](#get-in-touch)!
+My talks tend to stay in the realm of technology, but I'm always open to speaking on anything within [my areas of interest](/tags/). Scroll through to see what I've been up to. **If you'd like me to speak at your event, [get in touch](#get-in-touch)!**
 
 ## Watch
 
@@ -279,7 +281,7 @@ Stuff from [my YouTube channel](https://www.youtube.com/@segun.akinyemi) of me t
 
 ## Talks & Workshops
 
-Here are some of the talks and workshops I've developed. I try to keep this section updated, but I'm always working on new ideas. I'm always happy to adapt the format, length, or other details for different audiences, or create something entirely new!
+Here are some of the talks and workshops I've developed. I try to keep this section updated, but I'm always working on new ideas. In addition to scrolling this page, you can browse all of my published [slide decks](https://segunakinyemi.com/slides/) to get an idea of what I speak about.
 
 <div class="speaking-talks-grid" markdown="1">
 
@@ -324,7 +326,7 @@ By the end, you'll understand your options for durable context, including custom
 
 **Best For:** Software engineers and anyone building with AI coding tools
 
-**Format:** 45 minute talk
+**Format:** 30-45 minute talk
 
 For many of us software engineers, writing code was how we understood a system, shaped it, and found joy in our work. As AI writes more of the code, [some of us feel more creative than ever, while others feel we've lost the very thing we entered the profession to do](https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html?unlocked_article_code=1.NVE.uWGy.lcfM7YohvREI&smid=url-share).
 

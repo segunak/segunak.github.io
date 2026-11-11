@@ -1,7 +1,7 @@
 ---
 title: "Times Are Changing: Coding Is Dead, Software Engineering Isn't"
 excerpt: "Coding, as we've known it, is dead. Companies like Canva and Meta are already letting candidates use AI in technical interviews. But the real job has always been more than writing code. Long live software engineering."
-last_modified_at: 2026-11-06T14:07:51
+last_modified_at: 2026-11-10T16:43:04
 toc: true
 toc_sticky: true
 toc_label: "On This Page"
@@ -244,18 +244,31 @@ While LeetCode is still a thing, there are some companies catching on to the fac
 * [Wired - Meta Is Going to Let Job Candidates Use AI During Coding Tests](https://www.wired.com/story/meta-ai-job-interview-coding/)
 * [Reddit Testimonial - Canva's AI Assisted Coding Interview](https://www.reddit.com/r/cscareerquestionsOCE/comments/1mjos7d/canvas_ai_assisted_coding_interview/)
 * [Anna J. McDougall - You Can't Outrun AI in Tech Interviews, So We Designed Around It](https://annajmcdougall.medium.com/you-cant-outrun-ai-in-tech-interviews-so-we-designed-around-it-018ae0ac4ddd)
+* [Felix Rieseberg on X - Removing the Coding Interview at Anthropic](https://x.com/felixrieseberg/status/2115200995546566910)
+* [Felix Rieseberg (Anthropic) - Hunger Beats Tenure: Advice for Junior Engineers](https://felixrieseberg.com/hunger-beats-tenure-advice-for-junior-engineers/)
+* [Gergely Orosz on X - Why Coding Interviews Are Going Away](https://x.com/GergelyOrosz/status/2115537677676339483)
+* [Gergely Orosz on X - Google Adds AI Code Comprehension Along With DSA](https://x.com/GergelyOrosz/status/2109376632985432249)
 
-Some common themes across these new AI-assisted interviews are:
+I've actually given an AI-assisted interview using [HackerRank's AI-Assisted Interview Tool](https://support.hackerrank.com/articles/5821380141-ai-assisted-interviews). The tool lets you as an interviewer see the prompts and responses a candidate sends and gets, and it's locked down to not edit the code directly or flat out just give the answer, but act strictly as an assistant.
 
-* They fully expect you to use AI. Copy/paste the problem into the chat window. They want to see what you'd actually do at work.
-* You're still expected to sit in the driver's seat. AI is a copilot.
-* You still own the plan, the tradeoffs, the correctness, and the proof.
-* You will need to explain your thinking out loud. The solution AI built, the time and space complexity, what prompts you're writing next and why. If you type "hey do all this work I have no idea what I'm doing" that's a clear no hire signal. If you're writing intelligent prompts that provide guidance, direction, and push back, that's a pilot using a copilot effectively.
+For [my employer's](https://en.wikipedia.org/wiki/Microsoft) Software Engineering internships for Summer 2027, I interviewed two students in September 2026 and was explicitly told by recruiting I was allowed to enable the HackerRank AI tool **if I wanted to**. So that's the key thing, it was a choice I got to make as the interviewer. You really should not expect you'll get to. I just personally, being a very practical person (*we use AI all day every day, why wouldn't you be able to in the interview???*), turned it on and asked a question that still required cognitive ownership by the student. The exact question I asked [can be found here](https://github.com/segunak/stem-education/blob/master/miscellaneous/ai-assisted-interview-question-I-actually-asked.md).
+
+What I was looking for from the students was the following.
+
+* Use AI. Like I straight up told them don't be shy, I turned it on for a reason.
+* Do they understand the question, and most importantly, can they read and understand code? This is by far the most important thing I was looking for. Can you read the code this AI agent produced and understand it? And if you can't, do you know how to use AI to help you understand it better so you can then critique it?
+* Explain your thought process out loud. Ask questions. Explain what you plan to prompt the AI and why, and don't get caught up on things that don't matter anymore like the syntax of the code or how something works in Python. Just ask AI, my friend, what matters is solving the problem at hand, not all that!
+
+One student did really well who, despite not fully understanding the code, used AI to help himself understand it better, asking about the specific parts he wasn't sure of and getting good responses from the assistant. And once he got that info, he had the "oohhhhhhhhhh I get it" moment and started explaining out loud to me what I wanted to hear, what was wrong with the code, and how the AI should fix it. So he prompted the AI directly, not a vague "fix this", but a "produce this exact kind of code to do xyz", basically pseudocode, and copy/pasted it in to solve the problem. It was glorious!
+
+And the other student, well, the HackerRank environment for interviews tells the interviewer whenever the candidate leaves the current tab, a big pop-up. He left the current tab for minutes at a time, ostensibly to use some other AI tool, and that was like a huge "really bruh?" moment because I was already letting him use AI!
+
+Needless to say, I recommended the first student be hired rather than the second, and he was and will be interning at [my employer](https://en.wikipedia.org/wiki/Microsoft) during the summer of 2027. My [AI Technical Interview Workshop](https://segunakinyemi.com/ai-interview-workshop/) is all about getting students ready and familiar with this new reality!
 
 ## In Conclusion
 
 The industry is still figuring things out, but the direction is clear. Coding as a task is being automated. It's gone fam. If you want to write code by hand all day as a career, it's over. But software engineering as a discipline, the judgment, the systems thinking, the verification, that's becoming more valuable, not less.
 
-Furthermore, I think people should read [Latent Space's AI Engineer article](https://www.latent.space/p/ai-engineer). If you're even a little bit technical and know how to tinker and put things together, you can do amazing things quickly with AI, even if you're no good at LeetCode. Just look at [Moltbook](https://en.wikipedia.org/wiki/Moltbook), fully [made by a vibe coder](https://www.reddit.com/r/cybersecurity/comments/1qt5k5a/the_rise_of_moltbook_and_dangers_of_vibe_coding/) with [plenty of security concerns](https://www.404media.co/exposed-moltbook-database-let-anyone-take-control-of-any-ai-agent-on-the-site/) to go with it.
+Furthermore, I think people should read [Latent Space's AI Engineer article](https://www.latent.space/p/ai-engineer). If you're even a little bit technical and know how to tinker and put things together, you can do amazing things quickly with AI, even if you're no good at LeetCode.
 
 Don't fight the AI wave. You won't win. There's a [new divide](https://www.youtube.com/watch?v=t19wM1gn1Wo) forming. [Adapt or die](https://www.google.com/search?q=adapt+or+die+saying).

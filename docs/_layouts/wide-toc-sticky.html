@@ -49,6 +49,15 @@ layout: default
               <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[locale].toc_label | default: "On this page" }}</h4></header>
               {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" skip_no_ids=true %}
             </nav>
+            {% comment %}<!-- Optional link card pinned directly beneath the sticky TOC box (e.g., All Slide Decks on /speaking/) -->{% endcomment %}
+            {% if page.toc_footer_label and page.toc_footer_url %}
+              <div class="wide-toc-sticky-layout__toc-footer">
+                <a class="wide-toc-sticky-layout__toc-link" href="{{ page.toc_footer_url }}">
+                  <span>{% if page.toc_footer_icon %}<i class="fas fa-{{ page.toc_footer_icon }}" aria-hidden="true"></i> {% endif %}{{ page.toc_footer_label }}</span>
+                  <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                </a>
+              </div>
+            {% endif %}
           </aside>
         {% endif %}
 
