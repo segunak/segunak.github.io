@@ -326,7 +326,7 @@ By the end, you'll understand your options for durable context, including custom
 
 **Best For:** Software engineers and anyone building with AI coding tools
 
-**Format:** 45 minute talk
+**Format:** 30-45 minute talk
 
 For many of us software engineers, writing code was how we understood a system, shaped it, and found joy in our work. As AI writes more of the code, [some of us feel more creative than ever, while others feel we've lost the very thing we entered the profession to do](https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html?unlocked_article_code=1.NVE.uWGy.lcfM7YohvREI&smid=url-share).
 
