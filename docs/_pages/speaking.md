@@ -489,7 +489,7 @@ You'll also meet [AI Engineering](https://segunakinyemi.com/blog/what-is-ai-engi
   </div>
 </div>
 
-**Presented At:** [SEO TechDevCon 2025](https://www.linkedin.com/posts/seousa_techdevcon-seocommunity-techdevcon2026-activity-7361426367948775426-4OVS) · [NC A&T and Winston-Salem State University Discovery Day's](https://www.linkedin.com/posts/activity-7447388584438939648-t0A8)
+**Presented At:** [Discovery Day with UNC Charlotte](https://www.linkedin.com/posts/ai-becomes-a-lot-less-mysterious-once-you-share-7519149206629158912-908V/)  · [Discovery Day with NC A&T and Winston-Salem State University](https://www.linkedin.com/posts/activity-7447388584438939648-t0A8) · [SEO TechDevCon 2025](https://www.linkedin.com/posts/seousa_techdevcon-seocommunity-techdevcon2026-activity-7361426367948775426-4OVS)
 
 **Resources:** [Companion Article](/blog/seo-techdevcon-2025/) · [AI & Your Tech Career](https://aka.ms/nocap) · [Presentation Deck]({{ slides_url }}) · [The Rise of the AI Engineer](https://www.latent.space/p/ai-engineer) · [The Concerns That Inspired the Talk](https://segunakinyemi.com/blog/github-copilot-agent-mode/)
 
