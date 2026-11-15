@@ -363,11 +363,25 @@ In this talk, we'll explore ways to maintain cognitive ownership of systems buil
 
 **Format:** 45-60 minute talk (no laptops) or workshop (laptops required)
 
+<div class="talk-card__version" id="agentic-ai--talk" data-talk-version-label="Talk Version" markdown="1">
+
 With the rise of Agentic AI, [Uncle Ben's](https://en.wikipedia.org/wiki/Uncle_Ben) "with great power comes great responsibility" warning has never felt more relevant. AI agents can gather information, use tools, make decisions, and take action with limited human direction. Everybody's talking about them, but ask 10 people what an agent is and you'll get [10 different answers](https://simonwillison.net/2025/Sep/18/agents/). So what actually makes a system agentic, how is it different from Generative AI, and where does human responsibility still lie?
 
 In this session, we'll cut through the hype by looking at how AI agents are being used in the real world, and what happens when they go wrong. Through interactive scenarios where an agent is given a goal, a prompt, and access to tools, we'll unpack why a seemingly good result still went sideways. Along the way, we'll talk candidly about AI costs, layoffs, hiring trends, and the future of work.
 
 By the end, you'll understand LLMs, RAG, MCP, RLHF, context, and context windows through practical examples. You'll see what Agentic AI can do, where it falls short, and why the growing field of [AI Engineering](https://segunakinyemi.com/blog/what-is-ai-engineering/) still needs humans in the loop.
+
+</div>
+
+<div class="talk-card__version" id="agentic-ai--workshop" data-talk-version-label="Workshop Version" markdown="1">
+
+With the rise of Agentic AI, [Uncle Ben's](https://en.wikipedia.org/wiki/Uncle_Ben) "with great power comes great responsibility" warning has never felt more relevant. AI agents can gather information, use tools, make decisions, and take action with limited human direction. Everybody's talking about them, but ask 10 people what an agent is and you'll get [10 different answers](https://simonwillison.net/2025/Sep/18/agents/). So what makes a system agentic, how is it different from Generative AI, and where does human responsibility still lie?
+
+In this workshop, we'll cut through the hype with an approachable look at how modern AI works, then jump into a guided lab. You'll start with a bare AI model to see how little it can do on its own, and connect tools and context so it can grab live info and get things done. Next, you'll lock down a risky agent with guardrails and human approval, before building your own custom agent. Along the way, we'll talk candidly about AI costs, layoffs, hiring trends, and the future of work.
+
+By the end, you'll understand terms like LLMs, RAG, MCP, RLHF, context, and context windows firsthand. You'll see what Agentic AI can do, where it falls short, how agents work across the leading platforms, and why AI still needs humans in the loop.
+
+</div>
 
 {% assign slides_url = "https://segunakinyemi.com/slides/agentic-ai-technical-audience/" %}
 <div class="speaking-talk-dialog__slides">

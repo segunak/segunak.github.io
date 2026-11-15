@@ -25,6 +25,7 @@ Use the shared `dynamic-link-targeting.js` policy for page content and dialog li
 - Opening **View Details** replaces the current URL fragment without adding a browser history entry. Closing the dialog clears only the active talk fragment.
 - Keep every talk card inside `.speaking-talks-grid`, which renders 1 column on mobile, 2 on desktop, and an odd final card across the full row.
 - Keep the first description paragraph compelling and understandable on its own because it remains visible in the collapsed card.
+- When a single talk or workshop has multiple description versions (for example, `Talk Version` and `Workshop Version`), wrap each version in `<div class="talk-card__version" id="<talk-id>--<version>" data-talk-version-label="LABEL" markdown="1">...</div>` after `**Format:**`. Leave single-version entries unwrapped. Place the default version first so its opening paragraph populates the collapsed card preview, and treat `#<talk-id>--<version>` as a direct deep link to that version in the details dialog.
 - Link directly to useful recordings, articles, decks, workshops, and repositories.
 
 ### Slide Deck Links And Embeds
