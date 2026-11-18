@@ -304,15 +304,29 @@ Here are some of the talks and workshops I've developed. I try to keep this sect
 
 <div class="talk-card__title">Never Trust a Coding Agent That Only Reads the Code</div>
 
-**Best For:** Software engineers, computer science students, and anyone building with AI coding tools
+**Best For:** Software engineers and anyone building with AI coding tools
 
-**Format:** 60 minute workshop (laptops required)
+**Format:** 45-60 minute talk (no laptops) or workshop (laptops required)
+
+<div class="talk-card__version" id="never-trust-a-coding-agent--talk" data-talk-version-label="Talk" markdown="1">
+
+Much like life itself, building software is [complicated](https://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail). Any respectable harness ([Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview), [Codex](https://openai.com/codex/), [OpenCode](https://opencode.ai/), [GitHub Copilot](https://github.com/features/copilot), or [Antigravity](https://antigravity.google/)) already indexes your codebase, but that's only one part of a larger ecosystem. When your agent makes mistakes, it's usually not because it sucks. It's because it doesn't have the full picture. Code shows *how* something works, not *why*. Your agent doesn't automatically know what's going on in your chats, backlog, cloud, databases, dashboards, or partner codebases.
+
+To fix that, you've got to [broaden its horizons](https://openai.com/index/harness-engineering/). In this talk, we'll walk through real-world scenarios where an agent with only codebase access falls short on everyday engineering challenges. You'll see how to wire up [MCP servers](https://modelcontextprotocol.io/), [path-scoped instructions](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions#creating-path-specific-custom-instructions), [agent skills](https://docs.github.com/en/copilot/concepts/customizations/agent-skills), and [agent hooks](https://docs.github.com/en/copilot/reference/hooks-reference) to pair trusted facts with trusted evidence while [governing read and write access responsibly](https://codelabs.developers.google.com/harness-engineering-antigravity).
+
+Your agent can do so much more than edit code. With [context engineering](https://segunakinyemi.com/blog/github-copilot-surface-areas/), it becomes a research, knowledge, and [all-around engineering tool](https://segunakinyemi.com/blog/coding-is-dead-software-engineering-isnt/), helping you as the human in the loop. While you might not write it by hand anymore, [your job is to deliver code you have proven to work](https://simonwillison.net/2025/Dec/18/code-proven-to-work/), and that's easier when your agent has the full story.
+
+</div>
+
+<div class="talk-card__version" id="never-trust-a-coding-agent--workshop" data-talk-version-label="Workshop" markdown="1">
 
 Much like life itself, building software is [complicated](https://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail). Any respectable harness ([Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview), [Codex](https://openai.com/codex/), [OpenCode](https://opencode.ai/), [GitHub Copilot](https://github.com/features/copilot), or [Antigravity](https://antigravity.google/)) already indexes your codebase, but that's only one part of a larger ecosystem. When your agent makes mistakes, it's usually not because it sucks. It's because it doesn't have the full picture. Code shows *how* something works, not *why*. Your agent doesn't automatically know what's going on in your chats, backlog, cloud, databases, dashboards, or partner codebases.
 
 To fix that, you've got to [broaden its horizons](https://openai.com/index/harness-engineering/). In this workshop, you'll step into a simulated system where an agent with only codebase access falls short on everyday engineering challenges. Then we'll wire up [MCP servers](https://modelcontextprotocol.io/), [path-scoped instructions](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions#creating-path-specific-custom-instructions), [agent skills](https://docs.github.com/en/copilot/concepts/customizations/agent-skills), and [agent hooks](https://docs.github.com/en/copilot/reference/hooks-reference) to pair trusted facts with trusted evidence while [governing read and write access responsibly](https://codelabs.developers.google.com/harness-engineering-antigravity).
 
 Your agent can do so much more than edit code. With [context engineering](https://segunakinyemi.com/blog/github-copilot-surface-areas/), it becomes a research, knowledge, and [all-around engineering tool](https://segunakinyemi.com/blog/coding-is-dead-software-engineering-isnt/), helping you as the human in the loop. While you might not write it by hand anymore, [your job is to deliver code you have proven to work](https://simonwillison.net/2025/Dec/18/code-proven-to-work/), and that's easier when your agent has the full story.
+
+</div>
 
 <!-- Slides: TBD -->
 
