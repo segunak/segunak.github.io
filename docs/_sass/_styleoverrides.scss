@@ -1252,6 +1252,7 @@ details p:last-of-type {
 .speaking-talk-dialog__tabs {
   display: inline-flex;
   align-self: flex-end;
+  align-items: stretch;
   flex-wrap: wrap;
   gap: 3px;
   padding: 3px;
@@ -1273,10 +1274,33 @@ details p:last-of-type {
   }
 }
 
+.speaking-talk-dialog__tabs-label {
+  display: inline-flex;
+  align-items: center;
+  margin: -3px 2px -3px -3px;
+  padding: 0 0.6rem;
+  background-color: rgba(128, 128, 128, 0.05);
+  border-right: 1px solid $border-color;
+  border-bottom-left-radius: 7px;
+  color: rgba($text-color, 0.56);
+  font-size: 0.76em;
+  font-weight: 500;
+  line-height: 1.2;
+  white-space: nowrap;
+  user-select: none;
+
+  @media (max-width: 520px) {
+    display: none;
+  }
+}
+
 .speaking-talk-dialog__tab {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   flex: 0 0 auto;
-  min-height: 34px;
-  padding: 0.4rem 0.85rem;
+  min-height: 30px;
+  padding: 0.3rem 0.7rem;
   appearance: none;
   border: 1px solid transparent;
   border-radius: 5px;
@@ -1284,7 +1308,7 @@ details p:last-of-type {
   color: $text-color;
   opacity: 0.8;
   font-family: inherit;
-  font-size: 0.84em;
+  font-size: 0.8em;
   font-weight: 600;
   line-height: 1.2;
   text-align: center;
@@ -1299,8 +1323,9 @@ details p:last-of-type {
 
   @media (max-width: 520px) {
     flex: 1 1 0;
-    min-height: 38px;
-    padding: 0.45rem 0.65rem;
+    min-width: 0;
+    min-height: 36px;
+    padding: 0.4rem 0.5rem;
     white-space: normal;
   }
 

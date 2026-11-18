@@ -19,28 +19,37 @@ Use the shared `dynamic-link-targeting.js` policy for page content and dialog li
 ## Talks & Workshops
 
 - Add every new talk or workshop at the beginning of `.speaking-talks-grid`, before all existing `.talk-card` entries. Keep the existing entries in their current order.
-- Copy an existing `.talk-card` and preserve this order: `.talk-card__title`, optional italic subtitle, `**Best For:**`, `**Format:**`, description, optional slides embed, `**Presented At:**`, and `**Resources:**`. Keep the title as a styled non-heading element so it does not enter the page TOC. Omit the subtitle or slides embed when none exists.
+- Copy an existing `.talk-card` and preserve this order: `.talk-card__title`, optional italic subtitle, `**Best For:**`, `**Format:**`, description, optional slides embed, `**Presented At:**`, and `**Resources:**`. Keep the title as a styled non-heading element so it does not enter the page TOC. Omit the subtitle or slides embed when none exists, and leave empty `**Presented At:**` or `**Resources:**` shells commented out (`<!-- **Presented At:** -->`, `<!-- **Resources:** -->`) when unused.
 - Give every `.talk-card` a unique, permanent, lowercase kebab-case `id`. Treat `/speaking/#<id>` as a public permalink, and never change an existing ID when a talk title changes.
 - Preserve progressive enhancement for talk permalinks. The source card owns the ID, the dialog clones only its contents, recognized fragments open the matching dialog, and unrelated fragments remain untouched.
 - Opening **View Details** replaces the current URL fragment without adding a browser history entry. Closing the dialog clears only the active talk fragment.
 - Keep every talk card inside `.speaking-talks-grid`, which renders 1 column on mobile, 2 on desktop, and an odd final card across the full row.
 - Keep the first description paragraph compelling and understandable on its own because it remains visible in the collapsed card.
-- When a single talk or workshop has multiple description versions (for example, `Talk Version` and `Workshop Version`), wrap each version in `<div class="talk-card__version" id="<talk-id>--<version>" data-talk-version-label="LABEL" markdown="1">...</div>` after `**Format:**`. Leave single-version entries unwrapped. Place the default version first so its opening paragraph populates the collapsed card preview, and treat `#<talk-id>--<version>` as a direct deep link to that version in the details dialog.
-- Link directly to useful recordings, articles, decks, workshops, and repositories.
+- When a single talk or workshop has multiple description versions (for example, `Talk` and `Workshop`), wrap each version in `<div class="talk-card__version" id="<talk-id>--<version>" data-talk-version-label="LABEL" markdown="1">...</div>` after `**Format:**`. Omit the word `Version` from `LABEL` because the tab bar adds a `Version` label automatically. Leave single-version entries unwrapped. Place the default version first so its opening paragraph populates the collapsed card preview, and treat `#<talk-id>--<version>` as a direct deep link to that version in the details dialog.
+- Under `**Resources:**`, link directly to useful recordings, articles, workshops, and repositories. Do not link to slide decks under `**Resources:**` when they are already included in the Slides section; comment out `**Resources:**` when no other resources exist.
 
 ### Slide Deck Links And Embeds
 
-- Use the published `https://segunakinyemi.com/slides/<deck-name>/` URL for both the inline viewer and the direct resource link. Get the exact deck name from the slides repository's `decks.yml` or generated index; do not guess slugs or create OneDrive sharing/embed URLs.
-- Embed 1 representative version after the complete description and before `**Presented At:**`. Keep alternate versions as direct links under `**Resources:**`.
-- Define `slides_url` once per card with a Liquid assignment. Reuse it for the visible link, iframe data attribute, and matching `**Resources:**` link.
-- Put the copy row below the Slides heading and above the iframe. Reuse the existing `speaking-email` styles. Keep the link, `data-copy-url` button, and status element as adjacent siblings in that order because the copy handler reads the neighboring elements.
-- Use `{{ slides_url | escape }}` in `data-speaking-talk-slides-src`. Do not add `src` in the source card. `speaking-talks.js` adds `src` after the matching dialog opens, shows an accessible loading status, and replaces it with guidance to use the presentation link under `**Resources:**`. Removing the dialog contents unloads the viewer when it closes.
-- Use the existing responsive wrapper and attributes. Replace only the URL and descriptive title.
+- Use the published `https://segunakinyemi.com/slides/<deck-name>/` URL for both the inline viewer and the visible slide URL row. Get the exact deck name from the slides repository's `decks.yml` or generated index; do not guess slugs or create OneDrive sharing/embed URLs.
+- Place the slides block after the complete description and before `**Presented At:**`. Leave single-deck entries without a version list. When a talk or workshop has multiple published decks, add `<div class="speaking-talk-dialog__slides-versions" hidden>` below the Slides heading with 1 `<a href="...">LABEL</a>` per version, placing the default version first and omitting the word `Version` from `LABEL` because the tab bar adds a `Version` label automatically. Do not duplicate embedded slide deck links under `**Resources:**`.
+- Define each deck URL once per card with a Liquid assignment, starting with `slides_url` for the default deck. Reuse those variables for any version links, the visible link, and the iframe data attribute.
+- Put the copy row below the iframe. Reuse the existing `speaking-email` styles. Keep the link, `data-copy-url` button, and status element as adjacent siblings in that order because the copy handler reads the neighboring elements.
+- Use `{{ slides_url | escape }}` in `data-speaking-talk-slides-src`. Do not add `src` in the source card. `speaking-talks.js` adds `src` after the matching dialog opens, builds version tabs when 2 or more slide versions exist, shows an accessible loading status, and replaces it with guidance to use the slide link below. Removing the dialog contents unloads the viewer when it closes.
+- Use the existing responsive wrapper and attributes. Replace only the URL and descriptive title, and include `.speaking-talk-dialog__slides-versions` only when 2 or more published decks exist.
 
 ```liquid
 {% assign slides_url = "https://segunakinyemi.com/slides/DECK_NAME/" %}
 <div class="speaking-talk-dialog__slides">
 	<div class="speaking-talk-dialog__section-heading">Slides</div>
+	<!-- Optional when 2+ published decks exist:
+	<div class="speaking-talk-dialog__slides-versions" hidden>
+		<a href="{{ slides_url | escape }}">General</a>
+		<a href="{{ workshop_slides_url | escape }}">Workshop</a>
+	</div>
+	-->
+	<div class="speaking-talk-dialog__slides-frame">
+		<iframe data-speaking-talk-slides-iframe data-speaking-talk-slides-src="{{ slides_url | escape }}" title="TALK_TITLE slides" loading="lazy" allowfullscreen></iframe>
+	</div>
 	<div class="speaking-email speaking-talk-dialog__slides-url">
 		<div class="speaking-email__details">
 			<a class="speaking-email__address" href="{{ slides_url | escape }}">{{ slides_url | escape }}</a>
@@ -48,16 +57,13 @@ Use the shared `dynamic-link-targeting.js` policy for page content and dialog li
 			<span class="speaking-email__status" role="status" aria-live="polite"></span>
 		</div>
 	</div>
-	<div class="speaking-talk-dialog__slides-frame">
-		<iframe data-speaking-talk-slides-iframe data-speaking-talk-slides-src="{{ slides_url | escape }}" title="TALK_TITLE slides" loading="lazy" allowfullscreen></iframe>
-	</div>
 </div>
 
-**Resources:** [Presentation Deck]({{ slides_url }})
+<!-- **Resources:** -->
 ```
 
 - Keep the deck-specific styles in the existing `<style>` block in `speaking.md`. Preserve the frame's aspect ratio, loading spinner, reduced-motion behavior, full-width iframe, border, and overflow rules. Do not move these styles into the sitewide `_styleoverrides.scss` file or add fixed `width` or `height` attributes.
-- Keep a direct published slide link under `**Resources:**` so visitors can open the presentation separately and use its PDF and PowerPoint downloads. OneDrive is the publisher's source, not a public viewing endpoint.
+- Keep the visible published slide URL and Open action in the Slides section so visitors can open the presentation separately and use its PDF and PowerPoint downloads. OneDrive is the publisher's source, not a public viewing endpoint.
 - Make code changes only. The user handles all slide embed validation. Never open, fetch, render, or test an embed to verify its access, loading, controls, layout, or updates.
 
 ## Features, Mentions, & Testimonials

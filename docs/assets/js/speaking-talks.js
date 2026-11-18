@@ -77,6 +77,104 @@
     }
   }
 
+  function resetSlideCopyButton(slidesContainer) {
+    if (!slidesContainer) {
+      return;
+    }
+
+    var button = slidesContainer.querySelector("[data-copy-url]");
+    var status = button && button.nextElementSibling;
+    var label = button && button.querySelector("span");
+    var icon = button && button.querySelector("i");
+
+    if (label) {
+      label.textContent = "Copy";
+    }
+    if (icon) {
+      icon.className = "fas fa-copy";
+    }
+    if (status) {
+      status.textContent = "";
+    }
+  }
+
+  function createTabBar(config) {
+    var tabList = document.createElement("div");
+    tabList.className = "speaking-talk-dialog__tabs";
+    tabList.setAttribute("role", "tablist");
+    tabList.setAttribute("aria-label", config.ariaLabel);
+
+    var tabPrefix = document.createElement("span");
+    tabPrefix.className = "speaking-talk-dialog__tabs-label";
+    tabPrefix.setAttribute("aria-hidden", "true");
+    tabPrefix.textContent = "Version";
+    tabList.appendChild(tabPrefix);
+
+    var tabButtons = config.labels.map(function (label, index) {
+      var tabButton = document.createElement("button");
+      tabButton.type = "button";
+      tabButton.className = "speaking-talk-dialog__tab";
+      tabButton.id = config.idPrefix + "-" + index;
+      tabButton.setAttribute("role", "tab");
+      tabButton.setAttribute("aria-controls", config.getPanelId(index));
+      tabButton.textContent = label;
+      tabList.appendChild(tabButton);
+      return tabButton;
+    });
+
+    function selectTab(targetIndex, options) {
+      var opts = options || {};
+      var safeIndex =
+        targetIndex >= 0 && targetIndex < tabButtons.length ? targetIndex : 0;
+
+      tabButtons.forEach(function (btn, idx) {
+        var isSelected = idx === safeIndex;
+        btn.setAttribute("aria-selected", isSelected ? "true" : "false");
+        btn.setAttribute("tabindex", isSelected ? "0" : "-1");
+      });
+
+      config.onSelect(safeIndex, opts, tabButtons[safeIndex]);
+
+      if (opts.focus) {
+        tabButtons[safeIndex].focus();
+      }
+    }
+
+    tabButtons.forEach(function (btn, index) {
+      btn.addEventListener("click", function () {
+        selectTab(index, { updateHash: true, animate: true });
+      });
+    });
+
+    tabList.addEventListener("keydown", function (event) {
+      var currentIndex = tabButtons.indexOf(document.activeElement);
+      if (currentIndex < 0) {
+        return;
+      }
+
+      var nextIndex = null;
+      if (event.key === "ArrowRight") {
+        nextIndex = (currentIndex + 1) % tabButtons.length;
+      } else if (event.key === "ArrowLeft") {
+        nextIndex = (currentIndex - 1 + tabButtons.length) % tabButtons.length;
+      } else if (event.key === "Home") {
+        nextIndex = 0;
+      } else if (event.key === "End") {
+        nextIndex = tabButtons.length - 1;
+      }
+
+      if (nextIndex !== null) {
+        event.preventDefault();
+        selectTab(nextIndex, { updateHash: true, focus: true, animate: true });
+      }
+    });
+
+    return {
+      tabList: tabList,
+      selectTab: selectTab
+    };
+  }
+
   function copyDescription(container) {
     var paragraphs = Array.prototype.slice.call(container.querySelectorAll("p"));
     var plainText = paragraphs
@@ -220,56 +318,106 @@
       slideLoadTimers = [];
     }
 
-    function loadTalkSlides(dialogCard) {
-      clearSlideLoadTimers();
+    function ensureSlideStatusElements(frame) {
+      var status = frame.querySelector(".speaking-talk-dialog__slides-status");
+      var spinner;
+      var statusText;
 
-      dialogCard.querySelectorAll("[data-speaking-talk-slides-iframe]").forEach(function (iframe) {
-        var frame = iframe.closest(".speaking-talk-dialog__slides-frame");
-        var source = iframe.getAttribute("data-speaking-talk-slides-src");
-
-        if (!frame || !source) {
-          return;
-        }
-
-        var status = document.createElement("div");
+      if (!status) {
+        status = document.createElement("div");
         status.className = "speaking-talk-dialog__slides-status";
         status.setAttribute("role", "status");
         status.setAttribute("aria-live", "polite");
 
-        var spinner = document.createElement("span");
+        spinner = document.createElement("span");
         spinner.className = "speaking-talk-dialog__slides-spinner";
         spinner.setAttribute("aria-hidden", "true");
 
-        var statusText = document.createElement("span");
-        statusText.textContent = "Loading slides.";
+        statusText = document.createElement("span");
+        statusText.className = "speaking-talk-dialog__slides-status-text";
 
         status.appendChild(spinner);
         status.appendChild(statusText);
         frame.prepend(status);
-        iframe.setAttribute("aria-hidden", "true");
-        iframe.setAttribute("tabindex", "-1");
+      } else {
+        spinner = status.querySelector(".speaking-talk-dialog__slides-spinner");
+        statusText = status.querySelector(".speaking-talk-dialog__slides-status-text");
+      }
 
-        var timer = window.setTimeout(function () {
-          spinner.hidden = true;
-          statusText.textContent =
-            "Slides are taking longer than expected. Use the presentation link under Resources.";
-        }, 12000);
-        slideLoadTimers.push(timer);
+      return {
+        status: status,
+        spinner: spinner,
+        statusText: statusText
+      };
+    }
 
-        iframe.addEventListener(
-          "load",
-          function () {
-            window.clearTimeout(timer);
-            status.hidden = true;
-            frame.classList.add("speaking-talk-dialog__slides-frame--loaded");
-            iframe.removeAttribute("aria-hidden");
-            iframe.removeAttribute("tabindex");
-          },
-          { once: true }
-        );
+    function loadSlideIframe(iframe) {
+      var frame = iframe && iframe.closest(".speaking-talk-dialog__slides-frame");
+      var source = iframe && iframe.getAttribute("data-speaking-talk-slides-src");
 
-        iframe.setAttribute("src", source);
-      });
+      if (!frame || !source) {
+        return;
+      }
+
+      if (iframe.getAttribute("src") === source) {
+        return;
+      }
+
+      if (frame._slideTimer) {
+        window.clearTimeout(frame._slideTimer);
+        frame._slideTimer = null;
+      }
+
+      var statusParts = ensureSlideStatusElements(frame);
+      var requestId = (frame._slideRequestId || 0) + 1;
+      frame._slideRequestId = requestId;
+
+      frame.classList.remove("speaking-talk-dialog__slides-frame--loaded");
+      statusParts.spinner.hidden = false;
+      statusParts.statusText.textContent = "Loading slides.";
+      statusParts.status.hidden = false;
+      iframe.setAttribute("aria-hidden", "true");
+      iframe.setAttribute("tabindex", "-1");
+
+      if (!iframe.dataset.slidesListenerReady) {
+        iframe.addEventListener("load", function () {
+          if (!iframe.getAttribute("src")) {
+            return;
+          }
+          if (frame._slideTimer) {
+            window.clearTimeout(frame._slideTimer);
+            frame._slideTimer = null;
+          }
+          statusParts.status.hidden = true;
+          frame.classList.add("speaking-talk-dialog__slides-frame--loaded");
+          iframe.removeAttribute("aria-hidden");
+          iframe.removeAttribute("tabindex");
+        });
+        iframe.dataset.slidesListenerReady = "true";
+      }
+
+      var timer = window.setTimeout(function () {
+        if (frame._slideRequestId !== requestId) {
+          return;
+        }
+        statusParts.spinner.hidden = true;
+        statusParts.statusText.textContent =
+          "Slides are taking longer than expected. Use the slide link below.";
+      }, 12000);
+      frame._slideTimer = timer;
+      slideLoadTimers.push(timer);
+
+      iframe.setAttribute("src", source);
+    }
+
+    function loadTalkSlides(dialogCard) {
+      clearSlideLoadTimers();
+
+      dialogCard
+        .querySelectorAll("[data-speaking-talk-slides-iframe]")
+        .forEach(function (iframe) {
+          loadSlideIframe(iframe);
+        });
     }
 
     function createDescriptionActions() {
@@ -338,7 +486,10 @@
           return isDescriptionParagraph(element);
         });
 
-      dialogTitle.textContent = titleElement ? titleElement.textContent : "Talk Details";
+      var baseTalkTitle = titleElement
+        ? normalizeText(titleElement.textContent)
+        : "Talk Details";
+      dialogTitle.textContent = baseTalkTitle;
       if (titleElement) {
         titleElement.remove();
       }
@@ -372,120 +523,74 @@
         tabbedCard.className = "bio-card bio-card--tabbed";
         tabbedHeading.after(tabbedCard);
 
-        var tabList = document.createElement("div");
-        tabList.className = "speaking-talk-dialog__tabs";
-        tabList.setAttribute("role", "tablist");
-        tabList.setAttribute("aria-label", "Description versions");
-
         var tabbedContent = document.createElement("div");
         tabbedContent.className = "bio-card__content";
 
-        var tabButtons = [];
         var tabPanels = [];
         var versionMetas = [];
+        var versionLabels = [];
 
         versionElements.forEach(function (versionElement, index) {
           var meta = getVersionMeta(versionElement, talkId, index);
           versionMetas.push(meta);
-
-          var tabButton = document.createElement("button");
-          tabButton.type = "button";
-          tabButton.className = "speaking-talk-dialog__tab";
-          tabButton.id = "speaking-talk-dialog-tab-" + index;
-          tabButton.setAttribute("role", "tab");
-          tabButton.setAttribute("aria-controls", "speaking-talk-dialog-panel-" + index);
-          tabButton.textContent = meta.label;
+          versionLabels.push(meta.label);
 
           var panel = document.createElement("div");
           panel.className = "speaking-talk-dialog__panel";
           panel.id = "speaking-talk-dialog-panel-" + index;
           panel.setAttribute("role", "tabpanel");
-          panel.setAttribute("aria-labelledby", tabButton.id);
+          panel.setAttribute("aria-labelledby", "speaking-talk-dialog-tab-" + index);
 
           while (versionElement.firstChild) {
             panel.appendChild(versionElement.firstChild);
           }
           versionElement.remove();
 
-          tabButtons.push(tabButton);
           tabPanels.push(panel);
-          tabList.appendChild(tabButton);
           tabbedContent.appendChild(panel);
         });
 
-        function selectVersion(targetIndex, options) {
-          var opts = options || {};
-          var safeIndex =
-            targetIndex >= 0 && targetIndex < tabButtons.length ? targetIndex : 0;
+        var descriptionTabs = createTabBar({
+          labels: versionLabels,
+          ariaLabel: "Description versions",
+          idPrefix: "speaking-talk-dialog-tab",
+          getPanelId: function (index) {
+            return "speaking-talk-dialog-panel-" + index;
+          },
+          onSelect: function (safeIndex, opts) {
+            tabPanels.forEach(function (panel, idx) {
+              var isSelected = idx === safeIndex;
+              panel.hidden = !isSelected;
+              if (isSelected && opts.animate) {
+                panel.style.animation = "none";
+                void panel.offsetHeight;
+                panel.style.animation = "";
+              }
+            });
 
-          tabButtons.forEach(function (btn, idx) {
-            var isSelected = idx === safeIndex;
-            btn.setAttribute("aria-selected", isSelected ? "true" : "false");
-            btn.setAttribute("tabindex", isSelected ? "0" : "-1");
-          });
+            resetCopyButton(tabbedCard);
 
-          tabPanels.forEach(function (panel, idx) {
-            var isSelected = idx === safeIndex;
-            panel.hidden = !isSelected;
-            if (isSelected && opts.animate) {
-              panel.style.animation = "none";
-              void panel.offsetHeight;
-              panel.style.animation = "";
+            if (opts.updateHash && talkId) {
+              var targetHash =
+                safeIndex === 0 || !versionMetas[safeIndex].hashId
+                  ? "#" + talkId
+                  : "#" + versionMetas[safeIndex].hashId;
+              if (location.hash !== targetHash) {
+                history.replaceState(history.state, "", targetHash);
+              }
             }
-          });
-
-          resetCopyButton(tabbedCard);
-
-          if (opts.focus) {
-            tabButtons[safeIndex].focus();
-          }
-
-          if (opts.updateHash && talkId) {
-            var targetHash =
-              safeIndex === 0 || !versionMetas[safeIndex].hashId
-                ? "#" + talkId
-                : "#" + versionMetas[safeIndex].hashId;
-            if (location.hash !== targetHash) {
-              history.replaceState(history.state, "", targetHash);
-            }
-          }
-        }
-
-        tabButtons.forEach(function (btn, index) {
-          btn.addEventListener("click", function () {
-            selectVersion(index, { updateHash: true, animate: true });
-          });
-        });
-
-        tabList.addEventListener("keydown", function (event) {
-          var currentIndex = tabButtons.indexOf(document.activeElement);
-          if (currentIndex < 0) {
-            return;
-          }
-
-          var nextIndex = null;
-          if (event.key === "ArrowRight") {
-            nextIndex = (currentIndex + 1) % tabButtons.length;
-          } else if (event.key === "ArrowLeft") {
-            nextIndex = (currentIndex - 1 + tabButtons.length) % tabButtons.length;
-          } else if (event.key === "Home") {
-            nextIndex = 0;
-          } else if (event.key === "End") {
-            nextIndex = tabButtons.length - 1;
-          }
-
-          if (nextIndex !== null) {
-            event.preventDefault();
-            selectVersion(nextIndex, { updateHash: true, focus: true, animate: true });
           }
         });
 
-        tabbedCard.appendChild(tabList);
+        tabbedCard.appendChild(descriptionTabs.tabList);
         tabbedCard.appendChild(tabbedContent);
         tabbedCard.appendChild(createDescriptionActions());
 
-        selectVersion(initialVersionIndex || 0, { updateHash: false, animate: false });
-        activeSelectVersion = selectVersion;
+        descriptionTabs.selectTab(initialVersionIndex || 0, {
+          updateHash: false,
+          animate: false
+        });
+        activeSelectVersion = descriptionTabs.selectTab;
       } else if (description) {
         var descriptionHeading = document.createElement("div");
         descriptionHeading.className = "speaking-talk-dialog__section-heading";
@@ -553,6 +658,94 @@
           openButton.appendChild(openIcon);
           openButton.appendChild(openLabel);
           copyBtn.before(openButton);
+        });
+
+      dialogCard
+        .querySelectorAll(".speaking-talk-dialog__slides")
+        .forEach(function (slidesSection, slidesIndex) {
+          var versionsContainer = slidesSection.querySelector(
+            ".speaking-talk-dialog__slides-versions"
+          );
+          var versionLinks = versionsContainer
+            ? Array.prototype.slice.call(versionsContainer.querySelectorAll("a[href]"))
+            : [];
+
+          if (versionsContainer) {
+            versionsContainer.remove();
+          }
+
+          var slideVersions = versionLinks
+            .map(function (anchor, index) {
+              var url = normalizeText(anchor.getAttribute("href") || "");
+              var label = normalizeText(anchor.textContent || "") || "Version " + (index + 1);
+              return url ? { label: label, url: url } : null;
+            })
+            .filter(Boolean);
+
+          if (slideVersions.length < 2) {
+            return;
+          }
+
+          var urlCard = slidesSection.querySelector(".speaking-talk-dialog__slides-url");
+          var details = urlCard && urlCard.querySelector(".speaking-email__details");
+          var address = details && details.querySelector(".speaking-email__address");
+          var frame = slidesSection.querySelector(".speaking-talk-dialog__slides-frame");
+          var iframe = slidesSection.querySelector("[data-speaking-talk-slides-iframe]");
+
+          if (!urlCard || !details || !address || !frame || !iframe) {
+            return;
+          }
+
+          var baseSlidesTitle =
+            normalizeText((iframe.getAttribute("title") || "").replace(/\s+slides$/i, "")) ||
+            baseTalkTitle;
+          var panelId = "speaking-talk-dialog-slides-panel-" + slidesIndex;
+          var slidesCard = document.createElement("div");
+          slidesCard.className = "bio-card bio-card--tabbed speaking-talk-dialog__slides-card";
+
+          var slidesBody = document.createElement("div");
+          slidesBody.className = "speaking-talk-dialog__slides-body";
+          slidesBody.id = panelId;
+          slidesBody.setAttribute("role", "tabpanel");
+
+          slidesBody.appendChild(frame);
+          slidesBody.appendChild(urlCard);
+
+          var slideTabs = createTabBar({
+            labels: slideVersions.map(function (version) {
+              return version.label;
+            }),
+            ariaLabel: "Slide versions",
+            idPrefix: "speaking-talk-dialog-slides-tab-" + slidesIndex,
+            getPanelId: function () {
+              return panelId;
+            },
+            onSelect: function (safeIndex, opts, activeButton) {
+              var selected = slideVersions[safeIndex];
+              var currentUrl = normalizeText(address.getAttribute("href") || "");
+              slidesBody.setAttribute("aria-labelledby", activeButton.id);
+              address.setAttribute("href", selected.url);
+              address.textContent = selected.url;
+              iframe.setAttribute("data-speaking-talk-slides-src", selected.url);
+              iframe.setAttribute(
+                "title",
+                baseSlidesTitle + " (" + selected.label + ") slides"
+              );
+
+              if (currentUrl !== selected.url || opts.loadIframe === false) {
+                resetSlideCopyButton(slidesSection);
+              }
+
+              if (opts.loadIframe !== false) {
+                loadSlideIframe(iframe);
+              }
+            }
+          });
+
+          slidesCard.appendChild(slideTabs.tabList);
+          slidesCard.appendChild(slidesBody);
+          slidesSection.appendChild(slidesCard);
+          slideTabs.selectTab(0, { loadIframe: false });
         });
 
       dialogCard.className = "speaking-talk-dialog__article";
