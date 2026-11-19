@@ -470,18 +470,32 @@ By the end, you'll understand terms like LLMs, RAG, MCP, RLHF, context, and cont
 
 **Format:** 45-60 minute talk (no laptops) or workshop (laptops required)
 
-ChatGPT can feel like magic, but underneath it all, it's making **highly educated** guesses based on patterns. This AI Literacy session takes an intentionally oversimplified dive into machine learning, neural networks, and deep learning by turning you into the computer.
+<div class="talk-card__version" id="how-to-train-your-ai--talk" data-talk-version-label="Talk" markdown="1">
+
+ChatGPT can feel like magic, but underneath it all, it's making **highly educated** guesses based on patterns. This AI Literacy talk takes an intentionally oversimplified dive into machine learning, neural networks, and deep learning by turning you into the computer.
 
 You'll write traditional programming rules for [recognizing a cat](https://arxiv.org/abs/1112.6209), learn to recognize an unfamiliar writing system from examples, and guess missing words in sentences. Along the way, you'll get an approachable understanding of [supervised learning](https://www.google.com/search?q=what+is+supervised+learning+explain+like+I%27m+five&udm=50), [self-supervised learning](https://www.google.com/search?q=what+is+self-supervised+learning+explain+like+I%27m+five&udm=50), and how [large language models (LLMs)](https://www.google.com/search?q=what+are+large+language+models+explain+like+I%27m+five&udm=50) learn by guessing, checking, and adjusting across enormous amounts of text.
 
 By the end, you'll understand how examples become patterns, how patterns become predictions, and what makes training AI models so expensive. The result may seem intelligent, but it's fundamentally pattern recognition at scale and still requires humans in the loop.
+
+</div>
+
+<div class="talk-card__version" id="how-to-train-your-ai--workshop" data-talk-version-label="Workshop" markdown="1">
+
+ChatGPT can feel like magic, but underneath it all, it's making **highly educated** guesses based on patterns. This AI Literacy workshop takes an intentionally oversimplified dive into machine learning, neural networks, and deep learning by turning you into the computer.
+
+You'll write traditional programming rules for [recognizing a cat](https://arxiv.org/abs/1112.6209) and guess missing words in sentences. Then, in a [visual](https://poloclub.github.io/transformer-explainer/), browser-based exercise, you'll tune the inputs and parameters to a model and see how they affect the output. Along the way, you'll get an approachable understanding of [supervised learning](https://www.google.com/search?q=what+is+supervised+learning+explain+like+I%27m+five&udm=50), [self-supervised learning](https://www.google.com/search?q=what+is+self-supervised+learning+explain+like+I%27m+five&udm=50), and how [large language models (LLMs)](https://www.google.com/search?q=what+are+large+language+models+explain+like+I%27m+five&udm=50) learn by guessing, checking, and adjusting across enormous amounts of text.
+
+By the end, you'll understand how examples become patterns, how patterns become predictions, and what makes training AI models so expensive. The result may seem intelligent, but it's fundamentally pattern recognition at scale and still requires humans in the loop.
+
+</div>
 
 {% assign slides_url = "https://segunakinyemi.com/slides/how-to-train-your-ai-language-activity/" %}
 {% assign workshop_slides_url = "https://segunakinyemi.com/slides/how-to-train-your-ai-coding-activity/" %}
 <div class="speaking-talk-dialog__slides">
   <div class="speaking-talk-dialog__section-heading">Slides</div>
   <div class="speaking-talk-dialog__slides-versions" hidden>
-    <a href="{{ slides_url | escape }}">General</a>
+    <a href="{{ slides_url | escape }}">Talk</a>
     <a href="{{ workshop_slides_url | escape }}">Workshop</a>
   </div>
   <div class="speaking-talk-dialog__slides-frame">
