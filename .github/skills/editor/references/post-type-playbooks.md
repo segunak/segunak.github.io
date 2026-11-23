@@ -12,16 +12,17 @@ Canonical examples:
 
 1. [Reference Linked Services](../../../../docs/_posts/2024-05-18-reference-linked-services-synapse.md)
 2. [GitHub Copilot Auto-Approve URLs](../../../../docs/_posts/2026-02-24-vscode-github-copilot-auto-approve-urls.md)
+3. [Microsoft Fabric Lakehouse SQL Analytics Endpoints](../../../../docs/_posts/2025-11-14-microsoft-fabric-lakehouse-sql-analytics-endpoints.md)
 
 Pattern:
 
-1. Open with the problem and context.
-2. Show the syntax, screenshot, or code quickly.
+1. Name the exact tool or scenario right away so non-target readers can bail immediately.
+2. Show the answer, fix, syntax, or code before `Some Background`.
 3. Explain each moving part in plain language.
 4. Link to docs or related resources.
 5. End when the solution is complete.
 
-Editorial risks: adding fluff, over explaining simple steps, removing practical screenshots, or making the tone too formal.
+Editorial risks: burying the working snippet or answer under backstory, adding fluff, over explaining simple steps, removing practical screenshots, or making the tone too formal.
 
 ## AI, Software Engineering, And Career Commentary
 
@@ -32,7 +33,7 @@ Canonical examples:
 
 Pattern:
 
-1. Establish why the topic matters right now.
+1. Establish why the topic matters right now. For definitional or explainer posts, front-load the definition or core claim in the first screen (as in [MCP vs RAG](../../../../docs/_posts/2025-06-28-mcp-vs-rag.md) and [What Is AI Engineering?](../../../../docs/_posts/2026-10-27-what-is-ai-engineering.md)). When a long prologue precedes the core breakdown, offer a top skip-link notice (as in [Agentic AI: From Acronyms to Applications](../../../../docs/_posts/2025-10-13-agentic-ai-from-acronyms-to-applications.md)).
 2. Use personal industry context where relevant.
 3. Mix skepticism with practical optimism.
 4. Use GIFs and notices for reaction beats or navigation.
@@ -73,7 +74,7 @@ Pattern:
 5. Use memes or embedded media as tone breaks.
 6. Close by returning to the thesis.
 
-Editorial risks: over formalizing fan language, cutting the jokes, or making a hot take sound timid.
+Editorial risks: over formalizing fan language, forcing corporate "who this is for" disclaimers onto an essay whose title and opening thesis already filter the reader, cutting the jokes, or making a hot take sound timid.
 
 ## Faith Posts
 
@@ -90,7 +91,7 @@ Pattern:
 4. Keep the tone humble, vulnerable, and clear.
 5. Avoid turning reflection into performance.
 
-Editorial risks: Shying away from the truth of the Gospel, adding theological claims without support, or flattening vulnerability.
+Editorial risks: Shying away from the truth of the Gospel, forcing corporate audience disclaimers where a personal perspective note or direct opening thesis belongs (as in [Jesus Christ Was a Real Person](../../../../docs/_posts/2026-08-02-jesus-christ-was-a-real-person.md)), adding theological claims without support, or flattening vulnerability.
 
 ## Dough Diaries, Food, Travel, And Third Places
 
@@ -103,7 +104,7 @@ Pattern:
 
 1. Start with a personal discovery or conviction.
 2. Be opinionated but self aware.
-3. Use rankings only when they help.
+3. Use rankings only when they help, and if multiple travelogue or background sections precede a ranked list, consider a top skip link to the rankings rather than placing the "short reads" exit halfway down the page.
 4. Add location sections and Google Maps embeds when appropriate.
 5. Close by inviting readers to form their own opinions.
 

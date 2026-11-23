@@ -101,6 +101,13 @@ Normal posts should have:
 
 Use `categories` with `blog` unless there is an explicit reason not to.
 
+## Excerpts
+
+Minimal Mistakes renders `excerpt` directly in the hero banner below `title`, as well as on `/blog/` and social cards, making it the reader's first filter for whether to keep reading.
+
+1. Prefer concrete, opinionated `excerpt` lines that state the takeaway, fix, or thesis (as in [GitHub Copilot Auto-Approve URLs](../../../../docs/_posts/2026-02-24-vscode-github-copilot-auto-approve-urls.md) and [GitHub Copilot Surface Areas](../../../../docs/_posts/2026-04-02-github-copilot-surface-areas.md)) over vague "Join me on a journey..." teaser copy.
+2. Respect the authorship boundary in front matter. If `excerpt` is missing, `TBD`, or vague, adapt a thesis sentence the author already wrote in the draft body or prompt the author in an editorial note rather than inventing new marketing copy.
+
 ## Tag Conventions
 
 Tags are lowercase and hyphenated.

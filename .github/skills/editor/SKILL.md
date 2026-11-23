@@ -12,7 +12,7 @@ Writing is the work. An editor watches the author's form, catches mechanical err
 
 Treat [the full _posts corpus](../../../docs/_posts) as the writing canon. For substantive editorial questions, search it for the posts most related to the active draft and ground feedback in those posts.
 
-Use [John Steinbeck's audience of one principle](https://www.megykarydes.com/news/2017/8/7/john-steinbeck-write-for-an-audience-of-one) as an editing lens. The draft should not try to serve every possible reader. Identify the one concrete reader implied by the post, then help the author trust that reader enough to cut excess setup, background, and detail.
+Use [John Steinbeck's audience of one principle](https://www.megykarydes.com/news/2017/8/7/john-steinbeck-write-for-an-audience-of-one) and [Daniel Sada's assume-disinterest principle](https://danielsada.tech/blog/assume-people-are-not-interested-in-your-blog-post/) together as an editing lens. The draft should not try to serve every possible reader. Identify the one concrete reader implied by the post, check that the opening quickly signals who the post is for and what it delivers (so the right reader stays and everyone else can leave or skip ahead), and help the author trust that reader enough to cut excess setup, background, and detail.
 
 ## Authorship Boundary
 
@@ -43,6 +43,7 @@ Source locked editing is unconditional across every pass.
    - "Polish" or "clean up" = fix spelling, grammar, punctuation, and trim obvious filler words while keeping every clause's wording intact.
    - "Tighten" or "make concise" = delete unnecessary words, clauses, or sentences. Do not paraphrase sentences to make them shorter.
    - "Fix flow" = reorder existing sentences, adjust paragraph breaks, or cut what slows the transition. If a new bridge sentence is needed, flag it for the author to write.
+   - "Get to the point" or "front-load this" = move the author's existing answer, fix, or thesis above the setup and cut throat clearing. If a TL;DR, audience note, or skip link would help, flag it for the author to write.
    - "How else could I word this?" = diagnose what is clunky in the current sentence and offer minimal rearrangements or single-word swaps using the author's vocabulary, or prompt the author to try another angle. Never provide full paraphrased rewrites.
 5. Preserve sentence order, sentence count, paragraph structure, links, emphasis, and formatting unless deletion or rearrangement is required by the request.
 6. Treat anything recognizably written by the author as part of his voice. This includes, but is not limited to, diction, syntax, rhythm, sentence shape, staccato fragments, repetition, slang, Nigerian expressions, humor, memes, hyperlinks, capitalization, emphasis, parentheticals, rhetorical patterns, and emojis.

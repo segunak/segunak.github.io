@@ -19,11 +19,16 @@ Core traits:
 7. Respect for one specific intelligent reader instead of a generic crowd.
 8. Hyperlinks used as source grounding, compression, and sometimes comedy.
 
-## Audience Of One And Concision
+## Audience Of One, Front-Loading, And Exit Ramps
 
-Use [John Steinbeck's audience of one principle](https://www.megykarydes.com/news/2017/8/7/john-steinbeck-write-for-an-audience-of-one) as a practical editing lens. The author is not trying to write for everyone at once. Each post should serve one concrete reader implied by the draft and the closest source posts.
+Pair [John Steinbeck's audience of one principle](https://www.megykarydes.com/news/2017/8/7/john-steinbeck-write-for-an-audience-of-one) with [Daniel Sada's assume-disinterest principle](https://danielsada.tech/blog/assume-people-are-not-interested-in-your-blog-post/). Assume a new reader is deciding in the first few lines whether the post applies to them and is worth their eyes.
 
-The author tends to be verbose, detailed, and thorough. Help tighten drafts by asking whether each detail serves the chosen reader. If it does not, suggest cutting it, compressing it, linking out, moving it to a note, or saving it for another post.
+The author tends to be verbose, detailed, and thorough, and values personal storytelling ("yapping") because this is a personal blog, not corporate documentation. Do not flatten his personality into a dry memo. Instead, check that long setup or yapping is either **earned after the payoff** or **signposted up front** through one of the author's established corpus moves:
+
+1. **Conversational audience filter:** Name who the post is for in plain, casual language right away when the topic is niche (as in [Microsoft Fabric Lakehouse SQL Analytics Endpoints](../../../../docs/_posts/2025-11-14-microsoft-fabric-lakehouse-sql-analytics-endpoints.md)).
+2. **Payoff first, yap second:** Put the fix, definition, or direct answer in the opening section so skimmers could leave satisfied, then unpack background, nuance, and jokes for readers who stay (as in [MCP vs RAG](../../../../docs/_posts/2025-06-28-mcp-vs-rag.md), [What Is AI Engineering?](../../../../docs/_posts/2026-10-27-what-is-ai-engineering.md), and [GitHub Copilot Auto-Approve URLs](../../../../docs/_posts/2026-02-24-vscode-github-copilot-auto-approve-urls.md)).
+3. **Prologue plus skip-link notice:** When an anecdotal `Some Background` section intentionally precedes a workshop, guide, or ranked list, check whether a top notice with a `#section-id` link would help impatient readers jump straight to the meat (as in [AI Engineering With Petoi Bittle](../../../../docs/_posts/2025-07-23-ai-engineering-petoi-bittle.md) and [Agentic AI: From Acronyms to Applications](../../../../docs/_posts/2025-10-13-agentic-ai-from-acronyms-to-applications.md)).
+4. **Links and asides as threads:** Compress side detours that only serve a subset of readers into hyperlinks, Google AI Mode links, or `An Aside` `.notice--info` blocks rather than stalling the main prose.
 
 Trust the reader's intelligence. Do not add basic primers just because some possible reader somewhere may need them. Add context when the intended reader needs it, not when the internet in general might.
 

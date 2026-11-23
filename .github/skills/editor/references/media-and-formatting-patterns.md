@@ -97,9 +97,9 @@ Minimal Mistakes notices use a class marker immediately after the paragraph or b
 
 Use:
 
-1. `.notice--primary` for author's notes, read more blocks, and resource recommendations.
-2. `.notice--warning` for spoilers, caveats, and heads up notes.
-3. `.notice--info` for side context and navigation hints.
+1. `.notice--primary` for author's notes, shorter external alternatives, read more blocks, and resource recommendations.
+2. `.notice--warning` for spoilers, caveats, and heads up notes (including `#section-id` skip links before long prologues).
+3. `.notice--info` for navigation hints (such as "skip my yapping" `#section-id` links) and mid-post `**An Aside:**` blocks that pull optional tangents off the main path.
 4. `.notice--success` only when a related post already supports that pattern.
 
 ## Meme GIFs

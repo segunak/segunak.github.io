@@ -43,11 +43,11 @@ Use these as a copy editing checklist:
 
 Before finalizing a polished post, check:
 
-1. The opening tells the intended reader why the piece matters.
-2. The central claim is visible.
+1. Within the hero `excerpt` and opening lines, the intended reader can tell the post is for them and non-target readers can tell they can skip it.
+2. The central claim, answer, or fix appears early enough for the post type, or an intentional personal prologue is paired with a skip link.
 3. Headings match the actual structure.
 4. Paragraphs are readable on mobile.
-5. Repeated explanations have been cut or compressed.
+5. Repeated explanations have been cut, and side detours that only serve a subset of readers are compressed into links or `.notice--info` asides.
 6. Acronyms, dates, names, titles, and numbers are consistent.
 7. Claims that need sources have links or `TODO:` markers.
 8. Links are useful and not dumped raw into the prose.
